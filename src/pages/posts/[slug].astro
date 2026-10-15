@@ -22,7 +22,7 @@ const toc = headings.filter((h) => h.depth === 2);
 const d = post.data;
 ---
 
-<Base titulo={d.titulo} descripcion={d.bajada} tipo="article">
+<Base titulo={d.titulo} descripcion={d.bajada} tipo="article" og={`og/thread-${thread.id}.png`}>
   <div class="progress" aria-hidden="true"></div>
   <div class="wrap" style="padding-top:1.25rem">
     <header class="tile post-head stagger" style={`--tile: var(--${thread.data.color})`}>

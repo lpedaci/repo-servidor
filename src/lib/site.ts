@@ -6,10 +6,13 @@ export const SITE = {
   lema: 'Comparto contenido para users que quieren crecer en este mundo sin respawn.',
   autora: 'Lourdes Pedaci',
   firma: 'Experience Designer, Lic. en Tecnología Educativa, Prof. de Informática',
+  /** La firma separada en títulos, para mostrarlos como ítems */
+  titulos: ['Experience Designer', 'Lic. en Tecnología Educativa', 'Prof. de Informática'],
   descripcion:
     'Materiales didácticos, charlas, cursos gratuitos y recursos tech para estudiantes de informática, egresados y cualquier internauta que quiera seguir aprendiendo.',
   redes: {
     linkedin: 'https://www.linkedin.com/in/lourdes-pedaci/',
+    github: 'https://github.com/lpedaci',
     youtube: 'https://www.youtube.com/@elservidordelourdes',
     cafecito: 'https://cafecito.app/servidorlourdes',
     taller: 'https://lpedaci.github.io/taller-primerempleo/',
@@ -36,6 +39,9 @@ export const TIPO_POST: Record<string, string> = {
 const fmt = new Intl.DateTimeFormat('es-AR', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
 export const fecha = (d: Date) => fmt.format(d);
 export const isoDate = (d: Date) => d.toISOString().slice(0, 10);
+const fmtMes = new Intl.DateTimeFormat('es-AR', { month: 'long', year: 'numeric', timeZone: 'UTC' });
+/** "octubre de 2026" */
+export const mesAnio = (d: Date) => fmtMes.format(d);
 
 export const slug = (s: string) =>
   s

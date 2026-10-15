@@ -2,19 +2,30 @@
 import Icon from './Icon.astro';
 import { SITE, url } from '../lib/site';
 const anio = new Date().getFullYear();
+// El aviso legal en dos renglones: el corte va antes de "Si podés" para que no quede partido
+const [legal1, legal2] = SITE.legal.split(' Si podés');
 ---
 
 <footer class="foot wrap">
   <div class="foot-in">
     <div>
       <h2>El servidor de Lourdes</h2>
-      <p class="foot-firma">
-        Hecho por <strong>{SITE.autora}</strong>. {SITE.firma}.
-      </p>
+      <div class="foot-autor">
+        <p class="foot-autor-k">Hecho por</p>
+        <p class="foot-autor-nombre">{SITE.autora}</p>
+        <ul class="foot-titulos" aria-label="Títulos">
+          {SITE.titulos.map((t) => <li>{t}</li>)}
+        </ul>
+      </div>
       <ul class="foot-redes">
         <li>
           <a href={SITE.redes.linkedin} target="_blank" rel="noopener noreferrer">
             <Icon name="linkedin" /> LinkedIn<span class="sr-only"> (se abre en otra pestaña)</span>
+          </a>
+        </li>
+        <li>
+          <a href={SITE.redes.github} target="_blank" rel="noopener noreferrer">
+            <Icon name="github" /> GitHub<span class="sr-only"> (se abre en otra pestaña)</span>
           </a>
         </li>
         <li>
@@ -44,7 +55,9 @@ const anio = new Date().getFullYear();
       </ul>
     </nav>
     <div class="foot-legal">
-      <p>{SITE.legal}</p>
+      <p>
+        {legal1}<br />Si podés{legal2}
+      </p>
       <p class="mono">© {anio} {SITE.autora}</p>
     </div>
   </div>

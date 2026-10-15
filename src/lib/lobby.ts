@@ -27,7 +27,6 @@ export async function datosLobby() {
     nCursos: activos(cursos),
     nRecursos: activos(recursos),
     conPython: cursos.filter((c) => c.data.temas.includes('Python') || /python/i.test(c.data.nombre)).length,
-    conCertificado: cursos.filter((c) => c.data.certificacion === 'gratis-con-certificado').length,
     ultima,
     /** El server existe desde diciembre de 2019. */
     desde: { iso: '2019-12', texto: 'dic. 2019', ...tiempoDesde(2019, 12) },

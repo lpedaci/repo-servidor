@@ -1,5 +1,9 @@
 <!doctype html>
-<!-- Imagen Open Graph (1200x630). Se regenera con: npm run og -->
+<!--
+  Plantilla de las imágenes Open Graph (1200x630). Se regeneran todas con: npm run og
+  scripts/og.mjs la abre una vez por card con parámetros en la URL:
+    k = etiqueta, t = título (lo que va entre *asteriscos* se resalta), d = bajada, c = color del mosaico, s = datos (separados por |)
+-->
 <html lang="es-AR">
   <head>
     <meta charset="utf-8" />
@@ -31,107 +35,191 @@
       }
       body {
         display: grid;
-        grid-template-columns: 1.08fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1.22fr 1fr;
+        grid-template-rows: minmax(0, 1fr);
         gap: 22px;
         padding: 36px;
         background: #e9e8f6;
+        background-image: radial-gradient(rgba(31, 31, 36, 0.09) 1.2px, transparent 1.3px);
+        background-size: 22px 22px;
         color: #1f1f24;
         font-family: Geist, sans-serif;
       }
-      .hero {
-        position: relative;
-        grid-row: span 2;
-        overflow: hidden;
+      .panel {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        padding: 52px;
+        padding: 46px 50px 40px;
         border-radius: 32px;
         background: #fff;
       }
-      .hero svg {
-        position: absolute;
-        right: -90px;
-        bottom: -125px;
-        width: 430px;
+      .marca {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        font: 600 25px Outfit;
+        letter-spacing: -0.3px;
+      }
+      .marca img {
+        width: 46px;
+        height: 46px;
+      }
+      .marca small {
+        color: #5b5a6b;
+        font-weight: 500;
       }
       .kicker {
         align-self: flex-start;
-        padding: 8px 18px;
-        border-radius: 13px;
+        margin-top: auto;
+        padding: 7px 16px;
+        border-radius: 12px;
         background: #24242a;
         color: #f8de73;
-        font: 600 20px Outfit;
+        font: 600 19px Outfit;
       }
       h1 {
-        margin: 28px 0 22px;
-        font: 600 78px/0.98 Outfit;
-        letter-spacing: -2.4px;
+        margin: 20px 0 18px;
+        font: 600 66px/1 Outfit;
+        letter-spacing: -2px;
+        text-wrap: balance;
       }
       h1 em {
         font-style: normal;
         background: linear-gradient(transparent 60%, #f8de73 60%, #f8de73 92%, transparent 92%);
       }
-      p.lead {
-        max-width: 25ch;
+      .lead {
+        max-width: 30ch;
         color: #5b5a6b;
-        font-size: 26px;
-        line-height: 1.38;
+        font-size: 24px;
+        line-height: 1.4;
+        text-wrap: pretty;
+      }
+      .pie {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: auto;
+        padding-top: 26px;
+      }
+      .pie span {
+        padding: 7px 15px;
+        border-radius: 999px;
+        background: #f4f4fa;
+        border: 1.5px solid #e1e0ee;
+        font: 500 17px 'Geist Mono';
       }
       .tile {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 30px 32px;
+        position: relative;
+        overflow: hidden;
         border-radius: 32px;
+        background: var(--c, #b9bbf6);
       }
-      .t1 {
-        background: #b9bbf6;
-      }
-      .t2 {
-        background: #f7ab6a;
-      }
-      .tag {
-        align-self: flex-start;
-        padding: 6px 15px;
-        border-radius: 12px;
-        background: #24242a;
-        color: #f8de73;
-        font: 600 18px Outfit;
-      }
-      .tile h2 {
-        font: 600 38px/1.05 Outfit;
-        letter-spacing: -0.8px;
-      }
-      .nums {
+      .online {
+        position: absolute;
+        top: 26px;
+        left: 26px;
         display: flex;
-        gap: 10px;
-      }
-      .nums span {
-        padding: 8px 16px;
+        align-items: center;
+        gap: 9px;
+        padding: 7px 15px;
         border-radius: 999px;
         background: rgba(255, 255, 255, 0.6);
-        font: 500 18px 'Geist Mono';
+        font: 500 17px 'Geist Mono';
+      }
+      .online i {
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+        background: #2fae63;
+        box-shadow: 0 0 0 4px rgba(47, 174, 99, 0.22);
+      }
+      .tile svg {
+        position: absolute;
+        inset: auto 0 0 0;
+        width: 100%;
       }
     </style>
   </head>
   <body>
-    <section class="hero">
-      <svg viewBox="0 0 400 240" fill="none">
-        <path d="M-20 170c60-90 130-110 150-50s-40 90-70 50 40-130 130-120 90 110 30 120-60-70 20-110 150-20 190 30" stroke="#b9bbf6" stroke-opacity=".45" stroke-width="22" stroke-linecap="round" />
+    <section class="panel">
+      <p class="marca"><img src="../public/favicon.svg" alt="" /> <span>El servidor <small>de Lourdes</small></span></p>
+      <span class="kicker" id="k">El servidor de Lourdes</span>
+      <h1 id="t">Crecé en este mundo <em>sin respawn</em></h1>
+      <p class="lead" id="d">Materiales, charlas, cursos gratuitos y recursos tech para seguir aprendiendo.</p>
+      <div class="pie" id="s"></div>
+    </section>
+
+    <section class="tile" id="tile">
+      <p class="online"><i></i> server online</p>
+      <!-- Gatito negro durmiendo arriba del server, con la cola colgando y el ovillo verde -->
+      <svg viewBox="0 0 460 480" aria-hidden="true">
+        <g stroke="#1f1f24" stroke-width="3" stroke-linejoin="round">
+          <ellipse cx="232" cy="466" rx="170" ry="10" fill="#1f1f24" opacity=".12" stroke="none" />
+          <rect x="96" y="452" width="34" height="14" rx="5" fill="#24242a" />
+          <rect x="304" y="452" width="34" height="14" rx="5" fill="#24242a" />
+          <rect x="82" y="214" width="270" height="242" rx="22" fill="#fbfbff" />
+          <g fill="#ecebf6">
+            <rect x="100" y="232" width="234" height="62" rx="12" />
+            <rect x="100" y="306" width="234" height="62" rx="12" />
+            <rect x="100" y="380" width="234" height="62" rx="12" />
+          </g>
+          <g stroke="none">
+            <circle cx="124" cy="263" r="7" fill="#2fae63" />
+            <circle cx="146" cy="263" r="7" fill="#f8de73" />
+            <circle cx="124" cy="337" r="7" fill="#2fae63" />
+            <circle cx="146" cy="337" r="7" fill="#2fae63" />
+            <circle cx="124" cy="411" r="7" fill="#f7ab6a" />
+            <circle cx="146" cy="411" r="7" fill="#2fae63" />
+          </g>
+          <g stroke-width="3.4" stroke-linecap="round" opacity=".55">
+            <path d="M206 252 V274 M224 252 V274 M242 252 V274 M260 252 V274 M278 252 V274 M296 252 V274 M314 252 V274" />
+            <path d="M206 326 V348 M224 326 V348 M242 326 V348 M260 326 V348 M278 326 V348 M296 326 V348 M314 326 V348" />
+            <path d="M206 400 V422 M224 400 V422 M242 400 V422 M260 400 V422 M278 400 V422 M296 400 V422 M314 400 V422" />
+          </g>
+        </g>
+
+        <!-- cola y ovillo -->
+        <g fill="none" stroke-linecap="round">
+          <path d="M316 210 C 368 212, 384 252, 376 292 C 372 310, 360 312, 362 302" stroke="#1b1a20" stroke-width="13" />
+          <path d="M370 296 C 370 316, 386 330, 392 346" stroke="#2e8a3e" stroke-width="2.6" />
+          <path d="M368 276 L384 280 M367 284 L382 289" stroke="#2e8a3e" stroke-width="2.6" />
+          <circle cx="398" cy="372" r="28" fill="#6fdc72" stroke="#1f1f24" stroke-width="3" />
+          <path d="M376 358 C 392 350, 412 354, 422 366 M374 382 C 390 392, 410 392, 423 380 M386 346 C 382 362, 382 382, 388 398" stroke="#2e8a3e" stroke-width="2.2" />
+        </g>
+
+        <!-- gato -->
+        <g fill="#1b1a20" stroke="#1b1a20" stroke-width="2" stroke-linejoin="round">
+          <path d="M132 216 C 130 126, 330 118, 334 216 Z" />
+          <path d="M108 178 L110 136 L138 158 Z" />
+          <path d="M146 156 L172 138 L176 180 Z" />
+          <ellipse cx="142" cy="190" rx="40" ry="32" />
+          <ellipse cx="178" cy="213" rx="19" ry="7" />
+        </g>
+        <path d="M115 166 L116 148 L129 159 Z M154 157 L168 148 L170 167 Z" fill="#3a3842" />
+        <path d="M118 190 q8 7 16 0" fill="none" stroke="#9a99a8" stroke-width="2.6" stroke-linecap="round" />
+        <ellipse cx="158" cy="189" rx="6.6" ry="6" fill="#6fdc72" />
+        <ellipse cx="157.2" cy="189" rx="2" ry="5" fill="#0d0d10" />
+        <circle cx="160.4" cy="186.4" r="1.6" fill="#fff" />
+        <path d="M137 202 h8 l-4 4.2 Z" fill="#6b5a62" />
+        <path d="M124 206 L94 201 M124 210 L95 216 M160 206 L190 201 M160 210 L189 216" stroke="#5b5a66" stroke-width="1.6" stroke-linecap="round" />
+        <g fill="#1f1f24" font-family="Geist Mono" font-weight="600" opacity=".6">
+          <text x="96" y="118" font-size="26">z</text>
+          <text x="74" y="92" font-size="20">z</text>
+          <text x="58" y="70" font-size="15">z</text>
+        </g>
       </svg>
-      <span class="kicker">El servidor de Lourdes</span>
-      <h1>Crecé en este mundo <em>sin respawn</em></h1>
-      <p class="lead">Materiales, charlas, cursos gratuitos y recursos tech para seguir aprendiendo.</p>
     </section>
-    <section class="tile t1">
-      <span class="tag">Threads</span>
-      <h2>Carrera, tecnología y materiales para la cursada</h2>
-    </section>
-    <section class="tile t2">
-      <span class="tag">Cursos [2025]</span>
-      <div class="nums"><span>+140 cursos</span><span>+140 recursos</span></div>
-    </section>
+
+    <script>
+      const p = new URLSearchParams(location.search);
+      const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
+      if (p.get('k')) document.getElementById('k').textContent = p.get('k');
+      if (p.get('t')) document.getElementById('t').innerHTML = esc(p.get('t')).replace(/\*(.+?)\*/g, '<em>$1</em>');
+      if (p.get('d')) document.getElementById('d').textContent = p.get('d');
+      if (p.get('c')) document.getElementById('tile').style.setProperty('--c', p.get('c'));
+      document.getElementById('s').innerHTML = (p.get('s') || 'lpedaci.github.io/repo-servidor')
+        .split('|')
+        .map((x) => `<span>${esc(x)}</span>`)
+        .join('');
+    </script>
   </body>
 </html>

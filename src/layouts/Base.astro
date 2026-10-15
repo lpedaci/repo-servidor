@@ -46,7 +46,9 @@ const ogImg = new URL(url(og), Astro.site).href;
     <meta property="og:image" content={ogImg} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={`${titulo ?? SITE.nombre}. Un gatito negro duerme arriba de un servidor.`} />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content={ogImg} />
 
     <script is:inline>
       // Tema y JS disponibles antes de pintar: evita el parpadeo.

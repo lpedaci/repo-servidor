@@ -39,7 +39,7 @@ El sitio corre en `http://localhost:4321/repo-servidor/`. La raíz `/` da 404 po
 | `npm run build` | Compila a `dist/` y genera el índice de Pagefind. Valida todos los esquemas: si un dato no cumple, falla |
 | `npm run preview` | Sirve `dist/`. La búsqueda solo funciona acá o online |
 | `npm run links` | Revisa los links de cursos, recursos y posts, actualiza `estado`/`revisado` y escribe `_import/reporte-links.md` |
-| `npm run og` | Regenera `public/og/og.png` (1200x630) desde `scripts/og.html` con Chrome o Edge headless |
+| `npm run og` | Regenera las cards de Open Graph (1200x630) en `public/og/`: una por sección y una por thread (los posts usan la de su thread). Plantilla en `scripts/og.html`, lista de cards en `scripts/og.mjs` |
 | `npm run import` | Reimporta desde un export de Notion en `/_import/notion/` (pisa los posts) |
 
 ### Estructura
@@ -98,6 +98,9 @@ Texto del callout.
 ::recurso{#flowcv}            <!-- tarjeta desde recursos.json; si el id no existe, el build falla -->
 
 ::video{id="x426QPTn-Ik"}     <!-- YouTube: portada liviana, el iframe (nocookie) carga al hacer clic -->
+
+::vista{#taller-primerempleo img="previews/taller-primerempleo.webp" cta="Ver el taller"}
+                              <!-- recurso con captura del sitio (public/previews/, 960 px, WebP) -->
 ```
 
 Además: los links externos salen con `target="_blank" rel="noopener noreferrer"`, ícono y aviso para lectores de pantalla, y los internos (`/cursos/`) reciben el `base` solos. En `.astro`, usar `url()` de `src/lib/site.ts`.

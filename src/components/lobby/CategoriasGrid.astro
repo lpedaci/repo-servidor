@@ -1,0 +1,135 @@
+---
+/**
+ * Grilla de las seis categorías de cursos del Lobby, con el tratamiento "consola": tarjetas carbón
+ * como la terminal del hero, ícono en el color de la categoría y la cantidad de cursos en mono.
+ */
+import Icon from '../Icon.astro';
+import { url } from '../../lib/site';
+import type { DatosLobby } from '../../lib/lobby';
+interface Props {
+  cats: DatosLobby['cats'];
+}
+const { cats } = Astro.props;
+---
+
+<ul class="cg">
+  {
+    cats.map((c) => (
+      <li>
+        <a class="cg-cat" href={url(`/cursos/?cat=${c.id}`)} style={`--c: var(--${c.color})`}>
+          <span class="cg-ic">
+            <Icon name={c.icono} />
+          </span>
+          <span class="cg-txt">
+            <span class="cg-name">{c.nombre}</span>
+            <span class="cg-datos">
+              <span class="cg-n">{c.n} cursos</span>
+            </span>
+          </span>
+          <span class="cg-go">
+            <Icon name="arrow-right" />
+          </span>
+        </a>
+      </li>
+    ))
+  }
+</ul>
+
+<style>
+  .cg {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--gap);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .cg-cat {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 1rem;
+    height: 100%;
+    padding: 1.15rem 1.15rem 1.15rem 1.25rem;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: var(--r);
+    background: var(--deep);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    color: var(--on-deep);
+    text-decoration: none;
+    transition:
+      transform 0.4s var(--ease),
+      border-color 0.35s var(--ease);
+  }
+  .cg-cat:hover {
+    transform: translateY(-3px);
+    border-color: var(--c);
+  }
+  .cg-cat:active {
+    transform: scale(0.985);
+  }
+  .cg-ic {
+    display: grid;
+    place-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.9rem;
+    background: var(--c);
+    color: var(--tile-ink);
+    transition: transform 0.5s var(--spring);
+  }
+  .cg-ic :global(.ic) {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+  .cg-cat:hover .cg-ic {
+    transform: rotate(-10deg) scale(1.06);
+  }
+  .cg-name {
+    display: block;
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 1.12rem;
+    line-height: 1.2;
+  }
+  .cg-datos {
+    display: block;
+    margin-top: 0.3rem;
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    color: var(--deep-muted);
+  }
+  /* La cantidad de cursos va en el color de la categoría, como la salida de un comando */
+  .cg-n {
+    color: var(--c);
+  }
+  .cg-go {
+    display: grid;
+    place-items: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    background: var(--deep-soft);
+    color: var(--on-deep);
+    transition:
+      transform 0.45s var(--spring),
+      background-color 0.3s var(--ease),
+      color 0.3s var(--ease);
+  }
+  .cg-cat:hover .cg-go {
+    transform: rotate(-45deg);
+    background: var(--c);
+    color: var(--tile-ink);
+  }
+
+  @media (max-width: 1023px) {
+    .cg {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  @media (max-width: 599px) {
+    .cg {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+</style>

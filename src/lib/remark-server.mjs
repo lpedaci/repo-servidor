@@ -38,11 +38,40 @@ export function remarkServer(opts = {}) {
         });
         return;
       }
+      // :::media ... ::: logo o ícono a la izquierda (tamaño fijo) y el texto al lado
+      if (node.type === 'containerDirective' && node.name === 'media') {
+        node.data = { hName: 'div', hProperties: { className: ['media'] } };
+        return;
+      }
       if (node.type === 'leafDirective' && node.name === 'recurso') {
         const id = node.attributes?.id;
         const r = recursos.get(id);
         if (!r) file.fail(`::recurso{#${id}} no existe en src/data/recursos.json`, node);
         parent.children[index] = { type: 'html', value: linkCardHtml(r) };
+        return SKIP;
+      }
+      // ::vista{#id img="previews/archivo.webp" cta="Ver el material"}: recurso con captura del sitio
+      if (node.type === 'leafDirective' && node.name === 'vista') {
+        const id = node.attributes?.id;
+        const r = recursos.get(id);
+        if (!r) file.fail(`::vista{#${id}} no existe en src/data/recursos.json`, node);
+        const img = node.attributes?.img;
+        if (!img) file.fail(`::vista{#${id}} necesita img="previews/..."`, node);
+        const cta = node.attributes?.cta ?? 'Ver el material';
+        const dir = r.url.replace(/^https?:\/\//, '').replace(/\/$/, '');
+        const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+        parent.children[index] = {
+          type: 'html',
+          value:
+            `<a class="vista" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">` +
+            `<span class="vista-frame" aria-hidden="true"><span class="vista-bar"><i></i><i></i><i></i><span class="vista-url">${esc(dir)}</span></span>` +
+            `<span class="vista-shot"><img src="${base}/${esc(img)}" alt="" loading="lazy" decoding="async" width="960" height="1500"></span></span>` +
+            `<span class="vista-txt"><span class="vista-kicker"><svg class="ic" aria-hidden="true"><use href="#i-eye"/></svg>Vista previa</span>` +
+            `<span class="vista-name">${esc(r.nombre)}</span>` +
+            (r.descripcion ? `<span class="vista-desc">${esc(r.descripcion)}</span>` : '') +
+            `<span class="vista-cta">${esc(cta)}<svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg></span></span>` +
+            `<span class="sr-only"> (se abre en otra pestaña)</span></a>`,
+        };
         return SKIP;
       }
       if (node.type === 'leafDirective' && node.name === 'video') {

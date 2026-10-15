@@ -8,9 +8,9 @@ publicado: 2021-02-01
 actualizado: 2026-10-15
 tiempoLectura: 7
 ---
-Una **presentación** es un conjunto de imágenes organizadas mediante un guion interno. Cada una de ellas, en una composición de texto, gráficos, sonidos e interactividad, se las denomina **diapositivas**.
+Una **presentación** es un conjunto de imágenes organizadas mediante un guion interno. Cada una de ellas, en una composición de texto, gráficos, sonidos e interactividad, se las denomina **diapositivas**.
 
-Para **confeccionar una presentación** se necesita de programas especializados. La mayoría de ellos cuentan con las funciones básicas de edición y manipulación de texto y contenido multimedia, modalidades de animación, transiciones y desplazamiento de objetos, etc. Asimismo, tienen librerías de imágenes, formatos y plantillas predefinidas en caso de ser precisadas.
+Para **confeccionar una presentación** se necesita de programas especializados. La mayoría de ellos cuentan con las funciones básicas de edición y manipulación de texto y contenido multimedia, modalidades de animación, transiciones y desplazamiento de objetos, etc. Asimismo, tienen librerías de imágenes, formatos y plantillas predefinidas en caso de ser precisadas.
 
 ![Ejemplo de presentación de diapositivas, Via Freepik.com](https://maletintec.files.wordpress.com/2021/01/d62de-24dbb-ejemplo-de-presentacion-de-diapositivas-via-freepik.jpg?w=1024)
 
@@ -22,39 +22,51 @@ Actualmente en el mercado existen variedad de programas para uso offline u onlin
 
 ### Microsoft PowerPoint
 
-![Ilustración: Microsoft PowerPoint](https://maletintec.files.wordpress.com/2021/01/10017-178cb-mspower.png?w=192)
+:::media
+![Logo de Microsoft PowerPoint](https://maletintec.files.wordpress.com/2021/01/10017-178cb-mspower.png?w=192)
 
-**Microsoft PowerPoint** es un programa destinado a realizar presentaciones a través de diapositivas, perteneciente a la suite Microsoft Office. Para su utilización es necesario adquirir el software a través del sitio web y/o mediante una cuenta de Microsoft .
+**Microsoft PowerPoint** es un programa destinado a realizar presentaciones a través de diapositivas, perteneciente a la suite Microsoft Office. Para su utilización es necesario adquirir el software a través del sitio web y/o mediante una cuenta de Microsoft.
+:::
 
 ### Canva
 
-![Ilustración: Canva](https://maletintec.files.wordpress.com/2021/01/f340c-ce7b0-canva.png?w=400)
+:::media
+![Logo de Canva](https://maletintec.files.wordpress.com/2021/01/f340c-ce7b0-canva.png?w=400)
 
-**Canva** es un sitio web para el diseño de contenido gráfico: carteles, posters, infografías, documentos, tarjetas, gráficos, etc. Sencillo de utilizar y personalizar. Permite guardar, compartir y publicar los trabajos realizados. Solamente requiere de una cuenta, la cual puede ser gratuita o por subscripción.
+**Canva** es un sitio web para el diseño de contenido gráfico: carteles, posters, infografías, documentos, tarjetas, gráficos, etc. Sencillo de utilizar y personalizar. Permite guardar, compartir y publicar los trabajos realizados. Solamente requiere de una cuenta, la cual puede ser gratuita o por subscripción.
+:::
 
 ### Google Slides
 
-![Ilustración: Google Slides](https://maletintec.files.wordpress.com/2021/01/7ac02-c74df-gslides-1.png?w=954)
+:::media
+![Logo de Google Slides](https://maletintec.files.wordpress.com/2021/01/7ac02-c74df-gslides-1.png?w=954)
 
-**Slides** es una aplicación perteneciente a la suite de Google para la creación, edición y presentación de diapositivas. Permite trabajo colaborativo entre usuarios con cuenta Gmail. Se encuentra disponible tanto en la versión gratuita, empresarial y educativa del paquete Google.
+**Slides** es una aplicación perteneciente a la suite de Google para la creación, edición y presentación de diapositivas. Permite trabajo colaborativo entre usuarios con cuenta Gmail. Se encuentra disponible tanto en la versión gratuita, empresarial y educativa del paquete Google.
+:::
 
 ### LibreOffice Impress
 
-![Ilustración: LibreOffice Impress](https://maletintec.files.wordpress.com/2021/01/a30a6-2f07b-lofimpress.png?w=217)
+:::media
+![Logo de LibreOffice Impress](https://maletintec.files.wordpress.com/2021/01/a30a6-2f07b-lofimpress.png?w=217)
 
-Programa integrado en la suite LibreOffice. Similar a Microsoft PowerPoint, **Impress** tiene como finalidad crear presentaciones multimedia, pero de forma libre y gratuita, a diferencia de otras aplicaciones instalables.
+Programa integrado en la suite LibreOffice. Similar a Microsoft PowerPoint, **Impress** tiene como finalidad crear presentaciones multimedia, pero de forma libre y gratuita, a diferencia de otras aplicaciones instalables.
+:::
 
 ### Prezi
 
-![Ilustración: Prezi](https://maletintec.files.wordpress.com/2021/01/e6604-14c11-prezi0.png?w=118)
+:::media
+![Logo de Prezi](https://maletintec.files.wordpress.com/2021/01/e6604-14c11-prezi0.png?w=118)
 
-**Prezi** es una aplicación para presentaciones online que utiliza un único lienzo en lugar de diapositivas tradicionales y separadas. Esto lleva a crear una presentación no lineal. La plataforma ofrece cuenta gratuita limitada, como paga con acceso a otras funciones.
+**Prezi** es una aplicación para presentaciones online que utiliza un único lienzo en lugar de diapositivas tradicionales y separadas. Esto lleva a crear una presentación no lineal. La plataforma ofrece cuenta gratuita limitada, como paga con acceso a otras funciones.
+:::
 
 ### Padlet
 
-![Ilustración: Padlet](https://maletintec.files.wordpress.com/2021/01/2ccf6-23194-padlet.png?w=200)
+:::media
+![Logo de Padlet](https://maletintec.files.wordpress.com/2021/01/2ccf6-23194-padlet.png?w=200)
 
-La herramienta web **Padlet** tiene como fin la creación de contenido multimedia en formato de muro digital, tablón personal o pizarra colaborativa. Permite insertar objetos multimedia, texto, links, además de exportar y compartir el trabajo generado.
+La herramienta web **Padlet** tiene como fin la creación de contenido multimedia en formato de muro digital, tablón personal o pizarra colaborativa. Permite insertar objetos multimedia, texto, links, además de exportar y compartir el trabajo generado.
+:::
 
 ## Objetivos a considerar al momento de diseñar una Presentación
 
@@ -94,29 +106,23 @@ A continuación se adjuntan links a materiales textuales que permitirán conocer
 
 ### Microsoft PowerPoint
 
-- González Carril, E.E. (2014). *Manual de instrucción de Microsoft PowerPoint 2013,* Aguadilla, Puerto Rico: Universidad de Puerto Rico en Aguadilla. [Acceder aquí](https://es.calameo.com/read/00454312027e90ea3f378).
-- Rico, A. (2015). *Curso experto en Microsoft PowerPoint 2013 (Recopilación de AulaClic)*. [Archivo PDF]. [Acceder aquí](http://www.saludarequipa.gob.pe/camana/curso1/modulos/Microsoft%20PowerPoint%20Avanzado%202013.pdf).
+- González Carril, E.E. (2014). *Manual de instrucción de Microsoft PowerPoint 2013,* Aguadilla, Puerto Rico: Universidad de Puerto Rico en Aguadilla. [Acceder aquí](https://es.calameo.com/read/00454312027e90ea3f378).
+- Rico, A. (2015). *Curso experto en Microsoft PowerPoint 2013 (Recopilación de AulaClic)*. [Archivo PDF]. [Acceder aquí](http://www.saludarequipa.gob.pe/camana/curso1/modulos/Microsoft%20PowerPoint%20Avanzado%202013.pdf).
 
 ### Canva
 
-- KZgunea. (s.f.). *Manual Canva*. [Archivo PDF]. [Acceder aquí](http://e-forma.kzgunea.eus/pluginfile.php/13756/block_html/content/Manual%20CANVA.pdf).
-- Painn, A. (2014). *CANVA Guía rápida para diseño Online*. Antonio Painn. [Acceder aquí](https://www.antoniopainn.com/canva-tutorial-diseno/).
-- Universidad Nacional del Litoral. (s.f.). *Cómo crear infografías con Canva*. [Archivo PDF]. [Acceder aquí](http://www.unlvirtual.edu.ar/difusion/ambientesyrecursos/Instructivos/Docentes/canva.pdf).
+- Painn, A. (2014). *CANVA Guía rápida para diseño Online*. Antonio Painn. [Acceder aquí](https://www.antoniopainn.com/canva-tutorial-diseno/).
+- Universidad Nacional del Litoral. (s.f.). *Cómo crear infografías con Canva*. [Archivo PDF]. [Acceder aquí](http://www.unlvirtual.edu.ar/difusion/ambientesyrecursos/Instructivos/Docentes/canva.pdf).
 
 ### Google Slides
 
-- Contenedor Digital. (s.f*.). Tutorial Google Drive, Presentacione*s. [Archivo PDF]. [Acceder aquí](https://contenedor-digital.buenosaires.gob.ar/descargar/577d23-tutorial-google-drive-presentaciones.pdf).
-- Valijas de herramientas TIC. (2016). *Presentaciones de Google: Guía de uso*. [Archivo PDF]. [Acceder aquí](https://valijas.ceibal.edu.uy/storage/app/media/Guias%20de%20uso/Google%20presentaciones.pdf).
-
-### LibreOffice Impress
-
-- Aplicaciones Digitales (s.f.). *LibreOffice: Primeros pasos con Impress*. [Archivo PDF]. [Acceder aquí](https://www.aplicateca.es/Resources/45c94dcb-1ca4-4523-8133-e089d0721780/LibreOffice%20-%20Manual%20Usuario%20Impress.pdf).
+- Contenedor Digital. (s.f*.). Tutorial Google Drive, Presentacione*s. [Archivo PDF]. [Acceder aquí](https://biblioteca-digital.bue.edu.ar/descargar/577d23-tutorial-google-drive-presentaciones.pdf).
 
 ### Prezi
 
-- Contenedor Digital. (s.f.). *Tutorial Prezi*. [Archivo PDF]. [Acceder aquí](https://contenedor-digital.buenosaires.gob.ar/descargar/204246-tutorial-prezi.pdf).
+- Contenedor Digital. (s.f.). *Tutorial Prezi*. [Archivo PDF]. [Acceder aquí](https://biblioteca-digital.bue.edu.ar/descargar/204246-tutorial-prezi.pdf).
 
 ### Padlet
 
-- Contenedor Digital. (s.f.). *Tutorial Padlet*. [Archivo PDF]. [Acceder aquí](https://contenedor-digital.buenosaires.gob.ar/descargar/9581fb-tutorial-padlet.pdf).
-- Universidad de Magallanes. (s.f.). *Manual de Padlet*. [Archivo PDF]. [Acceder aquí](https://kataix.umag.cl/udv-r/Doc/Archivos/Manual%20de%20Padlet%20.pdf).
+- Contenedor Digital. (s.f.). *Tutorial Padlet*. [Archivo PDF]. [Acceder aquí](https://biblioteca-digital.bue.edu.ar/descargar/9581fb-tutorial-padlet.pdf).
+- Universidad de Magallanes. (s.f.). *Manual de Padlet*. [Archivo PDF]. [Acceder aquí](https://kataix.umag.cl/udv-r/Doc/Archivos/Manual%20de%20Padlet%20.pdf).

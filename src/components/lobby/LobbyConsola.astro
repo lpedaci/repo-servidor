@@ -6,7 +6,8 @@
  */
 import Icon from '../Icon.astro';
 import TemasBanda from './TemasBanda.astro';
-import { SITE, url } from '../../lib/site';
+import CategoriasGrid from './CategoriasGrid.astro';
+import { SITE, isoDate, mesAnio, url } from '../../lib/site';
 import type { DatosLobby } from '../../lib/lobby';
 interface Props {
   d: DatosLobby;
@@ -84,52 +85,33 @@ const sesion: Paso[] = [
         {d.cats.map((c, i) => <li style={`--c: var(--${c.color}); --k:${i}`}><Icon name={c.icono} /></li>)}
       </ul>
     </div>
+
+    <ul class="pa-status" aria-label="El server en números">
+      <li style="--c: var(--t1)">
+        <a href={url('/cursos/')}><span class="pa-st-k">cursos</span><strong data-count={d.nCursos}>{d.nCursos}</strong></a>
+      </li>
+      <li style="--c: var(--t6)">
+        <a href={url('/recursos/')}><span class="pa-st-k">recursos</span><strong data-count={d.nRecursos}>{d.nRecursos}</strong></a>
+      </li>
+      <li style="--c: var(--t4)">
+        <a href={url('/threads/')}><span class="pa-st-k">threads</span><strong data-count={d.threads.length}>{d.threads.length}</strong></a>
+      </li>
+      <li style="--c: #6fcf9c">
+        <span class="pa-st-k">uptime</span><strong>{d.desde.anios} años, {d.desde.meses} meses</strong>
+      </li>
+      <li class="pa-st-ult" style="--c: var(--t3)">
+        <span class="pa-st-k">actualizado</span><strong><time datetime={isoDate(d.ultima).slice(0, 7)}>{mesAnio(d.ultima)}</time></strong>
+      </li>
+    </ul>
   </section>
 
-  <ul class="pa-stats" aria-label="El server en números">
-    <li class="pa-stat" style="--c: var(--t1); --i:1">
-      <span class="pa-stat-ic"><Icon name="graduation-cap" /></span>
-      <span><strong data-count={d.nCursos}>{d.nCursos}</strong> cursos activos</span>
-    </li>
-    <li class="pa-stat" style="--c: var(--t6); --i:2">
-      <span class="pa-stat-ic"><Icon name="toolbox" /></span>
-      <span><strong data-count={d.nRecursos}>{d.nRecursos}</strong> recursos curados</span>
-    </li>
-    <li class="pa-stat" style="--c: var(--t4); --i:3">
-      <span class="pa-stat-ic"><Icon name="certificate" /></span>
-      <span><strong data-count={d.conCertificado}>{d.conCertificado}</strong> con certificado gratis</span>
-    </li>
-    <li class="pa-stat" style="--c: var(--t5); --i:4">
-      <span class="pa-stat-ic"><Icon name="signal" /></span>
-      <span><strong data-count={d.desde.anios}>{d.desde.anios}</strong> años online</span>
-    </li>
-  </ul>
 
   <section class="pa-cats" style="--i:5" aria-labelledby="pa-cats-t">
     <div class="pa-cats-head">
       <h2 id="pa-cats-t">Elegí por dónde arrancar</h2>
       <p>Seis categorías, cada una con su color. Tocá una y el explorador se abre ya filtrado.</p>
     </div>
-    <ul class="pa-cat-grid">
-      {
-        d.cats.map((c) => (
-          <li>
-            <a class="pa-cat" href={url(`/cursos/?cat=${c.id}`)} style={`--c: var(--${c.color})`}>
-              <span class="pa-cat-ic">
-                <Icon name={c.icono} />
-              </span>
-              <span class="pa-cat-txt">
-                <span class="pa-cat-name">{c.nombre}</span>
-                <span class="pa-cat-n">{c.n} cursos</span>
-              </span>
-              <span class="pa-cat-go">
-                <Icon name="arrow-right" />
-              </span>
-            </a>
-          </li>
-        ))
-      }
-    </ul>
+    <CategoriasGrid cats={d.cats} />
     <div class="panel pa-banda"><TemasBanda temas={d.temasTop} colorDe={d.colorDe} id="pa-temas" /></div>
   </section>
 </div>
@@ -165,9 +147,20 @@ const sesion: Paso[] = [
       body.append(p);
     };
 
+    // Un ícono de categoría por cada comando que corre en el server (la conexión ssh no cuenta).
+    const iconos = [...document.querySelectorAll<HTMLElement>('.pa-orbit li')];
+    const cargar = (i: number) => iconos[i]?.classList.replace('is-off', 'is-on');
+    // Arrancan vacíos desde el primer cuadro (sin JS o con movimiento reducido se ven todos cargados).
+    iconos.forEach((li) => li.classList.add('is-off'));
+
     const correr = async () => {
       for (;;) {
         body.replaceChildren();
+        iconos.forEach((li) => {
+          li.classList.remove('is-on');
+          li.classList.add('is-off');
+        });
+        let k = 0;
         for (const paso of sesion) {
           const cmd = prompt(paso.local);
           await espera(700);
@@ -181,6 +174,7 @@ const sesion: Paso[] = [
             salida(o);
             await espera(paso.local ? 140 : 60);
           }
+          if (!paso.local) cargar(k++);
         }
         prompt();
         await espera(5000);
@@ -382,60 +376,86 @@ const sesion: Paso[] = [
     place-items: center;
     width: 2.4rem;
     height: 2.4rem;
+    border: 1.5px solid transparent;
     border-radius: 0.8rem;
     background: var(--c);
     color: var(--tile-ink);
   }
+  /* Casillero todavía sin cargar: solo el contorno punteado, en el color de la categoría */
+  .pa-orbit li.is-off {
+    border-style: dashed;
+    border-color: color-mix(in srgb, var(--c) 55%, transparent);
+    background: transparent;
+    color: transparent;
+  }
 
-  .pa-stats {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: var(--gap);
+  /* Barra de estado al pie del hero, como la de un editor o tmux */
+  .pa-status {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-wrap: wrap;
     margin: 0;
-    padding: 0;
+    padding: 1.1rem 0 0;
+    border-top: 1px solid var(--deep-soft);
     list-style: none;
   }
-  .pa-stat {
-    display: flex;
-    align-items: center;
-    gap: 0.9rem;
-    padding: 1rem 1.15rem;
-    border-radius: var(--r);
-    background: color-mix(in srgb, var(--c) 55%, var(--surface));
-    color: var(--ink);
-    line-height: 1.25;
+  .pa-status li {
+    flex: 1 1 auto;
+    min-width: 0;
   }
-  :root[data-theme='dark'] .pa-stat {
-    background: var(--c);
-    color: var(--tile-ink);
+  .pa-status li + li {
+    border-left: 1px solid var(--deep-soft);
   }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme='light']) .pa-stat {
-      background: var(--c);
-      color: var(--tile-ink);
-    }
-  }
-  .pa-stat-ic {
+  .pa-status li > a,
+  .pa-status li:not(:has(a)) {
     display: grid;
-    place-items: center;
-    flex: 0 0 2.75rem;
-    height: 2.75rem;
-    border-radius: 50%;
-    background: var(--surface);
-    color: var(--ink);
+    align-content: start;
+    gap: 0.2rem;
   }
-  .pa-stat strong {
+  .pa-status li > a,
+  .pa-status li:not(:has(a)) {
+    padding: 0.2rem 1.25rem;
+  }
+  .pa-status li:first-child > a {
+    padding-left: 0;
+  }
+  .pa-status a {
+    color: var(--on-deep);
+    text-decoration: none;
+    transition: color 0.3s var(--ease);
+  }
+  .pa-status a:hover strong {
+    color: var(--c);
+  }
+  .pa-st-k {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    color: var(--deep-muted);
+  }
+  .pa-st-k::before {
+    content: '';
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: var(--c);
+  }
+  .pa-status strong {
     display: block;
     font-family: var(--display);
-    font-size: 1.75rem;
-    line-height: 1;
-    letter-spacing: -0.03em;
+    font-weight: 600;
+    font-size: clamp(1.15rem, 1.8vw, 1.5rem);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
     font-variant-numeric: tabular-nums;
+    transition: color 0.3s var(--ease);
   }
 
   .pa-cats {
     min-width: 0;
-    margin-top: clamp(1rem, 3vw, 2rem);
+    margin-top: clamp(2.5rem, 5.5vw, 4rem);
   }
   /* Título y bajada apilados, alineados a la izquierda */
   .pa-cats-head {
@@ -453,71 +473,6 @@ const sesion: Paso[] = [
     color: var(--muted);
     font-size: 1.05rem;
   }
-  .pa-cat-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: var(--gap);
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  .pa-cat {
-    display: grid;
-    grid-template-columns: auto minmax(0, 1fr) auto;
-    align-items: center;
-    gap: 1rem;
-    height: 100%;
-    padding: 1.15rem 1.15rem 1.15rem 1.25rem;
-    border-radius: var(--r);
-    background: var(--c);
-    color: var(--tile-ink);
-    text-decoration: none;
-    transition: transform 0.4s var(--ease);
-  }
-  .pa-cat:hover {
-    transform: translateY(-3px);
-  }
-  .pa-cat:active {
-    transform: scale(0.985);
-  }
-  .pa-cat-ic {
-    display: grid;
-    place-items: center;
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-    background: var(--tile-chip);
-  }
-  .pa-cat-ic :global(.ic) {
-    width: 1.2rem;
-    height: 1.2rem;
-  }
-  .pa-cat-name {
-    display: block;
-    font-family: var(--display);
-    font-weight: 600;
-    font-size: 1.12rem;
-    line-height: 1.2;
-  }
-  .pa-cat-n {
-    display: block;
-    margin-top: 0.15rem;
-    font-family: var(--mono);
-    font-size: 0.8rem;
-  }
-  .pa-cat-go {
-    display: grid;
-    place-items: center;
-    width: 2.4rem;
-    height: 2.4rem;
-    border-radius: 50%;
-    background: var(--deep);
-    color: var(--on-deep);
-    transition: transform 0.45s var(--spring);
-  }
-  .pa-cat:hover .pa-cat-go {
-    transform: rotate(-45deg);
-  }
   /* En su propio panel la banda no necesita la línea divisoria ni el margen superior */
   .pa-banda {
     margin-top: var(--gap);
@@ -533,19 +488,23 @@ const sesion: Paso[] = [
     .pa-hero {
       grid-template-columns: minmax(0, 1fr);
     }
-    .pa-stats {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-    .pa-cat-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
   }
-  @media (max-width: 599px) {
-    .pa-cat-grid {
-      grid-template-columns: minmax(0, 1fr);
+  /* En pantallas chicas la barra pasa a grilla de dos columnas */
+  @media (max-width: 767px) {
+    .pa-status {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      row-gap: 0.9rem;
     }
-    .pa-stats {
-      grid-template-columns: minmax(0, 1fr);
+    .pa-status li + li {
+      border-left: 0;
+    }
+    .pa-status li > a,
+    .pa-status li:not(:has(a)) {
+      padding: 0;
+    }
+    .pa-status .pa-st-ult {
+      grid-column: 1 / -1;
     }
   }
 
@@ -558,8 +517,14 @@ const sesion: Paso[] = [
       animation: caret 1s steps(1) infinite;
     }
     .pa-orbit li {
-      animation: bob 3.2s ease-in-out infinite;
-      animation-delay: calc(var(--k) * -0.5s);
+      transition:
+        background-color 0.3s var(--ease),
+        border-color 0.3s var(--ease),
+        color 0.3s var(--ease);
+    }
+    /* Al cargarse, el ícono entra con un rebote corto */
+    .pa-orbit li.is-on {
+      animation: cargado 0.55s var(--spring);
     }
     .pa-hero::before {
       animation: drift 16s ease-in-out infinite alternate;
@@ -569,9 +534,15 @@ const sesion: Paso[] = [
         opacity: 0;
       }
     }
-    @keyframes bob {
-      50% {
-        transform: translateY(-5px);
+    @keyframes cargado {
+      0% {
+        transform: scale(0.6);
+      }
+      60% {
+        transform: scale(1.12);
+      }
+      100% {
+        transform: scale(1);
       }
     }
   }

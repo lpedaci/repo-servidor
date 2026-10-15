@@ -5,7 +5,7 @@ import Callout from '../components/Callout.astro';
 import { SITE, url } from '../lib/site';
 ---
 
-<Base titulo="Sobre el server" descripcion={`Qué es El servidor de Lourdes y quién lo arma: ${SITE.autora}, ${SITE.firma}.`}>
+<Base titulo="Sobre el server" og="og/sobre.png" descripcion={`Qué es El servidor de Lourdes y quién lo arma: ${SITE.autora}, ${SITE.firma}.`}>
   <div class="wrap">
     <section class="sobre-grid stagger" aria-labelledby="sobre-t">
       <div class="tile tile--t1 tile--squiggle" style="--i:0;display:flex;flex-direction:column;justify-content:space-between;gap:2rem;padding:clamp(1.5rem,4vw,3rem)">
@@ -23,6 +23,7 @@ import { SITE, url } from '../lib/site';
         </div>
         <ul class="foot-redes">
           <li><a href={SITE.redes.linkedin} target="_blank" rel="noopener noreferrer"><Icon name="linkedin" /> LinkedIn<span class="sr-only"> (se abre en otra pestaña)</span></a></li>
+          <li><a href={SITE.redes.github} target="_blank" rel="noopener noreferrer"><Icon name="github" /> GitHub<span class="sr-only"> (se abre en otra pestaña)</span></a></li>
           <li><a href={SITE.redes.youtube} target="_blank" rel="noopener noreferrer"><Icon name="youtube" /> YouTube<span class="sr-only"> (se abre en otra pestaña)</span></a></li>
         </ul>
       </div>

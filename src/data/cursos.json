@@ -130,31 +130,6 @@
     "estado": "activo"
   },
   {
-    "id": "aprende-a-negociar",
-    "nombre": "Aprendé a Negociar",
-    "proveedores": [
-      "Academia Mai Pistiner"
-    ],
-    "url": "https://www.maipistiner.com/curso-el-arte-de-vender-pr",
-    "temas": [
-      "Comunicación",
-      "Oratoria",
-      "Soft Skills"
-    ],
-    "categoria": [
-      "gestion-y-soft-skills"
-    ],
-    "duracion": "<4 hs",
-    "duracionHoras": 4,
-    "idiomas": [
-      "Español"
-    ],
-    "certificacion": "pago",
-    "agregado": "2026-10-15",
-    "revisado": "2026-10-15",
-    "estado": "caido"
-  },
-  {
     "id": "aprende-javascript",
     "nombre": "Aprende JavaScript",
     "proveedores": [
@@ -435,36 +410,6 @@
     "agregado": "2026-10-15",
     "revisado": "2026-10-15",
     "estado": "activo"
-  },
-  {
-    "id": "cenet-instituto-nacional-de-educacion-tecnologica-inet",
-    "nombre": "CeNET: Instituto Nacional de Educación Tecnológica (INET)",
-    "proveedores": [
-      "Programas gubernamentales"
-    ],
-    "url": "https://www.inet.edu.ar/index.php/cenet/oferta-de-capacitacion/oferta-virtual/",
-    "temas": [
-      "2D/3D Graphics",
-      "Alfabetización digital",
-      "Ciudadanía Digital",
-      "Comunicación",
-      "Docencia",
-      "Inteligencia Artificial",
-      "Soft Skills",
-      "Tecno y mundo digital"
-    ],
-    "categoria": [
-      "gestion-y-soft-skills",
-      "diseno-ux-ui"
-    ],
-    "duracion": "Según curso integrado",
-    "idiomas": [
-      "Español"
-    ],
-    "certificacion": "gratis-con-certificado",
-    "agregado": "2026-10-15",
-    "revisado": "2026-10-15",
-    "estado": "caido"
   },
   {
     "id": "certificado-profesional-de-analista-en-datos-de-ibm",
@@ -823,31 +768,6 @@
     "estado": "activo"
   },
   {
-    "id": "como-desarrollar-tu-carrera-laboral",
-    "nombre": "Cómo desarrollar tu carrera laboral",
-    "proveedores": [
-      "Academia Mai Pistiner"
-    ],
-    "url": "https://www.maipistiner.com/como-desarrollar-tu-carrera",
-    "temas": [
-      "Comunicación",
-      "Oratoria",
-      "Soft Skills"
-    ],
-    "categoria": [
-      "gestion-y-soft-skills"
-    ],
-    "duracion": "<5 hs",
-    "duracionHoras": 5,
-    "idiomas": [
-      "Español"
-    ],
-    "certificacion": "pago",
-    "agregado": "2026-10-15",
-    "revisado": "2026-10-15",
-    "estado": "caido"
-  },
-  {
     "id": "competencias-digitales-para-profesionales",
     "nombre": "Competencias digitales para profesionales",
     "proveedores": [
@@ -975,34 +895,6 @@
     "agregado": "2026-10-15",
     "revisado": "2026-10-15",
     "estado": "activo"
-  },
-  {
-    "id": "conviertete-en-desarrollador-web-full-stack",
-    "nombre": "Conviértete en desarrollador web full-stack",
-    "proveedores": [
-      "LinkedIn"
-    ],
-    "url": "https://www.linkedin.com/learning/paths/conviertete-en-desarrollador-web-full-stack",
-    "temas": [
-      "Full Stack",
-      "Git y GitHub",
-      "JavaScript",
-      "Programación",
-      "SCRUM",
-      "SQL"
-    ],
-    "categoria": [
-      "programacion"
-    ],
-    "duracion": "20 hs",
-    "duracionHoras": 20,
-    "idiomas": [
-      "Español"
-    ],
-    "certificacion": "gratis-con-limite",
-    "agregado": "2026-10-15",
-    "revisado": "2026-10-15",
-    "estado": "caido"
   },
   {
     "id": "cpa-programming-essentials-in-c-plus",
@@ -1385,32 +1277,6 @@
     "estado": "activo"
   },
   {
-    "id": "curso-power-bi-gratuito-certificado-ibm-skillsbuild-verificar-fechas-d",
-    "nombre": "Curso Power BI gratuito certificado (IBM SkillsBuild) - verificar fechas de convocatorias",
-    "proveedores": [
-      "Plataforma libre en internet"
-    ],
-    "url": "https://www.datahack.es/cursos/curso-power-bi/",
-    "temas": [
-      "Data Science",
-      "Microsoft 365",
-      "Ofimática",
-      "Power BI"
-    ],
-    "categoria": [
-      "datos-y-ofimatica"
-    ],
-    "duracion": "40 hs",
-    "duracionHoras": 40,
-    "idiomas": [
-      "Español"
-    ],
-    "certificacion": "gratis-con-certificado",
-    "agregado": "2026-10-15",
-    "revisado": "2026-10-15",
-    "estado": "caido"
-  },
-  {
     "id": "cursos-de-excel-gratis-basico-intermedio-y-avanzado-el-tio-tech",
     "nombre": "Cursos de Excel GRATIS: Básico, Intermedio y Avanzado, El Tío Tech",
     "proveedores": [
@@ -1624,32 +1490,6 @@
     "agregado": "2026-10-15",
     "revisado": "2026-10-15",
     "estado": "activo"
-  },
-  {
-    "id": "diplomatura-educar-en-la-cultura-digital",
-    "nombre": "Diplomatura: Educar en la Cultura Digital",
-    "proveedores": [
-      "Programas gubernamentales"
-    ],
-    "url": "https://aulaabierta.info/educar-en-la-cultura-digital/",
-    "temas": [
-      "Ciudadanía Digital",
-      "Docencia",
-      "Seguridad Informática"
-    ],
-    "categoria": [
-      "gestion-y-soft-skills",
-      "ciudadania-y-seguridad"
-    ],
-    "duracion": "3 meses",
-    "duracionHoras": 120,
-    "idiomas": [
-      "Español"
-    ],
-    "certificacion": "pago",
-    "agregado": "2026-10-15",
-    "revisado": "2026-10-15",
-    "estado": "caido"
   },
   {
     "id": "diseno-de-experiencia-del-usuario-ux-de-google-professional-certificat",

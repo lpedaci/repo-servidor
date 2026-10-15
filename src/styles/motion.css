@@ -147,6 +147,15 @@
     }
   }
 
+  /* Vista previa: al pasar el mouse la captura se desliza y muestra más del sitio */
+  .vista img {
+    transition: transform 2.4s var(--ease);
+  }
+  .vista:hover img,
+  .vista:focus-visible img {
+    transform: translateY(-38%);
+  }
+
   /* Contador del inventario: rebote al cambiar */
   .count.pop {
     animation: pop 0.55s var(--spring);
@@ -213,31 +222,118 @@
     }
   }
 
-  /* 404: el número se "glitchea" un instante cada tanto */
-  .lost-code {
-    animation: glitch 5s steps(1) infinite;
+  /* 404: el gatito duerme y respira, la cola hamaca el ovillo, salen zzz y cada tanto abre un ojo. Decorativo (aria-hidden). */
+  .gato-dormido {
+    transform-box: fill-box;
+    transform-origin: 50% 100%;
+    animation: gato-respira 3.6s ease-in-out infinite;
   }
-  @keyframes glitch {
+  .gato-colgante {
+    transform-box: view-box;
+    transform-origin: 364px 196px;
+    animation: gato-hamaca 3.2s ease-in-out infinite alternate;
+  }
+  .gato-ovillo {
+    transform-box: fill-box;
+    transform-origin: 60% 45%;
+    animation: gato-ovillo 3.2s ease-in-out infinite alternate;
+  }
+  .gato-oreja-der {
+    transform-box: fill-box;
+    transform-origin: 30% 100%;
+    animation: gato-oreja 7s ease-in-out infinite;
+  }
+  .gato-espia {
+    animation: gato-espia 9s ease-in-out infinite;
+  }
+  .gato-cerrado-der {
+    animation: gato-cierra 9s ease-in-out infinite;
+  }
+  .gato .gato-zzz text {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: gato-z 3.6s ease-out infinite both;
+  }
+  .gato .gato-zzz text:nth-child(2) {
+    animation-delay: 1.2s;
+  }
+  .gato .gato-zzz text:nth-child(3) {
+    animation-delay: 2.4s;
+  }
+  @keyframes gato-respira {
     0%,
-    92%,
     100% {
       transform: none;
-      text-shadow: none;
     }
-    93% {
-      transform: translate(-4px, 1px) skewX(-6deg);
-      text-shadow:
-        3px 0 var(--t2),
-        -3px 0 var(--l1);
+    50% {
+      transform: scale(1.012, 1.04);
     }
-    95% {
-      transform: translate(3px, -1px);
-      text-shadow:
-        -3px 0 var(--t2),
-        3px 0 var(--l1);
+  }
+  @keyframes gato-hamaca {
+    from {
+      transform: rotate(-4deg);
     }
-    97% {
-      transform: translate(-1px, 0) skewX(4deg);
+    to {
+      transform: rotate(5deg);
+    }
+  }
+  @keyframes gato-ovillo {
+    from {
+      transform: rotate(-8deg);
+    }
+    to {
+      transform: rotate(10deg);
+    }
+  }
+  @keyframes gato-oreja {
+    0%,
+    60%,
+    68%,
+    100% {
+      transform: none;
+    }
+    63% {
+      transform: rotate(14deg);
+    }
+    65% {
+      transform: rotate(-4deg);
+    }
+  }
+  @keyframes gato-espia {
+    0%,
+    74%,
+    90%,
+    100% {
+      opacity: 0;
+    }
+    77%,
+    87% {
+      opacity: 1;
+    }
+  }
+  @keyframes gato-cierra {
+    0%,
+    74%,
+    90%,
+    100% {
+      opacity: 1;
+    }
+    77%,
+    87% {
+      opacity: 0;
+    }
+  }
+  @keyframes gato-z {
+    0% {
+      opacity: 0;
+      transform: translate(18px, 22px) scale(0.6);
+    }
+    25% {
+      opacity: 0.75;
+    }
+    100% {
+      opacity: 0;
+      transform: translate(-10px, -10px) scale(1.1);
     }
   }
 

@@ -120,25 +120,6 @@
     "estado": "activo"
   },
   {
-    "id": "algoritmo-salvaje",
-    "nombre": "Algoritmo Salvaje: formación",
-    "url": "https://www.algoritmosalvaje.com/formacion-estudiantes-profesionales-sectorit/",
-    "descripcion": "Formación y orientación para estudiantes y profesionales del sector IT.",
-    "tipo": "sitio",
-    "temas": [
-      "Empleabilidad",
-      "Desarrollo Profesional"
-    ],
-    "idioma": [],
-    "gratis": true,
-    "thread": "cursando",
-    "aparece_en": [
-      "charla-el-perfil-profesional"
-    ],
-    "revisado": "2026-10-15",
-    "estado": "caido"
-  },
-  {
     "id": "aprender-a-programar-en-c-desde-cero",
     "nombre": "Aprender a Programar en C desde Cero",
     "url": "https://www.youtube.com/playlist?list=PLw8RQJQ8K1ySN6bVHYEpDoh-CKVkL_uOF",
@@ -564,32 +545,6 @@
     ],
     "revisado": "2026-10-15",
     "estado": "activo"
-  },
-  {
-    "id": "courseit",
-    "nombre": "CourseIT",
-    "url": "https://courseit.io/catalogo",
-    "descripcion": "",
-    "tipo": "sitio",
-    "temas": [
-      "API",
-      "Angular",
-      "Desarrollo Web",
-      "Git",
-      "Git y GitHub",
-      "JavaScript",
-      "NodeJs",
-      "Programación",
-      "React",
-      "TypeScript"
-    ],
-    "idioma": [
-      "Español"
-    ],
-    "gratis": true,
-    "thread": "cursos",
-    "revisado": "2026-10-15",
-    "estado": "caido"
   },
   {
     "id": "crea-un-curriculum-ganador-ux-cata",
@@ -1642,26 +1597,6 @@
     "estado": "activo"
   },
   {
-    "id": "grasshopper",
-    "nombre": "Grasshopper",
-    "url": "https://play.google.com/store/apps/details?id=com.area120.grasshopper&hl=es_AR&gl=CN",
-    "descripcion": "Grasshopper, programa de Code with Google, es una plataforma para aprender programación en JS. Es gratuito y está disponible para usuarios de Android.",
-    "tipo": "herramienta",
-    "temas": [
-      "Desarrollo Web",
-      "JavaScript",
-      "Programación"
-    ],
-    "idioma": [
-      "Español",
-      "Inglés"
-    ],
-    "gratis": true,
-    "thread": "cursos",
-    "revisado": "2026-10-15",
-    "estado": "caido"
-  },
-  {
     "id": "guia-de-carreras-universitarias",
     "nombre": "Guía de carreras universitarias (SIU)",
     "url": "https://guiadecarreras.siu.edu.ar/carreras_de_pregrado_y_grado.php",
@@ -1943,25 +1878,6 @@
     "estado": "activo"
   },
   {
-    "id": "library-genesis",
-    "nombre": "Library Genesis",
-    "url": "https://libgen.gs/",
-    "descripcion": "Library Genesis es una comunidad que tiene como objetivo recopilar y catalogar descripciones de archivos para la mayor parte de las direcciones científicas y técnicas, así como metadatos de archivos.",
-    "tipo": "biblioteca",
-    "temas": [
-      "Programación",
-      "Desarrollo Web"
-    ],
-    "idioma": [],
-    "gratis": true,
-    "thread": "tecnologia",
-    "aparece_en": [
-      "recursos-tech-plus-plus"
-    ],
-    "revisado": "2026-10-15",
-    "estado": "caido"
-  },
-  {
     "id": "librotecarios-coleccion-users",
     "nombre": "Librotecarios: colección USERS",
     "url": "https://librotecarios.blogspot.com/2020/01/coleccion-users-250-libros-pdf-gratis.html",
@@ -2093,23 +2009,6 @@
     ],
     "revisado": "2026-10-15",
     "estado": "activo"
-  },
-  {
-    "id": "materiales-didacticos-de-la-undef",
-    "nombre": "Materiales didácticos de la UNDEF",
-    "url": "https://undef.edu.ar/siedweb/materiales.html",
-    "descripcion": "Materiales didácticos del Sistema de Educación a Distancia de la Universidad de la Defensa Nacional.",
-    "tipo": "biblioteca",
-    "temas": [
-      "Docencia"
-    ],
-    "idioma": [
-      "Español"
-    ],
-    "gratis": true,
-    "thread": "tecnologia",
-    "revisado": "2026-10-15",
-    "estado": "caido"
   },
   {
     "id": "mesh-gradient",
@@ -2363,44 +2262,6 @@
     "estado": "activo"
   },
   {
-    "id": "presentacion-perfil-profesional",
-    "nombre": "Presentación de la charla: El Perfil Profesional",
-    "url": "https://drive.google.com/file/d/1idhLprwqRiOvmEOIzGSCbcmtE6UxQcFD/view",
-    "descripcion": "Las diapositivas sobre Currículum Vitae y porfolio que usamos en la charla.",
-    "tipo": "guia",
-    "temas": [
-      "Empleabilidad",
-      "Desarrollo Profesional"
-    ],
-    "idioma": [],
-    "gratis": true,
-    "thread": "cursando",
-    "aparece_en": [
-      "charla-el-perfil-profesional"
-    ],
-    "revisado": "2026-10-15",
-    "estado": "activo"
-  },
-  {
-    "id": "profe-matias-garcia-tutoriales",
-    "nombre": "Profe Matías García: tutoriales",
-    "url": "https://www.profmatiasgarcia.com.ar/tutoriales.html",
-    "descripcion": "El Profe Matías García, dedicado al área de software y programación cuenta en su sitio web con tutoriales y ejercicios variados para aprender.",
-    "tipo": "guia",
-    "temas": [
-      "Programación",
-      "Desarrollo Web"
-    ],
-    "idioma": [],
-    "gratis": true,
-    "thread": "tecnologia",
-    "aparece_en": [
-      "recursos-tech-plus-plus"
-    ],
-    "revisado": "2026-10-15",
-    "estado": "activo"
-  },
-  {
     "id": "profe-matias-garcia-youtube",
     "nombre": "Profe Matías García en YouTube",
     "url": "https://www.youtube.com/c/profmatiasgarcia/",
@@ -2533,25 +2394,6 @@
     ],
     "revisado": "2026-10-15",
     "estado": "activo"
-  },
-  {
-    "id": "red-users-drive",
-    "nombre": "Colección RedUSERS en Google Drive",
-    "url": "https://drive.google.com/drive/folders/1-P0_a3QKgN7Vwt6PXJzhpSZrPPdPp9uB",
-    "descripcion": "Librotecarios es un blog recopilatorio de links de acceso a libros y manuales de varios géneros en archivos PDF.",
-    "tipo": "biblioteca",
-    "temas": [
-      "Programación",
-      "Desarrollo Web"
-    ],
-    "idioma": [],
-    "gratis": true,
-    "thread": "tecnologia",
-    "aparece_en": [
-      "recursos-tech-plus-plus"
-    ],
-    "revisado": "2026-10-15",
-    "estado": "caido"
   },
   {
     "id": "sakinorva",
@@ -2825,6 +2667,27 @@
     "estado": "activo"
   },
   {
+    "id": "taller-primerempleo",
+    "nombre": "Taller: Del aula al primer trabajo",
+    "url": "https://lpedaci.github.io/taller-primerempleo/",
+    "descripcion": "Once paradas para preparar tu pasantía, tu primer empleo o un cambio de trabajo. Es la evolución de la charla sobre CV y porfolio.",
+    "tipo": "guia",
+    "temas": [
+      "Empleabilidad",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-el-perfil-profesional"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
     "id": "test-de-holland-articulo",
     "nombre": "Test de Holland: elegí profesión según tu personalidad",
     "url": "https://orientacionesvocacion.com/test-de-holland/",
@@ -3067,23 +2930,6 @@
     "estado": "activo"
   },
   {
-    "id": "unicorn-academy-analisis-de-datos",
-    "nombre": "Unicorn Academy: introducción al análisis de datos",
-    "url": "https://cg.unicornacademy.es/?utm_source=mail&utm_medium=LA",
-    "descripcion": "Curso gratuito para dar los primeros pasos en análisis de datos.",
-    "tipo": "sitio",
-    "temas": [
-      "Data Science"
-    ],
-    "idioma": [
-      "Español"
-    ],
-    "gratis": true,
-    "thread": "cursos",
-    "revisado": "2026-10-15",
-    "estado": "caido"
-  },
-  {
     "id": "unicorn-icons",
     "nombre": "Unicorn Icons",
     "url": "https://unicornicons.com/",
@@ -3242,27 +3088,6 @@
     "thread": "cursos",
     "revisado": "2026-10-15",
     "estado": "activo"
-  },
-  {
-    "id": "web-dev-layout-patterns",
-    "nombre": "web.dev: Layout patterns",
-    "url": "https://web.dev/patterns/layout/",
-    "descripcion": "Layout patterns es una colección de patrones de diseño creados con API de CSS que ayudan a crear interfaces comunes como tarjetas, dynamic grid areas y diseños de página completa.",
-    "tipo": "guia",
-    "temas": [
-      "Desarrollo Web",
-      "HTML y CSS",
-      "UX",
-      "UI"
-    ],
-    "idioma": [],
-    "gratis": true,
-    "thread": "tecnologia",
-    "aparece_en": [
-      "herramientas-para-desarrollo-web"
-    ],
-    "revisado": "2026-10-15",
-    "estado": "caido"
   },
   {
     "id": "web-dev-web-vitals-patterns",

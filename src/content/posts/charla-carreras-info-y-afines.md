@@ -103,7 +103,7 @@ Ejemplo de **Test de Myers-Briggs**
 
 :::
 
-### Test de Inteligencias Múltiples de Howard Gardner
+### Test de Inteligencias Múltiples de Howard Gardner
 
 La teoría de las Inteligencias Múltiples fue presentada por primera vez en 1983 por el psicólogo Howard Gardner, cuando publicó su libro Frames of Mind. En este, declaró que el **aprendizaje ocurre a través de muchos tipos de inteligencias y que las personas tienen varios niveles de cada una. En síntesis**, la teoría establece que, **identificar el tipo de inteligencia de un estudiante permite seleccionar actividades apropiadas y guiar su viaje de aprendizaje de manera más efectiva**.
 
@@ -151,7 +151,7 @@ Las 8 Inteligencias Múltiples (Fuente: Mundo Primaria)
 
 :::callout{tipo="tip"}
 
-Ejemplos de **Test de Inteligencias Múltiples de Howard Gardner**
+Ejemplos de **Test de Inteligencias Múltiples de Howard Gardner**
 
 ::recurso{#test-inteligencias-uaeh}
 
@@ -195,7 +195,7 @@ Para todos **aquellos que necesiten opciones y opiniones respecto a la elección
 
 ::video{id="rA1whJGg2ew"}
 
-La charla es planteada por mi profesor de varios años en la carrera de docente en informática, [**Matías García**](http://www.profmatiasgarcia.com.ar/). Si lo recomiendo, es porque lo vale. Sigan a [**Sysarmy](https://linktr.ee/sysarmy)!**
+La charla es planteada por mi profesor de varios años en la carrera de docente en informática, [**Matías García**](https://www.youtube.com/c/profmatiasgarcia/). Si lo recomiendo, es porque lo vale. Sigan a [**sysarmy**](https://linktr.ee/sysarmy).
 
 ## Desarrollo de carrera profesional en IT: ¿Qué significa y cómo empezar?
 
@@ -268,7 +268,7 @@ El gobierno argentino cuenta con el sitio "**Quiero Estudiar**" con data respect
 
 :::callout{tipo="tip"}
 
-**¿Buscas BECAS para ir a estudiar en el exterior? Campus Global** es una iniciativa que **promueve la movilidad internacional de estudiantes, docentes, investigadores** **en el exterior y extranjeros en la Argentina**. La plataforma cuenta con geolocalización, filtros y suscripciones para ajustar las búsquedas. ****
+**¿Buscas BECAS para ir a estudiar en el exterior? Campus Global** es una iniciativa que **promueve la movilidad internacional de estudiantes, docentes, investigadores** **en el exterior y extranjeros en la Argentina**. La plataforma cuenta con geolocalización, filtros y suscripciones para ajustar las búsquedas. ****
 
 ::recurso{#campus-argentina-global}
 
@@ -306,6 +306,3 @@ Antes de iniciar: si te interesa el mundo del desarrollo en general, pero no sab
 
 ::video{id="PQsuIKwvDO4"}
 
-- [Hilo de @profmatiasg en X](https://twitter.com/profmatiasg/status/1463936582113796096)
-- [Hilo de @DamianCatanzaro en X](https://twitter.com/DamianCatanzaro/status/1462086208830328839)
-- [Hilo de @zamarrowski en X](https://twitter.com/zamarrowski/status/1463821542341718019)

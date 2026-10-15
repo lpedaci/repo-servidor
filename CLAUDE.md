@@ -31,6 +31,8 @@ Sitio estático (Astro 7) publicado en GitHub Pages en `https://lpedaci.github.i
 - `:::callout{tipo="idea|aviso|tip"}` ... `:::`
 - `::recurso{#id}` (el id tiene que existir en `recursos.json`, si no el build falla)
 - `::video{id="xxxxxxxxxxx"}` (YouTube, carga liviana)
+- `:::media` ... `:::` (logo o ícono a la izquierda, mismo tamaño para todos, y el texto al lado)
+- `::vista{#id img="previews/archivo.webp" cta="Ver el material"}` (recurso con captura del sitio en marco de navegador; la captura va en `public/previews/`, 960 px de ancho, WebP)
 - Links internos: escribirlos como `/cursos/` y el plugin les agrega el `base`. En `.astro` usar `url()` de `src/lib/site.ts`.
 
 ## Reglas de copy (obligatorias)
@@ -59,5 +61,5 @@ Sitio estático (Astro 7) publicado en GitHub Pages en `https://lpedaci.github.i
 - `npm run dev`: servidor local en `http://localhost:4321/repo-servidor/`.
 - `npm run build`: compila y genera el índice de búsqueda (Pagefind). **Correrlo después de cada cambio y antes de hacer commit.**
 - `npm run links`: revisa todos los links, actualiza `estado`/`revisado` y escribe `_import/reporte-links.md`. No borra nada.
-- `npm run og`: regenera la imagen Open Graph desde `scripts/og.html`.
+- `npm run og`: regenera las cards de Open Graph en `public/og/` (una por sección y por thread; los posts usan la de su thread). Correrlo si cambian los contadores o los threads.
 - `npm run import`: reimporta desde `/_import/notion/` (solo si hiciera falta; pisa los posts).

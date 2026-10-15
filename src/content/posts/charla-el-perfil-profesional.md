@@ -13,9 +13,9 @@ destacado: true
 
 *Nadie debería tener que ir a trabajar pensando "Oh, este es el lugar donde podría morir hoy."* The Office
 
-**Les comparto el link a la presentación sobre el Currículum Vitae y cuestiones relacionadas. Cualquier duda que tengan y/o si desean que profundice en el tema, avisen sin problema!**
+Esta charla creció y se convirtió en un taller: **Del aula al primer trabajo**, once paradas para preparar tu pasantía, tu primer empleo o un cambio de trabajo. Ahí está todo lo que veíamos en la presentación, actualizado y paso a paso. Si te queda alguna duda o querés que profundice en algún tema, avisame sin problema.
 
-::recurso{#presentacion-perfil-profesional}
+::vista{#taller-primerempleo img="previews/taller-primerempleo.webp" cta="Ver el taller"}
 
 ## Asimismo, adjunto sitio web para armar el CV (recomendado! ), incluye templates, opciones para editar y descargar en formato PDF.
 
@@ -61,10 +61,3 @@ SmallTalk2Me es un simulador que emplea IA (Inteligencia Artificial) para mejora
 
 ::recurso{#ebook-potrero-digital-2023}
 
-## A modo de recomendación, algunas RRSS que pueden ayudar
-
-- [Hilo de @iamdoomling en X](https://twitter.com/iamdoomling/status/1410207350418509825)
-- [Hilo de @natsumiangello en X](https://twitter.com/natsumiangello/status/1460788934573711362)
-- [Hilo de @midudev en X](https://twitter.com/midudev/status/1460993865566113795)
-
-::recurso{#algoritmo-salvaje}

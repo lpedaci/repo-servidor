@@ -62,9 +62,7 @@ Paso 2. Una vez dentro, el sitio cuenta con varios apartados importantes. Entre 
 
 :::callout{tipo="idea"}
 
-El **Profe Matías García**, dedicado al área de software y programación cuenta en su **sitio web con tutoriales y ejercicios variados para aprender**. Entre los temas disponibles hay sobre: **Algoritmos, Técnicas Digitales, lenguaje C & C++, JAVA, C#, LISP, Laravel, SQL, Sistemas Operativos, Redes de datos, Análisis y Diseño de Sistemas, Software Libre, Robótica & Arduino, Ofimática** (Hojas de Cálculo, Procesadores de Textos).
-
-::recurso{#profe-matias-garcia-tutoriales}
+El **Profe Matías García**, dedicado al área de software y programación comparte en su **canal de YouTube tutoriales y ejercicios variados para aprender**. Entre los temas disponibles hay sobre: **Algoritmos, Técnicas Digitales, lenguaje C & C++, JAVA, C#, LISP, Laravel, SQL, Sistemas Operativos, Redes de datos, Análisis y Diseño de Sistemas, Software Libre, Robótica & Arduino, Ofimática** (Hojas de Cálculo, Procesadores de Textos).
 
 ::recurso{#profe-matias-garcia-youtube}
 
@@ -75,16 +73,6 @@ El **Profe Matías García**, dedicado al área de software y programación cuen
 **Librotecarios** es un **blog recopilatorio de links de acceso a libros y manuales** de varios géneros en archivos PDF.
 
 ::recurso{#librotecarios-coleccion-users}
-
-::recurso{#red-users-drive}
-
-:::
-
-:::callout{tipo="idea"}
-
-**Library Genesis** es una comunidad que **tiene como objetivo recopilar y catalogar descripciones de archivos para la mayor parte de las direcciones científicas y técnicas, así como metadatos de archivos**. Asimismo, **contiene enlaces a recursos de terceros alojados por los usuarios**. Toda la información publicada en el sitio web se recopila de los recursos públicos de Internet y está destinada únicamente a fines informativos.
-
-::recurso{#library-genesis}
 
 :::
 
@@ -127,8 +115,6 @@ El **Profe Matías García**, dedicado al área de software y programación cuen
 
 ::recurso{#mujeres-en-tecnologia-instagram}
 
-- [Hilo de @comunidadmet en X](https://twitter.com/comunidadmet)
-
 :::
 
 :::callout{tipo="idea"}
@@ -151,9 +137,8 @@ El **Profe Matías García**, dedicado al área de software y programación cuen
 
 :::callout{tipo="idea"}
 
-**Los Apuntes de Majo** es un repositorio de apuntes hechos por Majo Ledesma con
-Actualmente, entre las temáticas tratadas estan: JS, React, React Hooks, Python, CSS, POO con Python, SQL, GIT. **Se actualizan, así que recomiendo guardarlo y visitar el sitio.
->>** [Ir al Twitter de Majo](https://twitter.com/majoledes)
+**Los Apuntes de Majo** es un repositorio de apuntes hechos por Majo Ledesma.
+Actualmente, entre las temáticas tratadas estan: JS, React, React Hooks, Python, CSS, POO con Python, SQL, GIT. **Se actualizan, así que recomiendo guardarlo y visitar el sitio.**
 
 ::recurso{#apuntes-de-majo}
 
@@ -163,7 +148,7 @@ Actualmente, entre las temáticas tratadas estan: JS, React, React Hooks, Python
 
 :::callout{tipo="idea"}
 
-**Lupita Code** ([@lupitacode](https://twitter.com/lupitacode)**)** es **desarrolladora Frontend** que comparte en sus redes sociales contenido sobre **JS, HTML, CSS code notes**.
+**Lupita Code** (@lupitacode) es **desarrolladora Frontend** que comparte en sus redes sociales contenido sobre **JS, HTML, CSS code notes**.
 
 ::recurso{#lupita-code-youtube}
 

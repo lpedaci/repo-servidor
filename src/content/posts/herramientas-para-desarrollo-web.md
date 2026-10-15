@@ -19,10 +19,6 @@ Ahí comparten charlas y materiales para aquellos que quieran iniciarse en la pr
 
 ![Meme de Los Simpson: Homero frente a un río que se divide entre un paisaje soleado y uno sombrío, con el texto "Eligiendo cómo iniciarme en programación".](../../assets/posts/herramientas-para-desarrollo-web/untitled.png)
 
-- [Hilo de @profmatiasg en X](https://twitter.com/profmatiasg/status/1463936582113796096)
-- [Hilo de @DamianCatanzaro en X](https://twitter.com/DamianCatanzaro/status/1462086208830328839)
-- [Hilo de @zamarrowski en X](https://twitter.com/zamarrowski/status/1463821542341718019)
-
 ---
 
 ## Si querés enfocarte en el área de Desarrollo Web, recomiendo que primero accedas a Web Skills
@@ -81,22 +77,11 @@ The Manager's Handbook by Alex MacCaw
 
 :::
 
-- [Hilo de @_georgemoller en X](https://twitter.com/_georgemoller/status/1459538965741158401)
-- [Hilo de @_georgemoller en X](https://twitter.com/_georgemoller/status/1457730300860108812)
-
 :::callout{tipo="idea"}
 
 **CSS Layout y Transition.css** son **repositorios de diseños y patrones** populares hechos con CSS.
 
 ::recurso{#transition-css}
-
-:::
-
-:::callout{tipo="idea"}
-
-**Layout patterns** es una **colección de patrones de diseño** creados con API de CSS que ayudan a crear interfaces comunes como tarjetas, dynamic grid areas y diseños de página completa.
-
-::recurso{#web-dev-layout-patterns}
 
 :::
 
@@ -174,17 +159,6 @@ C**olorpalettes.colorion.co** es un sitio que **ofrece más de 30 paletas de col
 
 :::
 
-- [Hilo de @Prathkum en X](https://twitter.com/Prathkum/status/1377871173875335170)
-- [Hilo de @Prathkum en X](https://twitter.com/Prathkum/status/1378618845225746433)
-- [Hilo de @Prathkum en X](https://twitter.com/Prathkum/status/1379881164912099334)
-- [Hilo de @Prathkum en X](https://twitter.com/Prathkum/status/1366278875467153413)
-- [Hilo de @Prathkum en X](https://twitter.com/Prathkum/status/1380834198039171073)
-- [Hilo de @Prathkum en X](https://twitter.com/Prathkum/status/1374652212928987137)
-- [Hilo de @Prathkum en X](https://twitter.com/Prathkum/status/1396924726895955977?s=20)
-- [Hilo de @Prathkum en X](https://twitter.com/Prathkum/status/1362686461544439809)
-- [Hilo de @Prathkum en X](https://twitter.com/Prathkum/status/1363063942994685952)
-- [Hilo de @Prathkum en X](https://twitter.com/Prathkum/status/1364142557052219394)
-
 :::callout{tipo="idea"}
 
 **HTMHell** es una **colección de malas prácticas en HTML**, copiadas de sitios web reales, **y cómo solucionarlos**.
@@ -227,8 +201,6 @@ A Beginner’s Guide to Finding User Needs: Investigación cualitativa sobre mot
 
 ::recurso{#george-moller-ui-ux-slides}
 
-- [Hilo de @_georgemoller en X](https://twitter.com/_georgemoller/status/1462441172006322176)
-
 :::
 
 :::callout{tipo="idea"}
@@ -242,8 +214,6 @@ A Beginner’s Guide to Finding User Needs: Investigación cualitativa sobre mot
 :::callout{tipo="idea"}
 
 **Freddy Montes ([@fmontes](https://twitter.com/fmontes)) es Frontend Developer y Diseñador UI.** En su cuenta de Twitter comparte contenido sobre el tema. Además cuenta con un ebook gratuito sobre Web Development.
-
-- [Hilo de @fmontes en X](https://twitter.com/fmontes/status/1462779469509246985)
 
 :::
 
@@ -337,9 +307,6 @@ Butterick’s Practical Typography, 2nd Edition
 :::callout{tipo="tip"}
 
 **Si estas metido en JS...**
-
-- [Hilo de @alexanyernas en X](https://twitter.com/alexanyernas/status/1460993937452191748?ref_src=twsrc^tfw|twcamp^tweetembed|twterm^1460993937452191748|twgr^|twcon^s1_&ref_url=notion://www.notion.so/lourtech/Herramientas-para-Desarrollo-Web-ca0cc4a553714ff08ea9718cf5da716a)
-- [Hilo de @junaidshaikh_js en X](https://twitter.com/junaidshaikh_js/status/1458401806527045636?ref_src=twsrc^tfw|twcamp^tweetembed|twterm^1458401806527045636|twgr^|twcon^s1_&ref_url=notion://www.notion.so/lourtech/Herramientas-para-Desarrollo-Web-ca0cc4a553714ff08ea9718cf5da716a)
 
 :::
 
