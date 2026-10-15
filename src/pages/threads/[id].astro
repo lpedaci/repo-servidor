@@ -1,0 +1,218 @@
+---
+import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
+import PostCard from '../../components/PostCard.astro';
+import LinkCard from '../../components/LinkCard.astro';
+import Callout from '../../components/Callout.astro';
+import ThreadArt from '../../components/ThreadArt.astro';
+import { datos, url, SITE } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const d = await datos();
+  return d.threads.map((thread) => ({ params: { id: thread.id }, props: { thread, ...d } }));
+}
+
+const { thread, posts, recursos, cursos, categorias, colorEtiqueta } = Astro.props;
+const t = thread.data;
+const susPosts = posts.filter((p) => p.data.thread.id === thread.id).sort((a, b) => a.data.titulo.localeCompare(b.data.titulo, 'es'));
+// En el thread se muestran los recursos que no están ya dentro de un post (esos se ven en el post).
+const susRecursos = recursos
+  .filter((r) => r.data.thread.id === thread.id && !r.data.aparece_en?.length)
+  .sort((a, b) => a.data.nombre.localeCompare(b.data.nombre, 'es'));
+const esCursos = thread.id === 'cursos';
+const delThread = recursos.filter((r) => r.data.thread.id === thread.id);
+const nRecursos = delThread.length;
+const minutos = susPosts.reduce((n, p) => n + (p.data.tiempoLectura ?? 0), 0);
+// Temas más presentes en el thread (posts y recursos), para la ficha lateral
+const usoTemas = new Map<string, number>();
+[...susPosts.flatMap((p) => p.data.temas), ...delThread.flatMap((r) => r.data.temas)].forEach((tm) => usoTemas.set(tm, (usoTemas.get(tm) ?? 0) + 1));
+const temas = [...usoTemas].sort((a, b) => b[1] - a[1]).slice(0, 5).map(([tm]) => tm);
+const conCert = cursos.filter((c) => c.data.certificacion === 'gratis-con-certificado').length;
+const nProv = new Set(cursos.flatMap((c) => c.data.proveedores)).size;
+const proveedores = esCursos
+  ? [...cursos.flatMap((c) => c.data.proveedores).reduce((m, p) => m.set(p, (m.get(p) ?? 0) + 1), new Map<string, number>())]
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 8)
+  : [];
+---
+
+<Base titulo={`Thread: ${t.corto}`} descripcion={t.bajada} actual="threads">
+  <div class="wrap">
+    <section class="thread-hero stagger" aria-labelledby="th-t">
+      <div class="tile" style={`--tile: var(--${t.color}); --i:0`}>
+        <ThreadArt tema={thread.id} class="thread-art--grande" />
+        <nav aria-label="Ruta de navegación">
+          <ol class="crumbs" style="color:inherit">
+            <li><a href={url('/')}>Lobby</a></li>
+            <li><a href={url('/threads/')}>Threads</a></li>
+            <li><span aria-current="page">Thread {t.orden}</span></li>
+          </ol>
+        </nav>
+        <div>
+          <span class="dot-ic" style="margin-bottom:1rem"><Icon name={t.icono} /></span>
+          <h1 id="th-t">{t.titulo}</h1>
+          <p class="lead">{t.bajada}</p>
+        </div>
+      </div>
+      <div class:list={['thread-side', { 'thread-side--doble': thread.id === 'cursando' }]} style="--i:1">
+        {
+          esCursos ? (
+            <div class="deep thread-ficha">
+              <p class="label" style="color:var(--t3)">El listado completo</p>
+              <dl class="ficha-nums">
+                <div>
+                  <dt>Cursos</dt>
+                  <dd><span data-count={cursos.length}>{cursos.length}</span></dd>
+                </div>
+                <div>
+                  <dt>Con certificado</dt>
+                  <dd><span data-count={conCert}>{conCert}</span></dd>
+                </div>
+                <div>
+                  <dt>Proveedores</dt>
+                  <dd><span data-count={nProv}>{nProv}</span></dd>
+                </div>
+              </dl>
+              <p class="ficha-txt">
+                Gratuitos o casi, algunos por tiempo limitado. Filtrá por categoría, proveedor, idioma y certificado: las vistas de Notion ahora son filtros que podés compartir.
+              </p>
+              <a class="btn btn--primary" href={url('/cursos/')}>
+                Abrir el explorador <Icon name="arrow-right" />
+              </a>
+            </div>
+          ) : (
+            <div class="panel thread-ficha">
+              <p class="label">En este thread</p>
+              <dl class="ficha-nums">
+                <div>
+                  <dt>Posts</dt>
+                  <dd><span data-count={susPosts.length}>{susPosts.length}</span></dd>
+                </div>
+                <div>
+                  <dt>Recursos</dt>
+                  <dd><span data-count={nRecursos}>{nRecursos}</span></dd>
+                </div>
+                <div>
+                  <dt>De lectura</dt>
+                  <dd><span data-count={minutos}>{minutos}</span><small>min</small></dd>
+                </div>
+              </dl>
+              {temas.length > 0 && (
+                <div class="ficha-temas">
+                  <ul class="chips" aria-label="Temas del thread">
+                    {temas.map((tm) => (
+                      <li class={`chip chip--${colorEtiqueta.get(tm) ?? 't1'}`}>{tm}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              <a class="btn btn--sm ficha-link" href={url(`/recursos/?thread=${thread.id}`)}>
+                Ver sus recursos <Icon name="arrow-right" />
+              </a>
+            </div>
+          )
+        }
+        {
+          thread.id === 'cursando' && (
+            <a class="tile tile--t3 side-cta" href={SITE.redes.taller} target="_blank" rel="noopener noreferrer">
+              <span>
+                <span class="side-cta-top">
+                  <span class="label">La evolución de la charla de CV</span>
+                  <span class="thread-n">11 paradas</span>
+                </span>
+                <span class="side-cta-title">Taller: Del aula al primer trabajo</span>
+                <span class="side-cta-desc">Preparate para tu pasantía, tu primer empleo o un cambio de trabajo, paso a paso.</span>
+              </span>
+              <span class="thread-go">
+                Ir al taller <Icon name="external" />
+                <span class="sr-only">(se abre en otra pestaña)</span>
+              </span>
+            </a>
+          )
+        }
+      </div>
+    </section>
+
+    {
+      esCursos && (
+        <section class="section" aria-labelledby="cat-t">
+          <div class="section-head">
+            <div>
+              <h2 id="cat-t">Por categoría</h2>
+              <p>Las seis vistas temáticas del listado completo.</p>
+            </div>
+          </div>
+          <ul class="cat-grid panel" style="padding:clamp(1rem,2.5vw,1.5rem)">
+            {categorias.map((c) => (
+              <li>
+                <a class="cat" href={url(`/cursos/?cat=${c.id}`)} style={`--tile: var(--${c.data.color})`}>
+                  <span class="dot-ic">
+                    <Icon name={c.data.icono} />
+                  </span>
+                  <span class="cat-name">{c.data.nombre}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <div class="section-head" style="margin-top:2rem">
+            <h2>Por proveedor</h2>
+          </div>
+          <ul class="chips" style="padding-inline:0.5rem">
+            {proveedores.map(([p, n]) => (
+              <li>
+                <a class="btn btn--sm" href={url(`/cursos/?prov=${encodeURIComponent(p)}`)}>
+                  {p} <span class="fchip-n">{n}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    {
+      susPosts.length > 0 && (
+        <section class="section" aria-labelledby="posts-t">
+          <div class="section-head">
+            <h2 id="posts-t">Posts</h2>
+          </div>
+          <ul class="post-list">
+            {susPosts.map((p, i) => (
+              <li>
+                <PostCard post={p} color={t.color} i={i} />
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    {
+      susRecursos.length > 0 && (
+        <section class="section" aria-labelledby="rec-t">
+          <div class="section-head">
+            <div>
+              <h2 id="rec-t">Recursos sueltos</h2>
+              <p>Links que no viven dentro de un post. Todos están también en el explorador de recursos.</p>
+            </div>
+            <a class="btn btn--sm" href={url(`/recursos/?thread=${thread.id}`)}>
+              Ver en el explorador <Icon name="arrow-right" />
+            </a>
+          </div>
+          {esCursos && (
+            <Callout tipo="tip">
+              <p>Si comparto playlists es por recomendación del contenido. Chusmeá también los canales de quienes las crearon para encontrar más opciones.</p>
+            </Callout>
+          )}
+          <ul class="res-list">
+            {susRecursos.map((r) => (
+              <li>
+                <LinkCard recurso={r.data} descripcion />
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+  </div>
+</Base>

@@ -1,0 +1,53 @@
+---
+import Icon from './Icon.astro';
+import { url } from '../lib/site';
+
+interface Props {
+  actual?: string;
+}
+const { actual = '' } = Astro.props;
+const links = [
+  { id: 'lobby', href: url('/'), label: 'Lobby', icon: 'house' },
+  { id: 'threads', href: url('/threads/'), label: 'Threads', icon: 'layers' },
+  { id: 'cursos', href: url('/cursos/'), label: 'Cursos', icon: 'graduation-cap' },
+  { id: 'recursos', href: url('/recursos/'), label: 'Recursos', icon: 'toolbox' },
+  { id: 'buscar', href: url('/buscar/'), label: 'Buscar', icon: 'search' },
+];
+---
+
+<header class="top wrap">
+  <div class="top-in">
+    <a class="brand" href={url('/')}>
+      <span class="brand-mark"><Icon name="server" /></span>
+      <span class="brand-txt">El server <small>de Lourdes</small></span>
+    </a>
+    <nav class="nav-wrap" id="nav" aria-label="Principal">
+      <ul class="nav">
+        {
+          links.map((l) => (
+            <li>
+              <a href={l.href} aria-current={actual === l.id ? 'page' : undefined}>
+                <Icon name={l.icon} />
+                {l.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+    <button class="top-btn theme-btn js-only" type="button" data-theme-toggle aria-label="Cambiar a tema oscuro">
+      <Icon name="moon" class="i-moon" />
+      <Icon name="sun" class="i-sun" />
+    </button>
+    <a class="top-btn" href={url('/inventario/')} aria-current={actual === 'inventario' ? 'page' : undefined}>
+      <Icon name="inventario" />
+      <span class="sr-only">Mi inventario</span>
+      <span class="count" data-inv-count aria-hidden="true"></span>
+      <span class="sr-only" data-inv-count-sr></span>
+    </a>
+    <button class="top-btn menu-btn js-only" type="button" aria-expanded="false" aria-controls="nav" data-menu>
+      <Icon name="menu" />
+      <span class="sr-only">Menú</span>
+    </button>
+  </div>
+</header>

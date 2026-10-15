@@ -1,0 +1,51 @@
+---
+import Icon from './Icon.astro';
+import { SITE, url } from '../lib/site';
+const anio = new Date().getFullYear();
+---
+
+<footer class="foot wrap">
+  <div class="foot-in">
+    <div>
+      <h2>El servidor de Lourdes</h2>
+      <p class="foot-firma">
+        Hecho por <strong>{SITE.autora}</strong>. {SITE.firma}.
+      </p>
+      <ul class="foot-redes">
+        <li>
+          <a href={SITE.redes.linkedin} target="_blank" rel="noopener noreferrer">
+            <Icon name="linkedin" /> LinkedIn<span class="sr-only"> (se abre en otra pestaña)</span>
+          </a>
+        </li>
+        <li>
+          <a href={SITE.redes.youtube} target="_blank" rel="noopener noreferrer">
+            <Icon name="youtube" /> YouTube<span class="sr-only"> (se abre en otra pestaña)</span>
+          </a>
+        </li>
+        <li>
+          <a href={SITE.redes.cafecito} target="_blank" rel="noopener noreferrer">
+            <Icon name="mug" /> Invitame un Cafecito<span class="sr-only"> (se abre en otra pestaña)</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <nav aria-label="Pie de página">
+      <ul class="foot-nav">
+        <li><a href={url('/')}>Lobby</a></li>
+        <li><a href={url('/threads/')}>Threads</a></li>
+        <li><a href={url('/cursos/')}>Cursos</a></li>
+        <li><a href={url('/recursos/')}>Recursos</a></li>
+        <li><a href={url('/buscar/')}>Buscar</a></li>
+        <li><a href={url('/inventario/')}>Mi inventario</a></li>
+        <li><a href={url('/sobre/')}>Sobre el server</a></li>
+        <li>
+          <a href={SITE.redes.taller} target="_blank" rel="noopener noreferrer">Taller primer empleo<span class="sr-only"> (se abre en otra pestaña)</span></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="foot-legal">
+      <p>{SITE.legal}</p>
+      <p class="mono">© {anio} {SITE.autora}</p>
+    </div>
+  </div>
+</footer>

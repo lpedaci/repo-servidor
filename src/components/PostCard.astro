@@ -1,0 +1,22 @@
+---
+import Icon from './Icon.astro';
+import { TIPO_POST, url } from '../lib/site';
+interface Props {
+  post: { id: string; data: { titulo: string; bajada: string; tipo: string; tiempoLectura?: number } };
+  color?: string;
+  i?: number;
+  nivel?: 'h2' | 'h3';
+}
+const { post, color = 't1', i = 0, nivel = 'h3' } = Astro.props;
+const H = nivel;
+---
+
+<a class="post-card reveal" href={url(`/posts/${post.id}/`)} style={`--tile: var(--${color}); --i: ${i}`}>
+  <span class="chip">{TIPO_POST[post.data.tipo]}</span>
+  <H>{post.data.titulo}</H>
+  <p>{post.data.bajada}</p>
+  <span class="post-card-foot">
+    <span><Icon name="clock" /> {post.data.tiempoLectura ?? 3} min de lectura</span>
+    <span class="ic-go"><Icon name="arrow-right" /></span>
+  </span>
+</a>

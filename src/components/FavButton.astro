@@ -1,0 +1,17 @@
+---
+/** Botón ★ para guardar algo en el inventario del user (localStorage, solo en su navegador). */
+import Icon from './Icon.astro';
+interface Props {
+  tipo: 'curso' | 'recurso' | 'post';
+  id: string;
+  nombre: string;
+  href: string;
+}
+const { tipo, id, nombre, href } = Astro.props;
+---
+
+<button class="fav" type="button" data-pagefind-ignore aria-pressed="false" data-fav={`${tipo}:${id}`} data-nombre={nombre} data-href={href}>
+  <Icon name="star-o" class="i-off" />
+  <Icon name="star" class="i-on" />
+  <span class="sr-only">Guardar en mi inventario: {nombre}</span>
+</button>

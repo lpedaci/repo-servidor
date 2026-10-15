@@ -1,0 +1,93 @@
+---
+import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
+import RecursoCard from '../../components/RecursoCard.astro';
+import FilterBar, { type Grupo } from '../../components/FilterBar.astro';
+import { ETIQUETA_TIPO } from '../../lib/icons.mjs';
+import { datos } from '../../lib/site';
+
+const { recursos, threads, colorEtiqueta } = await datos();
+recursos.sort((a, b) => a.data.nombre.localeCompare(b.data.nombre, 'es'));
+const corto = new Map(threads.map((t) => [t.id, t.data.corto]));
+
+const contar = (vals: string[]) => [...vals.reduce((m, v) => m.set(v, (m.get(v) ?? 0) + 1), new Map<string, number>())];
+const tipos = contar(recursos.map((r) => r.data.tipo)).sort((a, b) => b[1] - a[1]);
+const idiomas = contar(recursos.flatMap((r) => r.data.idioma)).sort((a, b) => b[1] - a[1]);
+
+const grupos: Grupo[] = [
+  {
+    param: 'tipo',
+    attr: 'tipo',
+    legend: 'Tipo',
+    opciones: tipos.map(([t, n]) => ({ valor: t, label: ETIQUETA_TIPO[t as keyof typeof ETIQUETA_TIPO], n })),
+  },
+  {
+    param: 'thread',
+    attr: 'thread',
+    legend: 'Thread',
+    opciones: threads.map((t) => ({ valor: t.id, label: t.data.corto, n: recursos.filter((r) => r.data.thread.id === t.id).length })),
+  },
+  { param: 'idioma', attr: 'idioma', legend: 'Idioma', opciones: idiomas.map(([p, n]) => ({ valor: p, label: p, n })), extra: true },
+  {
+    param: 'gratis',
+    attr: 'gratis',
+    legend: 'Costo',
+    opciones: [
+      { valor: 'si', label: 'Gratis', n: recursos.filter((r) => r.data.gratis).length },
+      { valor: 'no', label: 'Con partes pagas', n: recursos.filter((r) => !r.data.gratis).length },
+    ],
+    extra: true,
+  },
+];
+const ordenes = [
+  { valor: 'nombre', label: 'Ordenar: nombre (A a Z)' },
+  { valor: 'nuevos', label: 'Ordenar: revisados hace menos' },
+];
+---
+
+<Base
+  titulo="Recursos"
+  descripcion={`${recursos.length} recursos curados: bibliotecas, herramientas, guías, canales y comunidades para aprender tecnología, diseño y más.`}
+  actual="recursos"
+>
+  <div class="wrap" data-pagefind-body>
+    <header class="page-head">
+      <div class="page-head-in">
+        <div>
+          <p class="kicker"><Icon name="toolbox" /> Recursos</p>
+          <h1>Explorador de recursos</h1>
+        </div>
+        <p class="lead">
+          Bibliotecas, herramientas, guías, canales y comunidades que fui juntando en los threads. Todo en un solo lugar.
+        </p>
+      </div>
+    </header>
+
+    <div data-pagefind-ignore>
+      <FilterBar grupos={grupos} placeholder="Buscá por nombre, tema o sitio" ordenes={ordenes} noun="recursos" />
+    </div>
+
+    <div class="result-bar" data-pagefind-ignore>
+      <p class="result-count" data-conteo>
+        <span class="mono" data-conteo-n>{recursos.length}</span> de {recursos.length} recursos
+      </p>
+      <p class="sr-only" aria-live="polite" data-anuncio></p>
+    </div>
+
+    <h2 class="sr-only">Lista de recursos</h2>
+    <ul class="cards" data-lista data-noun="recursos">
+      {recursos.map((r) => <RecursoCard recurso={r} colorEtiqueta={colorEtiqueta} threadCorto={corto.get(r.data.thread.id) ?? ''} />)}
+    </ul>
+
+    <div class="panel empty" data-vacio hidden>
+      <span class="dot-ic" style="background:var(--t4)"><Icon name="search" /></span>
+      <h2>No hay recursos con esa combinación</h2>
+      <p>Probá con menos filtros o con otra palabra.</p>
+      <button class="btn btn--primary" type="button" data-limpiar-vacio>Limpiar filtros <Icon name="reset" /></button>
+    </div>
+  </div>
+</Base>
+
+<script>
+  import '../../scripts/filtros';
+</script>

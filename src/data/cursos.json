@@ -1,0 +1,4338 @@
+[
+  {
+    "id": "adobe-xd-aprende-a-crear-prototipos-profesionales-desde-0",
+    "nombre": "Adobe Xd: Aprende a crear prototipos profesionales desde 0",
+    "proveedores": [
+      "Udemy"
+    ],
+    "url": "https://www.udemy.com/course/curso-adobe-xd/",
+    "temas": [
+      "Diseño",
+      "UI",
+      "UX"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "6 hs",
+    "duracionHoras": 6,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "algebra-universitaria-con-python",
+    "nombre": "Algebra universitaria con Python",
+    "proveedores": [
+      "freeCodeCamp"
+    ],
+    "url": "https://www.freecodecamp.org/espanol/learn/college-algebra-with-python/",
+    "temas": [
+      "Programación",
+      "Python"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "algoritmos-de-javascript-y-estructuras-de-datos",
+    "nombre": "Algoritmos de JavaScript y Estructuras de Datos",
+    "proveedores": [
+      "freeCodeCamp"
+    ],
+    "url": "https://www.freecodecamp.org/espanol/learn/javascript-algorithms-and-data-structures/",
+    "temas": [
+      "Desarrollo Web",
+      "Full Stack",
+      "JavaScript",
+      "Programación"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "analisis-de-datos-con-python",
+    "nombre": "Análisis de Datos con Python",
+    "proveedores": [
+      "freeCodeCamp"
+    ],
+    "url": "https://www.freecodecamp.org/espanol/learn/data-analysis-with-python/",
+    "temas": [
+      "Data Science",
+      "Desarrollo Web",
+      "Full Stack",
+      "Jupyter",
+      "NumPy",
+      "Programación",
+      "Python"
+    ],
+    "categoria": [
+      "programacion",
+      "datos-y-ofimatica"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "analisis-de-datos-de-google-professional-certificate",
+    "nombre": "Análisis de Datos de Google Professional Certificate",
+    "proveedores": [
+      "Coursera",
+      "Google"
+    ],
+    "url": "https://www.coursera.org/google-certificates/certificado-analisis-de-datos",
+    "temas": [
+      "Big Data",
+      "Data Science"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "6 meses",
+    "duracionHoras": 240,
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "aprende-a-negociar",
+    "nombre": "Aprendé a Negociar",
+    "proveedores": [
+      "Academia Mai Pistiner"
+    ],
+    "url": "https://www.maipistiner.com/curso-el-arte-de-vender-pr",
+    "temas": [
+      "Comunicación",
+      "Oratoria",
+      "Soft Skills"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "<4 hs",
+    "duracionHoras": 4,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "pago",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "caido"
+  },
+  {
+    "id": "aprende-javascript",
+    "nombre": "Aprende JavaScript",
+    "proveedores": [
+      "midudev"
+    ],
+    "url": "https://www.aprendejavascript.dev/",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "Desarrollo Web",
+      "Full Stack",
+      "JavaScript",
+      "Programación"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "aprende-org",
+    "nombre": "Aprende.org",
+    "proveedores": [
+      "Fundación sin fines de lucro"
+    ],
+    "url": "https://aprende.org/listado-cursos",
+    "temas": [
+      "Administración de sistemas",
+      "Administración y finanzas",
+      "Alfabetización digital",
+      "Cloud computing",
+      "Comercio",
+      "Comunicación",
+      "Data Science",
+      "Desarrollo Web",
+      "Desarrollo de Software",
+      "Diseño",
+      "E-commerce",
+      "Gestión de Proyectos",
+      "Gestión de tiempo",
+      "IoT",
+      "Liderazgo",
+      "Marketing",
+      "Networking",
+      "Oratoria",
+      "Pensamiento crítico",
+      "Programación",
+      "Redes",
+      "SEO",
+      "Seguridad Informática",
+      "Soft Skills",
+      "Soporte IT",
+      "Tecno y mundo digital",
+      "Trabajo en equipo"
+    ],
+    "categoria": [
+      "programacion",
+      "gestion-y-soft-skills",
+      "diseno-ux-ui",
+      "ciudadania-y-seguridad",
+      "datos-y-ofimatica",
+      "marketing-y-finanzas"
+    ],
+    "duracion": "Según curso integrado",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "aprende-wordpress-de-forma-sencilla",
+    "nombre": "Aprende Wordpress de forma sencilla",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-aprende-wordpress-de-forma-sencilla-ftm-ed-16",
+    "temas": [
+      "Desarrollo Web",
+      "WordPress"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "30 hs",
+    "duracionHoras": 30,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "aprender-a-usar-power-bi",
+    "nombre": "Aprender a usar Power BI",
+    "proveedores": [
+      "Microsoft"
+    ],
+    "url": "https://powerbi.microsoft.com/es-es/learning/",
+    "temas": [
+      "Data Science",
+      "Microsoft 365",
+      "Ofimática",
+      "Power BI"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "Según curso integrado, Según tiempo de dedicación",
+    "idiomas": [
+      "Español",
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "aprendizaje-automatico-con-python",
+    "nombre": "Aprendizaje Automático con Python",
+    "proveedores": [
+      "freeCodeCamp"
+    ],
+    "url": "https://www.freecodecamp.org/espanol/learn/machine-learning-with-python/",
+    "temas": [
+      "Machine Learning",
+      "Programación",
+      "Python"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "aprendizaje-automatico-de-google",
+    "nombre": "Aprendizaje automático de Google",
+    "proveedores": [
+      "Google"
+    ],
+    "url": "https://developers.google.com/machine-learning?hl=es-419",
+    "temas": [
+      "Inteligencia Artificial"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "40 hs",
+    "duracionHoras": 40,
+    "idiomas": [
+      "Español",
+      "Inglés",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "base-de-datos-relacional",
+    "nombre": "Base de Datos Relacional",
+    "proveedores": [
+      "freeCodeCamp"
+    ],
+    "url": "https://www.freecodecamp.org/espanol/learn/relational-database/",
+    "temas": [
+      "Git y GitHub",
+      "Linux",
+      "PostgreSQL",
+      "SQL"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "calculo-cientifico-con-python",
+    "nombre": "Cálculo Científico con Python",
+    "proveedores": [
+      "freeCodeCamp"
+    ],
+    "url": "https://www.freecodecamp.org/espanol/learn/scientific-computing-with-python/",
+    "temas": [
+      "API",
+      "Desarrollo de Software",
+      "Full Stack",
+      "JSON",
+      "JavaScript",
+      "Programación",
+      "Python"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "canva-design-school",
+    "nombre": "Canva Design School",
+    "proveedores": [
+      "Canva"
+    ],
+    "url": "https://www.canva.com/designschool/",
+    "temas": [
+      "2D/3D Graphics",
+      "Animación",
+      "Diseño"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "capacitacion-sobre-aspectos-basicos-educador-google-nivel-1",
+    "nombre": "Capacitación sobre aspectos básicos (Educador Google Nivel 1)",
+    "proveedores": [
+      "Google"
+    ],
+    "url": "https://skillshop.exceedlms.com/student/path/111629-fundamentals-training",
+    "temas": [
+      "Docencia",
+      "Google Apps"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills",
+      "datos-y-ofimatica"
+    ],
+    "duracion": "15 hs",
+    "duracionHoras": 15,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "cenet-instituto-nacional-de-educacion-tecnologica-inet",
+    "nombre": "CeNET: Instituto Nacional de Educación Tecnológica (INET)",
+    "proveedores": [
+      "Programas gubernamentales"
+    ],
+    "url": "https://www.inet.edu.ar/index.php/cenet/oferta-de-capacitacion/oferta-virtual/",
+    "temas": [
+      "2D/3D Graphics",
+      "Alfabetización digital",
+      "Ciudadanía Digital",
+      "Comunicación",
+      "Docencia",
+      "Inteligencia Artificial",
+      "Soft Skills",
+      "Tecno y mundo digital"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills",
+      "diseno-ux-ui"
+    ],
+    "duracion": "Según curso integrado",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "caido"
+  },
+  {
+    "id": "certificado-profesional-de-analista-en-datos-de-ibm",
+    "nombre": "Certificado profesional de Analista en datos de IBM",
+    "proveedores": [
+      "Coursera",
+      "Google"
+    ],
+    "url": "https://es.coursera.org/professional-certificates/ibm-data-analyst",
+    "temas": [
+      "Data Science",
+      "Python",
+      "SQL"
+    ],
+    "categoria": [
+      "programacion",
+      "datos-y-ofimatica"
+    ],
+    "duracion": "<12 meses",
+    "duracionHoras": 480,
+    "idiomas": [
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "certificado-profesional-de-automatizacion-de-ti-de-google-con-python",
+    "nombre": "Certificado profesional de Automatización de TI de Google con Python",
+    "proveedores": [
+      "Coursera",
+      "Google"
+    ],
+    "url": "https://es.coursera.org/professional-certificates/google-it-automation",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "Programación",
+      "Python"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "6 meses",
+    "duracionHoras": 240,
+    "idiomas": [
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "certificado-profesional-de-diseno-de-experiencia-del-usuario-ux-de-goo",
+    "nombre": "Certificado profesional de Diseño de experiencia del usuario (UX) de Google",
+    "proveedores": [
+      "Coursera",
+      "Google"
+    ],
+    "url": "https://es.coursera.org/professional-certificates/google-ux-design",
+    "temas": [
+      "Diseño",
+      "UI",
+      "UX"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "6 meses",
+    "duracionHoras": 240,
+    "idiomas": [
+      "Español",
+      "Inglés",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "certificado-profesional-de-gestion-de-proyectos-de-google",
+    "nombre": "Certificado profesional de Gestión de proyectos de Google:",
+    "proveedores": [
+      "Coursera",
+      "Google"
+    ],
+    "url": "https://es.coursera.org/professional-certificates/google-project-management",
+    "temas": [
+      "Gestión de Proyectos"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "6 meses",
+    "duracionHoras": 240,
+    "idiomas": [
+      "Español",
+      "Inglés",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "certificado-profesional-de-soporte-de-ti-de-google",
+    "nombre": "Certificado profesional de Soporte de TI de Google",
+    "proveedores": [
+      "Coursera",
+      "Google"
+    ],
+    "url": "https://es.coursera.org/professional-certificates/google-it-support",
+    "temas": [
+      "Cloud computing",
+      "Linux",
+      "Redes",
+      "Soporte IT"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "6 meses",
+    "duracionHoras": 240,
+    "idiomas": [
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "certificados-profesionales-microsoft",
+    "nombre": "Certificados profesionales Microsoft",
+    "proveedores": [
+      "LinkedIn"
+    ],
+    "url": "https://www.linkedin.com/learning/topics/microsoft-18674489",
+    "temas": [
+      "Data Science",
+      "Gestión de Proyectos",
+      "Microsoft 365",
+      "SCRUM"
+    ],
+    "categoria": [
+      "programacion",
+      "gestion-y-soft-skills",
+      "datos-y-ofimatica"
+    ],
+    "duracion": "Según curso integrado, Según tiempo de dedicación",
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "chicos-net",
+    "nombre": "Chicos.net",
+    "proveedores": [
+      "Fundación sin fines de lucro"
+    ],
+    "url": "https://chicos.net/",
+    "temas": [
+      "Alfabetización digital",
+      "Docencia",
+      "Seguridad Informática",
+      "Tecno y mundo digital"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills",
+      "ciudadania-y-seguridad"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "ciberseguridad-buscar-las-huellas-que-dejas-para-que-te-ataquen",
+    "nombre": "Ciberseguridad: Buscar las huellas que dejas para que te ataquen",
+    "proveedores": [
+      "{desafío} latam_"
+    ],
+    "url": "https://cursos.desafiolatam.com/courses/ciberseguridad",
+    "temas": [
+      "Ciudadanía Digital",
+      "Seguridad Informática"
+    ],
+    "categoria": [
+      "ciudadania-y-seguridad"
+    ],
+    "duracion": "<2 hs",
+    "duracionHoras": 2,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "ciberseguridad-de-google-professional-certificate",
+    "nombre": "Ciberseguridad de Google Professional Certificate",
+    "proveedores": [
+      "Coursera",
+      "Google"
+    ],
+    "url": "https://www.coursera.org/professional-certificates/ciberseguridad-de-google",
+    "temas": [
+      "Administración de sistemas",
+      "Redes",
+      "Seguridad Informática"
+    ],
+    "categoria": [
+      "ciudadania-y-seguridad"
+    ],
+    "duracion": "4 meses",
+    "duracionHoras": 160,
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "ciberseguridad-en-el-entorno-educativo",
+    "nombre": "Ciberseguridad en el Entorno Educativo",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-ciberseguridad-en-el-entorno-educativo-ftm-ed-16",
+    "temas": [
+      "Docencia",
+      "Liderazgo",
+      "Seguridad Informática"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills",
+      "ciudadania-y-seguridad"
+    ],
+    "duracion": "30 hs",
+    "duracionHoras": 30,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "cloud-computing",
+    "nombre": "Cloud Computing",
+    "proveedores": [
+      "Google",
+      "International University"
+    ],
+    "url": "https://skillshop.exceedlms.com/student/collection/786255-cloud-computing?locale=es",
+    "temas": [
+      "Google Apps",
+      "Google Cloud Computing"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "40 hs",
+    "duracionHoras": 40,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "clubargentec",
+    "nombre": "ClubArgenTec",
+    "proveedores": [
+      "Programas gubernamentales"
+    ],
+    "url": "https://clubargentec.org/trayectos/todas/",
+    "temas": [
+      "Alfabetización digital",
+      "C#",
+      "Data Science",
+      "Desarrollo Web",
+      "Diseño",
+      "E-commerce",
+      "Full Stack",
+      "JavaScript",
+      "Marketing",
+      "Programación",
+      "Python",
+      "UI",
+      "UX",
+      "Videojuegos"
+    ],
+    "categoria": [
+      "programacion",
+      "diseno-ux-ui",
+      "datos-y-ofimatica",
+      "marketing-y-finanzas"
+    ],
+    "duracion": "Según curso integrado",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "comercio-electronico",
+    "nombre": "Comercio electrónico",
+    "proveedores": [
+      "Google",
+      "International University"
+    ],
+    "url": "https://skillshop.exceedlms.com/student/collection/787525-ecommerce?locale=es",
+    "temas": [
+      "Comercio",
+      "E-commerce",
+      "Google Apps",
+      "Marketing"
+    ],
+    "categoria": [
+      "datos-y-ofimatica",
+      "marketing-y-finanzas"
+    ],
+    "duracion": "40 hs",
+    "duracionHoras": 40,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "como-desarrollar-tu-carrera-laboral",
+    "nombre": "Cómo desarrollar tu carrera laboral",
+    "proveedores": [
+      "Academia Mai Pistiner"
+    ],
+    "url": "https://www.maipistiner.com/como-desarrollar-tu-carrera",
+    "temas": [
+      "Comunicación",
+      "Oratoria",
+      "Soft Skills"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "<5 hs",
+    "duracionHoras": 5,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "pago",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "caido"
+  },
+  {
+    "id": "competencias-digitales-para-profesionales",
+    "nombre": "Competencias digitales para profesionales",
+    "proveedores": [
+      "Fundación sin fines de lucro",
+      "Google"
+    ],
+    "url": "https://skillshop.exceedlms.com/student/collection/797196-digital-skills?locale=es",
+    "temas": [
+      "Alfabetización digital",
+      "Comunicación",
+      "Sistemas Operativos",
+      "Soft Skills"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "40 hs",
+    "duracionHoras": 40,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "comunicacion-y-manejo-de-las-emociones",
+    "nombre": "Comunicación y manejo de las emociones",
+    "proveedores": [
+      "Academia Mai Pistiner"
+    ],
+    "url": "https://www.maipistiner.com/curso-manejo-emociones",
+    "temas": [
+      "Comunicación",
+      "Oratoria",
+      "Soft Skills"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "<5 hs",
+    "duracionHoras": 5,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "pago",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "conceptos-basicos-de-hardware-de-computadora",
+    "nombre": "Conceptos Básicos de Hardware de Computadora",
+    "proveedores": [
+      "Cisco"
+    ],
+    "url": "https://www.netacad.com/courses/computer-hardware-basics?courseLang=es-XL",
+    "temas": [
+      "Sistemas Operativos",
+      "Soporte IT"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "6 hs",
+    "duracionHoras": 6,
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "conceptos-basicos-de-redes",
+    "nombre": "Conceptos básicos de redes",
+    "proveedores": [
+      "Cisco"
+    ],
+    "url": "https://www.netacad.com/courses/networking-basics?courseLang=es-XL",
+    "temas": [
+      "Cisco Packet Tracer",
+      "Redes"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "22 hs",
+    "duracionHoras": 22,
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "control-de-calidad",
+    "nombre": "Control de Calidad",
+    "proveedores": [
+      "freeCodeCamp"
+    ],
+    "url": "https://www.freecodecamp.org/espanol/learn/quality-assurance/",
+    "temas": [
+      "Desarrollo Web",
+      "Full Stack",
+      "JavaScript",
+      "Node.js",
+      "Programación"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "conviertete-en-desarrollador-web-full-stack",
+    "nombre": "Conviértete en desarrollador web full-stack",
+    "proveedores": [
+      "LinkedIn"
+    ],
+    "url": "https://www.linkedin.com/learning/paths/conviertete-en-desarrollador-web-full-stack",
+    "temas": [
+      "Full Stack",
+      "Git y GitHub",
+      "JavaScript",
+      "Programación",
+      "SCRUM",
+      "SQL"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "20 hs",
+    "duracionHoras": 20,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "caido"
+  },
+  {
+    "id": "cpa-programming-essentials-in-c-plus",
+    "nombre": "CPA: Programming Essentials in C++",
+    "proveedores": [
+      "Cisco"
+    ],
+    "url": "https://www.netacad.com/es/courses/programming/essentials-programming-c-plus-plus",
+    "temas": [
+      "C++",
+      "Programación"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "70 hs",
+    "duracionHoras": 70,
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "creacion-de-contenidos-digitales-en-el-entorno-educativo",
+    "nombre": "Creación de Contenidos Digitales en el Entorno Educativo",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-creacion-de-contenidos-digitales-en-el-entorno-educativo-ftm-ed-16",
+    "temas": [
+      "Alfabetización digital",
+      "Comunicación",
+      "Docencia"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "30 hs",
+    "duracionHoras": 30,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "cs50-introduction-to-computer-science",
+    "nombre": "CS50: Introduction to Computer Science",
+    "proveedores": [
+      "International University"
+    ],
+    "url": "https://pll.harvard.edu/course/cs50-introduction-computer-science",
+    "temas": [
+      "C",
+      "Desarrollo Web",
+      "Desarrollo de Software",
+      "HTML y CSS",
+      "JavaScript",
+      "Programación",
+      "Python",
+      "SQL",
+      "Sistemas Operativos"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "3 meses",
+    "duracionHoras": 120,
+    "idiomas": [
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "cs50-s-introduction-to-game-development",
+    "nombre": "CS50's Introduction to Game Development",
+    "proveedores": [
+      "International University"
+    ],
+    "url": "https://pll.harvard.edu/course/cs50s-introduction-game-development",
+    "temas": [
+      "2D/3D Graphics",
+      "C#",
+      "Programación",
+      "Videojuegos"
+    ],
+    "categoria": [
+      "programacion",
+      "diseno-ux-ui"
+    ],
+    "duracion": "3 meses",
+    "duracionHoras": 120,
+    "idiomas": [
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "curso-de-data-science",
+    "nombre": "Curso de Data Science",
+    "proveedores": [
+      "Santander Open Academy"
+    ],
+    "url": "https://www.santanderopenacademy.com/es/courses/introduction-to-data-science.html",
+    "temas": [
+      "Big Data",
+      "Data Science"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "<8 hs",
+    "duracionHoras": 8,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "curso-de-desarrollo-de-apps-moviles",
+    "nombre": "Curso de Desarrollo de Apps Móviles",
+    "proveedores": [
+      "Google",
+      "International University"
+    ],
+    "url": "https://skillshop.exceedlms.com/student/collection/798207-apps?locale=es",
+    "temas": [
+      "Alfabetización digital",
+      "Desarrollo Mobile"
+    ],
+    "categoria": [
+      "ciudadania-y-seguridad",
+      "programacion"
+    ],
+    "duracion": "40 hs",
+    "duracionHoras": 40,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "curso-de-e-commerce-y-gestion-comercial",
+    "nombre": "Curso de E-Commerce y Gestión Comercial",
+    "proveedores": [
+      "Santander Open Academy"
+    ],
+    "url": "https://www.santanderopenacademy.com/es/courses/ecommerce-with-commercial-management.html",
+    "temas": [
+      "Administración y finanzas",
+      "E-commerce",
+      "Gestión empresarial",
+      "Marketing"
+    ],
+    "categoria": [
+      "marketing-y-finanzas"
+    ],
+    "duracion": "<8 hs",
+    "duracionHoras": 8,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "curso-de-herramientas-de-google",
+    "nombre": "Curso de Herramientas de Google",
+    "proveedores": [
+      "Fundación sin fines de lucro"
+    ],
+    "url": "https://eltiotech.com/curso-de-google/",
+    "temas": [
+      "Microsoft 365",
+      "Ofimática"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "curso-de-introduccion-al-desarrollo-web-html-y-css-1-2",
+    "nombre": "Curso de introducción al desarrollo web: HTML y CSS (1/2)",
+    "proveedores": [
+      "Google",
+      "International University"
+    ],
+    "url": "https://skillshop.exceedlms.com/student/collection/799479-web-development-i?locale=es",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "40 hs",
+    "duracionHoras": 40,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "curso-de-introduccion-al-desarrollo-web-html-y-css-2-2",
+    "nombre": "Curso de introducción al desarrollo web: HTML y CSS (2/2)",
+    "proveedores": [
+      "Google",
+      "International University"
+    ],
+    "url": "https://skillshop.exceedlms.com/student/collection/800472-web-development-ii?locale=es",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "40 hs",
+    "duracionHoras": 40,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "curso-de-marketing-digital",
+    "nombre": "Curso de Marketing Digital",
+    "proveedores": [
+      "Santander Open Academy"
+    ],
+    "url": "https://www.santanderopenacademy.com/es/courses/digital-marketing.html",
+    "temas": [
+      "Marketing",
+      "Storytelling"
+    ],
+    "categoria": [
+      "marketing-y-finanzas"
+    ],
+    "duracion": "<8 hs",
+    "duracionHoras": 8,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "curso-de-negociacion",
+    "nombre": "Curso de Negociación",
+    "proveedores": [
+      "Santander Open Academy"
+    ],
+    "url": "https://www.santanderopenacademy.com/es/courses/negotiation.html",
+    "temas": [
+      "Comunicación",
+      "Negociación",
+      "Oratoria",
+      "Soft Skills"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "<8 hs",
+    "duracionHoras": 8,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "curso-de-word-gratis-basico-hasta-avanzado",
+    "nombre": "Curso de Word GRATIS: Básico hasta Avanzado",
+    "proveedores": [
+      "Fundación sin fines de lucro"
+    ],
+    "url": "https://eltiotech.com/word/",
+    "temas": [
+      "Microsoft 365",
+      "Ofimática"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "curso-gratis-de-power-bi",
+    "nombre": "Curso gratis de Power BI",
+    "proveedores": [
+      "Plataforma libre en internet"
+    ],
+    "url": "https://eltiotech.com/curso-de-power-bi-gratis/",
+    "temas": [
+      "Data Science",
+      "Microsoft 365",
+      "Ofimática",
+      "Power BI"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "curso-marketing-digital-verificar-periodos-de-inscripcion",
+    "nombre": "Curso Marketing Digital (verificar periodos de inscripción!)",
+    "proveedores": [
+      "Programas gubernamentales"
+    ],
+    "url": "https://gcba.digitaladexpert.com/",
+    "temas": [
+      "E-commerce",
+      "Google Apps",
+      "Marketing"
+    ],
+    "categoria": [
+      "datos-y-ofimatica",
+      "marketing-y-finanzas"
+    ],
+    "duracion": "3 meses",
+    "duracionHoras": 120,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "curso-power-bi-gratuito-certificado-ibm-skillsbuild-verificar-fechas-d",
+    "nombre": "Curso Power BI gratuito certificado (IBM SkillsBuild) - verificar fechas de convocatorias",
+    "proveedores": [
+      "Plataforma libre en internet"
+    ],
+    "url": "https://www.datahack.es/cursos/curso-power-bi/",
+    "temas": [
+      "Data Science",
+      "Microsoft 365",
+      "Ofimática",
+      "Power BI"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "40 hs",
+    "duracionHoras": 40,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "caido"
+  },
+  {
+    "id": "cursos-de-excel-gratis-basico-intermedio-y-avanzado-el-tio-tech",
+    "nombre": "Cursos de Excel GRATIS: Básico, Intermedio y Avanzado, El Tío Tech",
+    "proveedores": [
+      "Plataforma libre en internet"
+    ],
+    "url": "https://eltiotech.com/cursos-de-excel-gratis/",
+    "temas": [
+      "Microsoft 365",
+      "Ofimática"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "cybersecurity-essentials",
+    "nombre": "Cybersecurity Essentials",
+    "proveedores": [
+      "Cisco"
+    ],
+    "url": "https://www.netacad.com/es/courses/cybersecurity/cybersecurity-essentials",
+    "temas": [
+      "Cisco Packet Tracer",
+      "Redes",
+      "Seguridad Informática"
+    ],
+    "categoria": [
+      "ciudadania-y-seguridad"
+    ],
+    "duracion": "30 hs",
+    "duracionHoras": 30,
+    "idiomas": [
+      "Español",
+      "Inglés",
+      "Portugués"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "desafio-latam",
+    "nombre": "Desafío latam",
+    "proveedores": [
+      "{desafío} latam_"
+    ],
+    "url": "https://sqlinteractivo.desafiolatam.com/",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "JavaScript",
+      "Programación",
+      "SQL"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "desarrollo-back-end-y-apis",
+    "nombre": "Desarrollo Back End y APIs",
+    "proveedores": [
+      "freeCodeCamp"
+    ],
+    "url": "https://www.freecodecamp.org/espanol/learn/back-end-development-and-apis/",
+    "temas": [
+      "API",
+      "Desarrollo Web",
+      "Full Stack",
+      "JavaScript",
+      "MongoDB",
+      "Node.js",
+      "Programación"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "descubriendo-el-emprendimiento",
+    "nombre": "Descubriendo el Emprendimiento",
+    "proveedores": [
+      "Cisco"
+    ],
+    "url": "https://www.netacad.com/courses/discovering-entrepreneurship?courseLang=es-XL",
+    "temas": [
+      "Comercio",
+      "Marketing"
+    ],
+    "categoria": [
+      "marketing-y-finanzas"
+    ],
+    "duracion": "20 hs",
+    "duracionHoras": 20,
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "design-thinking",
+    "nombre": "Design Thinking",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-design-thinking-ftm-ed-3",
+    "temas": [
+      "Design Thinking",
+      "UI",
+      "UX"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "25 hs",
+    "duracionHoras": 25,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "digit-lers-para-mayores-de-18-anos",
+    "nombre": "Digit@lers (para mayores de 18 años)",
+    "proveedores": [
+      "Programas gubernamentales",
+      "Telecom Argentina"
+    ],
+    "url": "http://www.digitalers.com.ar/",
+    "temas": [
+      ".NET",
+      "Data Science",
+      "Full Stack",
+      "JavaScript",
+      "Marketing",
+      "Node.js",
+      "Python",
+      "UI",
+      "UX"
+    ],
+    "categoria": [
+      "programacion",
+      "diseno-ux-ui",
+      "datos-y-ofimatica",
+      "marketing-y-finanzas"
+    ],
+    "duracion": "Según curso integrado",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "digitaliza-paso-a-paso-tu-negocio-con-herramientas-de-google",
+    "nombre": "Digitaliza paso a paso tu negocio con herramientas de Google",
+    "proveedores": [
+      "Google"
+    ],
+    "url": "https://skillshop.exceedlms.com/student/collection/891093-get-business-online?locale=es",
+    "temas": [
+      "E-commerce",
+      "Google Apps",
+      "Marketing",
+      "SEO"
+    ],
+    "categoria": [
+      "datos-y-ofimatica",
+      "marketing-y-finanzas"
+    ],
+    "duracion": "<2 hs",
+    "duracionHoras": 2,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "diplomatura-educar-en-la-cultura-digital",
+    "nombre": "Diplomatura: Educar en la Cultura Digital",
+    "proveedores": [
+      "Programas gubernamentales"
+    ],
+    "url": "https://aulaabierta.info/educar-en-la-cultura-digital/",
+    "temas": [
+      "Ciudadanía Digital",
+      "Docencia",
+      "Seguridad Informática"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills",
+      "ciudadania-y-seguridad"
+    ],
+    "duracion": "3 meses",
+    "duracionHoras": 120,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "pago",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "caido"
+  },
+  {
+    "id": "diseno-de-experiencia-del-usuario-ux-de-google-professional-certificat",
+    "nombre": "Diseño de Experiencia del Usuario (UX) de Google Professional Certificate",
+    "proveedores": [
+      "Coursera",
+      "Google"
+    ],
+    "url": "https://www.coursera.org/google-certificates/certificado-diseno-de-experiencia-del-usuario-ux",
+    "temas": [
+      "Diseño",
+      "UI",
+      "UX"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "6 meses",
+    "duracionHoras": 240,
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "diseno-web-con-html5-css",
+    "nombre": "Diseño Web con HTML5 + CSS",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-diseno-web-con-html5-css-ftm-ed-16",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "30 hs",
+    "duracionHoras": 30,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "diseno-web-responsive",
+    "nombre": "Diseño Web Responsive",
+    "proveedores": [
+      "freeCodeCamp"
+    ],
+    "url": "https://www.freecodecamp.org/espanol/learn/2022/responsive-web-design/",
+    "temas": [
+      "Desarrollo Web",
+      "Full Stack",
+      "HTML y CSS",
+      "Programación"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "domina-las-habilidades-de-vida-personales",
+    "nombre": "Domina las habilidades de vida personales",
+    "proveedores": [
+      "LinkedIn"
+    ],
+    "url": "https://www.linkedin.com/learning/paths/domina-las-habilidades-de-vida-personales",
+    "temas": [
+      "Comunicación",
+      "Oratoria"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "12 hs",
+    "duracionHoras": 12,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "domina-las-herramientas-de-trabajo-en-equipo-colaborativo-y-digital",
+    "nombre": "Domina las herramientas de trabajo en equipo colaborativo y digital",
+    "proveedores": [
+      "LinkedIn"
+    ],
+    "url": "https://www.linkedin.com/learning/paths/domina-las-herramientas-de-trabajo-en-equipo-colaborativo-y-digital",
+    "temas": [
+      "Soft Skills",
+      "Trabajo en equipo"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "24 hs",
+    "duracionHoras": 24,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "english-for-it-1",
+    "nombre": "English for IT 1",
+    "proveedores": [
+      "Cisco"
+    ],
+    "url": "https://www.netacad.com/courses/english-for-it1?courseLang=en-US",
+    "temas": [
+      "Comunicación",
+      "Idiomas",
+      "Oratoria"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "50 hs",
+    "duracionHoras": 50,
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "english-for-it-2",
+    "nombre": "English for IT 2",
+    "proveedores": [
+      "Cisco"
+    ],
+    "url": "https://www.netacad.com/courses/english-for-it2?courseLang=en-US",
+    "temas": [
+      "Comunicación",
+      "Idiomas",
+      "Oratoria"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "50 hs",
+    "duracionHoras": 50,
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "excel-avanzado",
+    "nombre": "Excel Avanzado",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-excel-avanzado-ftm-ed-3",
+    "temas": [
+      "Microsoft 365",
+      "Ofimática"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "30 hs",
+    "duracionHoras": 30,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "excel-easy-tutoriales-de-excel-en-internet",
+    "nombre": "Excel Easy: tutoriales de Excel en internet",
+    "proveedores": [
+      "Plataforma libre en internet"
+    ],
+    "url": "https://www.excel-easy.com/",
+    "temas": [
+      "Microsoft 365",
+      "Ofimática"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "exercism-get-really-good-at-programming",
+    "nombre": "Exercism: Get really good at programming",
+    "proveedores": [
+      "Plataforma libre en internet"
+    ],
+    "url": "https://exercism.org/",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "Desarrollo Web",
+      "Desarrollo de Software",
+      "Full Stack",
+      "Programación",
+      "Desarrollo Mobile"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "Según curso integrado, Según tiempo de dedicación",
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "exploracion-de-redes-con-cisco-packet-tracer",
+    "nombre": "Exploración de redes con Cisco Packet Tracer",
+    "proveedores": [
+      "Cisco"
+    ],
+    "url": "https://www.netacad.com/courses/exploring-networking-cisco-packet-tracer?courseLang=es-XL",
+    "temas": [
+      "Cisco Packet Tracer",
+      "Redes"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "<3 hs",
+    "duracionHoras": 3,
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "finanzas-personales-para-emprendedores",
+    "nombre": "Finanzas personales para emprendedores",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-finanzas-personales-para-emprendedores-ftm-ed-3",
+    "temas": [
+      "Administración y finanzas",
+      "Educación Financiera"
+    ],
+    "categoria": [
+      "marketing-y-finanzas"
+    ],
+    "duracion": "30 hs",
+    "duracionHoras": 30,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "foundations-of-programming",
+    "nombre": "Foundations of Programming",
+    "proveedores": [
+      "Google"
+    ],
+    "url": "https://techdevguide.withgoogle.com/paths/foundational/",
+    "temas": [
+      "Programación"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "Según curso integrado, Según tiempo de dedicación",
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "full-stack-open-inmersion-profunda-en-el-desarrollo-web-moderno",
+    "nombre": "Full Stack Open: Inmersión Profunda en el Desarrollo Web Moderno",
+    "proveedores": [
+      "International University",
+      "Programas gubernamentales"
+    ],
+    "url": "https://fullstackopen.com/es/about/",
+    "temas": [
+      "Desarrollo Web",
+      "Desarrollo de Software",
+      "Full Stack",
+      "HTML y CSS",
+      "JavaScript",
+      "Programación",
+      "React",
+      "TypeScript"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "Según curso integrado",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "fundamentals-of-digital-marketing",
+    "nombre": "Fundamentals of digital marketing",
+    "proveedores": [
+      "Google"
+    ],
+    "url": "https://www.classcentral.com/course/google-fundamentals-of-digital-marketing-98265",
+    "temas": [
+      "E-commerce",
+      "Marketing"
+    ],
+    "categoria": [
+      "marketing-y-finanzas"
+    ],
+    "duracion": "40 hs",
+    "duracionHoras": 40,
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "fundamentos-de-la-carrera-de-administracion-de-sistemas-de-microsoft-y",
+    "nombre": "Fundamentos de la carrera de administración de sistemas de Microsoft y LinkedIn",
+    "proveedores": [
+      "LinkedIn"
+    ],
+    "url": "https://www.linkedin.com/learning/fundamentos-de-la-carrera-de-administracion-de-sistemas-de-microsoft-y-linkedin",
+    "temas": [
+      "Administración de sistemas",
+      "Cloud computing",
+      "Redes",
+      "Seguridad Informática",
+      "Sistemas Operativos"
+    ],
+    "categoria": [
+      "ciudadania-y-seguridad"
+    ],
+    "duracion": "<5 hs",
+    "duracionHoras": 5,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "fundamentos-de-marketing-digital",
+    "nombre": "Fundamentos de Marketing Digital",
+    "proveedores": [
+      "Google"
+    ],
+    "url": "https://skillshop.exceedlms.com/student/collection/807416-digital-marketing?locale=es",
+    "temas": [
+      "E-commerce",
+      "Google Apps",
+      "Marketing",
+      "SEO"
+    ],
+    "categoria": [
+      "datos-y-ofimatica",
+      "marketing-y-finanzas"
+    ],
+    "duracion": "40 hs",
+    "duracionHoras": 40,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "fundamentos-de-programacion",
+    "nombre": "Fundamentos de Programación",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-fundamentos-de-programacion-ftm-ed-16",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "Programación"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "40 hs",
+    "duracionHoras": 40,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "fundamentos-de-python-1",
+    "nombre": "Fundamentos de Python 1",
+    "proveedores": [
+      "Cisco"
+    ],
+    "url": "https://www.netacad.com/courses/python-essentials-1?courseLang=es-XL",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "Programación",
+      "Python"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "30 hs",
+    "duracionHoras": 30,
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "fundamentos-de-python-2",
+    "nombre": "Fundamentos de Python 2",
+    "proveedores": [
+      "Cisco"
+    ],
+    "url": "https://www.netacad.com/courses/python-essentials-2?courseLang=es-XL",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "Programación",
+      "Python"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "40 hs",
+    "duracionHoras": 40,
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "fundamentos-de-ux",
+    "nombre": "Fundamentos de UX",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-fundamentos-de-ux-ftm-ed-3",
+    "temas": [
+      "Diseño",
+      "UI",
+      "UX"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "30 hs",
+    "duracionHoras": 30,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "fundamentos-del-diseno-ux",
+    "nombre": "Fundamentos del Diseño UX",
+    "proveedores": [
+      "Crehana"
+    ],
+    "url": "https://www.crehana.com/cursos-online-ui-ux/fundamentos-del-diseno-ux/?__country_code=ar",
+    "temas": [
+      "Diseño",
+      "UI",
+      "UX"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "<1 hs",
+    "duracionHoras": 1,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "fundamentos-profesionales-de-analisis-empresarial-por-microsoft-y-link",
+    "nombre": "Fundamentos profesionales de análisis empresarial, por Microsoft y LinkedIn",
+    "proveedores": [
+      "LinkedIn"
+    ],
+    "url": "https://www.linkedin.com/learning/paths/fundamentos-profesionales-de-analisis-empresarial-por-microsoft-y-linkedin",
+    "temas": [
+      "Análisis empresarial",
+      "Data Science",
+      "Microsoft 365",
+      "Ofimática"
+    ],
+    "categoria": [
+      "datos-y-ofimatica",
+      "marketing-y-finanzas"
+    ],
+    "duracion": "<5 hs",
+    "duracionHoras": 5,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "fundamentos-profesionales-de-asistencia-administrativa-por-microsoft-y",
+    "nombre": "Fundamentos profesionales de asistencia administrativa, por Microsoft y LinkedIn",
+    "proveedores": [
+      "LinkedIn"
+    ],
+    "url": "https://www.linkedin.com/learning/paths/fundamentos-profesionales-de-asistencia-administrativa-por-microsoft-y-linkedin",
+    "temas": [
+      "Comunicación",
+      "Gestión de tiempo",
+      "Microsoft 365",
+      "Ofimática"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills",
+      "datos-y-ofimatica"
+    ],
+    "duracion": "<10 hs",
+    "duracionHoras": 10,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "fundamentos-profesionales-de-gestion-de-proyectos-por-microsoft-y-link",
+    "nombre": "Fundamentos profesionales de gestión de proyectos, por Microsoft y LinkedIn",
+    "proveedores": [
+      "LinkedIn"
+    ],
+    "url": "https://www.linkedin.com/learning/paths/fundamentos-profesionales-de-la-gestion-de-proyectos-por-microsoft-y-linkedin",
+    "temas": [
+      "Comunicación",
+      "Gestión de Proyectos",
+      "Microsoft 365",
+      "Ofimática"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills",
+      "datos-y-ofimatica"
+    ],
+    "duracion": "20 hs",
+    "duracionHoras": 20,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "fundamentos-profesionales-del-analisis-de-datos-por-microsoft-y-linked",
+    "nombre": "Fundamentos profesionales del análisis de datos, por Microsoft y LinkedIn",
+    "proveedores": [
+      "LinkedIn"
+    ],
+    "url": "https://www.linkedin.com/learning/paths/fundamentos-profesionales-del-analisis-de-datos-por-microsoft-y-linkedin",
+    "temas": [
+      "Data Science"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "<10 hs",
+    "duracionHoras": 10,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "fundamentos-profesionales-del-desarrollo-de-software-por-microsoft-y-l",
+    "nombre": "Fundamentos profesionales del desarrollo de software, por Microsoft y LinkedIn",
+    "proveedores": [
+      "LinkedIn"
+    ],
+    "url": "https://www.linkedin.com/learning/paths/fundamentos-profesionales-del-desarrollo-de-software-por-microsoft-y-linkedin",
+    "temas": [
+      "Desarrollo de Software",
+      "Programación"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "<5 hs",
+    "duracionHoras": 5,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "fundamentos-profesionales-en-tecnologia-sostenible-por-microsoft-y-lin",
+    "nombre": "Fundamentos profesionales en tecnología sostenible, por Microsoft y LinkedIn",
+    "proveedores": [
+      "LinkedIn"
+    ],
+    "url": "https://www.linkedin.com/learning/paths/fundamentos-profesionales-en-tecnologia-sostenible-por-microsoft-y-linkedin",
+    "temas": [
+      "Gestión de Proyectos",
+      "Microsoft 365",
+      "Sostenibilidad"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills",
+      "datos-y-ofimatica"
+    ],
+    "duracion": "Según curso integrado, Según tiempo de dedicación",
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "generative-ai-for-educators",
+    "nombre": "Generative AI for Educators",
+    "proveedores": [
+      "Google"
+    ],
+    "url": "https://grow.google/ai-for-educators/",
+    "temas": [
+      "Docencia",
+      "Inteligencia Artificial"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "<2 hs",
+    "duracionHoras": 2,
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "gestion-de-proyectos-con-metodologias-agiles-y-enfoques-lean",
+    "nombre": "Gestión de Proyectos con Metodologías Ágiles y Enfoques Lean",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-gestion-de-proyectos-con-metodologias-agiles-y-enfoques-lean-ftm-ed-16",
+    "temas": [
+      "Docencia",
+      "Gestión de Proyectos",
+      "Gestión de tiempo",
+      "Pensamiento crítico",
+      "SCRUM",
+      "Trabajo en equipo"
+    ],
+    "categoria": [
+      "programacion",
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "40 hs",
+    "duracionHoras": 40,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "gestion-de-proyectos-de-google-professional-certificate",
+    "nombre": "Gestión de Proyectos de Google Professional Certificate",
+    "proveedores": [
+      "Coursera",
+      "Google"
+    ],
+    "url": "https://www.coursera.org/google-certificates/certificado-gestion-de-proyectos",
+    "temas": [
+      "Gestión de Proyectos",
+      "Liderazgo",
+      "SCRUM",
+      "Trabajo en equipo"
+    ],
+    "categoria": [
+      "programacion",
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "6 meses",
+    "duracionHoras": 240,
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "gestion-de-proyectos-y-fundamentos-de-metodologia-agile",
+    "nombre": "Gestión de Proyectos y Fundamentos de metodología Agile",
+    "proveedores": [
+      "Santander Open Academy"
+    ],
+    "url": "https://www.santanderopenacademy.com/es/courses/project-management-agile-fundamentals.html",
+    "temas": [
+      "Design Thinking",
+      "Docencia",
+      "Gestión de Proyectos",
+      "Gestión de tiempo",
+      "Liderazgo",
+      "SCRUM",
+      "Trabajo en equipo"
+    ],
+    "categoria": [
+      "programacion",
+      "gestion-y-soft-skills",
+      "diseno-ux-ui"
+    ],
+    "duracion": "<8 hs",
+    "duracionHoras": 8,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "get-started-with-gemini-for-google-workspace",
+    "nombre": "Get Started with Gemini for Google Workspace",
+    "proveedores": [
+      "Google"
+    ],
+    "url": "https://skillshop.exceedlms.com/student/path/1178011-get-started-with-gemini-for-google-workspace",
+    "temas": [
+      "Inteligencia Artificial"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "<1 hs",
+    "duracionHoras": 1,
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "google-cloud-computing-foundations-cloud-computing-fundamentals",
+    "nombre": "Google Cloud Computing Foundations: Cloud Computing Fundamentals",
+    "proveedores": [
+      "Google"
+    ],
+    "url": "https://www.classcentral.com/course/google-cloud-computing-foundations-cloud-computing-fundamentals-98568",
+    "temas": [
+      "Google Cloud Computing"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "<10 hs",
+    "duracionHoras": 10,
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "google-cloud-computing-foundations-infrastructure-in-google-cloud",
+    "nombre": "Google Cloud Computing Foundations: Infrastructure in Google Cloud",
+    "proveedores": [
+      "Google"
+    ],
+    "url": "https://www.classcentral.com/course/google-cloud-computing-foundations-infrastructure-in-google-cloud-98569",
+    "temas": [
+      "Google Cloud Computing"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "<10 hs",
+    "duracionHoras": 10,
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "google-cloud-skills-boost",
+    "nombre": "Google Skills (ex Google Cloud Skills Boost)",
+    "proveedores": [
+      "Google"
+    ],
+    "url": "https://www.skills.google/",
+    "temas": [
+      "Google Cloud Computing"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "Según curso integrado",
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "google-for-education",
+    "nombre": "Google for Education",
+    "proveedores": [
+      "Google"
+    ],
+    "url": "https://edu.google.com/intl/ALL_ar/for-educators/overview/?modal_active=none",
+    "temas": [
+      "Alfabetización digital",
+      "Docencia",
+      "Soft Skills",
+      "Tecno y mundo digital"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "Según curso integrado",
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "google-marketing-digital-e-e-commerce-professional-certificate",
+    "nombre": "Google Marketing Digital e E-Commerce Professional Certificate",
+    "proveedores": [
+      "Coursera",
+      "Google"
+    ],
+    "url": "https://www.coursera.org/professional-certificates/certificado-de-carrera-de-google-marketing-digital-e-e-commerce",
+    "temas": [
+      "E-commerce",
+      "Marketing",
+      "SEO"
+    ],
+    "categoria": [
+      "marketing-y-finanzas"
+    ],
+    "duracion": "4 meses",
+    "duracionHoras": 160,
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "google-marketing-platform",
+    "nombre": "Google Marketing Platform",
+    "proveedores": [
+      "Google"
+    ],
+    "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=564-google-marketing-platform",
+    "temas": [
+      "E-commerce",
+      "Google Apps",
+      "Marketing",
+      "SEO"
+    ],
+    "categoria": [
+      "datos-y-ofimatica",
+      "marketing-y-finanzas"
+    ],
+    "duracion": "Según curso integrado",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "grow-with-google",
+    "nombre": "Grow with Google",
+    "proveedores": [
+      "Google"
+    ],
+    "url": "https://grow.google/intl/es/courses-and-tools/",
+    "temas": [
+      "Alfabetización digital",
+      "Docencia",
+      "E-commerce",
+      "Google Apps",
+      "Programación",
+      "IoT",
+      "Marketing",
+      "Oratoria",
+      "Soft Skills",
+      "Soporte IT",
+      "Tecno y mundo digital",
+      "UX"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills",
+      "diseno-ux-ui",
+      "datos-y-ofimatica",
+      "marketing-y-finanzas"
+    ],
+    "duracion": "Según curso integrado",
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "growth-hacking",
+    "nombre": "Growth Hacking",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-growth-hacking-ftm-ed-16",
+    "temas": [
+      "Gestión de Proyectos",
+      "Marketing"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills",
+      "marketing-y-finanzas"
+    ],
+    "duracion": "30 hs",
+    "duracionHoras": 30,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "habilidades-para-el-empleo",
+    "nombre": "Habilidades para el Empleo",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-habilidades-para-el-empleo-ftm-ed-16",
+    "temas": [
+      "Comunicación",
+      "Oratoria",
+      "Soft Skills"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "30 hs",
+    "duracionHoras": 30,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "https-www-domestika-org-es-courses-1235-introduccion-al-diseno-ux",
+    "nombre": "https://www.domestika.org/es/courses/1235-introduccion-al-diseno-ux",
+    "proveedores": [
+      "Domestika"
+    ],
+    "url": "https://www.domestika.org/es/courses/1235-introduccion-al-diseno-ux",
+    "temas": [
+      "Diseño",
+      "UI",
+      "UX"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "<4 hs",
+    "duracionHoras": 4,
+    "idiomas": [
+      "Inglés c/subs"
+    ],
+    "certificacion": "pago",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "https-www-domestika-org-es-courses-390-introduccion-a-la-programacion",
+    "nombre": "https://www.domestika.org/es/courses/390-introduccion-a-la-programacion-en-javascript",
+    "proveedores": [
+      "Domestika"
+    ],
+    "url": "https://www.domestika.org/es/courses/390-introduccion-a-la-programacion-en-javascript",
+    "temas": [
+      "JavaScript",
+      "Programación"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "<4 hs",
+    "duracionHoras": 4,
+    "idiomas": [
+      "Español",
+      "Inglés",
+      "Portugués"
+    ],
+    "certificacion": "pago",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "https-www-domestika-org-es-courses-405-introduccion-al-desarrollo-web",
+    "nombre": "https://www.domestika.org/es/courses/405-introduccion-al-desarrollo-web-con-php",
+    "proveedores": [
+      "Domestika"
+    ],
+    "url": "https://www.domestika.org/es/courses/405-introduccion-al-desarrollo-web-con-php",
+    "temas": [
+      "PHP",
+      "Programación"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "<4 hs",
+    "duracionHoras": 4,
+    "idiomas": [
+      "Español",
+      "Inglés",
+      "Portugués"
+    ],
+    "certificacion": "pago",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "https-www-domestika-org-es-courses-74-introduccion-al-desarrollo-web-r",
+    "nombre": "https://www.domestika.org/es/courses/74-introduccion-al-desarrollo-web-responsive-con-html-y-css",
+    "proveedores": [
+      "Domestika"
+    ],
+    "url": "https://www.domestika.org/es/courses/74-introduccion-al-desarrollo-web-responsive-con-html-y-css",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "<3 hs",
+    "duracionHoras": 3,
+    "idiomas": [
+      "Español",
+      "Inglés",
+      "Portugués"
+    ],
+    "certificacion": "pago",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "introduccion-a-ciberseguridad",
+    "nombre": "Introducción a Ciberseguridad",
+    "proveedores": [
+      "Cisco"
+    ],
+    "url": "https://www.netacad.com/courses/introduction-to-cybersecurity?courseLang=es-XL",
+    "temas": [
+      "Seguridad Informática"
+    ],
+    "categoria": [
+      "ciudadania-y-seguridad"
+    ],
+    "duracion": "6 hs",
+    "duracionHoras": 6,
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "introduccion-a-cisco-packet-tracer",
+    "nombre": "Introducción a Cisco Packet Tracer",
+    "proveedores": [
+      "Cisco"
+    ],
+    "url": "https://www.netacad.com/courses/getting-started-cisco-packet-tracer?courseLang=es-XL",
+    "temas": [
+      "Cisco Packet Tracer",
+      "Redes"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "<2 hs",
+    "duracionHoras": 2,
+    "idiomas": [
+      "Español",
+      "Inglés",
+      "Portugués"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "introduccion-a-figma",
+    "nombre": "Introducción a Figma",
+    "proveedores": [
+      "Udemy"
+    ],
+    "url": "https://www.udemy.com/course/figma-diseno-de-prototipos-desde-cero/",
+    "temas": [
+      "Diseño",
+      "UI",
+      "UX"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "<2 hs",
+    "duracionHoras": 2,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "introduccion-a-la-ciencia-de-datos",
+    "nombre": "Introducción a la Ciencia de Datos",
+    "proveedores": [
+      "Cisco"
+    ],
+    "url": "https://www.netacad.com/courses/introduction-data-science?courseLang=es-XL",
+    "temas": [
+      "Big Data",
+      "Data Science",
+      "Inteligencia Artificial"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "6 hs",
+    "duracionHoras": 6,
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "introduccion-a-power-bi",
+    "nombre": "Introducción a Power BI",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-introduccion-a-power-bi-ftm-ed-3",
+    "temas": [
+      "Power BI"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "30 hs",
+    "duracionHoras": 30,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "introduccion-a-ux-y-ui",
+    "nombre": "Introducción a UX y UI",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-introduccion-a-ux-y-ui-ftm-ed-3",
+    "temas": [
+      "Diseño",
+      "UI",
+      "UX"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "30 hs",
+    "duracionHoras": 30,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "introduccion-al-desarrollo-web",
+    "nombre": "Introducción al Desarrollo Web",
+    "proveedores": [
+      "{desafío} latam_"
+    ],
+    "url": "https://cursos.desafiolatam.com/courses/introduccion-al-desarrollo-web",
+    "temas": [
+      "Bootstrap",
+      "Desarrollo Web",
+      "Git y GitHub",
+      "HTML y CSS",
+      "JavaScript",
+      "Programación"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "<3 hs",
+    "duracionHoras": 3,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "introduccion-al-diseno-de-videojuegos",
+    "nombre": "Introducción al Diseño de Videojuegos",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-introduccion-al-diseno-de-videojuegos-ftm-ed-16",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "Programación",
+      "Videojuegos"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "30 hs",
+    "duracionHoras": 30,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "introduccion-al-internet-de-las-cosas-y-transformacion-digital",
+    "nombre": "Introducción al Internet de las Cosas y Transformación Digital",
+    "proveedores": [
+      "Cisco"
+    ],
+    "url": "https://www.netacad.com/courses/introduction-iot?courseLang=es-XL",
+    "temas": [
+      "IoT"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "6 hs",
+    "duracionHoras": 6,
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "introduction-to-cybersecurity",
+    "nombre": "Introduction to Cybersecurity",
+    "proveedores": [
+      "Cisco"
+    ],
+    "url": "https://www.netacad.com/es/courses/cybersecurity/introduction-cybersecurity",
+    "temas": [
+      "Seguridad Informática"
+    ],
+    "categoria": [
+      "ciudadania-y-seguridad"
+    ],
+    "duracion": "15 hs",
+    "duracionHoras": 15,
+    "idiomas": [
+      "Español",
+      "Inglés",
+      "Portugués"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "introduction-to-iot",
+    "nombre": "Introduction to IoT",
+    "proveedores": [
+      "Cisco"
+    ],
+    "url": "https://www.netacad.com/es/courses/iot/introduction-iot",
+    "temas": [
+      "IoT"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "20 hs",
+    "duracionHoras": 20,
+    "idiomas": [
+      "Español",
+      "Inglés",
+      "Portugués"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "introduction-to-user-experience-design",
+    "nombre": "Introduction to User Experience Design",
+    "proveedores": [
+      "Coursera",
+      "International University"
+    ],
+    "url": "https://www.coursera.org/learn/user-experience-design",
+    "temas": [
+      "Diseño",
+      "UI",
+      "UX"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "6 hs",
+    "duracionHoras": 6,
+    "idiomas": [
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "javascript-essentials-1",
+    "nombre": "JavaScript Essentials 1",
+    "proveedores": [
+      "Cisco"
+    ],
+    "url": "https://www.netacad.com/courses/javascript-essentials-1?courseLang=en-US",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "JavaScript",
+      "Programación"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "40 hs",
+    "duracionHoras": 40,
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "javascript-essentials-1-jse",
+    "nombre": "JavaScript Essentials 1 (JSE)",
+    "proveedores": [
+      "Cisco"
+    ],
+    "url": "https://www.netacad.com/es/courses/programming/javascript-essentials-1",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "JavaScript",
+      "Programación"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "40 hs",
+    "duracionHoras": 40,
+    "idiomas": [
+      "Español",
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "javascript-essentials-2",
+    "nombre": "JavaScript Essentials 2",
+    "proveedores": [
+      "Cisco"
+    ],
+    "url": "https://www.netacad.com/courses/javascript-essentials-2?courseLang=en-US",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "JavaScript",
+      "Programación"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "50 hs",
+    "duracionHoras": 50,
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "javascript-para-principiantes",
+    "nombre": "JavaScript para Principiantes",
+    "proveedores": [
+      "Microsoft"
+    ],
+    "url": "https://www.maismulheres.tech/courses/javaScript-para-principiantes",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "Desarrollo Web",
+      "JavaScript",
+      "Programación"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "6 hs",
+    "duracionHoras": 6,
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "jovenes-programadores-20-cursos-de-programacion-online-gratuitos-y-con",
+    "nombre": "Jóvenes Programadores (20 cursos de programación online, gratuitos y con asistencia de tutores)",
+    "proveedores": [
+      "Programas gubernamentales"
+    ],
+    "url": "https://www.jovenesprogramadores.cl/",
+    "temas": [
+      "Desarrollo de Software",
+      "Inteligencia Artificial",
+      "IoT",
+      "JavaScript",
+      "Programación",
+      "Python",
+      "Seguridad Informática",
+      "Videojuegos"
+    ],
+    "categoria": [
+      "programacion",
+      "ciudadania-y-seguridad"
+    ],
+    "duracion": "Según curso integrado",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "librerias-de-desarrollo-de-interfaz",
+    "nombre": "Librerías de desarrollo de interfaz",
+    "proveedores": [
+      "freeCodeCamp"
+    ],
+    "url": "https://www.freecodecamp.org/espanol/learn/front-end-development-libraries/",
+    "temas": [
+      "Bootstrap",
+      "Desarrollo Web",
+      "Framework",
+      "Full Stack",
+      "HTML y CSS",
+      "JavaScript",
+      "Programación",
+      "React",
+      "Redux",
+      "jQuery"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "linkedin-para-networking",
+    "nombre": "LinkedIn para networking",
+    "proveedores": [
+      "LinkedIn"
+    ],
+    "url": "https://www.linkedin.com/learning/linkedin-para-networking-2",
+    "temas": [
+      "Comunicación",
+      "Networking"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "<2 hs",
+    "duracionHoras": 2,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "marketing-digital",
+    "nombre": "Marketing Digital",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-marketing-digital-ftm-ed-16",
+    "temas": [
+      "Gestión de Proyectos",
+      "Marketing"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills",
+      "marketing-y-finanzas"
+    ],
+    "duracion": "30 hs",
+    "duracionHoras": 30,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "mejora-la-seguridad-online-de-tu-empresa",
+    "nombre": "Mejora la seguridad online de tu empresa",
+    "proveedores": [
+      "Google"
+    ],
+    "url": "https://skillshop.exceedlms.com/student/collection/768273-improve-online-security?locale=es",
+    "temas": [
+      "Seguridad Informática"
+    ],
+    "categoria": [
+      "ciudadania-y-seguridad"
+    ],
+    "duracion": "<1 hs",
+    "duracionHoras": 1,
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "networking-y-marketing-personal",
+    "nombre": "Networking y Marketing Personal",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-networking-y-marketing-personal-ftm-ed-12",
+    "temas": [
+      "Docencia",
+      "Marketing"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills",
+      "marketing-y-finanzas"
+    ],
+    "duracion": "40 hs",
+    "duracionHoras": 40,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "nextjs-el-framework-de-react",
+    "nombre": "NextJS: el framework de React",
+    "proveedores": [
+      "midudev"
+    ],
+    "url": "https://midu.dev/curso-gratis-next-js-framework-de-react-2020/",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "Desarrollo Web",
+      "Full Stack",
+      "JavaScript",
+      "NextJS",
+      "Programación",
+      "React"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "office-basico",
+    "nombre": "Office Básico",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-office-basico-ftm-ed-8",
+    "temas": [
+      "Microsoft 365",
+      "Ofimática"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "20 hs",
+    "duracionHoras": 20,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "office-intermedio",
+    "nombre": "Office Intermedio",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-office-intermedio-ftm-ed-8",
+    "temas": [
+      "Microsoft 365",
+      "Ofimática"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "20 hs",
+    "duracionHoras": 20,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "operating-systems-basics",
+    "nombre": "Operating Systems Basics",
+    "proveedores": [
+      "Cisco"
+    ],
+    "url": "https://www.netacad.com/courses/operating-systems-basics?courseLang=en-US",
+    "temas": [
+      "Linux",
+      "Sistemas Operativos"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "12 hs",
+    "duracionHoras": 12,
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "oratoria",
+    "nombre": "Oratoria",
+    "proveedores": [
+      "Academia Mai Pistiner"
+    ],
+    "url": "https://www.maipistiner.com/curso-oratoria",
+    "temas": [
+      "Comunicación",
+      "Oratoria",
+      "Soft Skills"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "<4 hs",
+    "duracionHoras": 4,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "pago",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "pcap-programming-essentials-in-python",
+    "nombre": "PCAP: Programming Essentials in Python",
+    "proveedores": [
+      "Cisco"
+    ],
+    "url": "https://www.netacad.com/courses/programming/pcap-programming-essentials-python",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "Programación",
+      "Python"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "75 hs",
+    "duracionHoras": 75,
+    "idiomas": [
+      "Español",
+      "Inglés",
+      "Portugués"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "plan-digital-de-comunicacion",
+    "nombre": "Plan Digital de Comunicación",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-aprende-a-desarrollar-un-plan-digital-de-comunicacion-ftm-ed-12",
+    "temas": [
+      "Gestión de Proyectos",
+      "Marketing"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills",
+      "marketing-y-finanzas"
+    ],
+    "duracion": "40 hs",
+    "duracionHoras": 40,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "plataforma-de-aprendizaje-virtual",
+    "nombre": "Plataforma de Aprendizaje Virtual",
+    "proveedores": [
+      "Programas gubernamentales"
+    ],
+    "url": "https://www.argentina.gob.ar/jefatura/innovacion-ciencia-y-tecnologia/tecnologias-de-la-informacion/plataforma-de-aprendizaje",
+    "temas": [
+      "Alfabetización digital",
+      "Data Science",
+      "Diseño",
+      "Marketing",
+      "SQL",
+      "Seguridad Informática",
+      "Sistemas Operativos",
+      "Soft Skills",
+      "Tecno y mundo digital"
+    ],
+    "categoria": [
+      "programacion",
+      "gestion-y-soft-skills",
+      "diseno-ux-ui",
+      "ciudadania-y-seguridad",
+      "datos-y-ofimatica",
+      "marketing-y-finanzas"
+    ],
+    "duracion": "Según curso integrado",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "potrero-digital-verificar-periodos-de-inscripcion-al-inicio-de-cuatris",
+    "nombre": "Potrero Digital (VERIFICAR PERIODOS DE INSCRIPCIÓN AL INICIO DE CUATRIS)",
+    "proveedores": [
+      "Programas gubernamentales"
+    ],
+    "url": "https://www.potrerodigital.org/",
+    "temas": [
+      "Animación",
+      "Cloud computing",
+      "Desarrollo Web",
+      "E-commerce",
+      "Marketing",
+      "Programación",
+      "Videojuegos"
+    ],
+    "categoria": [
+      "programacion",
+      "diseno-ux-ui",
+      "marketing-y-finanzas"
+    ],
+    "duracion": "4 meses",
+    "duracionHoras": 160,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "power-bi-linkedin-learning",
+    "nombre": "Power BI - LinkedIn Learning",
+    "proveedores": [
+      "LinkedIn"
+    ],
+    "url": "https://www.linkedin.com/learning/topics/power-bi?originalSubdomain=es",
+    "temas": [
+      "Data Science",
+      "Microsoft 365",
+      "Ofimática",
+      "Power BI"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "Según curso integrado, Según tiempo de dedicación",
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "preparacion-de-entrevistas-de-programacion",
+    "nombre": "Preparación de Entrevistas de Programación",
+    "proveedores": [
+      "freeCodeCamp"
+    ],
+    "url": "https://www.freecodecamp.org/espanol/learn/coding-interview-prep/",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "Full Stack",
+      "Programación"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "presentaciones-en-publico-y-digitales",
+    "nombre": "Presentaciones en Público y Digitales",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-presentaciones-en-publico-y-digitales-ftm-ed-3",
+    "temas": [
+      "Comunicación",
+      "Microsoft 365",
+      "Ofimática",
+      "Oratoria"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills",
+      "datos-y-ofimatica"
+    ],
+    "duracion": "30 hs",
+    "duracionHoras": 30,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "principios-basicos-de-big-data",
+    "nombre": "Principios Básicos de Big Data",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-principios-basicos-de-big-data-ftm-ed-12",
+    "temas": [
+      "Big Data",
+      "Data Science"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "20 hs",
+    "duracionHoras": 20,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "problem-solving-python-programming-and-video-games",
+    "nombre": "Problem Solving, Python Programming, and Video Games",
+    "proveedores": [
+      "Coursera",
+      "International University"
+    ],
+    "url": "https://www.coursera.org/learn/problem-solving-programming-video-games",
+    "temas": [
+      "Python",
+      "Sistemas Operativos",
+      "Videojuegos"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "80 hs",
+    "duracionHoras": 80,
+    "idiomas": [
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "productividad-personal",
+    "nombre": "Productividad Personal",
+    "proveedores": [
+      "Google",
+      "International University"
+    ],
+    "url": "https://skillshop.exceedlms.com/student/collection/779484-personal-productivity?locale=es",
+    "temas": [
+      "Comunicación",
+      "Google Apps",
+      "Marketing"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills",
+      "datos-y-ofimatica",
+      "marketing-y-finanzas"
+    ],
+    "duracion": "40 hs",
+    "duracionHoras": 40,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "programacion-con-java-standard",
+    "nombre": "Programación con Java Standard",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-programacion-con-java-standard-ftm-ed-16",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "Java",
+      "Programación"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "40 hs",
+    "duracionHoras": 40,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "programacion-con-javascript",
+    "nombre": "Programación con JavaScript",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-programacion-con-javascript-ftm-ed-16",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "Desarrollo Web",
+      "Desarrollo de Software",
+      "JSON",
+      "JavaScript",
+      "Programación"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "40 hs",
+    "duracionHoras": 40,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "programacion-neurolinguistica",
+    "nombre": "Programación Neurolingüística",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-programacion-neurolinguistica-ftm-ed-7",
+    "temas": [
+      "Comunicación",
+      "Docencia",
+      "Oratoria"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "25 hs",
+    "duracionHoras": 25,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "protege-tu-negocio-ciberseguridad-en-el-teletrabajo",
+    "nombre": "Protege tu Negocio: Ciberseguridad en el Teletrabajo",
+    "proveedores": [
+      "Google"
+    ],
+    "url": "https://skillshop.exceedlms.com/student/collection/779906-cybersecurity-remote-work?locale=es",
+    "temas": [
+      "Seguridad Informática"
+    ],
+    "categoria": [
+      "ciudadania-y-seguridad"
+    ],
+    "duracion": "<2 hs",
+    "duracionHoras": 2,
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "python-para-principiantes",
+    "nombre": "Python para principiantes",
+    "proveedores": [
+      "Microsoft"
+    ],
+    "url": "https://learn.microsoft.com/es-es/shows/intro-to-python-development/",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "Desarrollo Web",
+      "Programación",
+      "Python"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "reactjs-curso-gratis-con-clases-en-vivo-edicion-2020",
+    "nombre": "ReactJS: Curso gratis con clases en vivo (Edición 2020)",
+    "proveedores": [
+      "midudev"
+    ],
+    "url": "https://midu.dev/curso-gratis-react-2020/",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "Desarrollo Web",
+      "Full Stack",
+      "JavaScript",
+      "Programación",
+      "React"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "ruta-de-aprendizaje-de-alfabetizacion-digital-y-productividad",
+    "nombre": "Ruta de aprendizaje de alfabetización digital y productividad",
+    "proveedores": [
+      "LinkedIn"
+    ],
+    "url": "https://www.linkedin.com/learning/paths/ruta-de-aprendizaje-de-alfabetizacion-digital-y-productividad",
+    "temas": [
+      "Alfabetización digital",
+      "Microsoft 365",
+      "Ofimática"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "<5 hs",
+    "duracionHoras": 5,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "ruta-de-aprendizaje-de-habilidades-profesionales-blandas",
+    "nombre": "Ruta de aprendizaje de habilidades profesionales blandas",
+    "proveedores": [
+      "LinkedIn"
+    ],
+    "url": "https://www.linkedin.com/learning/paths/ruta-de-aprendizaje-de-habilidades-profesionales-blandas",
+    "temas": [
+      "Comunicación",
+      "Pensamiento crítico",
+      "Soft Skills",
+      "Trabajo en equipo"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "12 hs",
+    "duracionHoras": 12,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "ruta-de-aprendizaje-para-el-emprendimiento",
+    "nombre": "Ruta de aprendizaje para el emprendimiento",
+    "proveedores": [
+      "LinkedIn"
+    ],
+    "url": "https://www.linkedin.com/learning/paths/ruta-de-aprendizaje-del-emprendimiento",
+    "temas": [
+      "Análisis empresarial",
+      "Gestión empresarial"
+    ],
+    "categoria": [
+      "marketing-y-finanzas"
+    ],
+    "duracion": "15 hs",
+    "duracionHoras": 15,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "seguridad-de-la-informacion",
+    "nombre": "Seguridad de la Información",
+    "proveedores": [
+      "freeCodeCamp"
+    ],
+    "url": "https://www.freecodecamp.org/espanol/learn/information-security/",
+    "temas": [
+      "Administración de sistemas",
+      "Programación",
+      "Python",
+      "Seguridad Informática"
+    ],
+    "categoria": [
+      "programacion",
+      "ciudadania-y-seguridad"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "shutup-and-startup-de-tecnicos-a-emprendedores",
+    "nombre": "ShutUp and StartUp: de técnicos a emprendedores",
+    "proveedores": [
+      "{desafío} latam_"
+    ],
+    "url": "https://cursos.desafiolatam.com/courses/ShutUp-and-StartUp-7-hacks-para-partir-tu-startup",
+    "temas": [
+      "Gestión de Proyectos"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "<2 hs",
+    "duracionHoras": 2,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "soporte-de-tecnologias-de-la-informacion-de-google-professional-certif",
+    "nombre": "Soporte de Tecnologías de la Información de Google Professional Certificate",
+    "proveedores": [
+      "Coursera",
+      "Google"
+    ],
+    "url": "https://www.coursera.org/google-certificates/certificado-soporte-de-tecnologias-de-informacion",
+    "temas": [
+      "Administración de sistemas",
+      "Seguridad Informática",
+      "Soporte IT"
+    ],
+    "categoria": [
+      "ciudadania-y-seguridad"
+    ],
+    "duracion": "6 meses",
+    "duracionHoras": 240,
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-limite",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "sqlbolt",
+    "nombre": "SQLBolt",
+    "proveedores": [
+      "Plataforma libre en internet"
+    ],
+    "url": "https://sqlbolt.com/",
+    "temas": [
+      "SQL"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "sveltejs-curso-gratis-desde-cero",
+    "nombre": "SvelteJS: Curso gratis desde cero",
+    "proveedores": [
+      "midudev"
+    ],
+    "url": "https://midu.dev/curso-gratis-svelte/",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "Desarrollo Web",
+      "Full Stack",
+      "JavaScript",
+      "Programación",
+      "Svelte"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "tacticas-de-negociacion-efectiva",
+    "nombre": "Tácticas de negociación Efectiva",
+    "proveedores": [
+      "Fundación Telefónica"
+    ],
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/web/ar-tacticas-de-negociacion-efectiva-ftm-ed-7",
+    "temas": [
+      "Comunicación",
+      "Docencia",
+      "Oratoria"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "30 hs",
+    "duracionHoras": 30,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "taller-figma",
+    "nombre": "Taller - Figma",
+    "proveedores": [
+      "{desafío} latam_"
+    ],
+    "url": "https://cursos.desafiolatam.com/courses/taller-figma",
+    "temas": [
+      "Diseño",
+      "UI",
+      "UX"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "<2 hs",
+    "duracionHoras": 2,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "transformacion-digital",
+    "nombre": "Transformación Digital",
+    "proveedores": [
+      "Santander Open Academy"
+    ],
+    "url": "https://www.santanderopenacademy.com/es/courses/digital-transformation.html",
+    "temas": [
+      "Alfabetización digital",
+      "Inteligencia Artificial",
+      "IoT",
+      "Seguridad Informática",
+      "Tecno y mundo digital"
+    ],
+    "categoria": [
+      "ciudadania-y-seguridad"
+    ],
+    "duracion": "<8 hs",
+    "duracionHoras": 8,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "transformacion-digital-para-el-empleo",
+    "nombre": "Transformación digital para el empleo",
+    "proveedores": [
+      "Google",
+      "International University"
+    ],
+    "url": "https://skillshop.exceedlms.com/student/collection/780496-digital-transformation?locale=es",
+    "temas": [
+      "Comunicación",
+      "Networking",
+      "Soft Skills"
+    ],
+    "categoria": [
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "40 hs",
+    "duracionHoras": 40,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "user-experience-basics",
+    "nombre": "User Experience Basics",
+    "proveedores": [
+      "FutureLearn"
+    ],
+    "url": "https://www.futurelearn.com/courses/digital-skills-user-experience",
+    "temas": [
+      "Diseño",
+      "UI",
+      "UX"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "<2 hs",
+    "duracionHoras": 2,
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "visualizacion-de-datos",
+    "nombre": "Visualización de Datos",
+    "proveedores": [
+      "freeCodeCamp"
+    ],
+    "url": "https://www.freecodecamp.org/espanol/learn/data-visualization/",
+    "temas": [
+      "AJAX",
+      "API",
+      "Desarrollo Web",
+      "Full Stack",
+      "JSON",
+      "Programación"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "Según tiempo de dedicación",
+    "idiomas": [
+      "Español",
+      "Inglés c/subs"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "web-dev",
+    "nombre": "Web.dev",
+    "proveedores": [
+      "Google"
+    ],
+    "url": "https://web.dev/learn",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "Desarrollo Web",
+      "HTML y CSS",
+      "Programación"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "Según curso integrado, Según tiempo de dedicación",
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  }
+]

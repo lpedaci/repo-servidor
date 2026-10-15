@@ -1,0 +1,21 @@
+---
+/** Ícono del sprite. Decorativo por defecto; con `label` pasa a tener nombre accesible. */
+interface Props {
+  name: string;
+  label?: string;
+  class?: string;
+}
+const { name, label, class: cls } = Astro.props;
+---
+
+{
+  label ? (
+    <svg class:list={["ic", cls]} role="img" aria-label={label}>
+      <use href={`#i-${name}`} />
+    </svg>
+  ) : (
+    <svg class:list={["ic", cls]} aria-hidden="true">
+      <use href={`#i-${name}`} />
+    </svg>
+  )
+}

@@ -1,0 +1,29 @@
+---
+import Icon from './Icon.astro';
+import ThreadArt from './ThreadArt.astro';
+import { url } from '../lib/site';
+interface Props {
+  thread: { id: string; data: { color: string; icono: string; orden: number; corto: string; bajada: string } };
+  conteo: string;
+  posicion: number; // 1..4, define el lugar en la grilla del Lobby
+}
+const { thread: t, conteo, posicion } = Astro.props;
+---
+
+<a
+  class={`tile thread-card b-thread-${posicion}`}
+  href={url(`/threads/${t.id}/`)}
+  style={`--tile: var(--${t.data.color}); --i:${2 + posicion}`}
+>
+  <ThreadArt tema={t.id} />
+  <span class="thread-top">
+    <span class="dot-ic"><Icon name={t.data.icono} /></span>
+    <span class="thread-n">{conteo}</span>
+  </span>
+  <span>
+    <span class="label">Thread {t.data.orden}</span>
+    <h2 class="thread-title">{t.data.corto}</h2>
+    <p class="thread-bajada">{t.data.bajada}</p>
+    <span class="thread-go" style="margin-top:1rem">Entrar <Icon name="arrow-right" /></span>
+  </span>
+</a>

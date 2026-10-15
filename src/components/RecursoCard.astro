@@ -1,0 +1,72 @@
+---
+import Icon from './Icon.astro';
+import FavButton from './FavButton.astro';
+import { ETIQUETA_TIPO, ICONO_TIPO } from '../lib/icons.mjs';
+import { dominio } from '../lib/linkcard.mjs';
+import { isoDate, url } from '../lib/site';
+interface Props {
+  recurso: {
+    id: string;
+    data: {
+      nombre: string;
+      url: string;
+      descripcion: string;
+      tipo: string;
+      temas: string[];
+      idioma: string[];
+      gratis: boolean;
+      thread: { id: string };
+      revisado: Date;
+      estado: string;
+    };
+  };
+  colorEtiqueta: Map<string, string>;
+  threadCorto: string;
+}
+const { recurso, colorEtiqueta, threadCorto } = Astro.props;
+const d = recurso.data;
+const temas = d.temas.slice(0, 3);
+---
+
+<li
+  class="card"
+  data-item
+  data-key={`recurso:${recurso.id}`}
+  data-nombre={d.nombre}
+  data-texto={[d.nombre, d.descripcion, ...d.temas, dominio(d.url)].join(' ').toLowerCase()}
+  data-tipo={d.tipo}
+  data-thread={d.thread.id}
+  data-idioma={d.idioma.join('|')}
+  data-gratis={d.gratis ? 'si' : 'no'}
+  data-agregado={isoDate(d.revisado)}
+>
+  <div class="card-top">
+    <div>
+      <span class="chip"><Icon name={ICONO_TIPO[d.tipo as keyof typeof ICONO_TIPO]} /> {ETIQUETA_TIPO[d.tipo as keyof typeof ETIQUETA_TIPO]}</span>
+      <h3 id={`recurso-${recurso.id}`} class="card-title" style="margin-top:0.6rem">{d.nombre}</h3>
+      <p class="card-prov mono">{dominio(d.url)}</p>
+    </div>
+    <FavButton tipo="recurso" id={recurso.id} nombre={d.nombre} href={url(`/recursos/#recurso-${recurso.id}`)} />
+  </div>
+  {d.descripcion && <p class="card-desc">{d.descripcion}</p>}
+  {
+    temas.length > 0 && (
+      <ul class="chips" aria-label="Temas">
+        {temas.map((t) => (
+          <li class={`chip chip--${colorEtiqueta.get(t) ?? 't1'}`}>{t}</li>
+        ))}
+      </ul>
+    )
+  }
+  <div class="card-foot" data-pagefind-ignore>
+    <span class="card-facts">
+      <span>{threadCorto}</span>
+      {d.idioma.length > 0 && <span>{d.idioma.join(', ')}</span>}
+      {!d.gratis && <span class="badge badge--pago">Tiene partes pagas</span>}
+      {d.estado === 'revisar' && <span class="badge badge--revisar">Link en revisión</span>}
+    </span>
+    <a class="btn btn--sm" href={d.url} target="_blank" rel="noopener noreferrer">
+      Abrir <Icon name="external" /><span class="sr-only"> {d.nombre} (se abre en otra pestaña)</span>
+    </a>
+  </div>
+</li>

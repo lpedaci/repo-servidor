@@ -1,0 +1,578 @@
+---
+/**
+ * Parte alta del Lobby, "Consola". Hero carbón con una terminal que escribe sola (la metáfora del server
+ * llevada literal), fila de datos en tarjetas pastel y categorías como tarjetas horizontales
+ * de color pleno, cada una con su color.
+ */
+import Icon from '../Icon.astro';
+import TemasBanda from './TemasBanda.astro';
+import { SITE, url } from '../../lib/site';
+import type { DatosLobby } from '../../lib/lobby';
+interface Props {
+  d: DatosLobby;
+}
+const { d } = Astro.props;
+
+// Sesión SSH a un Ubuntu, con los números reales del server.
+const partes = Object.fromEntries(
+  new Intl.DateTimeFormat('en-US', {
+    weekday: 'short', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', year: 'numeric', hour12: false, timeZone: 'America/Argentina/Buenos_Aires',
+  })
+    .formatToParts(new Date())
+    .map((p) => [p.type, p.value])
+);
+const ultimoLogin = `${partes.weekday} ${partes.month} ${partes.day} ${partes.hour}:${partes.minute}:${partes.second} ${partes.year}`;
+const plural = (n: number, s: string) => `${n} ${s}${n === 1 ? '' : 's'}`;
+type Paso = { local?: boolean; cmd: string; out: string[] };
+const sesion: Paso[] = [
+  {
+    local: true,
+    cmd: 'ssh user@servidor-de-lourdes',
+    out: [
+      'Welcome to Ubuntu 24.04.1 LTS (GNU/Linux 6.8.0-45-generic x86_64)',
+      '',
+      ' * Documentation:  https://lpedaci.github.io/repo-servidor/',
+      '',
+      `Last login: ${ultimoLogin} from 192.168.0.27`,
+    ],
+  },
+  { cmd: 'uptime -p', out: [`up ${plural(d.desde.anios, 'year')}, ${plural(d.desde.meses, 'month')}`] },
+  { cmd: 'ls ~/threads', out: ['cursando  cursos  tecnologia  variaditos'] },
+  { cmd: 'ls ~/cursos | wc -l', out: [String(d.cursos.length)] },
+  { cmd: 'grep -ril "python" ~/cursos | wc -l', out: [String(d.conPython)] },
+  { cmd: 'cat ~/README.md', out: [SITE.lema] },
+  {
+    cmd: 'sudo apt install ganas-de-aprender',
+    out: ['Reading package lists... Done', 'ganas-de-aprender is already the newest version (2019.12).', '0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.'],
+  },
+];
+---
+
+<div class="wrap pa stagger">
+  <section class="pa-hero" style="--i:0" aria-labelledby="pa-t">
+    <div class="pa-copy">
+      <p class="pa-kicker"><span class="status-dot" aria-hidden="true"></span> server online desde {d.desde.texto}</p>
+      <h2 class="pa-title" id="pa-t">
+        <span class="line"><span style="--l:0">Te doy la bienvenida</span></span>
+        <span class="line"><span style="--l:1">al <em>server</em></span></span>
+      </h2>
+      <p class="pa-lema">{SITE.lema}</p>
+      <div class="pa-cta">
+        <a class="btn pa-btn" href={url('/threads/')}>Explorar threads <Icon name="arrow-right" /></a>
+        <a class="pa-link" href={url('/cursos/')}>Ver cursos</a>
+      </div>
+    </div>
+
+    <div class="pa-term" aria-hidden="true">
+      <div class="pa-term-bar"><i></i><i></i><i></i><span>user@servidor: ~</span></div>
+      <div class="pa-term-body" data-sesion={JSON.stringify(sesion)}>
+        {
+          sesion.map((p) => (
+            <Fragment>
+              <p>
+                {p.local ? <span class="pa-pr">user@casa</span> : <span class="pa-pr">user@servidor</span>}:<span class="pa-path">~</span>$ {p.cmd}
+              </p>
+              {p.out.map((o) => <p class="pa-out">{o || ' '}</p>)}
+            </Fragment>
+          ))
+        }
+        <p>
+          <span class="pa-pr">user@servidor</span>:<span class="pa-path">~</span>$ <span class="pa-caret" />
+        </p>
+      </div>
+      <ul class="pa-orbit">
+        {d.cats.map((c, i) => <li style={`--c: var(--${c.color}); --k:${i}`}><Icon name={c.icono} /></li>)}
+      </ul>
+    </div>
+  </section>
+
+  <ul class="pa-stats" aria-label="El server en números">
+    <li class="pa-stat" style="--c: var(--t1); --i:1">
+      <span class="pa-stat-ic"><Icon name="graduation-cap" /></span>
+      <span><strong data-count={d.nCursos}>{d.nCursos}</strong> cursos activos</span>
+    </li>
+    <li class="pa-stat" style="--c: var(--t6); --i:2">
+      <span class="pa-stat-ic"><Icon name="toolbox" /></span>
+      <span><strong data-count={d.nRecursos}>{d.nRecursos}</strong> recursos curados</span>
+    </li>
+    <li class="pa-stat" style="--c: var(--t4); --i:3">
+      <span class="pa-stat-ic"><Icon name="certificate" /></span>
+      <span><strong data-count={d.conCertificado}>{d.conCertificado}</strong> con certificado gratis</span>
+    </li>
+    <li class="pa-stat" style="--c: var(--t5); --i:4">
+      <span class="pa-stat-ic"><Icon name="signal" /></span>
+      <span><strong data-count={d.desde.anios}>{d.desde.anios}</strong> años online</span>
+    </li>
+  </ul>
+
+  <section class="pa-cats" style="--i:5" aria-labelledby="pa-cats-t">
+    <div class="pa-cats-head">
+      <h2 id="pa-cats-t">Elegí por dónde arrancar</h2>
+      <p>Seis categorías, cada una con su color. Tocá una y el explorador se abre ya filtrado.</p>
+    </div>
+    <ul class="pa-cat-grid">
+      {
+        d.cats.map((c) => (
+          <li>
+            <a class="pa-cat" href={url(`/cursos/?cat=${c.id}`)} style={`--c: var(--${c.color})`}>
+              <span class="pa-cat-ic">
+                <Icon name={c.icono} />
+              </span>
+              <span class="pa-cat-txt">
+                <span class="pa-cat-name">{c.nombre}</span>
+                <span class="pa-cat-n">{c.n} cursos</span>
+              </span>
+              <span class="pa-cat-go">
+                <Icon name="arrow-right" />
+              </span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+    <div class="panel pa-banda"><TemasBanda temas={d.temasTop} colorDe={d.colorDe} id="pa-temas" /></div>
+  </section>
+</div>
+
+<script>
+  // La terminal reproduce la sesión: escribe cada comando, muestra su salida y al final hace "clear" y vuelve a empezar.
+  // Sin JS o con movimiento reducido se ve la sesión completa, quieta.
+  type Paso = { local?: boolean; cmd: string; out: string[] };
+  const body = document.querySelector<HTMLElement>('.pa-term-body');
+  if (body && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const sesion: Paso[] = JSON.parse(body.dataset.sesion ?? '[]');
+    const espera = (ms: number) => new Promise((r) => setTimeout(r, ms));
+    const caret = document.createElement('span');
+    caret.className = 'pa-caret';
+
+    const prompt = (local?: boolean) => {
+      const p = document.createElement('p');
+      const pr = document.createElement('span');
+      pr.className = 'pa-pr';
+      pr.textContent = local ? 'user@casa' : 'user@servidor';
+      const path = document.createElement('span');
+      path.className = 'pa-path';
+      path.textContent = '~';
+      const cmd = document.createElement('span');
+      p.append(pr, ':', path, '$ ', cmd, caret);
+      body.append(p);
+      return cmd;
+    };
+    const salida = (txt: string) => {
+      const p = document.createElement('p');
+      p.className = 'pa-out';
+      p.textContent = txt || ' ';
+      body.append(p);
+    };
+
+    const correr = async () => {
+      for (;;) {
+        body.replaceChildren();
+        for (const paso of sesion) {
+          const cmd = prompt(paso.local);
+          await espera(700);
+          for (const ch of paso.cmd) {
+            cmd.textContent += ch;
+            await espera(38 + Math.random() * 55);
+          }
+          await espera(350);
+          caret.remove();
+          for (const o of paso.out) {
+            salida(o);
+            await espera(paso.local ? 140 : 60);
+          }
+        }
+        prompt();
+        await espera(5000);
+        const cmd = body.lastElementChild!.querySelector('span:nth-of-type(3)') as HTMLElement;
+        for (const ch of 'clear') {
+          cmd.textContent += ch;
+          await espera(90);
+        }
+        await espera(400);
+      }
+    };
+    setTimeout(correr, 1200);
+  }
+</script>
+
+<style>
+  .pa {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--gap);
+    padding-top: 1.25rem;
+  }
+  .pa-hero {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+    align-items: center;
+    gap: clamp(1.5rem, 4vw, 3rem);
+    overflow: hidden;
+    padding: clamp(1.5rem, 4vw, 3.25rem);
+    border-radius: var(--r-lg);
+    background: var(--deep);
+    color: var(--on-deep);
+  }
+  /* Manchas de color de las categorías detrás de la terminal */
+  .pa-hero::before {
+    content: '';
+    position: absolute;
+    right: -8%;
+    top: -30%;
+    width: 60%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background:
+      radial-gradient(circle at 30% 40%, color-mix(in srgb, var(--t5) 55%, transparent), transparent 55%),
+      radial-gradient(circle at 70% 65%, color-mix(in srgb, var(--t6) 50%, transparent), transparent 55%);
+    opacity: 0.35;
+    filter: blur(10px);
+    pointer-events: none;
+  }
+  .pa-copy {
+    position: relative;
+  }
+  .pa-kicker {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 0 0 1.5rem;
+    padding: 0.4rem 0.9rem;
+    border-radius: 999px;
+    background: var(--deep-soft);
+    font-family: var(--mono);
+    font-size: 0.82rem;
+  }
+  .pa-kicker .status-dot,
+  .pa-kicker .status-dot::after {
+    background: #6fcf9c;
+  }
+  .pa-title {
+    font-size: clamp(2.4rem, 5vw, 4.2rem);
+    line-height: 0.98;
+    letter-spacing: -0.035em;
+  }
+  /* La máscara de cada línea deja lugar a los descendentes (y, g, p) y lo compensa para no abrir el interlineado */
+  .pa-title .line {
+    display: block;
+    overflow: hidden;
+    padding-bottom: 0.2em;
+    margin-bottom: -0.2em;
+  }
+  .pa-title .line > span {
+    display: inline-block;
+  }
+  .pa-title em {
+    font-style: normal;
+    color: var(--t3);
+  }
+  .pa-lema {
+    max-width: 34ch;
+    margin: 1.25rem 0 2rem;
+    color: var(--deep-muted);
+    font-size: clamp(1.05rem, 1.5vw, 1.25rem);
+    line-height: 1.45;
+  }
+  .pa-cta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.25rem;
+  }
+  .pa-btn {
+    border-color: var(--t3);
+    background: var(--t3);
+    color: var(--tile-ink);
+  }
+  .pa-btn:hover {
+    border-color: var(--t3);
+  }
+  .pa-link {
+    color: var(--on-deep);
+    font-family: var(--display);
+    font-weight: 500;
+    text-decoration-color: var(--t3);
+    text-decoration-thickness: 2px;
+  }
+
+  .pa-term {
+    position: relative;
+    border-radius: 1.25rem;
+    background: #17171b;
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.08),
+      0 30px 50px -30px rgba(0, 0, 0, 0.8);
+    font-family: var(--mono);
+    font-size: clamp(0.78rem, 1.1vw, 0.92rem);
+  }
+  .pa-term-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    color: var(--deep-muted);
+  }
+  .pa-term-bar i {
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    background: var(--t2);
+  }
+  .pa-term-bar i:nth-child(2) {
+    background: var(--t3);
+  }
+  .pa-term-bar i:nth-child(3) {
+    background: var(--t4);
+  }
+  .pa-term-bar span {
+    margin-left: 0.5rem;
+    font-size: 0.8em;
+  }
+  /* Cuerpo de la terminal: alto fijo y las líneas nuevas empujan a las viejas hacia arriba, como en una terminal real.
+     Lo que crea el script no lleva el atributo de alcance de Astro: por eso los selectores son :global. */
+  .pa-term-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 17.5rem;
+    overflow: hidden;
+    padding: 1rem 1.25rem 1.15rem;
+    line-height: 1.55;
+    mask-image: linear-gradient(transparent, #000 2.5rem);
+  }
+  .pa-term-body :global(p) {
+    flex: 0 0 auto;
+    margin: 0;
+    color: var(--on-deep);
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
+  .pa-term-body :global(.pa-out) {
+    color: #c9c8d6;
+  }
+  /* Colores por defecto del prompt de Ubuntu: usuario y host en verde, ruta en azul */
+  .pa-term-body :global(.pa-pr) {
+    color: #8ae234;
+    font-weight: 700;
+  }
+  .pa-term-body :global(.pa-path) {
+    color: #729fcf;
+    font-weight: 700;
+  }
+  .pa-term-body :global(.pa-caret) {
+    display: inline-block;
+    width: 0.55em;
+    height: 1.1em;
+    margin-left: 1px;
+    vertical-align: -0.2em;
+    background: var(--on-deep);
+  }
+  .pa-orbit {
+    display: flex;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0 1.25rem 1.25rem;
+    list-style: none;
+  }
+  .pa-orbit li {
+    display: grid;
+    place-items: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 0.8rem;
+    background: var(--c);
+    color: var(--tile-ink);
+  }
+
+  .pa-stats {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: var(--gap);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .pa-stat {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    padding: 1rem 1.15rem;
+    border-radius: var(--r);
+    background: color-mix(in srgb, var(--c) 55%, var(--surface));
+    color: var(--ink);
+    line-height: 1.25;
+  }
+  :root[data-theme='dark'] .pa-stat {
+    background: var(--c);
+    color: var(--tile-ink);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme='light']) .pa-stat {
+      background: var(--c);
+      color: var(--tile-ink);
+    }
+  }
+  .pa-stat-ic {
+    display: grid;
+    place-items: center;
+    flex: 0 0 2.75rem;
+    height: 2.75rem;
+    border-radius: 50%;
+    background: var(--surface);
+    color: var(--ink);
+  }
+  .pa-stat strong {
+    display: block;
+    font-family: var(--display);
+    font-size: 1.75rem;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .pa-cats {
+    min-width: 0;
+    margin-top: clamp(1rem, 3vw, 2rem);
+  }
+  /* Título y bajada apilados, alineados a la izquierda */
+  .pa-cats-head {
+    display: grid;
+    gap: 0.4rem;
+    margin-bottom: 1.25rem;
+    padding-inline: 0.25rem;
+  }
+  .pa-cats-head h2 {
+    font-size: clamp(1.6rem, 3vw, 2.3rem);
+  }
+  .pa-cats-head p {
+    max-width: 72ch;
+    margin: 0;
+    color: var(--muted);
+    font-size: 1.05rem;
+  }
+  .pa-cat-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--gap);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .pa-cat {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 1rem;
+    height: 100%;
+    padding: 1.15rem 1.15rem 1.15rem 1.25rem;
+    border-radius: var(--r);
+    background: var(--c);
+    color: var(--tile-ink);
+    text-decoration: none;
+    transition: transform 0.4s var(--ease);
+  }
+  .pa-cat:hover {
+    transform: translateY(-3px);
+  }
+  .pa-cat:active {
+    transform: scale(0.985);
+  }
+  .pa-cat-ic {
+    display: grid;
+    place-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: var(--tile-chip);
+  }
+  .pa-cat-ic :global(.ic) {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+  .pa-cat-name {
+    display: block;
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 1.12rem;
+    line-height: 1.2;
+  }
+  .pa-cat-n {
+    display: block;
+    margin-top: 0.15rem;
+    font-family: var(--mono);
+    font-size: 0.8rem;
+  }
+  .pa-cat-go {
+    display: grid;
+    place-items: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    background: var(--deep);
+    color: var(--on-deep);
+    transition: transform 0.45s var(--spring);
+  }
+  .pa-cat:hover .pa-cat-go {
+    transform: rotate(-45deg);
+  }
+  /* En su propio panel la banda no necesita la línea divisoria ni el margen superior */
+  .pa-banda {
+    margin-top: var(--gap);
+    padding: 0.85rem clamp(1rem, 2.5vw, 1.75rem);
+  }
+  .pa-banda :global(.marquee) {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  @media (max-width: 1023px) {
+    .pa-hero {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .pa-stats {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .pa-cat-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  @media (max-width: 599px) {
+    .pa-cat-grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .pa-stats {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .pa-title .line > span {
+      animation: line-up 1s var(--ease) both;
+      animation-delay: calc(var(--l, 0) * 120ms + 150ms);
+    }
+    .pa-term-body :global(.pa-caret) {
+      animation: caret 1s steps(1) infinite;
+    }
+    .pa-orbit li {
+      animation: bob 3.2s ease-in-out infinite;
+      animation-delay: calc(var(--k) * -0.5s);
+    }
+    .pa-hero::before {
+      animation: drift 16s ease-in-out infinite alternate;
+    }
+    @keyframes caret {
+      50% {
+        opacity: 0;
+      }
+    }
+    @keyframes bob {
+      50% {
+        transform: translateY(-5px);
+      }
+    }
+  }
+</style>

@@ -1,0 +1,3355 @@
+[
+  {
+    "id": "16personalities",
+    "nombre": "16Personalities: test de personalidad",
+    "url": "https://www.16personalities.com/es/test-de-personalidad",
+    "descripcion": "Ejemplo de test basado en el indicador Myers-Briggs.",
+    "tipo": "herramienta",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "3dicons",
+    "nombre": "3dicons",
+    "url": "https://3dicons.co/",
+    "descripcion": "3dicons ofrece una colección de iconos 3D de código abierto diseñados para utilizar en proyectos.",
+    "tipo": "herramienta",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "actionable-color-palettes",
+    "nombre": "Actionable Color Palettes",
+    "url": "https://colorpalettes.colorion.co/",
+    "descripcion": "Colorpalettes.colorion.co es un sitio que ofrece más de 30 paletas de colores seleccionadas para visualizar en one-page.",
+    "tipo": "herramienta",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "adventjs",
+    "nombre": "AdventJS",
+    "url": "https://adventjs.dev/",
+    "descripcion": "",
+    "tipo": "herramienta",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "Desarrollo Web",
+      "JavaScript",
+      "Programación",
+      "TypeScript"
+    ],
+    "idioma": [
+      "Aplicar traductor de Google al sitio!",
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "ai-para-principiantes-ai-for-beginners",
+    "nombre": "AI para principiantes (AI for Beginners)",
+    "url": "https://github.com/microsoft/ai-for-beginners",
+    "descripcion": "Curso de Microsoft de 12 semanas para entender inteligencia artificial desde cero, con lecciones y ejercicios en GitHub.",
+    "tipo": "guia",
+    "temas": [
+      "Inteligencia Artificial",
+      "Deep Learning",
+      "Machine Learning"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "alejandro-hunt",
+    "nombre": "Codo a Codo, por Alejandro Hunt",
+    "url": "https://www.youtube.com/c/alehunt/playlists",
+    "descripcion": "",
+    "tipo": "canal",
+    "temas": [
+      "Django",
+      "Python"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "algoritmo-salvaje",
+    "nombre": "Algoritmo Salvaje: formación",
+    "url": "https://www.algoritmosalvaje.com/formacion-estudiantes-profesionales-sectorit/",
+    "descripcion": "Formación y orientación para estudiantes y profesionales del sector IT.",
+    "tipo": "sitio",
+    "temas": [
+      "Empleabilidad",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-el-perfil-profesional"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "caido"
+  },
+  {
+    "id": "aprender-a-programar-en-c-desde-cero",
+    "nombre": "Aprender a Programar en C desde Cero",
+    "url": "https://www.youtube.com/playlist?list=PLw8RQJQ8K1ySN6bVHYEpDoh-CKVkL_uOF",
+    "descripcion": "Playlist con videos para aprender a programar en C",
+    "tipo": "canal",
+    "temas": [
+      "C"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "apuntes-de-majo",
+    "nombre": "Apuntes de Majo",
+    "url": "https://losapuntesdemajo.vercel.app/",
+    "descripcion": "Los Apuntes de Majo es un repositorio de apuntes hechos por Majo Ledesma con Actualmente, entre las temáticas tratadas estan: JS, React, React Hooks, Python, CSS, POO con Python, SQL, GIT.",
+    "tipo": "sitio",
+    "temas": [
+      "Programación",
+      "Desarrollo Web"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "recursos-tech-plus-plus"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "base-de-titulos-universitarios",
+    "nombre": "Base de títulos universitarios (SIU)",
+    "url": "http://sipes.siu.edu.ar/buscar_titulos.php",
+    "descripcion": "Buscador de Títulos Universitarios: Base de titulaciones con reconocimiento oficial y su consecuente validez nacional otorgadas por el Ministerio de Educación de la Nación.",
+    "tipo": "sitio",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "bbc-learning-english",
+    "nombre": "BBC Learning English",
+    "url": "https://www.youtube.com/@bbclearningenglish/playlists",
+    "descripcion": "",
+    "tipo": "canal",
+    "temas": [
+      "Desarrollo Profesional",
+      "Idiomas"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "bcg-virtual-experience",
+    "nombre": "OneDay@BCG Virtual Experience Program",
+    "url": "https://careers.bcg.com/global/en/virtual-experience",
+    "descripcion": "Simulación laboral virtual con casos reales de empresas. Mayormente en inglés.",
+    "tipo": "herramienta",
+    "temas": [
+      "Empleabilidad",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "buscouniversidad",
+    "nombre": "BuscoUniversidad",
+    "url": "https://www.buscouniversidad.com.ar/",
+    "descripcion": "BuscoUniversidad es un buscador de Carreras Universitarias, Técnicas, Posgrados, Cursos y Universidades de Argentina",
+    "tipo": "sitio",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "calculating-empires-a-genealogy-of-technology-and-power-since-1500",
+    "nombre": "Calculating Empires: A Genealogy of Technology and Power since 1500",
+    "url": "https://calculatingempires.net/",
+    "descripcion": "Mapa visual gigante que recorre cinco siglos de tecnología, poder y control. Para mirar con tiempo.",
+    "tipo": "sitio",
+    "temas": [
+      "Tecno y mundo digital"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "variaditos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "campus-argentina-global",
+    "nombre": "Campus Argentina Global",
+    "url": "https://www.argentina.gob.ar/capital-humano/educacion/campusargentinaglobal",
+    "descripcion": "Becas y oportunidades para estudiar en el exterior, del Gobierno argentino.",
+    "tipo": "sitio",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "capacitacion-en-idioma-italiano-por-unlp",
+    "nombre": "Capacitación en idioma Italiano por UNLP",
+    "url": "https://perio.unlp.edu.ar/catedras/italiano/libro-nuovo-espresso-1/",
+    "descripcion": "",
+    "tipo": "sitio",
+    "temas": [
+      "Desarrollo Profesional",
+      "Idiomas"
+    ],
+    "idioma": [
+      "Español",
+      "Italiano"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "certificados-de-carrera-de-google",
+    "nombre": "Certificados de Carrera de Google",
+    "url": "https://crece.withgoogle.com/intl/es_ar/certificates/?utm_source=HPP&utm_medium=Owned&utm_campaign=Certs_LATAM",
+    "descripcion": "Programas de formación online flexibles, diseñados para adquirir habilidades profesionales con gran demanda y posibilidades de crecimiento, como soporte de IT, gestión de proyectos, análisis de datos…",
+    "tipo": "sitio",
+    "temas": [
+      "Ciencias de la Computación",
+      "Data Science",
+      "Desarrollo Profesional",
+      "Desarrollo Web",
+      "Marketing",
+      "Metodologías Ágiles",
+      "UX/UI"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "checkio",
+    "nombre": "CheckiO",
+    "url": "https://checkio.org/",
+    "descripcion": "",
+    "tipo": "herramienta",
+    "temas": [
+      "Python",
+      "TypeScript"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": false,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "chicas-en-tecnologia",
+    "nombre": "Chicas en Tecnología",
+    "url": "https://chicasentecnologia.org/",
+    "descripcion": "Chicas en Tecnología (@chicasentec) es una organización de la sociedad civil sin fines de lucro argentina que busca motivar, formar y acompañar a todas las mujeres que quieran involucrarse en el…",
+    "tipo": "comunidad",
+    "temas": [
+      "Programación",
+      "Desarrollo Web",
+      "Inteligencia Artificial",
+      "Data Science",
+      "Desarrollo Profesional",
+      "Machine Learning",
+      "Metodologías Ágiles",
+      "Product Design",
+      "UX/UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "recursos-tech-plus-plus"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "chicas-en-tecnologia-instagram",
+    "nombre": "Chicas en Tecnología en Instagram",
+    "url": "https://www.instagram.com/chicasentec/?hl=en",
+    "descripcion": "Chicas en Tecnología (@chicasentec) es una organización de la sociedad civil sin fines de lucro argentina que busca motivar, formar y acompañar a todas las mujeres que quieran involucrarse en el…",
+    "tipo": "comunidad",
+    "temas": [
+      "Programación",
+      "Desarrollo Web"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "recursos-tech-plus-plus"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "code-org",
+    "nombre": "Code.org",
+    "url": "https://studio.code.org/courses",
+    "descripcion": "",
+    "tipo": "sitio",
+    "temas": [
+      "Para docentes",
+      "Programación"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "codedex",
+    "nombre": "Codédex",
+    "url": "https://www.codedex.io/",
+    "descripcion": "Codedex es una nueva forma de aprender a codificar para niños y adultos por igual.",
+    "tipo": "herramienta",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "Desarrollo Profesional",
+      "Desarrollo Web",
+      "HTML y CSS",
+      "JavaScript",
+      "Python"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "codepen",
+    "nombre": "CodePen",
+    "url": "https://codepen.io/",
+    "descripcion": "CodePen es un entorno de desarrollo social para diseñadores y desarrolladores Front-end. Permite escribir código en el navegador y ver los resultados a medida que se construye.",
+    "tipo": "sitio",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "codewars",
+    "nombre": "Codewars",
+    "url": "https://www.codewars.com/",
+    "descripcion": "",
+    "tipo": "herramienta",
+    "temas": [
+      "C",
+      "C#",
+      "C++",
+      "Algoritmos y Estructuras de Datos",
+      "Desarrollo Web",
+      "Java",
+      "JavaScript",
+      "Kotlin",
+      "PHP",
+      "Programación",
+      "Python",
+      "Ruby",
+      "Rust",
+      "SQL",
+      "Scala",
+      "Solidity",
+      "Swift",
+      "TypeScript"
+    ],
+    "idioma": [
+      "Aplicar traductor de Google al sitio!",
+      "Inglés"
+    ],
+    "gratis": false,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "codo-a-codo-full-stack-python",
+    "nombre": "Codo a Codo: Full Stack Python",
+    "url": "https://www.youtube.com/playlist?list=PLUF4RD7fNoTeWiqfuirkJ7adVtDiaQaGw",
+    "descripcion": "Codo a Codo - Ciclo de clases para ser Desarrollador Python Full Stack",
+    "tipo": "canal",
+    "temas": [
+      "Python"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "como-romperla-en-una-entrevista-tecnica-con-avature",
+    "nombre": "Cómo romperla en una entrevista técnica con Avature",
+    "url": "https://youtu.be/ydULw-2ZNEE",
+    "descripcion": "",
+    "tipo": "canal",
+    "temas": [
+      "Empleabilidad",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-el-perfil-profesional"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "como-romperla-en-una-sharp-entrevista-sharp-tecnica-julieta-garcia-mor",
+    "nombre": "¿Cómo Romperla en una #entrevista #técnica? - Julieta Garcia Morato y Horacio \"Qcho\" Gomez",
+    "url": "https://youtu.be/AaVl5F9c9Lc",
+    "descripcion": "",
+    "tipo": "canal",
+    "temas": [
+      "Empleabilidad",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-el-perfil-profesional"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "como-saber-que-carrera-estudiar",
+    "nombre": "¿Cómo saber qué carrera estudiar?",
+    "url": "https://orientacionesvocacion.com/como-saber-que-carrera-estudiar/",
+    "descripcion": "Artículo de Orientaciones Vocación para empezar a ordenar las ideas cuando no sabés qué estudiar.",
+    "tipo": "guia",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "courseit",
+    "nombre": "CourseIT",
+    "url": "https://courseit.io/catalogo",
+    "descripcion": "",
+    "tipo": "sitio",
+    "temas": [
+      "API",
+      "Angular",
+      "Desarrollo Web",
+      "Git",
+      "Git y GitHub",
+      "JavaScript",
+      "NodeJs",
+      "Programación",
+      "React",
+      "TypeScript"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "caido"
+  },
+  {
+    "id": "crea-un-curriculum-ganador-ux-cata",
+    "nombre": "Crea un Currículum Ganador - UX CATA",
+    "url": "https://youtu.be/cOhmdN12NBk",
+    "descripcion": "",
+    "tipo": "canal",
+    "temas": [
+      "Empleabilidad",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-el-perfil-profesional"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "cristina-lopez-design-thinking",
+    "nombre": "Cristina López: etapas del Design Thinking en UX",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7200457398333931520/",
+    "descripcion": "Cristina López es creadora de contenido en LinkedIn, dedicada al Desarrollo Web Front-End, Diseño UX/UI, HTML5 - CSS3, Figma.",
+    "tipo": "sitio",
+    "temas": [
+      "Programación",
+      "Desarrollo Web"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "recursos-tech-plus-plus"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "css-author",
+    "nombre": "CSS Author",
+    "url": "https://cssauthor.com/",
+    "descripcion": "CSS Author es un blog relacionado con el diseño y el desarrollo para diseñadores y desarrolladores web.",
+    "tipo": "sitio",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "css-author-coding",
+    "nombre": "CSS Author: sección Coding",
+    "url": "https://cssauthor.com/coding/",
+    "descripcion": "CSS Author, en su apartado de Coding, cuenta con artículos sobre CSS, HTML, JS, JQuery, PHP, Bootstrap y Development Tools.",
+    "tipo": "herramienta",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "css-hell",
+    "nombre": "CSS Hell",
+    "url": "https://csshell.dev/",
+    "descripcion": "CSSHell es una colección de errores comunes de CSS y cómo solucionarlos.",
+    "tipo": "guia",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "css-tricks",
+    "nombre": "CSS-Tricks",
+    "url": "https://css-tricks.com/",
+    "descripcion": "CSS-Tricks es un sitio dedicado a artículos y guías sobre diferentes utilidades de CSS.",
+    "tipo": "guia",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "cssbattle",
+    "nombre": "CSSBattle",
+    "url": "https://cssbattle.dev/",
+    "descripcion": "CSSBattle es un juego de codificación de CSS en línea. La idea, como jugador, es intentar replicar visualmente las figuras en código CSS y desarrollar dichas habilidades.",
+    "tipo": "sitio",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "curso-arduino-desde-cero-en-espanol-facil-y-didactico",
+    "nombre": "Curso Arduino desde cero en Español fácil y didáctico",
+    "url": "https://www.youtube.com/playlist?list=PLkjnQ3NFTPnY1eNyLDGi547gkVui1vyn2",
+    "descripcion": "“Paso a paso cada capítulo va introduciendo nuevos conceptos para programar la placa Arduino UNO, en Español y de forma didáctica.",
+    "tipo": "canal",
+    "temas": [
+      "Arduino"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "curso-completo-php-y-mysql-principiantes-avanzado",
+    "nombre": "Curso completo PHP y MySQL principiantes-avanzado",
+    "url": "https://www.youtube.com/playlist?list=PLvRPaExkZHFkpBXXCsL2cn9ORTTcPq4d7",
+    "descripcion": "Curso completo de PHP y MySQL enfocado para que conozcas las bases del lenguaje, hasta llegar a un punto intermedio y avanzado con el lenguaje y las bases de datos con MySQL",
+    "tipo": "canal",
+    "temas": [
+      "PHP"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "curso-de-arduino-desde-cero-en-espanol-gratis",
+    "nombre": "Curso de Arduino desde cero en Español - GRATIS",
+    "url": "https://www.youtube.com/playlist?list=PLNipMBg3MF-ajxURuPcOtzeRpMjiyDqkj",
+    "descripcion": "“Este es un curso de programación en Arduino desde cero, donde se explica desde el uso de instrucciones, manejo de lcd, teclados, gps, sd card, ultrasonicos, control remoto, control infrarrojo,…",
+    "tipo": "canal",
+    "temas": [
+      "Arduino"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "curso-de-html-y-css",
+    "nombre": "Curso de HTML y CSS",
+    "url": "https://www.youtube.com/playlist?list=PLQCgNGUqLK4njrWWAXv30jx6CGzgI-SC3",
+    "descripcion": "",
+    "tipo": "canal",
+    "temas": [
+      "CSS3",
+      "HTML5",
+      "Programación"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "curso-de-php-mysql-desde-0",
+    "nombre": "Curso de PHP/MySQL (desde 0)",
+    "url": "https://www.youtube.com/playlist?list=PLU8oAlHdN5BkinrODGXToK9oPAlnJxmW_",
+    "descripcion": "",
+    "tipo": "canal",
+    "temas": [
+      "PHP",
+      "SQL"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "curso-html-5",
+    "nombre": "Curso HTML 5",
+    "url": "https://www.youtube.com/playlist?list=PLU8oAlHdN5BnX63lyAeV0LzLnpGudgRrK",
+    "descripcion": "Curso del estándar HTML 5",
+    "tipo": "canal",
+    "temas": [
+      "CSS3",
+      "HTML5",
+      "Programación"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "curso-php-desde-cero",
+    "nombre": "Curso de PHP completo desde cero",
+    "url": "https://www.youtube.com/playlist?list=PLg9145ptuAij8vIQLU25f7sUSH4E8pdY5",
+    "descripcion": "",
+    "tipo": "canal",
+    "temas": [
+      "PHP"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "curso-python-desde-0",
+    "nombre": "Curso Python desde 0",
+    "url": "https://www.youtube.com/playlist?list=PLU8oAlHdN5BlvPxziopYZRd55pdqFwkeS",
+    "descripcion": "",
+    "tipo": "canal",
+    "temas": [
+      "Python"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "cursos-de-programacion-en-java",
+    "nombre": "Cursos de programación en JAVA",
+    "url": "https://www.youtube.com/playlist?list=PLyvsggKtwbLX9LrDnl1-K6QtYo7m0yXWB",
+    "descripcion": "Curso JAVA desde cero, Este es un curso gratuito y completo de programación en JAVA con bloc de notas.",
+    "tipo": "canal",
+    "temas": [
+      "Java"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "data-school-dashboards",
+    "nombre": "The Data School: What is a Dashboard?",
+    "url": "https://dataschool.com/how-to-design-a-dashboard/what-is-a-dashboard/",
+    "descripcion": "The Data School explica diversas temáticas orientadas al manejo de datos",
+    "tipo": "guia",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "data-science-para-principiantes-data-science-for-beginners",
+    "nombre": "Data Science para Principiantes (Data Science for Beginners)",
+    "url": "https://github.com/microsoft/Data-Science-For-Beginners",
+    "descripcion": "Curso de Microsoft de 10 semanas con lecciones y prácticas de ciencia de datos, disponible en GitHub.",
+    "tipo": "guia",
+    "temas": [
+      "Data Science",
+      "Python"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "desarrollo-de-carrera-profesional-en-it-que-significa-y-como-empezar",
+    "nombre": "Desarrollo de carrera profesional en IT: ¿Qué significa y cómo empezar?",
+    "url": "https://youtu.be/loeYxbA1JkU",
+    "descripcion": "",
+    "tipo": "canal",
+    "temas": [
+      "Empleabilidad",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-el-perfil-profesional"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "devhints",
+    "nombre": "Devhints",
+    "url": "https://devhints.io/",
+    "descripcion": "DEVHINTS.IO, creado por @rstacruz, es una colección de cheatsheets de diversos lenguajes orientados a desarrollo web.",
+    "tipo": "guia",
+    "temas": [
+      "Programación",
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "recursos-tech-plus-plus",
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "dogram-code",
+    "nombre": "Dogram Code",
+    "url": "https://dogramcode.com/biblioteca/",
+    "descripcion": "Dogram Code es una free website que \"busca compartir conocimiento mediante todo tipo de medios y herramientas, sean libros, artículos y tutoriales orientados a la informática, sistemas…",
+    "tipo": "biblioteca",
+    "temas": [
+      "Programación",
+      "Desarrollo Web"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "recursos-tech-plus-plus"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "domestika",
+    "nombre": "Domestika",
+    "url": "https://www.domestika.org/es",
+    "descripcion": "Plataforma de cursos creativos (diseño, ilustración, fotografía, marketing). Muchos son pagos, con descuentos frecuentes.",
+    "tipo": "comunidad",
+    "temas": [
+      "Desarrollo Web",
+      "Diseño gráfico",
+      "Git y GitHub",
+      "JavaScript",
+      "Marketing",
+      "PHP",
+      "Product Design",
+      "Programación",
+      "Python",
+      "UX/UI"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "gratis": false,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "easy-english",
+    "nombre": "Easy English",
+    "url": "https://www.youtube.com/@easyenglish551/playlists",
+    "descripcion": "",
+    "tipo": "canal",
+    "temas": [
+      "Desarrollo Profesional",
+      "Idiomas"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "ebook-potrero-digital-2023",
+    "nombre": "E-book: Habilidades para el trabajo y recursos digitales (Potrero Digital, 2023)",
+    "url": "https://drive.google.com/file/d/1UmWwJ0LMqnNfELg9AySTIz_EsPH09VBT/view",
+    "descripcion": "",
+    "tipo": "biblioteca",
+    "temas": [
+      "Empleabilidad",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-el-perfil-profesional"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "edumatch",
+    "nombre": "Edumatch: test vocacional de BuscoUniversidad",
+    "url": "https://www.buscouniversidad.com.ar/edumatch/intro",
+    "descripcion": "Test vocacional gratuito que sugiere carreras según tus respuestas.",
+    "tipo": "herramienta",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "ef-set",
+    "nombre": "EF SET: test de inglés con certificado gratis",
+    "url": "https://www.efset.org/",
+    "descripcion": "EFSET es un test online del idioma inglés la cual ofrece una evaluación precisa y gratuita del dominio del idioma.",
+    "tipo": "herramienta",
+    "temas": [
+      "Empleabilidad",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-el-perfil-profesional"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "ejemplo-guia-para-tp",
+    "nombre": "Ejemplo de guía para un trabajo práctico (PDF)",
+    "url": "https://drive.google.com/file/d/1mpS1Q2KgzD4BEQYk0ONxXqVa0XwspxB6/view?usp=drivesdk",
+    "descripcion": "",
+    "tipo": "guia",
+    "temas": [
+      "Ofimática",
+      "Escritura académica"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "variaditos",
+    "aparece_en": [
+      "documentos-academicos"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "el-tio-tech",
+    "nombre": "El Tío Tech",
+    "url": "https://www.youtube.com/@ElTioTech/videos",
+    "descripcion": "",
+    "tipo": "canal",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "Desarrollo Profesional",
+      "Ofimática",
+      "Para docentes",
+      "Programación",
+      "VBA"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "el-tio-tech-sitio",
+    "nombre": "El Tío Tech (sitio web)",
+    "url": "https://eltiotech.com/",
+    "descripcion": "",
+    "tipo": "sitio",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "Desarrollo Profesional",
+      "Ofimática",
+      "Para docentes",
+      "Programación",
+      "VBA"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "english-for-it-1",
+    "nombre": "English for IT 1",
+    "url": "https://www.netacad.com/courses/english-for-it1?courseLang=en-US",
+    "descripcion": "",
+    "tipo": "sitio",
+    "temas": [
+      "Desarrollo Profesional",
+      "Idiomas"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "english-for-it-2",
+    "nombre": "English for IT 2",
+    "url": "https://www.netacad.com/courses/english-for-it2?courseLang=en-US",
+    "descripcion": "",
+    "tipo": "sitio",
+    "temas": [
+      "Desarrollo Profesional",
+      "Idiomas"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "fazt",
+    "nombre": "Fazt",
+    "url": "https://www.youtube.com/@FaztTech/playlists",
+    "descripcion": "Fazt comparte cursos para aprender respecto a programación, desarrollo web, entre otros. Cuenta con su propio sitio web, canal de YouTube, Twitter y demás.",
+    "tipo": "canal",
+    "temas": [
+      "Angular",
+      "JavaScript",
+      "PHP",
+      "Programación",
+      "Python",
+      "React",
+      "TypeScript"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "finding-user-needs",
+    "nombre": "A Beginner’s Guide to Finding User Needs",
+    "url": "https://jdittrich.github.io/userNeedResearchBook/",
+    "descripcion": "A Beginner’s Guide to Finding User Needs: Investigación cualitativa sobre motivaciones, actividades y problemas de los usuarios. By Jan Dittrich",
+    "tipo": "guia",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "flowcv",
+    "nombre": "FlowCV",
+    "url": "https://flowcv.com/",
+    "descripcion": "Editor online para armar el CV con plantillas y descargarlo en PDF. Mi recomendado.",
+    "tipo": "biblioteca",
+    "temas": [
+      "Empleabilidad",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-el-perfil-profesional"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "forage-commonwealth-data-science",
+    "nombre": "Forage: Commonwealth Bank, Introduction to Data Science",
+    "url": "https://www.theforage.com/simulations/commonwealth-bank/intro-data-science-sd7t",
+    "descripcion": "Simulación laboral virtual con casos reales de empresas. Mayormente en inglés.",
+    "tipo": "herramienta",
+    "temas": [
+      "Empleabilidad",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "forage-commonwealth-software-engineering",
+    "nombre": "Forage: Commonwealth Bank, Software Engineering",
+    "url": "https://www.theforage.com/simulations/commonwealth-bank/software-engineering-c4hw",
+    "descripcion": "Simulación laboral virtual con casos reales de empresas. Mayormente en inglés.",
+    "tipo": "herramienta",
+    "temas": [
+      "Empleabilidad",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "forage-mastercard",
+    "nombre": "Forage: Mastercard Advisors & Consulting Services",
+    "url": "https://www.theforage.com/simulations/mastercard/advisors-client-services-xvlw",
+    "descripcion": "Simulación laboral virtual con casos reales de empresas. Mayormente en inglés.",
+    "tipo": "herramienta",
+    "temas": [
+      "Empleabilidad",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "forage-siemens-project-manager",
+    "nombre": "Forage: Siemens Mobility, Project Manager",
+    "url": "https://www.theforage.com/simulations/siemens-mobility/project-management-qydx",
+    "descripcion": "Simulación laboral virtual con casos reales de empresas. Mayormente en inglés.",
+    "tipo": "herramienta",
+    "temas": [
+      "Empleabilidad",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "forage-tata-esg",
+    "nombre": "Forage: Tata ESG",
+    "url": "https://www.theforage.com/simulations/tata/esg-j4vw",
+    "descripcion": "Simulación laboral virtual con casos reales de empresas. Mayormente en inglés.",
+    "tipo": "herramienta",
+    "temas": [
+      "Empleabilidad",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "freecodecamp",
+    "nombre": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/",
+    "descripcion": "freeCodeCamp es una comunidad sin fines de lucro que ayuda a aprender a codificar mediante la creación de proyectos.",
+    "tipo": "comunidad",
+    "temas": [
+      "API",
+      "Desarrollo Web",
+      "Information Security",
+      "JavaScript",
+      "PHP",
+      "Programación",
+      "Python",
+      "SQL"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "frontend-practice",
+    "nombre": "Frontend Practice",
+    "url": "https://www.frontendpractice.com/",
+    "descripcion": "Frontend Practice y Codewell son plataformas que cuentan con una colección de sitios web reales para que los desarrolladores los recreen como una forma de mejorar y probar sus habilidades.",
+    "tipo": "herramienta",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "fundacion-carlos-slim",
+    "nombre": "Fundación Carlos Slim",
+    "url": "https://fundacioncarlosslim.org/educacion-2/",
+    "descripcion": "Fundación Carlos Slim tiene como objetivo la formación integral de capital humano a través de programas que fortalecen las capacidades y habilidades de personas de todas las edades de México y…",
+    "tipo": "sitio",
+    "temas": [
+      "Ciencias de la Computación",
+      "Data Science",
+      "Desarrollo Profesional",
+      "Desarrollo Web",
+      "Marketing",
+      "Para docentes",
+      "Programación",
+      "Videojuegos"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "fundacion-telefonica-conecta-empleo",
+    "nombre": "Fundación Telefónica: Conecta Empleo",
+    "url": "https://conectaempleo-formacion.fundaciontelefonica.com/argentina",
+    "descripcion": "Cursos gratuitos con certificado sobre programación, datos, marketing digital y más. Se renuevan cada tres meses, aproximadamente.",
+    "tipo": "sitio",
+    "temas": [
+      "Ciencias de la Computación",
+      "Algoritmos y Estructuras de Datos",
+      "Desarrollo Profesional",
+      "Desarrollo Web",
+      "Information Security",
+      "Marketing",
+      "Metodologías Ágiles",
+      "Para docentes",
+      "Programación",
+      "UX/UI"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "fundamentals-of-data-visualization",
+    "nombre": "Fundamentals of Data Visualization",
+    "url": "https://clauswilke.com/dataviz/index.html",
+    "descripcion": "Fundamentals of Data Visualization by Claus O. Wilke",
+    "tipo": "guia",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "garage-digital",
+    "nombre": "Grow with Google (ex Google Actívate)",
+    "url": "https://grow.google/intl/es/",
+    "descripcion": "Plataforma de Google con cursos gratuitos de competencias digitales, marketing e IA. Reúne lo que antes era Google Actívate; algunos certificados ahora están en Skillshop.",
+    "tipo": "sitio",
+    "temas": [
+      "Desarrollo Profesional",
+      "Marketing"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "george-moller-html-css-slides",
+    "nombre": "George Moller: +100 slides de buenas prácticas en HTML y CSS",
+    "url": "https://georgemoller.gumroad.com/l/hQWSH",
+    "descripcion": "George Moller es un desarrollador y creador de contenido dedicado a CSS, HTML, JS & UI/UX.",
+    "tipo": "guia",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": false,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "george-moller-ui-ux-slides",
+    "nombre": "George Moller: +80 slides de buenas prácticas en UI y UX",
+    "url": "https://georgemoller.gumroad.com/l/MAVqE?_ga=2.218447900.48849901.1631753216-509823430.1630968267",
+    "descripcion": "George Moller es un desarrollador y creador de contenido dedicado a CSS, HTML, JS & UI/UX.",
+    "tipo": "guia",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": false,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "github-learning-lab",
+    "nombre": "GitHub Learning Lab",
+    "url": "https://skills.github.com/",
+    "descripcion": "GitHub ofrece un \"Laboratorio de Aprendizaje\" en el cual es posible encontrar cursos totalmente gratuitos para aprender Git, GitHub con lenguajes como HTML, Python, NodeJS, Ruby, entre otros.",
+    "tipo": "sitio",
+    "temas": [
+      "Git y GitHub"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "goncy-twitch",
+    "nombre": "Goncy en Twitch",
+    "url": "https://www.twitch.tv/goncypozzo",
+    "descripcion": "Gonzalo Pozzo (@goncy) es un desarrollador frontend que comparte contenido vía Twitter, Twitch y YouTube sobre React / Redux, pero también GraphQL, Elm o Vue.",
+    "tipo": "canal",
+    "temas": [
+      "Programación",
+      "Desarrollo Web"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "recursos-tech-plus-plus"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "goncy-youtube",
+    "nombre": "Goncy en YouTube",
+    "url": "https://www.youtube.com/c/GonzaloPozzo/videos",
+    "descripcion": "Gonzalo Pozzo (@goncy) es un desarrollador frontend que comparte contenido vía Twitter, Twitch y YouTube sobre React / Redux, pero también GraphQL, Elm o Vue.",
+    "tipo": "canal",
+    "temas": [
+      "Programación",
+      "Desarrollo Web"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "recursos-tech-plus-plus"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "google-ai-learning-course",
+    "nombre": "Google AI: aprendizaje",
+    "url": "https://ai.google/education/",
+    "descripcion": "Recursos y cursos de Google para aprender inteligencia artificial y machine learning.",
+    "tipo": "guia",
+    "temas": [
+      "Inteligencia Artificial",
+      "Machine Learning"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "google-machine-learning-crash-course",
+    "nombre": "Google Machine Learning Crash Course",
+    "url": "https://developers.google.com/machine-learning/crash-course",
+    "descripcion": "Presenta una serie de lecciones (con video conferencias, estudios de casos del mundo real y ejercicios prácticos) a modo de guía de autoaprendizaje para aspirantes a profesionales del Machine…",
+    "tipo": "guia",
+    "temas": [
+      "Inteligencia Artificial",
+      "Machine Learning"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "google-tech-dev-guide",
+    "nombre": "Google Tech Dev Guide",
+    "url": "https://techdevguide.withgoogle.com/",
+    "descripcion": "Es un sitio recopilatorio de materiales, tanto de Google como de otras plataformas, para aprender sobre temáticas relacionadas a Programación, Estructuras de Datos, Machine Learning, entre otros.",
+    "tipo": "guia",
+    "temas": [
+      "Ciencias de la Computación",
+      "Algoritmos y Estructuras de Datos",
+      "Programación"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "grasshopper",
+    "nombre": "Grasshopper",
+    "url": "https://play.google.com/store/apps/details?id=com.area120.grasshopper&hl=es_AR&gl=CN",
+    "descripcion": "Grasshopper, programa de Code with Google, es una plataforma para aprender programación en JS. Es gratuito y está disponible para usuarios de Android.",
+    "tipo": "herramienta",
+    "temas": [
+      "Desarrollo Web",
+      "JavaScript",
+      "Programación"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "caido"
+  },
+  {
+    "id": "guia-de-carreras-universitarias",
+    "nombre": "Guía de carreras universitarias (SIU)",
+    "url": "https://guiadecarreras.siu.edu.ar/carreras_de_pregrado_y_grado.php",
+    "descripcion": "Buscador de Carreras de Pregrado y Grado: Base de datos para la búsqueda de títulos de pregrado y grado según su modalidad, área de conocimiento, disciplina, gestión y nombre institucional, provincia…",
+    "tipo": "guia",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "guia-de-entrevistas-de-programacion-devcaress",
+    "nombre": "Guía de entrevistas de programación (DevCaress)",
+    "url": "https://github.com/DevCaress/guia-entrevistas-de-programacion?tab=readme-ov-file",
+    "descripcion": "Repositorio con preguntas, consejos y recursos para preparar entrevistas técnicas de programación.",
+    "tipo": "guia",
+    "temas": [
+      "Programación",
+      "Empleabilidad"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "tecnologia",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "hayk-an",
+    "nombre": "Hayk An: design & code",
+    "url": "https://hayk.design/#/",
+    "descripcion": "Hayk An, design & code es una plataforma dedicada al diseño y desarrollo modular.",
+    "tipo": "sitio",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "hayk-an-generative-tools",
+    "nombre": "Hayk An: herramientas generativas",
+    "url": "https://hayk.design/#/generative-tools",
+    "descripcion": "Hayk An, design & code es una plataforma dedicada al diseño y desarrollo modular.",
+    "tipo": "herramienta",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "herramientas-para-la-busqueda-de-empleo",
+    "nombre": "Herramientas para la búsqueda de empleo",
+    "url": "https://www.argentina.gob.ar/herramientas-para-la-busqueda-de-empleo",
+    "descripcion": "Guías del Gobierno argentino para buscar empleo: CV, entrevistas y portales.",
+    "tipo": "guia",
+    "temas": [
+      "Empleabilidad",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-el-perfil-profesional"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "htmhell",
+    "nombre": "HTMHell",
+    "url": "https://www.htmhell.dev/",
+    "descripcion": "HTMHell es una colección de malas prácticas en HTML, copiadas de sitios web reales, y cómo solucionarlos.",
+    "tipo": "guia",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "html-css-curso-completo",
+    "nombre": "HTML y CSS: curso completo en español desde cero",
+    "url": "https://www.youtube.com/playlist?list=PLPl81lqbj-4LKo66cEts5yC_AjOvqKptm",
+    "descripcion": "Aprende a crear sitios web utilizando HTML y CSS, este curso paso a paso y desde cero a experto, pondrás en práctica todo lo que iremos aprendiendo para convertirnos en un desarrollador web.",
+    "tipo": "canal",
+    "temas": [
+      "CSS3",
+      "HTML5",
+      "Programación"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "illustration-kit",
+    "nombre": "Illustration Kit",
+    "url": "https://illustrationkit.com/",
+    "descripcion": "Illustrationkit ofrece ilustraciones vectoriales gratuitas para proyectos personales y comerciales.",
+    "tipo": "herramienta",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "iot-para-principiantes-iot-for-beginners",
+    "nombre": "IoT para Principiantes (IoT for Beginners)",
+    "url": "https://github.com/microsoft/IoT-For-Beginners",
+    "descripcion": "Curso de Microsoft de 12 semanas sobre Internet de las Cosas, con proyectos prácticos en GitHub.",
+    "tipo": "guia",
+    "temas": [
+      "IoT",
+      "Python"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "italianeando",
+    "nombre": "Italianeando",
+    "url": "https://www.youtube.com/@Italianeando/playlists",
+    "descripcion": "",
+    "tipo": "canal",
+    "temas": [
+      "Desarrollo Profesional",
+      "Idiomas"
+    ],
+    "idioma": [
+      "Español",
+      "Italiano"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "jlpt-ejemplos-de-examenes",
+    "nombre": "JLPT: ejemplos de exámenes",
+    "url": "https://www.jlpt.jp/e/samples/forlearners.html",
+    "descripcion": "",
+    "tipo": "guia",
+    "temas": [
+      "Desarrollo Profesional",
+      "Idiomas",
+      "Reading & Comprehension"
+    ],
+    "idioma": [
+      "Inglés",
+      "Japones"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "la-importancia-del-porfolio-en-la-educacion-y-la-busqueda-laboral",
+    "nombre": "La importancia del Porfolio en la educación y la búsqueda laboral",
+    "url": "https://youtu.be/YBF4qhpimnw",
+    "descripcion": "",
+    "tipo": "canal",
+    "temas": [
+      "Empleabilidad",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-el-perfil-profesional"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "landing-page-checklist",
+    "nombre": "Landing Page Checklist",
+    "url": "https://www.landingpage.fyi/landing-page-checklist",
+    "descripcion": "Landing Page es una biblioteca completa de recursos para crear landing pages de alta calidad.",
+    "tipo": "herramienta",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "lexus-rex",
+    "nombre": "Lexis Rex",
+    "url": "https://lexisrex.com/index.php?native=Spanish",
+    "descripcion": "Lexus Rex es una herramienta gratuita que ofrece material para múltiples idiomas, incluso cambiando el idioma del sitio web. Por cada uno, incluye la palabra, una imagen, traducción y pronunciación.",
+    "tipo": "herramienta",
+    "temas": [
+      "Desarrollo Profesional",
+      "Idiomas"
+    ],
+    "idioma": [
+      "Chino",
+      "Español",
+      "Inglés",
+      "Italiano",
+      "Japones",
+      "Múltiples idiomas"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "library-genesis",
+    "nombre": "Library Genesis",
+    "url": "https://libgen.gs/",
+    "descripcion": "Library Genesis es una comunidad que tiene como objetivo recopilar y catalogar descripciones de archivos para la mayor parte de las direcciones científicas y técnicas, así como metadatos de archivos.",
+    "tipo": "biblioteca",
+    "temas": [
+      "Programación",
+      "Desarrollo Web"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "recursos-tech-plus-plus"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "caido"
+  },
+  {
+    "id": "librotecarios-coleccion-users",
+    "nombre": "Librotecarios: colección USERS",
+    "url": "https://librotecarios.blogspot.com/2020/01/coleccion-users-250-libros-pdf-gratis.html",
+    "descripcion": "Librotecarios es un blog recopilatorio de links de acceso a libros y manuales de varios géneros en archivos PDF.",
+    "tipo": "biblioteca",
+    "temas": [
+      "Programación",
+      "Desarrollo Web"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "recursos-tech-plus-plus"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "los-arquetipos-de-carl-jung-aplicados-al-branding",
+    "nombre": "Los arquetipos de Carl Jung aplicados al branding",
+    "url": "https://brandesign.es/branding/consultoria/los-arquetipos-de-carl-jung-aplicados-en-la-estrategia-branding/",
+    "descripcion": "Artículo de Brandesign sobre cómo usar los doce arquetipos de Jung para definir la personalidad de una marca.",
+    "tipo": "guia",
+    "temas": [
+      "Marketing",
+      "Diseño"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "variaditos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "lucas-dalto",
+    "nombre": "Lucas Dalto",
+    "url": "https://www.youtube.com/@soydalto/playlists",
+    "descripcion": "Lucas Dalto se dedica a la programación y el desarrollo web a través de sus cursos en YouTube. Entre ellos están HTML 5, CSS y Javascript desde cero, inteligencia artificial, entre otras tantas cosas.",
+    "tipo": "canal",
+    "temas": [
+      "JavaScript",
+      "Programación"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "lupita-code-medium",
+    "nombre": "Lupita Code en Medium",
+    "url": "https://lupitacode.medium.com/",
+    "descripcion": "Lupita Code (@lupitacode) es desarrolladora Frontend que comparte en sus redes sociales contenido sobre JS, HTML, CSS code notes.",
+    "tipo": "sitio",
+    "temas": [
+      "Programación",
+      "Desarrollo Web"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "recursos-tech-plus-plus"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "lupita-code-youtube",
+    "nombre": "Lupita Code en YouTube",
+    "url": "https://www.youtube.com/c/LupitaCode",
+    "descripcion": "Lupita Code (@lupitacode) es desarrolladora Frontend que comparte en sus redes sociales contenido sobre JS, HTML, CSS code notes.",
+    "tipo": "canal",
+    "temas": [
+      "Programación",
+      "Desarrollo Web"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "recursos-tech-plus-plus"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "machine-learning-para-principiantes-ml-for-beginners",
+    "nombre": "Machine Learning para principiantes (ML for Beginners)",
+    "url": "https://github.com/microsoft/ML-For-Beginners?WT.mc_id=academic-77807-sagibbon",
+    "descripcion": "El grupo de Azure Cloud Advocates de Microsoft ofrece un plan de estudios de 12 semanas y 26 lecciones sobre Machine Learning sobre conceptos de aprendizaje automático clásico, utilizando…",
+    "tipo": "guia",
+    "temas": [
+      "Inteligencia Artificial",
+      "Algoritmos y Estructuras de Datos",
+      "Machine Learning",
+      "Programación",
+      "Python"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "majo-ledesma-github",
+    "nombre": "Majo Ledesma en GitHub",
+    "url": "https://github.com/majoledesma",
+    "descripcion": "Los Apuntes de Majo es un repositorio de apuntes hechos por Majo Ledesma con Actualmente, entre las temáticas tratadas estan: JS, React, React Hooks, Python, CSS, POO con Python, SQL, GIT.",
+    "tipo": "sitio",
+    "temas": [
+      "Programación",
+      "Desarrollo Web"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "recursos-tech-plus-plus"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "materiales-didacticos-de-la-undef",
+    "nombre": "Materiales didácticos de la UNDEF",
+    "url": "https://undef.edu.ar/siedweb/materiales.html",
+    "descripcion": "Materiales didácticos del Sistema de Educación a Distancia de la Universidad de la Defensa Nacional.",
+    "tipo": "biblioteca",
+    "temas": [
+      "Docencia"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "tecnologia",
+    "revisado": "2026-10-15",
+    "estado": "caido"
+  },
+  {
+    "id": "mesh-gradient",
+    "nombre": "Mesh Gradient",
+    "url": "https://meshgradient.com/",
+    "descripcion": "Mesh es una forma sencilla de crear degradados utilizando sombreadores WebGL.",
+    "tipo": "herramienta",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "midudev",
+    "nombre": "midudev",
+    "url": "https://www.youtube.com/c/midudev/playlists",
+    "descripcion": "",
+    "tipo": "canal",
+    "temas": [
+      "JavaScript",
+      "Node.js",
+      "Programación",
+      "React"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "mimo",
+    "nombre": "Mimo",
+    "url": "https://mimo.org/",
+    "descripcion": "Mimo es una plataforma con múltiples cursos para aprender lenguajes de programación, en la web y en la app (Android e iOS).",
+    "tipo": "herramienta",
+    "temas": [
+      "Desarrollo Web",
+      "JavaScript",
+      "PHP",
+      "Programación",
+      "Python",
+      "SQL"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "minato-curso-japones",
+    "nombre": "Minato: curso de japonés",
+    "url": "https://minato-jf.jp/",
+    "descripcion": "",
+    "tipo": "sitio",
+    "temas": [
+      "Desarrollo Profesional",
+      "Idiomas",
+      "Reading & Comprehension"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés",
+      "Japones"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "mujeres-en-tecnologia",
+    "nombre": "Mujeres en Tecnología [MeT]",
+    "url": "https://mujeresentecnologia.org/",
+    "descripcion": "Mujeres en Tecnología [MeT] es una organización sin fines de lucro que trabaja para impulsar la inclusión y la diversidad en el ámbito tecnológico.",
+    "tipo": "comunidad",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional",
+      "Programación",
+      "Desarrollo Web",
+      "Inteligencia Artificial",
+      "Data Science",
+      "Machine Learning",
+      "Metodologías Ágiles",
+      "Product Design",
+      "UX/UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines",
+      "recursos-tech-plus-plus"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "mujeres-en-tecnologia-instagram",
+    "nombre": "Mujeres en Tecnología en Instagram",
+    "url": "https://www.instagram.com/comunidadmet/",
+    "descripcion": "Mujeres en Tecnología [MeT] es una organización sin fines de lucro que trabaja para impulsar la inclusión y la diversidad en el ámbito tecnológico.",
+    "tipo": "comunidad",
+    "temas": [
+      "Programación",
+      "Desarrollo Web"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "recursos-tech-plus-plus"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "no-se-que-estudiar",
+    "nombre": "NoSeQuéEstudiar: carreras",
+    "url": "https://www.nosequeestudiar.net/carreras/",
+    "descripcion": "NoSeQuéEstudiar es una comunidad con guía gratuita, en español, sobre carreras y profesiones disponibles y actualizadas.",
+    "tipo": "comunidad",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "orientacion-vocacional",
+    "nombre": "OrientacionVocacional.com",
+    "url": "http://www.orientacionvocacional.com/index.php/orientacion-vocacional/tiplogia-john-holland",
+    "descripcion": "Portal con tests y artículos de orientación vocacional.",
+    "tipo": "herramienta",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "pilas-engine",
+    "nombre": "Pilas Engine",
+    "url": "https://pilas-engine.com.ar/",
+    "descripcion": "Pilas Engine es un motor para aprender a programar construyendo videojuegos de manera sencilla y divertida.",
+    "tipo": "herramienta",
+    "temas": [
+      "Para docentes",
+      "Programación",
+      "Videojuegos"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "portal-de-capacitacion-inap",
+    "nombre": "Portal de Capacitación INAP",
+    "url": "https://capacitacion.inap.gob.ar/cursos/",
+    "descripcion": "",
+    "tipo": "sitio",
+    "temas": [
+      "Ciencias de la Computación",
+      "Data Science",
+      "Desarrollo Profesional",
+      "Information Security",
+      "Para docentes",
+      "Programación"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "practical-typography",
+    "nombre": "Butterick’s Practical Typography",
+    "url": "https://practicaltypography.com/",
+    "descripcion": "Butterick’s Practical Typography, 2nd Edition",
+    "tipo": "guia",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "presentacion-carreras-info",
+    "nombre": "Presentación de la charla: Carreras Info y afines",
+    "url": "https://drive.google.com/file/d/1E7-t_cvCFaABcoP8IT--j8gVV5np4CVO/view",
+    "descripcion": "Las diapositivas que usamos en la charla.",
+    "tipo": "guia",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "presentacion-perfil-profesional",
+    "nombre": "Presentación de la charla: El Perfil Profesional",
+    "url": "https://drive.google.com/file/d/1idhLprwqRiOvmEOIzGSCbcmtE6UxQcFD/view",
+    "descripcion": "Las diapositivas sobre Currículum Vitae y porfolio que usamos en la charla.",
+    "tipo": "guia",
+    "temas": [
+      "Empleabilidad",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-el-perfil-profesional"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "profe-matias-garcia-tutoriales",
+    "nombre": "Profe Matías García: tutoriales",
+    "url": "https://www.profmatiasgarcia.com.ar/tutoriales.html",
+    "descripcion": "El Profe Matías García, dedicado al área de software y programación cuenta en su sitio web con tutoriales y ejercicios variados para aprender.",
+    "tipo": "guia",
+    "temas": [
+      "Programación",
+      "Desarrollo Web"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "recursos-tech-plus-plus"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "profe-matias-garcia-youtube",
+    "nombre": "Profe Matías García en YouTube",
+    "url": "https://www.youtube.com/c/profmatiasgarcia/",
+    "descripcion": "El Profe Matías García, dedicado al área de software y programación cuenta en su sitio web con tutoriales y ejercicios variados para aprender.",
+    "tipo": "canal",
+    "temas": [
+      "Programación",
+      "Desarrollo Web"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "recursos-tech-plus-plus"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "programacion-ats",
+    "nombre": "Programación ATS",
+    "url": "https://www.youtube.com/@ProgramacionATS/playlists",
+    "descripcion": "Programación ATS es un canal dedicado a tutoriales de programación en diversos lenguajes (Python, C++, Java, etc.)",
+    "tipo": "canal",
+    "temas": [
+      "C",
+      "C++",
+      "Programación",
+      "Python"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "programon",
+    "nombre": "Programon (Chicos.net)",
+    "url": "https://www.chicos.net/public/programon",
+    "descripcion": "Programa de Chicos.net con recursos sobre empleabilidad y habilidades digitales.",
+    "tipo": "sitio",
+    "temas": [
+      "Empleabilidad",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-el-perfil-profesional"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "que-es-el-analisis-de-datos",
+    "nombre": "¿Qué es el análisis de datos? (Caterina Abanoni)",
+    "url": "https://www.youtube.com/watch?v=ILzBrY6lhjM",
+    "descripcion": "Video introductorio que explica qué hace una persona analista de datos.",
+    "tipo": "canal",
+    "temas": [
+      "Data Science"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "quiero-estudiar",
+    "nombre": "Quiero estudiar",
+    "url": "https://www.argentina.gob.ar/estudiar/alumnos/quiero-estudiar",
+    "descripcion": "El gobierno argentino cuenta con el sitio \"Quiero Estudiar\" con data respecto a becas, programas y beneficios que ayuden en el trayecto a los estudiantes del país.",
+    "tipo": "sitio",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "readymag-design-almanac",
+    "nombre": "Readymag Design Almanac",
+    "url": "https://readymag.com/almanac/",
+    "descripcion": "Proyecto educativo de Readymag con artículos y casos sobre diseño.",
+    "tipo": "sitio",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "recursosrecursosrecursos",
+    "nombre": "RecursosRecursosRecursos",
+    "url": "https://recursosrecursosrecursos.netlify.app/",
+    "descripcion": "RecursosRecursosRecursos básicamente es un repositorio de recursos tech (desarrollo web, cursos, GIT, guías, materiales para ilustración, desarrollo en JS, tools, etc.)",
+    "tipo": "guia",
+    "temas": [
+      "Programación",
+      "Desarrollo Web"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "recursos-tech-plus-plus"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "red-users-drive",
+    "nombre": "Colección RedUSERS en Google Drive",
+    "url": "https://drive.google.com/drive/folders/1-P0_a3QKgN7Vwt6PXJzhpSZrPPdPp9uB",
+    "descripcion": "Librotecarios es un blog recopilatorio de links de acceso a libros y manuales de varios géneros en archivos PDF.",
+    "tipo": "biblioteca",
+    "temas": [
+      "Programación",
+      "Desarrollo Web"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "recursos-tech-plus-plus"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "caido"
+  },
+  {
+    "id": "sakinorva",
+    "nombre": "Sakinorva: test de funciones cognitivas",
+    "url": "https://sakinorva.net/functions?lang=es",
+    "descripcion": "Otro ejemplo de test basado en el indicador Myers-Briggs.",
+    "tipo": "herramienta",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "security-certification-roadmap",
+    "nombre": "Security Certification Roadmap",
+    "url": "https://pauljerimy.com/security-certification-roadmap/",
+    "descripcion": "Mapa visual de certificaciones de seguridad informática ordenadas por área y nivel.",
+    "tipo": "guia",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "shaper",
+    "nombre": "Shaper: estilos de interfaz",
+    "url": "https://hihayk.github.io/shaper/",
+    "descripcion": "Hayk An, design & code es una plataforma dedicada al diseño y desarrollo modular.",
+    "tipo": "herramienta",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "slidescarnival",
+    "nombre": "SlidesCarnival",
+    "url": "https://www.slidescarnival.com/",
+    "descripcion": "Plantillas gratuitas para presentaciones en Google Slides y PowerPoint.",
+    "tipo": "herramienta",
+    "temas": [
+      "Diseño",
+      "Ciudadanía Digital"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "variaditos",
+    "aparece_en": [
+      "recursos-multimedia-gratuitos"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "smalltalk2me",
+    "nombre": "SmallTalk2Me: test de inglés oral",
+    "url": "https://smalltalk2.me/leveltest",
+    "descripcion": "SmallTalk2Me es un simulador que emplea IA (Inteligencia Artificial) para mejorar el nivel de inglés a aquellos hablantes no nativos, además de permitir a las empresas evaluar el dominio del idioma…",
+    "tipo": "herramienta",
+    "temas": [
+      "Empleabilidad",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-el-perfil-profesional"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "smashing-magazine",
+    "nombre": "Smashing Magazine",
+    "url": "https://www.smashingmagazine.com/",
+    "descripcion": "Smashing Magazine ofrece artículos fiables, útiles y prácticos para diseñadores y desarrolladores web.",
+    "tipo": "guia",
+    "temas": [
+      "Programación",
+      "Desarrollo Web"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "recursos-tech-plus-plus"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "sololearn-learn-to-code",
+    "nombre": "Sololearn: Learn to Code",
+    "url": "https://www.sololearn.com/",
+    "descripcion": "Sololearn es un sitio para aprender a codificar en diferentes lenguajes (está en English). Cuenta con una aplicación para Android y iOS",
+    "tipo": "sitio",
+    "temas": [
+      "Angular",
+      "C",
+      "C#",
+      "C++",
+      "Desarrollo Web",
+      "Java",
+      "JavaScript",
+      "Kotlin",
+      "Machine Learning",
+      "PHP",
+      "Programación",
+      "Python",
+      "Ruby",
+      "SQL",
+      "Swift",
+      "jQuery"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "soy-miguel-idiomas",
+    "nombre": "Soy Miguel Idiomas",
+    "url": "https://www.youtube.com/@SoyMiguelIdiomas/playlists",
+    "descripcion": "",
+    "tipo": "canal",
+    "temas": [
+      "Desarrollo Profesional",
+      "Idiomas"
+    ],
+    "idioma": [
+      "Español",
+      "Francés",
+      "Inglés",
+      "Italiano"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "speak-english-with-vanessa",
+    "nombre": "Speak English With Vanessa",
+    "url": "https://www.youtube.com/@SpeakEnglishWithVanessa/playlists",
+    "descripcion": "",
+    "tipo": "canal",
+    "temas": [
+      "Desarrollo Profesional",
+      "Idiomas"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "sql-murder-mystery",
+    "nombre": "SQL Murder Mystery",
+    "url": "https://mystery.knightlab.com/",
+    "descripcion": "",
+    "tipo": "herramienta",
+    "temas": [
+      "SQL"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": false,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "sqlbolt",
+    "nombre": "SQLBolt",
+    "url": "https://sqlbolt.com/",
+    "descripcion": "SQLBolt ofrece una serie de lecciones y ejercicios interactivos diseñados para ayudarte a aprender rápidamente SQL directamente en tu navegador.",
+    "tipo": "herramienta",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI",
+      "SQL"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "super-designer",
+    "nombre": "Super Designer",
+    "url": "https://superdesigner.co/#tools",
+    "descripcion": "Super Designer es una colección de herramientas de diseño web. Abarca variados tipos de generadores: pattern, shades, colors, shape, blob & gradient.",
+    "tipo": "herramienta",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "sysarmy-hello-world",
+    "nombre": "sysarmy: \"Hello world\"... allá voy",
+    "url": "https://sysarmy.com/blog/posts/iniciar-en-programacion/",
+    "descripcion": "Recopilación de charlas y materiales de la comunidad sysarmy para quienes quieren iniciarse en la programación.",
+    "tipo": "guia",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional",
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines",
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "test-de-holland-articulo",
+    "nombre": "Test de Holland: elegí profesión según tu personalidad",
+    "url": "https://orientacionesvocacion.com/test-de-holland/",
+    "descripcion": "Artículo para profundizar sobre la teoría de Holland y sus seis tipos de personalidad.",
+    "tipo": "guia",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "test-holland-online",
+    "nombre": "Test vocacional basado en el código Holland",
+    "url": "https://orientacionesvocacion.com/test-vocacional/",
+    "descripcion": "Ejemplo de test de Holland online, de Orientaciones Vocación.",
+    "tipo": "herramienta",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "test-inteligencias-idrlabs",
+    "nombre": "Test de inteligencias múltiples (IDRlabs)",
+    "url": "https://www.idrlabs.com/es/multiples-inteligencias/test.php",
+    "descripcion": "Ejemplo de test de inteligencias múltiples de Gardner.",
+    "tipo": "herramienta",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "test-inteligencias-uaeh",
+    "nombre": "Test de inteligencias múltiples (UAEH)",
+    "url": "http://ceca.uaeh.edu.mx/multimedia/inteligencias/",
+    "descripcion": "Ejemplo de test de inteligencias múltiples de Gardner.",
+    "tipo": "herramienta",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "test-inteligencias-webuniversitaria",
+    "nombre": "Test de inteligencias múltiples (Web Universitaria)",
+    "url": "https://www.webuniversitaria.com/inteligencias/multiples/",
+    "descripcion": "Ejemplo de test de inteligencias múltiples de Gardner.",
+    "tipo": "herramienta",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "test-no-se-que-estudiar",
+    "nombre": "Test de orientación vocacional de NoSeQuéEstudiar",
+    "url": "https://www.nosequeestudiar.net/test-orientacion-vocacional/",
+    "descripcion": "Test vocacional online y gratuito.",
+    "tipo": "herramienta",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "test-vocacional-up",
+    "nombre": "Test vocacional online de la Universidad de Palermo",
+    "url": "https://www.palermo.edu/ingresantes/test-vocacional.html",
+    "descripcion": "Test vocacional gratuito de la Universidad de Palermo.",
+    "tipo": "herramienta",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "the-manager-s-handbook",
+    "nombre": "The Manager's Handbook",
+    "url": "https://themanagershandbook.com/",
+    "descripcion": "The Manager's Handbook by Alex MacCaw",
+    "tipo": "guia",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "the-odin-project",
+    "nombre": "The Odin Project",
+    "url": "https://www.theodinproject.com/",
+    "descripcion": "The Odin Project es un sitio dedicado a todos los principiantes del mundo del desarrollo web y para aquellos que quieran adquirir/profundizar conocimiento.",
+    "tipo": "sitio",
+    "temas": [
+      "Desarrollo Web",
+      "Git",
+      "JavaScript",
+      "Programación",
+      "Ruby"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "todai-easy-japanese",
+    "nombre": "TODAI: Easy Japanese News",
+    "url": "https://play.google.com/store/apps/details?id=mobi.eup.jpnews",
+    "descripcion": "",
+    "tipo": "herramienta",
+    "temas": [
+      "Desarrollo Profesional",
+      "Idiomas",
+      "Reading & Comprehension"
+    ],
+    "idioma": [
+      "Inglés",
+      "Japones"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "transition-css",
+    "nombre": "Transition.css",
+    "url": "https://www.transition.style/",
+    "descripcion": "CSS Layout y Transition.css son repositorios de diseños y patrones populares hechos con CSS.",
+    "tipo": "herramienta",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "udemy",
+    "nombre": "Udemy",
+    "url": "https://www.udemy.com/es/",
+    "descripcion": "Udemy es una plataforma de aprendizaje en línea. Cuenta con cursos creados por creadores profesionales, universidades, empresas, entre otros. Tiene oferta gratuita y paga.",
+    "tipo": "sitio",
+    "temas": [
+      "Inteligencia Artificial",
+      "Ciencias de la Computación",
+      "Data Science",
+      "Desarrollo Profesional",
+      "Desarrollo Web",
+      "JavaScript",
+      "Machine Learning",
+      "Programación",
+      "Python"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "gratis": false,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "unicorn-academy-analisis-de-datos",
+    "nombre": "Unicorn Academy: introducción al análisis de datos",
+    "url": "https://cg.unicornacademy.es/?utm_source=mail&utm_medium=LA",
+    "descripcion": "Curso gratuito para dar los primeros pasos en análisis de datos.",
+    "tipo": "sitio",
+    "temas": [
+      "Data Science"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "caido"
+  },
+  {
+    "id": "unicorn-icons",
+    "nombre": "Unicorn Icons",
+    "url": "https://unicornicons.com/",
+    "descripcion": "Unicorn icons ofrece íconos animados para utilizar en proyectos de uso personal con atribución.",
+    "tipo": "herramienta",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "universidades-de-argentina",
+    "nombre": "Universidades de Argentina (privadas y públicas)",
+    "url": "https://www.altillo.com/universidades/universidades_arg.asp",
+    "descripcion": "Listado de Universidades en Argentina, tanto de gestión Estatal como Privada, ordenadas por Provincia (by Altillo)",
+    "tipo": "sitio",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "untools-herramientas-para-pensar-mejor",
+    "nombre": "untools: Herramientas para pensar mejor",
+    "url": "https://untools.co/",
+    "descripcion": "Colección de herramientas de análisis y frameworks que sirven de ayuda para resolver problemas, tomar decisiones y comprender sistemas.",
+    "tipo": "herramienta",
+    "temas": [
+      "Desarrollo Profesional"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": false,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "usa-learns",
+    "nombre": "USA Learns",
+    "url": "https://www.usalearns.org/",
+    "descripcion": "",
+    "tipo": "sitio",
+    "temas": [
+      "Desarrollo Profesional",
+      "Idiomas"
+    ],
+    "idioma": [
+      "Español",
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "visual-go",
+    "nombre": "Visual Go",
+    "url": "https://visualgo.net/en",
+    "descripcion": "VisualGo es un sitio web que permite visualizar estructuras de datos y algoritmos a través de animaciones.",
+    "tipo": "herramienta",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "Desarrollo Web",
+      "Programación"
+    ],
+    "idioma": [
+      "Aplicar traductor de Google al sitio!",
+      "Inglés"
+    ],
+    "gratis": false,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "w3schools",
+    "nombre": "W3Schools",
+    "url": "https://www.w3schools.com/",
+    "descripcion": "W3School es un sitio web dedicado al aprendizaje de lenguajes de programación. Incluye tutoriales de HTML, CSS, JS, SQL, PHP, Python, Bootstrap, C, C++, C, entre otros.",
+    "tipo": "guia",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "warriors-js",
+    "nombre": "Warriors JS",
+    "url": "https://warriorjs.com/",
+    "descripcion": "",
+    "tipo": "herramienta",
+    "temas": [
+      "Algoritmos y Estructuras de Datos",
+      "Desarrollo Web",
+      "JavaScript",
+      "Programación"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": false,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "web-dev-for-beginners",
+    "nombre": "Desarrollo web para principiantes (Microsoft)",
+    "url": "https://github.com/microsoft/Web-Dev-For-Beginners",
+    "descripcion": "El grupo Azure Cloud Advocates de Microsoft ofrece un plan de estudios de 24 lecciones de 12 semanas de duración sobre conceptos básicos de JavaScript, CSS y HTML.",
+    "tipo": "guia",
+    "temas": [
+      "API",
+      "Algoritmos y Estructuras de Datos",
+      "Desarrollo Web",
+      "Git y GitHub",
+      "JavaScript",
+      "Programación",
+      "Videojuegos"
+    ],
+    "idioma": [
+      "Inglés"
+    ],
+    "gratis": true,
+    "thread": "cursos",
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "web-dev-layout-patterns",
+    "nombre": "web.dev: Layout patterns",
+    "url": "https://web.dev/patterns/layout/",
+    "descripcion": "Layout patterns es una colección de patrones de diseño creados con API de CSS que ayudan a crear interfaces comunes como tarjetas, dynamic grid areas y diseños de página completa.",
+    "tipo": "guia",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "caido"
+  },
+  {
+    "id": "web-dev-web-vitals-patterns",
+    "nombre": "web.dev: Web Vitals patterns",
+    "url": "https://web.dev/patterns/web-vitals-patterns/",
+    "descripcion": "Web Vitals patterns es una colección de patrones UX comunes optimizados para Core Web Vitals. Estas últimas son un conjunto de métricas de Google que analizan la UX de un sitio web. ( + info)",
+    "tipo": "guia",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "web-skills",
+    "nombre": "Web Skills",
+    "url": "https://andreasbm.github.io/web-skills/?compact",
+    "descripcion": "Panel visual con las habilidades para aprender desarrollo web, ordenadas como ruta de aprendizaje. Leé primero su FAQ.",
+    "tipo": "guia",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "write-the-docs",
+    "nombre": "Write the Docs",
+    "url": "https://www.writethedocs.org/",
+    "descripcion": "Write the Docs es una comunidad global de personas que se preocupan por la documentación. Cuentan con una comunidad de Slack, realizan conferencias en 3 continentes y reuniones locales.",
+    "tipo": "comunidad",
+    "temas": [
+      "Programación",
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "recursos-tech-plus-plus",
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "write-the-docs-guia",
+    "nombre": "Write the Docs: guía para escribir documentación",
+    "url": "https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/",
+    "descripcion": "Write the Docs es una comunidad global de personas que se preocupan por la documentación. Cuentan con una comunidad de Slack, realizan conferencias en 3 continentes y reuniones locales.",
+    "tipo": "guia",
+    "temas": [
+      "Programación",
+      "Desarrollo Web",
+      "HTML y CSS",
+      "UX",
+      "UI"
+    ],
+    "idioma": [],
+    "gratis": true,
+    "thread": "tecnologia",
+    "aparece_en": [
+      "recursos-tech-plus-plus",
+      "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-15",
+    "estado": "activo"
+  }
+]

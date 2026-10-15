@@ -1,0 +1,71 @@
+---
+import Icon from './Icon.astro';
+import FavButton from './FavButton.astro';
+import { CERT, isoDate, url } from '../lib/site';
+interface Props {
+  curso: {
+    id: string;
+    data: {
+      nombre: string;
+      proveedores: string[];
+      url: string;
+      temas: string[];
+      categoria: string[];
+      duracion: string;
+      duracionHoras?: number;
+      idiomas: string[];
+      certificacion: string;
+      agregado: Date;
+      estado: string;
+    };
+  };
+  colorEtiqueta: Map<string, string>;
+}
+const { curso, colorEtiqueta } = Astro.props;
+const d = curso.data;
+const cert = CERT[d.certificacion];
+const temas = d.temas.slice(0, 4);
+const resto = d.temas.length - temas.length;
+---
+
+<li
+  class="card"
+  data-item
+  data-key={`curso:${curso.id}`}
+  data-nombre={d.nombre}
+  data-texto={[d.nombre, ...d.proveedores, ...d.temas].join(' ').toLowerCase()}
+  data-cat={d.categoria.join('|')}
+  data-prov={d.proveedores.join('|')}
+  data-idioma={d.idiomas.join('|')}
+  data-cert={d.certificacion}
+  data-horas={d.duracionHoras ?? ''}
+  data-agregado={isoDate(d.agregado)}
+>
+  <div class="card-top">
+    <div>
+      <h3 id={`curso-${curso.id}`} class="card-title">{d.nombre}</h3>
+      <p class="card-prov">{d.proveedores.join(', ')}</p>
+    </div>
+    <FavButton tipo="curso" id={curso.id} nombre={d.nombre} href={url(`/cursos/#curso-${curso.id}`)} />
+  </div>
+  <ul class="chips" aria-label="Temas">
+    {temas.map((t) => <li class={`chip chip--${colorEtiqueta.get(t) ?? 't1'}`}>{t}</li>)}
+    {resto > 0 && <li class="chip">+{resto}</li>}
+  </ul>
+  <ul class="card-facts">
+    <li><Icon name="clock" /><span class="sr-only">Duración:</span> {d.duracion}</li>
+    <li><Icon name="language" /><span class="sr-only">Idioma:</span> {d.idiomas.join(', ')}</li>
+  </ul>
+  <div class="card-foot" data-pagefind-ignore>
+    <span>
+      <span class:list={['badge', cert.clase]}>
+        {d.certificacion === 'gratis-con-certificado' && <Icon name="certificate" />}
+        {cert.label}
+      </span>
+      {d.estado === 'revisar' && <span class="badge badge--revisar">Link en revisión</span>}
+    </span>
+    <a class="btn btn--sm" href={d.url} target="_blank" rel="noopener noreferrer">
+      Ir al curso <Icon name="external" /><span class="sr-only"> {d.nombre} (se abre en otra pestaña)</span>
+    </a>
+  </div>
+</li>

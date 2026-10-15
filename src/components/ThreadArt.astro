@@ -1,0 +1,43 @@
+---
+/**
+ * Ilustración de línea de cada thread. Mismo lenguaje que el trazo del taller
+ * (blanco, grueso, puntas redondeadas, translúcido), pero con un objeto que cuenta de qué va:
+ *   cursando   camino que sube hasta una bandera (la carrera, el recorrido)
+ *   cursos     birrete con borla
+ *   tecnologia </>
+ *   variaditos hoja con esquina doblada y renglones
+ * Decorativa: aria-hidden. Cada trazo usa pathLength="1" para dibujarse con la misma animación.
+ */
+interface Props {
+  tema: string;
+  class?: string;
+}
+const { tema, class: cls } = Astro.props;
+
+const TRAZOS: Record<string, string[]> = {
+  cursando: [
+    'M-10 232C70 236 64 168 140 160S228 110 300 96',
+    'M300 96V18',
+    'M300 22H368L350 46L368 70H300',
+  ],
+  cursos: [
+    'M200 34L352 96L200 158L48 96Z',
+    'M104 120V176C104 204 296 204 296 176V120',
+    'M352 96V172',
+    'M352 196V198',
+  ],
+  tecnologia: ['M138 46L52 120L138 194', 'M262 46L348 120L262 194', 'M226 22L174 218'],
+  variaditos: [
+    'M92 14H244L310 80V262H92Z',
+    'M244 14V80H310',
+    'M132 128H262',
+    'M132 170H262',
+    'M132 212H214',
+  ],
+};
+const trazos = TRAZOS[tema] ?? TRAZOS.variaditos;
+---
+
+<svg class:list={['thread-art', `thread-art--${tema}`, cls]} viewBox="0 0 400 240" fill="none" aria-hidden="true" focusable="false">
+  {trazos.map((d, i) => <path d={d} pathLength="1" style={`--n:${i}`} />)}
+</svg>

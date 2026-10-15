@@ -1,0 +1,137 @@
+<!doctype html>
+<!-- Imagen Open Graph (1200x630). Se regenera con: npm run og -->
+<html lang="es-AR">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      @font-face {
+        font-family: Outfit;
+        src: url('../public/fonts/outfit.woff2') format('woff2');
+        font-weight: 100 900;
+      }
+      @font-face {
+        font-family: Geist;
+        src: url('../public/fonts/geist.woff2') format('woff2');
+        font-weight: 100 900;
+      }
+      @font-face {
+        font-family: 'Geist Mono';
+        src: url('../public/fonts/geist-mono.woff2') format('woff2');
+        font-weight: 100 900;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+      html,
+      body {
+        width: 1200px;
+        height: 630px;
+        overflow: hidden;
+      }
+      body {
+        display: grid;
+        grid-template-columns: 1.08fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 22px;
+        padding: 36px;
+        background: #e9e8f6;
+        color: #1f1f24;
+        font-family: Geist, sans-serif;
+      }
+      .hero {
+        position: relative;
+        grid-row: span 2;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 52px;
+        border-radius: 32px;
+        background: #fff;
+      }
+      .hero svg {
+        position: absolute;
+        right: -90px;
+        bottom: -125px;
+        width: 430px;
+      }
+      .kicker {
+        align-self: flex-start;
+        padding: 8px 18px;
+        border-radius: 13px;
+        background: #24242a;
+        color: #f8de73;
+        font: 600 20px Outfit;
+      }
+      h1 {
+        margin: 28px 0 22px;
+        font: 600 78px/0.98 Outfit;
+        letter-spacing: -2.4px;
+      }
+      h1 em {
+        font-style: normal;
+        background: linear-gradient(transparent 60%, #f8de73 60%, #f8de73 92%, transparent 92%);
+      }
+      p.lead {
+        max-width: 25ch;
+        color: #5b5a6b;
+        font-size: 26px;
+        line-height: 1.38;
+      }
+      .tile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px 32px;
+        border-radius: 32px;
+      }
+      .t1 {
+        background: #b9bbf6;
+      }
+      .t2 {
+        background: #f7ab6a;
+      }
+      .tag {
+        align-self: flex-start;
+        padding: 6px 15px;
+        border-radius: 12px;
+        background: #24242a;
+        color: #f8de73;
+        font: 600 18px Outfit;
+      }
+      .tile h2 {
+        font: 600 38px/1.05 Outfit;
+        letter-spacing: -0.8px;
+      }
+      .nums {
+        display: flex;
+        gap: 10px;
+      }
+      .nums span {
+        padding: 8px 16px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.6);
+        font: 500 18px 'Geist Mono';
+      }
+    </style>
+  </head>
+  <body>
+    <section class="hero">
+      <svg viewBox="0 0 400 240" fill="none">
+        <path d="M-20 170c60-90 130-110 150-50s-40 90-70 50 40-130 130-120 90 110 30 120-60-70 20-110 150-20 190 30" stroke="#b9bbf6" stroke-opacity=".45" stroke-width="22" stroke-linecap="round" />
+      </svg>
+      <span class="kicker">El servidor de Lourdes</span>
+      <h1>Crecé en este mundo <em>sin respawn</em></h1>
+      <p class="lead">Materiales, charlas, cursos gratuitos y recursos tech para seguir aprendiendo.</p>
+    </section>
+    <section class="tile t1">
+      <span class="tag">Threads</span>
+      <h2>Carrera, tecnología y materiales para la cursada</h2>
+    </section>
+    <section class="tile t2">
+      <span class="tag">Cursos [2025]</span>
+      <div class="nums"><span>+140 cursos</span><span>+140 recursos</span></div>
+    </section>
+  </body>
+</html>

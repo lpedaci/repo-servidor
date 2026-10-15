@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import { url } from '../lib/site';
+---
+
+<Base titulo="Te caíste del mapa" descripcion="Esta página no existe." noindex>
+  <div class="wrap">
+    <section class="lost stagger" aria-labelledby="lost-t">
+      <div class="tile tile--t2 tile--squiggle" style="--i:0">
+        <p class="lost-code" aria-hidden="true">404</p>
+      </div>
+      <div class="panel" style="--i:1;display:flex;flex-direction:column;justify-content:center;gap:1rem">
+        <p class="kicker"><Icon name="gamepad" /> Error 404</p>
+        <h1 id="lost-t" style="font-size:clamp(2rem,4.4vw,3.2rem)">Te caíste del mapa</h1>
+        <p class="lead muted" style="margin:0;font-size:1.15rem">Sin respawn, pero con botón de volver. La página que buscabas no existe o se mudó.</p>
+        <div class="chips" style="margin-top:0.5rem">
+          <a class="btn btn--primary" href={url('/')}>Volver al Lobby <Icon name="house" /></a>
+          <a class="btn" href={url('/buscar/')}><Icon name="search" /> Buscar</a>
+        </div>
+      </div>
+    </section>
+  </div>
+</Base>

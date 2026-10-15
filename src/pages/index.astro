@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import LobbyConsola from '../components/lobby/LobbyConsola.astro';
+import LobbyAbajo from '../components/lobby/LobbyAbajo.astro';
+import { datosLobby } from '../lib/lobby';
+
+const d = await datosLobby();
+---
+
+<Base actual="lobby">
+  <h1 class="sr-only">El servidor de Lourdes</h1>
+  <LobbyConsola d={d} />
+  <LobbyAbajo d={d} />
+</Base>

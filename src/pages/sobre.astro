@@ -1,0 +1,74 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import Callout from '../components/Callout.astro';
+import { SITE, url } from '../lib/site';
+---
+
+<Base titulo="Sobre el server" descripcion={`Qué es El servidor de Lourdes y quién lo arma: ${SITE.autora}, ${SITE.firma}.`}>
+  <div class="wrap">
+    <section class="sobre-grid stagger" aria-labelledby="sobre-t">
+      <div class="tile tile--t1 tile--squiggle" style="--i:0;display:flex;flex-direction:column;justify-content:space-between;gap:2rem;padding:clamp(1.5rem,4vw,3rem)">
+        <p class="kicker"><Icon name="server" /> Sobre el server</p>
+        <div>
+          <h1 id="sobre-t" class="hero-title" style="font-size:clamp(2.2rem,5vw,4rem)">Un server para users que quieren seguir aprendiendo</h1>
+          <p class="hero-lema">{SITE.lema}</p>
+        </div>
+      </div>
+      <div class="deep" style="--i:1;display:flex;flex-direction:column;justify-content:space-between;gap:1.5rem">
+        <div>
+          <p class="label" style="color:var(--t3)">Quién lo arma</p>
+          <h2 style="font-size:clamp(1.6rem,3vw,2.2rem);margin:0.4rem 0 0.75rem">{SITE.autora}</h2>
+          <p style="color:var(--deep-muted)">{SITE.firma}.</p>
+        </div>
+        <ul class="foot-redes">
+          <li><a href={SITE.redes.linkedin} target="_blank" rel="noopener noreferrer"><Icon name="linkedin" /> LinkedIn<span class="sr-only"> (se abre en otra pestaña)</span></a></li>
+          <li><a href={SITE.redes.youtube} target="_blank" rel="noopener noreferrer"><Icon name="youtube" /> YouTube<span class="sr-only"> (se abre en otra pestaña)</span></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="post-body" style="grid-template-columns:minmax(0,1fr)">
+      <article class="panel prose-panel" data-pagefind-body>
+        <div class="prose">
+          <h2>Por qué existe</h2>
+          <p>
+            Decidí armar esta web (a la que llamo <em>server</em>) para volcar los materiales que diseño para mis estudiantes de la Tecnicatura en Informática, además de otros
+            contenidos interesantes para seguir aprendiendo a lo largo de la vida. Desde sus orígenes está full orientado a tecno, pero también sumo temas que le pueden servir a cualquier internauta.
+          </p>
+          <p>
+            A medida que genero o encuentro buena info, la posteo en alguno de los <a href={url('/threads/')}>threads</a>. Si querés que profundice sobre alguna temática o necesitás una mano,
+            escribime por la red social desde la que llegaste.
+          </p>
+          <h2>Para quién es</h2>
+          <ul>
+            <li>Estudiantes de escuela técnica en informática.</li>
+            <li>Egresados y futuros egresados que están buscando su primer trabajo.</li>
+            <li>Gente que está eligiendo carrera y se siente perdida en este multiverso.</li>
+            <li>Cualquier internauta que quiera seguir aprendiendo.</li>
+          </ul>
+          <h2>Cómo usarlo</h2>
+          <p>
+            Los <strong>threads</strong> agrupan posts por tema. El <a href={url('/cursos/')}>explorador de cursos</a> y el de <a href={url('/recursos/')}>recursos</a> tienen filtros que se guardan en
+            la dirección de la página, así podés compartir una vista. Con la estrella guardás cosas en tu <a href={url('/inventario/')}>inventario</a>, que vive solo en tu navegador.
+          </p>
+          <Callout tipo="aviso">
+            <p>{SITE.legal}</p>
+          </Callout>
+          <h2>¿Te sirvió?</h2>
+          <p>Todo el server es gratis y va a seguir así. Si querés bancarlo, podés invitarme un Cafecito (o un alfajor).</p>
+          <p>
+            <a class="btn btn--primary" href={SITE.redes.cafecito} target="_blank" rel="noopener noreferrer" style="text-decoration:none">
+              Invitame un Cafecito<span class="sr-only"> (se abre en otra pestaña)</span> <Icon name="mug" />
+            </a>
+          </p>
+          <h2>Este sitio</h2>
+          <p>
+            Antes vivía en Notion. Ahora es un sitio estático hecho con Astro y publicado en GitHub Pages, sin cookies ni seguimiento. Los íconos son de Font Awesome Free (CC BY 4.0). Las tipografías
+            son Outfit, Geist y Geist Mono (SIL Open Font License).
+          </p>
+        </div>
+      </article>
+    </div>
+  </div>
+</Base>

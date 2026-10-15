@@ -1,0 +1,11 @@
+---
+/** Tarjeta de recurso para páginas Astro. En Markdown se usa ::recurso{#id}. Misma salida en los dos casos. */
+import { linkCardHtml } from '../lib/linkcard.mjs';
+interface Props {
+  recurso: { nombre: string; url: string; tipo: string; estado: string; descripcion?: string };
+  descripcion?: boolean;
+}
+const { recurso, descripcion = false } = Astro.props;
+---
+
+<Fragment set:html={linkCardHtml(recurso, { descripcion })} />

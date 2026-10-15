@@ -1,0 +1,138 @@
+---
+import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
+import CursoCard from '../../components/CursoCard.astro';
+import FavButton from '../../components/FavButton.astro';
+import FilterBar, { type Grupo } from '../../components/FilterBar.astro';
+import { CERT, datos, url } from '../../lib/site';
+
+const { cursos, categorias, colorEtiqueta } = await datos();
+cursos.sort((a, b) => a.data.nombre.localeCompare(b.data.nombre, 'es'));
+
+const contar = (vals: string[]) => [...vals.reduce((m, v) => m.set(v, (m.get(v) ?? 0) + 1), new Map<string, number>())];
+const provs = contar(cursos.flatMap((c) => c.data.proveedores)).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'es'));
+const idiomas = contar(cursos.flatMap((c) => c.data.idiomas)).sort((a, b) => b[1] - a[1]);
+const certs = contar(cursos.map((c) => c.data.certificacion));
+
+const grupos: Grupo[] = [
+  {
+    param: 'cat',
+    attr: 'cat',
+    legend: 'Categoría',
+    opciones: categorias.map((c) => ({ valor: c.id, label: c.data.nombre, n: cursos.filter((x) => x.data.categoria.includes(c.id)).length })),
+  },
+  {
+    param: 'cert',
+    attr: 'cert',
+    legend: 'Certificación',
+    opciones: Object.keys(CERT)
+      .filter((k) => certs.some(([c]) => c === k))
+      .map((k) => ({ valor: k, label: CERT[k].label, n: certs.find(([c]) => c === k)![1] })),
+  },
+  { param: 'prov', attr: 'prov', legend: 'Proveedor', opciones: provs.map(([p, n]) => ({ valor: p, label: p, n })), extra: true },
+  { param: 'idioma', attr: 'idioma', legend: 'Idioma', opciones: idiomas.map(([p, n]) => ({ valor: p, label: p, n })), extra: true },
+];
+const ordenes = [
+  { valor: 'nombre', label: 'Ordenar: nombre (A a Z)' },
+  { valor: 'duracion', label: 'Ordenar: más cortos primero' },
+  { valor: 'nuevos', label: 'Ordenar: recién agregados' },
+];
+---
+
+<Base
+  titulo="Cursos gratuitos"
+  descripcion={`${cursos.length} cursos gratuitos o casi: programación, diseño UX/UI, datos, soft skills, marketing y seguridad. Filtrá por categoría, proveedor, idioma y certificado.`}
+  actual="cursos"
+>
+  <div class="wrap" data-pagefind-body>
+    <header class="page-head">
+      <div class="page-head-in">
+        <div>
+          <p class="kicker"><Icon name="graduation-cap" /> Thread 2: Cursos [2025]</p>
+          <h1>Explorador de cursos</h1>
+        </div>
+        <p class="lead">
+          Cursos gratuitos (algunos por tiempo limitado). Combiná filtros y compartí el link: la vista queda guardada en la dirección.
+        </p>
+      </div>
+    </header>
+
+    <div data-pagefind-ignore>
+      <FilterBar grupos={grupos} placeholder="Buscá por nombre, tema o proveedor" ordenes={ordenes} noun="cursos" />
+    </div>
+
+    <div class="result-bar" data-pagefind-ignore>
+      <p class="result-count" data-conteo>
+        <span class="mono" data-conteo-n>{cursos.length}</span> de {cursos.length} cursos
+      </p>
+      <p class="sr-only" aria-live="polite" data-anuncio></p>
+      <div class="result-tools js-only">
+        <div class="seg" role="group" aria-label="Vista">
+          <button type="button" data-vista="tarjetas" aria-pressed="true"><Icon name="grid" /> Tarjetas</button>
+          <button type="button" data-vista="tabla" aria-pressed="false"><Icon name="table" /> Tabla</button>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="sr-only">Lista de cursos</h2>
+    <ul class="cards" data-lista data-noun="cursos">
+      {cursos.map((c) => <CursoCard curso={c} colorEtiqueta={colorEtiqueta} />)}
+    </ul>
+
+    <div class="table-wrap" data-tabla hidden data-pagefind-ignore>
+      <table class="dtable">
+        <caption class="sr-only">Cursos del server, con proveedor, duración, idioma y certificación</caption>
+        <thead>
+          <tr>
+            <th scope="col">Curso</th>
+            <th scope="col">Proveedor</th>
+            <th scope="col">Duración</th>
+            <th scope="col">Idioma</th>
+            <th scope="col">Certificación</th>
+            <th scope="col"><span class="sr-only">Guardar</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            cursos.map((c) => {
+              const d = c.data;
+              const cert = CERT[d.certificacion];
+              return (
+                <tr data-key={`curso:${c.id}`}>
+                  <td class="t-name">
+                    <a href={d.url} target="_blank" rel="noopener noreferrer">
+                      {d.nombre}
+                      <Icon name="external" class="ic-ext" />
+                      <span class="sr-only"> (se abre en otra pestaña)</span>
+                    </a>
+                    {d.estado === 'revisar' && <span class="badge badge--revisar">Link en revisión</span>}
+                  </td>
+                  <td data-label="Proveedor">{d.proveedores.join(', ')}</td>
+                  <td class="t-mono" data-label="Duración">{d.duracion}</td>
+                  <td data-label="Idioma">{d.idiomas.join(', ')}</td>
+                  <td data-label="Certificación">
+                    <span class:list={['badge', cert.clase]}>{cert.label}</span>
+                  </td>
+                  <td class="t-act">
+                    <FavButton tipo="curso" id={c.id} nombre={d.nombre} href={url(`/cursos/#curso-${c.id}`)} />
+                  </td>
+                </tr>
+              );
+            })
+          }
+        </tbody>
+      </table>
+    </div>
+
+    <div class="panel empty" data-vacio hidden>
+      <span class="dot-ic" style="background:var(--t2)"><Icon name="search" /></span>
+      <h2>No encontramos cursos con esa combinación</h2>
+      <p>Probá sacando algún filtro o buscando con otra palabra. Por ejemplo, "Python" en lugar de "Python avanzado".</p>
+      <button class="btn btn--primary" type="button" data-limpiar-vacio>Limpiar filtros <Icon name="reset" /></button>
+    </div>
+  </div>
+</Base>
+
+<script>
+  import '../../scripts/filtros';
+</script>

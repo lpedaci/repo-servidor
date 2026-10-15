@@ -1,0 +1,45 @@
+---
+/**
+ * Banda de temas en movimiento. Es un contenedor con scroll horizontal real:
+ * avanza sola, se frena con el cursor encima o con el foco del teclado, y se puede mover
+ * con la rueda horizontal del mouse, el trackpad o el dedo. La segunda copia es solo visual
+ * (sirve para que el loop no tenga corte). Con movimiento reducido no avanza sola.
+ */
+import { url } from '../../lib/site';
+interface Props {
+  temas: string[];
+  colorDe: Map<string, string>;
+  id?: string;
+}
+const { temas, colorDe, id = 'temas-banda' } = Astro.props;
+---
+
+<div class="marquee" data-marquee>
+  <span class="label" id={id}>Temas</span>
+  <div class="marquee-view" data-marquee-view>
+    <div class="marquee-track">
+      <ul class="chips" aria-labelledby={id}>
+        {
+          temas.map((t) => (
+            <li>
+              <a class={`chip chip--${colorDe.get(t) ?? 't1'}`} href={url(`/cursos/?q=${encodeURIComponent(t)}`)}>
+                {t}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+      <ul class="chips" aria-hidden="true">
+        {
+          temas.map((t) => (
+            <li>
+              <a class={`chip chip--${colorDe.get(t) ?? 't1'}`} href={url(`/cursos/?q=${encodeURIComponent(t)}`)} tabindex="-1">
+                {t}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </div>
+</div>

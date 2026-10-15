@@ -1,0 +1,76 @@
+---
+/** Parte baja del Lobby (threads, lo nuevo, búsqueda y Cafecito). Igual en todas las propuestas. */
+import Icon from '../Icon.astro';
+import ThreadCard from '../ThreadCard.astro';
+import { SITE, fecha, url } from '../../lib/site';
+import type { DatosLobby } from '../../lib/lobby';
+interface Props {
+  d: DatosLobby;
+}
+const { d } = Astro.props;
+const { threads, nuevos, threadDe, cursos, ultima, nThread } = d;
+---
+
+<div class="wrap lobby lobby--abajo stagger">
+  {threads.slice(0, 2).map((t, i) => <ThreadCard thread={t} conteo={nThread(t.id)} posicion={i + 1} />)}
+
+  <section class="deep now b-nuevo" style="--i:5" aria-labelledby="now-t">
+    <h2 id="now-t"><Icon name="terminal" /> Lo nuevo en el server</h2>
+    <ul class="now-list">
+      {
+        nuevos.map((p) => {
+          const t = threadDe.get(p.data.thread.id)!;
+          return (
+            <li>
+              <a class="now-item" href={url(`/posts/${p.id}/`)} style={`--tile: var(--${t.data.color})`}>
+                <span class="dot-ic">
+                  <Icon name={t.data.icono} />
+                </span>
+                <span>
+                  <span class="now-kind">{t.data.corto}</span>
+                  <span class="now-title">{p.data.titulo}</span>
+                </span>
+              </a>
+            </li>
+          );
+        })
+      }
+      <li>
+        <a class="now-item" href={url('/cursos/')} style="--tile: var(--t2)">
+          <span class="dot-ic"><Icon name="graduation-cap" /></span>
+          <span>
+            <span class="now-kind">Cursos [2025]</span>
+            <span class="now-title">{cursos.length} cursos con links revisados el {fecha(ultima)}</span>
+          </span>
+        </a>
+      </li>
+    </ul>
+    <p class="now-foot"><a href={url('/threads/')}>Ver todos los threads</a></p>
+  </section>
+
+  {threads.slice(2).map((t, i) => <ThreadCard thread={t} conteo={nThread(t.id)} posicion={i + 3} />)}
+
+  <section class="panel b-buscar" style="--i:7" aria-labelledby="buscar-t">
+    <h2 id="buscar-t">¿Buscás algo puntual?</h2>
+    <p class="muted" style="margin:0.5rem 0 0">Buscá en todos los posts, cursos y recursos del server.</p>
+    <form action={url('/buscar/')} method="get" role="search">
+      <label class="sr-only" for="lobby-q">Buscar en el server</label>
+      <span class="input-ic">
+        <Icon name="search" />
+        <input class="input" id="lobby-q" name="q" type="search" placeholder="Ej.: Python, CV, Power BI" autocomplete="off" />
+      </span>
+      <button class="btn btn--primary" type="submit">Buscar <Icon name="arrow-right" /></button>
+    </form>
+  </section>
+
+  <section class="tile tile--t3 tile--squiggle b-cafe" style="--i:8" aria-labelledby="cafe-t">
+    <div>
+      <h2 id="cafe-t">¿Te sirvió el server?</h2>
+      <p>Todo es gratis y va a seguir así. Si querés bancarlo, invitame un Cafecito (o un alfajor).</p>
+    </div>
+    <a class="btn btn--primary" href={SITE.redes.cafecito} target="_blank" rel="noopener noreferrer" style="align-self:flex-start">
+      Invitame un Cafecito<span class="sr-only"> (se abre en otra pestaña)</span>
+      <Icon name="mug" />
+    </a>
+  </section>
+</div>

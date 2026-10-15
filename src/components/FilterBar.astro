@@ -1,0 +1,89 @@
+---
+/**
+ * Barra de filtros del explorador. Sin JS queda oculta y se ve la lista completa
+ * (los filtros solo funcionan con JS). Con JS, el estado vive en la URL: ?cat=...&prov=...&q=...
+ */
+import Icon from './Icon.astro';
+
+export interface Grupo {
+  param: string; // nombre en la URL
+  attr: string; // data-* de cada ítem
+  legend: string;
+  opciones: { valor: string; label: string; n: number }[];
+  extra?: boolean; // va dentro de "Más filtros"
+}
+interface Props {
+  grupos: Grupo[];
+  placeholder: string;
+  ordenes: { valor: string; label: string }[];
+  noun: string; // "cursos", "recursos"
+}
+const { grupos, placeholder, ordenes, noun } = Astro.props;
+const visibles = grupos.filter((g) => !g.extra);
+const extras = grupos.filter((g) => g.extra);
+const idDe = (g: Grupo, i: number) => `f-${g.param}-${i}`;
+---
+
+<form class="panel explorer-bar js-only" data-explorer-form role="search" aria-label={`Filtrar ${noun}`} onsubmit="return false">
+  <div class="explorer-row">
+    <label class="sr-only" for="q">Buscar {noun} por nombre, tema o proveedor</label>
+    <span class="input-ic">
+      <Icon name="search" />
+      <input class="input" id="q" name="q" type="search" placeholder={placeholder} autocomplete="off" />
+    </span>
+    <label class="sr-only" for="orden">Ordenar por</label>
+    <select class="select" id="orden" name="orden">
+      {ordenes.map((o) => <option value={o.valor}>{o.label}</option>)}
+    </select>
+    <button class="btn btn--sm" type="button" data-limpiar>
+      <Icon name="reset" /> Limpiar
+    </button>
+  </div>
+  <div class="filters">
+    {
+      visibles.map((g) => (
+        <fieldset class="fgroup" data-group={g.param} data-attr={g.attr}>
+          <legend>{g.legend}</legend>
+          <div class="fchips">
+            {g.opciones.map((o, i) => (
+              <span class="fchip">
+                <input type="checkbox" id={idDe(g, i)} name={g.param} value={o.valor} />
+                <label for={idDe(g, i)}>
+                  <Icon name="check" class="ic-check" />
+                  {o.label} <span class="fchip-n">{o.n}</span>
+                </label>
+              </span>
+            ))}
+          </div>
+        </fieldset>
+      ))
+    }
+    {
+      extras.length > 0 && (
+        <details class="more-filters" data-more>
+          <summary>
+            <Icon name="sliders" /> Más filtros <span class="fchip-n" data-extra-n />
+          </summary>
+          <div class="filters">
+            {extras.map((g) => (
+              <fieldset class="fgroup" data-group={g.param} data-attr={g.attr}>
+                <legend>{g.legend}</legend>
+                <div class="fchips">
+                  {g.opciones.map((o, i) => (
+                    <span class="fchip">
+                      <input type="checkbox" id={idDe(g, i)} name={g.param} value={o.valor} />
+                      <label for={idDe(g, i)}>
+                        <Icon name="check" class="ic-check" />
+                        {o.label} <span class="fchip-n">{o.n}</span>
+                      </label>
+                    </span>
+                  ))}
+                </div>
+              </fieldset>
+            ))}
+          </div>
+        </details>
+      )
+    }
+  </div>
+</form>

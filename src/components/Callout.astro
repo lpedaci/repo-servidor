@@ -1,0 +1,19 @@
+---
+/** Callout para páginas Astro. Mismo aspecto que :::callout en Markdown. */
+import Icon from './Icon.astro';
+interface Props {
+  tipo?: 'idea' | 'aviso' | 'tip';
+}
+const { tipo = 'tip' } = Astro.props;
+const META = {
+  idea: { label: 'Idea clave', icon: 'lightbulb' },
+  aviso: { label: 'Ojo', icon: 'warning' },
+  tip: { label: 'Dato', icon: 'pin' },
+};
+const m = META[tipo];
+---
+
+<div class:list={['callout', `callout--${tipo}`]} role="note">
+  <p class="callout-label"><Icon name={m.icon} />{m.label}</p>
+  <slot />
+</div>

@@ -1,0 +1,108 @@
+---
+/**
+ * Muestrario de componentes (no indexado). Sirve para revisar el sistema de diseño en los dos temas:
+ * usá el botón de tema de la barra superior.
+ * Nota: Astro no publica rutas que empiezan con "_", por eso vive en /ui/ y no en /_ui/.
+ */
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import Callout from '../components/Callout.astro';
+import LinkCard from '../components/LinkCard.astro';
+import CursoCard from '../components/CursoCard.astro';
+import FavButton from '../components/FavButton.astro';
+import { ICONOS } from '../lib/icons.mjs';
+import { datos } from '../lib/site';
+
+const { cursos, recursos, colorEtiqueta } = await datos();
+const curso = cursos.find((c) => c.data.certificacion === 'gratis-con-certificado')!;
+const rec = recursos.slice(0, 3);
+const revisar = recursos.find((r) => r.data.estado === 'revisar');
+---
+
+<Base titulo="Componentes" noindex>
+  <div class="wrap" style="display:grid;gap:var(--gap);padding-top:1.25rem">
+    <header class="page-head">
+      <p class="kicker"><Icon name="shapes" /> Sistema de diseño</p>
+      <h1>Componentes del server</h1>
+      <p class="lead">Página interna para revisar. Cambiá el tema con el botón de la luna o el sol.</p>
+    </header>
+
+    <section class="panel">
+      <h2 style="margin-bottom:1rem">Color</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(9rem,1fr));gap:0.6rem">
+        {
+          ['bg', 'surface', 'surface-2', 'ink', 'muted', 'rule', 'l1', 'l2', 't1', 't2', 't3', 't4', 'deep', 'yes', 'no', 'mark'].map((t) => (
+            <div style="border-radius:1rem;overflow:hidden;border:1px solid var(--rule)">
+              <div style={`height:4rem;background:var(--${t})`} />
+              <p class="mono" style="margin:0;padding:0.4rem 0.6rem;font-size:0.8rem">--{t}</p>
+            </div>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2 style="margin-bottom:1rem">Tipografía</h2>
+      <p style="font-family:var(--display);font-size:3rem;font-weight:600;line-height:1;margin:0">Outfit, display</p>
+      <p style="font-size:1.1rem">Geist, cuerpo. Comparto contenido para users que quieren crecer en este mundo sin respawn.</p>
+      <p class="mono">Geist Mono: 40 hs · 168 cursos · 2026-10-15</p>
+    </section>
+
+    <section class="panel">
+      <h2 style="margin-bottom:1rem">Botones, chips y badges</h2>
+      <div class="chips" style="align-items:center">
+        <a class="btn btn--primary" href="#">Primario <Icon name="arrow-right" /></a>
+        <a class="btn" href="#">Secundario</a>
+        <button class="btn btn--sm" type="button"><Icon name="reset" /> Chico</button>
+        <FavButton tipo="post" id="demo" nombre="Demo" href="#" />
+        <span class="chip chip--t1">Programación</span>
+        <span class="chip chip--t2">Comunicación</span>
+        <span class="chip chip--t3">Diseño</span>
+        <span class="chip chip--t4">Seguridad</span>
+        <span class="badge badge--cert"><Icon name="certificate" /> Gratis con certificado</span>
+        <span class="badge badge--limite">Gratis con límite</span>
+        <span class="badge badge--sin">Gratis sin certificado</span>
+        <span class="badge badge--pago">Pago</span>
+        <span class="badge badge--revisar">Link en revisión</span>
+      </div>
+    </section>
+
+    <section style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,18rem),1fr));gap:var(--gap)">
+      <div class="tile tile--t1 tile--squiggle"><h2>Mosaico t1</h2><p>Texto oscuro siempre.</p></div>
+      <div class="tile tile--t2 tile--squiggle"><h2>Mosaico t2</h2><p>Texto oscuro siempre.</p></div>
+      <div class="tile tile--t3 tile--squiggle"><h2>Mosaico t3</h2><p>Texto oscuro siempre.</p></div>
+      <div class="tile tile--t4 tile--squiggle"><h2>Mosaico t4</h2><p>Texto oscuro siempre.</p></div>
+      <div class="deep"><h2>Bloque carbón</h2><p>Para lo que pide acción.</p></div>
+    </section>
+
+    <section class="panel prose">
+      <h2>Callouts y tarjetas de recurso</h2>
+      <Callout tipo="idea"><p>Idea clave: así se ve un callout de Notion convertido.</p></Callout>
+      <Callout tipo="aviso"><p>Ojo: para advertencias.</p></Callout>
+      <Callout tipo="tip"><p>Dato: para aclaraciones y pasos.</p></Callout>
+      {rec.map((r) => <LinkCard recurso={r.data} />)}
+      {revisar && <LinkCard recurso={revisar.data} descripcion />}
+      <LinkCard recurso={{ nombre: 'Recurso caído de ejemplo', url: 'https://example.com', tipo: 'sitio', estado: 'caido' }} />
+    </section>
+
+    <section>
+      <h2 style="margin:0 0 1rem 0.5rem">Tarjeta de curso</h2>
+      <ul class="cards">
+        <CursoCard curso={curso} colorEtiqueta={colorEtiqueta} />
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2 style="margin-bottom:1rem">Íconos ({Object.keys(ICONOS).length})</h2>
+      <ul class="chips">
+        {
+          Object.keys(ICONOS).map((n) => (
+            <li class="chip">
+              <Icon name={n} /> <span class="mono">{n}</span>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  </div>
+</Base>

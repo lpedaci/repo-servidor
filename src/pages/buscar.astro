@@ -1,0 +1,176 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import { url } from '../lib/site';
+---
+
+<Base titulo="Buscar" descripcion="Buscá en todos los posts, cursos y recursos del server." actual="buscar">
+  <div class="wrap">
+    <header class="page-head">
+      <div class="page-head-in">
+        <div>
+          <p class="kicker"><Icon name="search" /> Buscar</p>
+          <h1>¿Qué estás buscando?</h1>
+        </div>
+        <p class="lead">Buscá en posts, cursos y recursos. Probá con un tema ("Python"), una herramienta ("Canva") o una duda ("CV").</p>
+      </div>
+    </header>
+
+    <form class="panel explorer-bar" role="search" action={url('/buscar/')} method="get" data-buscar>
+      <div class="field">
+        <label for="bq">Buscar en el server</label>
+        <div class="explorer-row">
+          <span class="input-ic">
+            <Icon name="search" />
+            <input class="input" id="bq" name="q" type="search" autocomplete="off" aria-describedby="bq-help" />
+          </span>
+          <button class="btn btn--primary" type="submit">Buscar <Icon name="arrow-right" /></button>
+        </div>
+        <p class="muted" id="bq-help" style="margin:0;font-size:0.9rem">Los resultados aparecen mientras escribís.</p>
+      </div>
+    </form>
+
+    <noscript>
+      <div class="panel empty" style="margin-top:var(--gap)">
+        <h2>La búsqueda necesita JavaScript</h2>
+        <p>Mientras tanto, podés recorrer los <a href={url('/threads/')}>threads</a>, el <a href={url('/cursos/')}>explorador de cursos</a> o el de <a href={url('/recursos/')}>recursos</a>.</p>
+      </div>
+    </noscript>
+
+    <p class="sr-only" aria-live="polite" data-estado></p>
+    <p class="result-count" style="margin:var(--gap) 0 0;padding-inline:0.5rem" data-resumen hidden></p>
+    <ul class="search-results" data-resultados></ul>
+    <div class="panel empty" data-sin hidden style="margin-top:var(--gap)">
+      <span class="dot-ic" style="background:var(--t2)"><Icon name="search" /></span>
+      <h2>Sin resultados</h2>
+      <p>Revisá cómo lo escribiste o probá con una palabra más general. También podés filtrar en el <a href={url('/cursos/')}>explorador de cursos</a>.</p>
+    </div>
+    <div class="panel empty" data-error hidden style="margin-top:var(--gap)">
+      <span class="dot-ic" style="background:var(--t2)"><Icon name="warning" /></span>
+      <h2>La búsqueda no cargó</h2>
+      <p>Puede ser un problema de conexión. Recargá la página para intentar de nuevo.</p>
+    </div>
+  </div>
+</Base>
+
+<script>
+  type PF = {
+    debouncedSearch: (q: string, o?: object, ms?: number) => Promise<{ results: { data: () => Promise<R> }[] } | null>;
+    init: () => Promise<void>;
+  };
+  type R = { url: string; excerpt: string; meta: { title?: string; tipo?: string }; sub_results?: { url: string; title: string; excerpt: string }[] };
+
+  const input = document.querySelector<HTMLInputElement>('#bq')!;
+  const lista = document.querySelector<HTMLUListElement>('[data-resultados]')!;
+  const estado = document.querySelector<HTMLElement>('[data-estado]')!;
+  const resumen = document.querySelector<HTMLElement>('[data-resumen]')!;
+  const sin = document.querySelector<HTMLElement>('[data-sin]')!;
+  const error = document.querySelector<HTMLElement>('[data-error]')!;
+  const form = document.querySelector<HTMLFormElement>('[data-buscar]')!;
+  let pf: PF | null = null;
+
+  async function cargar() {
+    if (pf) return pf;
+    try {
+      const ruta = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/pagefind/pagefind.js`;
+      pf = (await import(/* @vite-ignore */ ruta)) as PF;
+      await pf.init();
+      return pf;
+    } catch {
+      error.hidden = false;
+      return null;
+    }
+  }
+
+  function esqueleto() {
+    lista.replaceChildren(
+      ...Array.from({ length: 3 }, () => {
+        const li = document.createElement('li');
+        li.className = 'skeleton';
+        li.setAttribute('aria-hidden', 'true');
+        return li;
+      })
+    );
+  }
+
+  /** Pagefind devuelve fragmentos con <mark>: se arman con DOM, sin innerHTML de terceros. */
+  function fragmento(html: string) {
+    const p = document.createElement('p');
+    html.split(/(<mark>.*?<\/mark>)/g).forEach((parte) => {
+      const m = parte.match(/^<mark>(.*)<\/mark>$/);
+      if (m) {
+        const mk = document.createElement('mark');
+        mk.textContent = decode(m[1]);
+        p.append(mk);
+      } else p.append(decode(parte.replace(/<[^>]+>/g, '')));
+    });
+    return p;
+  }
+  const decode = (s: string) => {
+    const t = document.createElement('textarea');
+    t.innerHTML = s;
+    return t.value;
+  };
+
+  async function buscar(q: string) {
+    const term = q.trim();
+    const params = new URLSearchParams(location.search);
+    term ? params.set('q', term) : params.delete('q');
+    history.replaceState(null, '', `${location.pathname}${params.size ? `?${params}` : ''}`);
+    sin.hidden = true;
+    if (!term) {
+      lista.replaceChildren();
+      resumen.hidden = true;
+      estado.textContent = '';
+      return;
+    }
+    esqueleto();
+    const api = await cargar();
+    if (!api) {
+      lista.replaceChildren();
+      return;
+    }
+    const res = await api.debouncedSearch(term, {}, 250);
+    if (!res) return; // llegó una búsqueda más nueva
+    const datos = await Promise.all(res.results.slice(0, 20).map((r) => r.data()));
+    const items = datos.flatMap((d) => {
+      const subs = (d.sub_results ?? []).filter((s) => s.url.includes('#curso-') || s.url.includes('#recurso-'));
+      if (subs.length) return subs.slice(0, 6).map((s) => ({ url: s.url, titulo: s.title, excerpt: s.excerpt, tipo: d.url.includes('/cursos/') ? 'Curso' : 'Recurso' }));
+      return [{ url: d.url, titulo: d.meta.title ?? d.url, excerpt: d.excerpt, tipo: d.meta.tipo ?? 'Página' }];
+    });
+    lista.replaceChildren(
+      ...items.map((it) => {
+        const li = document.createElement('li');
+        li.className = 'sr-item';
+        const a = document.createElement('a');
+        a.href = it.url;
+        const k = document.createElement('span');
+        k.className = 'inv-kind';
+        k.textContent = it.tipo;
+        const s = document.createElement('strong');
+        s.textContent = it.titulo;
+        a.append(k, s, fragmento(it.excerpt));
+        li.append(a);
+        return li;
+      })
+    );
+    const n = items.length;
+    resumen.hidden = false;
+    resumen.textContent = n ? `${n} resultado${n === 1 ? '' : 's'} para "${term}"` : '';
+    resumen.hidden = !n;
+    sin.hidden = n > 0;
+    estado.textContent = n ? `${n} resultados` : 'Sin resultados';
+  }
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    buscar(input.value);
+  });
+  input.addEventListener('input', () => buscar(input.value));
+  const inicial = new URLSearchParams(location.search).get('q');
+  if (inicial) {
+    input.value = inicial;
+    buscar(inicial);
+  }
+  input.focus();
+</script>

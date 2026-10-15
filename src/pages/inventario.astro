@@ -1,0 +1,123 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import { url } from '../lib/site';
+---
+
+<Base titulo="Mi inventario" descripcion="Tus cursos, recursos y posts guardados en este navegador." actual="inventario" noindex>
+  <div class="wrap">
+    <header class="page-head">
+      <div class="page-head-in">
+        <div>
+          <p class="kicker"><Icon name="inventario" /> Inventario</p>
+          <h1>Mi inventario</h1>
+        </div>
+        <p class="lead">Lo que guardaste con la estrella. Marcá lo que ya viste para llevar la cuenta.</p>
+      </div>
+    </header>
+
+    <p class="note" style="margin-bottom:var(--gap)">
+      <Icon name="info" />
+      <span>Se guarda solo en este navegador. Si cambiás de compu, de navegador o borrás los datos de navegación, el inventario empieza de cero.</span>
+    </p>
+
+    <noscript>
+      <div class="panel empty">
+        <h2>El inventario necesita JavaScript</h2>
+        <p>Para guardar favoritos, activá JavaScript en tu navegador. Todo lo demás del server funciona igual.</p>
+      </div>
+    </noscript>
+
+    <section class="js-only" aria-labelledby="inv-t">
+      <div class="result-bar">
+        <h2 id="inv-t" class="result-count"><span class="mono" data-inv-n>0</span> guardados, <span class="mono" data-inv-vistos>0</span> vistos</h2>
+        <button class="btn btn--sm" type="button" data-inv-borrar hidden><Icon name="trash" /> Borrar mi inventario</button>
+      </div>
+      <ul class="inv-list" data-inv-lista></ul>
+      <div class="panel empty" data-inv-vacio hidden>
+        <span class="dot-ic" style="background:var(--t3)"><Icon name="star-o" /></span>
+        <h2>Tu inventario está vacío</h2>
+        <p>Tocá la estrella en cualquier curso, recurso o post para guardarlo acá. Es como el inventario de un juego, pero de cosas para aprender.</p>
+        <div class="chips">
+          <a class="btn btn--primary" href={url('/cursos/')}>Ver cursos <Icon name="arrow-right" /></a>
+          <a class="btn" href={url('/recursos/')}>Ver recursos</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <template data-inv-tpl>
+    <li class="inv-item reveal is-in">
+      <div>
+        <span class="inv-kind"></span>
+        <a class="inv-title"></a>
+      </div>
+      <div class="inv-acts">
+        <label class="check"><input type="checkbox" /> <span>Ya lo vi</span></label>
+        <button class="fav" type="button" aria-pressed="true">
+          <svg class="ic i-off" aria-hidden="true"><use href="#i-star-o"></use></svg>
+          <svg class="ic i-on" aria-hidden="true"><use href="#i-star"></use></svg>
+          <span class="sr-only"></span>
+        </button>
+      </div>
+    </li>
+  </template>
+</Base>
+
+<script>
+  import { leer, quitar, alternarVisto, borrarTodo } from '../scripts/inventario';
+  import { avisar } from '../scripts/app';
+
+  const lista = document.querySelector<HTMLUListElement>('[data-inv-lista]')!;
+  const vacio = document.querySelector<HTMLElement>('[data-inv-vacio]')!;
+  const tpl = document.querySelector<HTMLTemplateElement>('[data-inv-tpl]')!;
+  const nEl = document.querySelector<HTMLElement>('[data-inv-n]')!;
+  const vEl = document.querySelector<HTMLElement>('[data-inv-vistos]')!;
+  const borrar = document.querySelector<HTMLButtonElement>('[data-inv-borrar]')!;
+  const TIPO: Record<string, string> = { curso: 'Curso', recurso: 'Recurso', post: 'Post' };
+
+  function pintar() {
+    const { fav, visto } = leer();
+    const ordenados = [...fav].sort((a, b) => b.t - a.t);
+    lista.replaceChildren(
+      ...ordenados.map((g) => {
+        const li = tpl.content.firstElementChild!.cloneNode(true) as HTMLLIElement;
+        const [tipo] = g.key.split(':');
+        const esVisto = visto.includes(g.key);
+        li.classList.toggle('is-visto', esVisto);
+        li.querySelector('.inv-kind')!.textContent = TIPO[tipo] ?? '';
+        const a = li.querySelector<HTMLAnchorElement>('.inv-title')!;
+        a.textContent = g.nombre;
+        a.href = g.href;
+        const cb = li.querySelector<HTMLInputElement>('input')!;
+        cb.checked = esVisto;
+        cb.setAttribute('aria-label', `Ya vi ${g.nombre}`);
+        cb.addEventListener('change', () => alternarVisto(g.key, cb.checked));
+        const btn = li.querySelector<HTMLButtonElement>('.fav')!;
+        btn.querySelector('.sr-only')!.textContent = `Sacar de mi inventario: ${g.nombre}`;
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const sig = (li.nextElementSibling ?? li.previousElementSibling)?.querySelector<HTMLElement>('.fav');
+          quitar(g.key);
+          avisar(`Sacaste "${g.nombre}" de tu inventario`);
+          (sig ?? document.querySelector<HTMLElement>('#inv-t'))?.focus();
+        });
+        return li;
+      })
+    );
+    nEl.textContent = String(fav.length);
+    vEl.textContent = String(visto.filter((v) => fav.some((f) => f.key === v)).length);
+    vacio.hidden = fav.length > 0;
+    borrar.hidden = fav.length === 0;
+  }
+
+  borrar.addEventListener('click', () => {
+    if (confirm('¿Borrar todo tu inventario? No se puede deshacer.')) {
+      borrarTodo();
+      avisar('Inventario borrado');
+    }
+  });
+  document.addEventListener('inventario', pintar);
+  document.querySelector<HTMLElement>('#inv-t')!.tabIndex = -1;
+  pintar();
+</script>

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cursando",
+    "titulo": "Para los que están cursando, egresando o perdidos en este multiverso",
+    "corto": "Cursando y egresando",
+    "bajada": "Cómo elegir carrera, armar tu CV y tu porfolio, y dar los primeros pasos en el mundo laboral.",
+    "icono": "compass",
+    "color": "t1",
+    "orden": 1
+  },
+  {
+    "id": "cursos",
+    "titulo": "Cursos [2025]",
+    "corto": "Cursos",
+    "bajada": "Más de 150 cursos gratuitos o casi, filtrables por tema, proveedor, idioma y certificado.",
+    "icono": "graduation-cap",
+    "color": "t2",
+    "orden": 2
+  },
+  {
+    "id": "tecnologia",
+    "titulo": "Tecnología",
+    "corto": "Tecnología",
+    "bajada": "Bibliotecas, manuales, cheatsheets y herramientas para programar y diseñar para la web.",
+    "icono": "code",
+    "color": "t4",
+    "orden": 3
+  },
+  {
+    "id": "variaditos",
+    "titulo": "Materiales variaditos",
+    "corto": "Variaditos",
+    "bajada": "Guías para la cursada: documentos académicos, presentaciones, mapas conceptuales, mails formales y más.",
+    "icono": "shapes",
+    "color": "t3",
+    "orden": 4
+  }
+]

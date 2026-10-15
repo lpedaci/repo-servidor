@@ -1,0 +1,105 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
+import FavButton from '../../components/FavButton.astro';
+import ThreadArt from '../../components/ThreadArt.astro';
+import { datos, fecha, isoDate, TIPO_POST, url } from '../../lib/site';
+
+export async function getStaticPaths() {
+  const { posts, threads } = await datos();
+  return posts.map((post) => {
+    const thread = threads.find((t) => t.id === post.data.thread.id)!;
+    const hermanos = posts.filter((p) => p.data.thread.id === thread.id).sort((a, b) => +a.data.publicado - +b.data.publicado);
+    const i = hermanos.findIndex((p) => p.id === post.id);
+    return { params: { slug: post.id }, props: { post, thread, prev: hermanos[i - 1], next: hermanos[i + 1] } };
+  });
+}
+
+const { post, thread, prev, next } = Astro.props;
+const { Content, headings } = await render(post);
+const toc = headings.filter((h) => h.depth === 2);
+const d = post.data;
+---
+
+<Base titulo={d.titulo} descripcion={d.bajada} tipo="article">
+  <div class="progress" aria-hidden="true"></div>
+  <div class="wrap" style="padding-top:1.25rem">
+    <header class="tile post-head stagger" style={`--tile: var(--${thread.data.color})`}>
+      <ThreadArt tema={thread.id} class="thread-art--grande" />
+      <nav aria-label="Ruta de navegación">
+        <ol class="crumbs" style="color:inherit">
+          <li><a href={url('/')}>Lobby</a></li>
+          <li><a href={url(`/threads/${thread.id}/`)}>Thread: {thread.data.corto}</a></li>
+          <li><span aria-current="page">{TIPO_POST[d.tipo]}</span></li>
+        </ol>
+      </nav>
+      <div style="--i:1">
+        <h1>{d.titulo}</h1>
+        <p class="lead">{d.bajada}</p>
+      </div>
+      <div class="hero-foot" style="--i:2">
+        <ul class="post-meta">
+          <li><Icon name="clock" /> {d.tiempoLectura ?? 3} min de lectura</li>
+          <li>Actualizado el <time datetime={isoDate(d.actualizado)}>{fecha(d.actualizado)}</time></li>
+          <li>{TIPO_POST[d.tipo]}</li>
+        </ul>
+        <div class="post-actions">
+          <FavButton tipo="post" id={post.id} nombre={d.titulo} href={url(`/posts/${post.id}/`)} />
+        </div>
+      </div>
+    </header>
+
+    <div class:list={['post-body', { 'post-body--solo': toc.length < 2 }]}>
+      <article class="panel prose-panel" data-pagefind-body data-pagefind-meta={`tipo:${TIPO_POST[d.tipo]}`}>
+        <div class="prose">
+          <Content />
+        </div>
+        <p class="muted" style="margin:3rem 0 0;font-size:0.92rem">
+          Escrito por Lourdes Pedaci. Publicado originalmente el <time datetime={isoDate(d.publicado)}>{fecha(d.publicado)}</time>.
+        </p>
+      </article>
+      {
+        toc.length >= 2 && (
+          <nav class="panel toc" aria-label="En este post" data-toc>
+            <details open data-toc-details>
+            <summary class="toc-title">En este post</summary>
+            <ol>
+              {toc.map((h) => (
+                <li>
+                  <a href={`#${h.slug}`}>
+                    <span>{h.text}</span>
+                  </a>
+                </li>
+              ))}
+            </ol>
+            </details>
+          </nav>
+        )
+      }
+    </div>
+
+    {
+      (prev || next) && (
+        <nav class="post-nav" aria-label={`Más del thread ${thread.data.corto}`}>
+          {prev && (
+            <a href={url(`/posts/${prev.id}/`)} rel="prev">
+              <small>
+                <Icon name="arrow-left" /> Anterior
+              </small>
+              <strong>{prev.data.titulo}</strong>
+            </a>
+          )}
+          {next && (
+            <a class="next" href={url(`/posts/${next.id}/`)} rel="next">
+              <small>
+                Siguiente <Icon name="arrow-right" />
+              </small>
+              <strong>{next.data.titulo}</strong>
+            </a>
+          )}
+        </nav>
+      )
+    }
+  </div>
+</Base>

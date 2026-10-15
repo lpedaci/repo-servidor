@@ -1,0 +1,28 @@
+{
+  "name": "servidor",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "El servidor de Lourdes: materiales didácticos, charlas, cursos gratuitos y recursos tech.",
+  "author": "Lourdes Pedaci",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview",
+    "import": "node scripts/import-notion.mjs",
+    "links": "node scripts/check-links.mjs",
+    "og": "node scripts/og.mjs"
+  },
+  "dependencies": {
+    "@astrojs/markdown-remark": "^7.3.2",
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.3.8",
+    "remark-directive": "^4.0.0",
+    "unist-util-visit": "^5.1.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^7.3.1",
+    "pagefind": "^1.5.2",
+    "sharp": "^0.35.5"
+  }
+}

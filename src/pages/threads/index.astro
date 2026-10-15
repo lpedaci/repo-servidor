@@ -1,0 +1,74 @@
+---
+import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
+import ThreadArt from '../../components/ThreadArt.astro';
+import { datos, url } from '../../lib/site';
+
+const { threads, posts, cursos, recursos } = await datos();
+const n = (id: string) => ({
+  posts: posts.filter((p) => p.data.thread.id === id).length,
+  recursos: recursos.filter((r) => r.data.thread.id === id).length,
+});
+---
+
+<Base titulo="Threads" descripcion="Los cuatro threads del server: carrera y empleo, cursos gratuitos, tecnología y materiales para la cursada." actual="threads">
+  <div class="wrap">
+    <header class="page-head">
+      <div class="page-head-in">
+        <div>
+          <p class="kicker"><Icon name="layers" /> Threads</p>
+          <h1>Elegí por dónde arrancar</h1>
+        </div>
+        <p class="lead">Cada thread junta posts y recursos sobre un mismo tema. Entrá al que más te sirva hoy.</p>
+      </div>
+    </header>
+    <ul class="lobby stagger" style="padding:0;list-style:none">
+      {
+        threads.map((t, i) => {
+          const c = n(t.id);
+          return (
+            <li class={`b-thread-${i + 1}`} style={`--i:${i}`}>
+              <a class="tile thread-card" href={url(`/threads/${t.id}/`)} style={`--tile: var(--${t.data.color}); height:100%`}>
+                <ThreadArt tema={t.id} />
+                <span class="thread-top">
+                  <span class="dot-ic">
+                    <Icon name={t.data.icono} />
+                  </span>
+                  <span class="thread-n">
+                    {t.id === 'cursos' ? `${cursos.length} cursos` : `${c.posts} posts`} · {c.recursos} recursos
+                  </span>
+                </span>
+                <span>
+                  <span class="label">Thread {t.data.orden}</span>
+                  <h2 class="thread-title">{t.data.titulo}</h2>
+                  <p class="thread-bajada">{t.data.bajada}</p>
+                  <span class="thread-go" style="margin-top:1rem">
+                    Entrar <Icon name="arrow-right" />
+                  </span>
+                </span>
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </div>
+</Base>
+
+<style>
+  /* En el índice los cuatro threads ocupan la grilla completa, en dos filas asimétricas. */
+  @media (min-width: 1100px) {
+    .b-thread-1 {
+      grid-column: 1 / 8;
+    }
+    .b-thread-2 {
+      grid-column: 8 / 13;
+    }
+    .b-thread-3 {
+      grid-column: 1 / 6;
+    }
+    .b-thread-4 {
+      grid-column: 6 / 13;
+    }
+  }
+</style>

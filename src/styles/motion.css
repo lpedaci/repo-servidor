@@ -1,0 +1,267 @@
+/* Motion graphics del server.
+   Todo vive dentro de prefers-reduced-motion: no-preference. Con movimiento reducido el sitio
+   se ve completo y quieto. Solo se animan transform y opacity (y stroke-dashoffset en SVG).
+   Sin JS, nada queda oculto: lo que se revela al hacer scroll solo se esconde si existe html.js. */
+
+@media (prefers-reduced-motion: no-preference) {
+  /* Transición entre páginas (navegadores que soportan View Transitions entre documentos) */
+  @view-transition {
+    navigation: auto;
+  }
+  ::view-transition-old(root) {
+    animation: vt-out 0.22s var(--ease) both;
+  }
+  ::view-transition-new(root) {
+    animation: vt-in 0.45s var(--ease) both;
+  }
+  @keyframes vt-out {
+    to {
+      opacity: 0;
+      transform: translateY(-8px);
+    }
+  }
+  @keyframes vt-in {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+  }
+
+  /* Entrada escalonada de bloques: cascada con --i */
+  .stagger > * {
+    animation: rise 0.8s var(--ease) backwards;
+    animation-delay: calc(var(--i, 0) * 70ms + 60ms);
+  }
+
+  /* Revelado al entrar en pantalla */
+  html.js .reveal:not(.is-in) {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  html.js .reveal.is-in {
+    animation: rise 0.9s var(--ease) backwards;
+    animation-delay: calc(var(--i, 0) * 60ms);
+  }
+
+  /* Tipografía cinética del lobby: cada línea sube desde su máscara */
+  .hero-title .line > span {
+    animation: line-up 1s var(--ease) both;
+    animation-delay: calc(var(--l, 0) * 110ms + 150ms);
+  }
+  .hero-lema,
+  .hero-foot {
+    animation: rise 0.9s var(--ease) backwards;
+    animation-delay: 0.55s;
+  }
+  .hero-foot {
+    animation-delay: 0.7s;
+  }
+  @keyframes line-up {
+    from {
+      transform: translateY(105%) rotate(2deg);
+    }
+  }
+
+  /* El trazo del mosaico se dibuja y después respira */
+  .hero-trazo path {
+    stroke-dasharray: 1400;
+    stroke-dashoffset: 1400;
+    animation:
+      draw 2.4s var(--ease) 0.4s forwards,
+      breathe 9s ease-in-out 2.8s infinite;
+    transform-origin: center;
+  }
+  @keyframes draw {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  @keyframes breathe {
+    0%,
+    100% {
+      transform: translate(0, 0) rotate(0);
+    }
+    50% {
+      transform: translate(-10px, 6px) rotate(-2deg);
+    }
+  }
+
+  /* Estado "online": el punto late */
+  .status-dot::after {
+    animation: ping 2.2s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+  .brand-mark::after {
+    animation: blink 3.2s ease-in-out infinite;
+  }
+  @keyframes ping {
+    0% {
+      transform: scale(1);
+      opacity: 0.7;
+    }
+    80%,
+    100% {
+      transform: scale(2.6);
+      opacity: 0;
+    }
+  }
+  @keyframes blink {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.45;
+    }
+  }
+
+  /* Ilustración de cada thread: cada trazo se dibuja en orden y después el objeto flota apenas */
+  .thread-art path {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    animation: draw 1.4s var(--ease) forwards;
+    animation-delay: calc(var(--i, 0) * 70ms + 0.35s + var(--n, 0) * 0.22s);
+  }
+  .thread-art {
+    animation: float 9s ease-in-out 2.5s infinite alternate;
+  }
+  .thread-card:hover .thread-art {
+    animation-play-state: paused;
+  }
+  @keyframes float {
+    to {
+      translate: -0.6rem -0.5rem;
+      rotate: -3deg;
+    }
+  }
+
+  /* Trazos de fondo de los mosaicos: deriva lenta */
+  .tile--squiggle::before {
+    animation: drift 14s ease-in-out infinite alternate;
+  }
+  @keyframes drift {
+    from {
+      transform: translate(0, 0) rotate(0);
+    }
+    to {
+      transform: translate(-1.5rem, -0.75rem) rotate(-4deg);
+    }
+  }
+
+  /* Contador del inventario: rebote al cambiar */
+  .count.pop {
+    animation: pop 0.55s var(--spring);
+  }
+  @keyframes pop {
+    0% {
+      transform: scale(0.4);
+    }
+    60% {
+      transform: scale(1.25);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .fav.pop .ic {
+    animation: star 0.6s var(--spring);
+  }
+  @keyframes star {
+    0% {
+      transform: scale(0.3) rotate(-60deg);
+    }
+    100% {
+      transform: scale(1) rotate(0);
+    }
+  }
+
+  /* Resultados del explorador: entran en cascada al filtrar */
+  .is-entering {
+    animation: rise 0.55s var(--ease) both;
+    animation-delay: calc(var(--i, 0) * 35ms);
+  }
+  .result-count .mono.tick {
+    animation: tick 0.4s var(--ease);
+  }
+  @keyframes tick {
+    from {
+      transform: translateY(-40%);
+      opacity: 0;
+    }
+  }
+
+  /* Esqueleto de carga */
+  .skeleton {
+    animation: shimmer 1.4s linear infinite;
+  }
+  @keyframes shimmer {
+    to {
+      background-position: -150% 0;
+    }
+  }
+
+  /* Progreso de lectura ligado al scroll */
+  @supports (animation-timeline: scroll()) {
+    .progress {
+      display: block;
+      animation: progress linear both;
+      animation-timeline: scroll(root);
+    }
+    @keyframes progress {
+      to {
+        transform: scaleX(1);
+      }
+    }
+  }
+
+  /* 404: el número se "glitchea" un instante cada tanto */
+  .lost-code {
+    animation: glitch 5s steps(1) infinite;
+  }
+  @keyframes glitch {
+    0%,
+    92%,
+    100% {
+      transform: none;
+      text-shadow: none;
+    }
+    93% {
+      transform: translate(-4px, 1px) skewX(-6deg);
+      text-shadow:
+        3px 0 var(--t2),
+        -3px 0 var(--l1);
+    }
+    95% {
+      transform: translate(3px, -1px);
+      text-shadow:
+        -3px 0 var(--t2),
+        3px 0 var(--l1);
+    }
+    97% {
+      transform: translate(-1px, 0) skewX(4deg);
+    }
+  }
+
+  /* El ícono del callout aparece con un giro corto cuando el callout entra en pantalla */
+  html.js .callout.reveal.is-in .callout-label .ic {
+    animation: star 0.7s var(--spring) 0.2s both;
+  }
+
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(22px);
+    }
+  }
+}
+
+/* Movimiento reducido: transiciones instantáneas y nada en loop. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}

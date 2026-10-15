@@ -1,0 +1,726 @@
+[
+  {
+    "id": "net",
+    "nombre": ".NET",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "2d-3d-graphics",
+    "nombre": "2D/3D Graphics",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "administracion-de-sistemas",
+    "nombre": "Administración de sistemas",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "administracion-y-finanzas",
+    "nombre": "Administración y finanzas",
+    "color": "t3",
+    "sinonimos": []
+  },
+  {
+    "id": "ajax",
+    "nombre": "AJAX",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "alfabetizacion-digital",
+    "nombre": "Alfabetización digital",
+    "color": "t4",
+    "sinonimos": []
+  },
+  {
+    "id": "algoritmos-y-estructuras-de-datos",
+    "nombre": "Algoritmos y Estructuras de Datos",
+    "color": "t1",
+    "sinonimos": [
+      "Algoritmos / Estructura de Datos",
+      "Data Structure/Algorithms"
+    ]
+  },
+  {
+    "id": "analisis-empresarial",
+    "nombre": "Análisis empresarial",
+    "color": "t3",
+    "sinonimos": [
+      "Analisis empresarial"
+    ]
+  },
+  {
+    "id": "angular",
+    "nombre": "Angular",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "animacion",
+    "nombre": "Animación",
+    "color": "t5",
+    "sinonimos": []
+  },
+  {
+    "id": "api",
+    "nombre": "API",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "arduino",
+    "nombre": "Arduino",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "big-data",
+    "nombre": "Big Data",
+    "color": "t6",
+    "sinonimos": []
+  },
+  {
+    "id": "bootstrap",
+    "nombre": "Bootstrap",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "c",
+    "nombre": "C",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "c-sharp",
+    "nombre": "C#",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "c-plus",
+    "nombre": "C++",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "ciencias-de-la-computacion",
+    "nombre": "Ciencias de la Computación",
+    "color": "t1",
+    "sinonimos": [
+      "Computer Science"
+    ]
+  },
+  {
+    "id": "cisco-packet-tracer",
+    "nombre": "Cisco Packet Tracer",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "ciudadania-digital",
+    "nombre": "Ciudadanía Digital",
+    "color": "t4",
+    "sinonimos": []
+  },
+  {
+    "id": "cloud-computing",
+    "nombre": "Cloud computing",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "comercio",
+    "nombre": "Comercio",
+    "color": "t3",
+    "sinonimos": []
+  },
+  {
+    "id": "comunicacion",
+    "nombre": "Comunicación",
+    "color": "t2",
+    "sinonimos": []
+  },
+  {
+    "id": "css3",
+    "nombre": "CSS3",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "data-science",
+    "nombre": "Data Science",
+    "color": "t6",
+    "sinonimos": [
+      "Data Science/Analysis"
+    ]
+  },
+  {
+    "id": "deep-learning",
+    "nombre": "Deep Learning",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "desarrollo-de-software",
+    "nombre": "Desarrollo de Software",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "desarrollo-mobile",
+    "nombre": "Desarrollo Mobile",
+    "color": "t1",
+    "sinonimos": [
+      "Apps Moviles",
+      "Mobile Dev"
+    ]
+  },
+  {
+    "id": "desarrollo-profesional",
+    "nombre": "Desarrollo Profesional",
+    "color": "t2",
+    "sinonimos": [
+      "Desarrollo profesional"
+    ]
+  },
+  {
+    "id": "desarrollo-web",
+    "nombre": "Desarrollo Web",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "design-thinking",
+    "nombre": "Design Thinking",
+    "color": "t5",
+    "sinonimos": []
+  },
+  {
+    "id": "diseno",
+    "nombre": "Diseño",
+    "color": "t5",
+    "sinonimos": []
+  },
+  {
+    "id": "diseno-grafico",
+    "nombre": "Diseño gráfico",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "django",
+    "nombre": "Django",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "docencia",
+    "nombre": "Docencia",
+    "color": "t2",
+    "sinonimos": []
+  },
+  {
+    "id": "e-commerce",
+    "nombre": "E-commerce",
+    "color": "t3",
+    "sinonimos": []
+  },
+  {
+    "id": "educacion-financiera",
+    "nombre": "Educación Financiera",
+    "color": "t3",
+    "sinonimos": []
+  },
+  {
+    "id": "empleabilidad",
+    "nombre": "Empleabilidad",
+    "color": "t2",
+    "sinonimos": []
+  },
+  {
+    "id": "escritura-academica",
+    "nombre": "Escritura académica",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "framework",
+    "nombre": "Framework",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "full-stack",
+    "nombre": "Full Stack",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "gestion-de-proyectos",
+    "nombre": "Gestión de Proyectos",
+    "color": "t2",
+    "sinonimos": [
+      "PM"
+    ]
+  },
+  {
+    "id": "gestion-de-tiempo",
+    "nombre": "Gestión de tiempo",
+    "color": "t2",
+    "sinonimos": []
+  },
+  {
+    "id": "gestion-empresarial",
+    "nombre": "Gestión empresarial",
+    "color": "t2",
+    "sinonimos": []
+  },
+  {
+    "id": "git",
+    "nombre": "Git",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "git-y-github",
+    "nombre": "Git y GitHub",
+    "color": "t1",
+    "sinonimos": [
+      "Git / GitHub",
+      "GitHub"
+    ]
+  },
+  {
+    "id": "google-apps",
+    "nombre": "Google Apps",
+    "color": "t6",
+    "sinonimos": []
+  },
+  {
+    "id": "google-cloud-computing",
+    "nombre": "Google Cloud Computing",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "html-y-css",
+    "nombre": "HTML y CSS",
+    "color": "t1",
+    "sinonimos": [
+      "HTML5 + CSS3",
+      "HTML/CSS"
+    ]
+  },
+  {
+    "id": "html5",
+    "nombre": "HTML5",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "idiomas",
+    "nombre": "Idiomas",
+    "color": "t2",
+    "sinonimos": []
+  },
+  {
+    "id": "information-security",
+    "nombre": "Information Security",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "inteligencia-artificial",
+    "nombre": "Inteligencia Artificial",
+    "color": "t1",
+    "sinonimos": [
+      "IA",
+      "AI"
+    ]
+  },
+  {
+    "id": "iot",
+    "nombre": "IoT",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "java",
+    "nombre": "Java",
+    "color": "t1",
+    "sinonimos": [
+      "JAVA"
+    ]
+  },
+  {
+    "id": "javascript",
+    "nombre": "JavaScript",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "jquery",
+    "nombre": "jQuery",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "json",
+    "nombre": "JSON",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "jupyter",
+    "nombre": "Jupyter",
+    "color": "t6",
+    "sinonimos": []
+  },
+  {
+    "id": "kotlin",
+    "nombre": "Kotlin",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "liderazgo",
+    "nombre": "Liderazgo",
+    "color": "t2",
+    "sinonimos": []
+  },
+  {
+    "id": "linux",
+    "nombre": "Linux",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "machine-learning",
+    "nombre": "Machine Learning",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "marketing",
+    "nombre": "Marketing",
+    "color": "t3",
+    "sinonimos": []
+  },
+  {
+    "id": "metodologias-agiles",
+    "nombre": "Metodologías Ágiles",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "microsoft-365",
+    "nombre": "Microsoft 365",
+    "color": "t6",
+    "sinonimos": []
+  },
+  {
+    "id": "mongodb",
+    "nombre": "MongoDB",
+    "color": "t6",
+    "sinonimos": []
+  },
+  {
+    "id": "negociacion",
+    "nombre": "Negociación",
+    "color": "t2",
+    "sinonimos": []
+  },
+  {
+    "id": "networking",
+    "nombre": "Networking",
+    "color": "t2",
+    "sinonimos": []
+  },
+  {
+    "id": "nextjs",
+    "nombre": "NextJS",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "node-js",
+    "nombre": "Node.js",
+    "color": "t1",
+    "sinonimos": [
+      "Node.JS"
+    ]
+  },
+  {
+    "id": "nodejs",
+    "nombre": "NodeJs",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "numpy",
+    "nombre": "NumPy",
+    "color": "t6",
+    "sinonimos": []
+  },
+  {
+    "id": "ofimatica",
+    "nombre": "Ofimática",
+    "color": "t6",
+    "sinonimos": []
+  },
+  {
+    "id": "oratoria",
+    "nombre": "Oratoria",
+    "color": "t2",
+    "sinonimos": []
+  },
+  {
+    "id": "orientacion-vocacional",
+    "nombre": "Orientación vocacional",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "para-docentes",
+    "nombre": "Para docentes",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "pensamiento-critico",
+    "nombre": "Pensamiento crítico",
+    "color": "t2",
+    "sinonimos": []
+  },
+  {
+    "id": "php",
+    "nombre": "PHP",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "postgresql",
+    "nombre": "PostgreSQL",
+    "color": "t6",
+    "sinonimos": []
+  },
+  {
+    "id": "power-bi",
+    "nombre": "Power BI",
+    "color": "t6",
+    "sinonimos": [
+      "PowerBI"
+    ]
+  },
+  {
+    "id": "product-design",
+    "nombre": "Product Design",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "programacion",
+    "nombre": "Programación",
+    "color": "t1",
+    "sinonimos": [
+      "Programación base",
+      "Programación Web",
+      "Incluye múltiples lenguajes de programación"
+    ]
+  },
+  {
+    "id": "python",
+    "nombre": "Python",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "react",
+    "nombre": "React",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "reading-y-comprehension",
+    "nombre": "Reading & Comprehension",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "redes",
+    "nombre": "Redes",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "redux",
+    "nombre": "Redux",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "ruby",
+    "nombre": "Ruby",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "rust",
+    "nombre": "Rust",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "scala",
+    "nombre": "Scala",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "scrum",
+    "nombre": "SCRUM",
+    "color": "t2",
+    "sinonimos": []
+  },
+  {
+    "id": "seguridad-informatica",
+    "nombre": "Seguridad Informática",
+    "color": "t4",
+    "sinonimos": [
+      "Seguridad de la Información"
+    ]
+  },
+  {
+    "id": "seo",
+    "nombre": "SEO",
+    "color": "t3",
+    "sinonimos": []
+  },
+  {
+    "id": "sistemas-operativos",
+    "nombre": "Sistemas Operativos",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "soft-skills",
+    "nombre": "Soft Skills",
+    "color": "t2",
+    "sinonimos": []
+  },
+  {
+    "id": "solidity",
+    "nombre": "Solidity",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "soporte-it",
+    "nombre": "Soporte IT",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "sostenibilidad",
+    "nombre": "Sostenibilidad",
+    "color": "t2",
+    "sinonimos": []
+  },
+  {
+    "id": "sql",
+    "nombre": "SQL",
+    "color": "t6",
+    "sinonimos": [
+      "SQL / MySQL"
+    ]
+  },
+  {
+    "id": "storytelling",
+    "nombre": "Storytelling",
+    "color": "t2",
+    "sinonimos": []
+  },
+  {
+    "id": "svelte",
+    "nombre": "Svelte",
+    "color": "t1",
+    "sinonimos": [
+      "SvelteJS"
+    ]
+  },
+  {
+    "id": "swift",
+    "nombre": "Swift",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "tecnicas-de-estudio",
+    "nombre": "Técnicas de estudio",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "tecno-y-mundo-digital",
+    "nombre": "Tecno y mundo digital",
+    "color": "t4",
+    "sinonimos": []
+  },
+  {
+    "id": "trabajo-en-equipo",
+    "nombre": "Trabajo en equipo",
+    "color": "t2",
+    "sinonimos": []
+  },
+  {
+    "id": "typescript",
+    "nombre": "TypeScript",
+    "color": "t1",
+    "sinonimos": [
+      "Typescript"
+    ]
+  },
+  {
+    "id": "ui",
+    "nombre": "UI",
+    "color": "t5",
+    "sinonimos": []
+  },
+  {
+    "id": "ux",
+    "nombre": "UX",
+    "color": "t5",
+    "sinonimos": []
+  },
+  {
+    "id": "ux-ui",
+    "nombre": "UX/UI",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "vba",
+    "nombre": "VBA",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "videojuegos",
+    "nombre": "Videojuegos",
+    "color": "t1",
+    "sinonimos": [
+      "Video Games",
+      "VideoGames"
+    ]
+  },
+  {
+    "id": "wordpress",
+    "nombre": "WordPress",
+    "color": "t1",
+    "sinonimos": []
+  }
+]
