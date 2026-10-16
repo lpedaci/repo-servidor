@@ -13,6 +13,7 @@ export const SITE = {
   redes: {
     linkedin: 'https://www.linkedin.com/in/lourdes-pedaci/',
     github: 'https://github.com/lpedaci',
+    portfolio: 'https://lpedaci.github.io/portfolio/',
     youtube: 'https://www.youtube.com/@elservidordelourdes',
     cafecito: 'https://cafecito.app/servidorlourdes',
     taller: 'https://lpedaci.github.io/taller-primerempleo/',

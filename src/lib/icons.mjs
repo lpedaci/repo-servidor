@@ -11,6 +11,7 @@ const FA = path.join(path.dirname(require.resolve('@fortawesome/fontawesome-free
 
 export const ICONOS = {
   compass: 'solid/compass',
+  briefcase: 'solid/briefcase',
   'graduation-cap': 'solid/graduation-cap',
   code: 'solid/code',
   shapes: 'solid/shapes',
