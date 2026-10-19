@@ -8,6 +8,8 @@ function tiempoDesde(anio: number, mes: number) {
   return { anios: Math.floor(meses / 12), meses: meses % 12 };
 }
 
+const DESTACADO = 'charla-carreras-info-y-afines';
+
 export async function datosLobby() {
   const d = await datos();
   const { threads, posts, cursos, recursos, categorias, etiquetas } = d;
@@ -41,7 +43,10 @@ export async function datosLobby() {
     })),
     temasTop: [...uso].sort((a, b) => b[1] - a[1]).slice(0, 22).map(([t]) => t),
     colorDe: new Map(etiquetas.map((e) => [e.data.nombre, e.data.color])),
-    nuevos: [...posts].sort((a, b) => +b.data.publicado - +a.data.publicado).slice(0, 3),
+    // Lo nuevo: la charla de carreras siempre primero y después los dos posts más recientes
+    nuevos: [...posts]
+      .sort((a, b) => +(b.id === DESTACADO) - +(a.id === DESTACADO) || +b.data.publicado - +a.data.publicado)
+      .slice(0, 3),
     threadDe: new Map(threads.map((t) => [t.id, t])),
   };
 }

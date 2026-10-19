@@ -9,6 +9,13 @@ interface Props {
 }
 const { d } = Astro.props;
 const { threads, nuevos, threadDe, cursos, ultima, nThread } = d;
+
+// Lo nuevo: los posts (la charla de carreras primero) con el taller en segundo lugar
+const items = nuevos.map((p) => {
+  const t = threadDe.get(p.data.thread.id)!;
+  return { href: url(`/posts/${p.id}/`), color: t.data.color, icono: t.data.icono, tipo: t.data.corto, titulo: p.data.titulo, externo: false };
+});
+items.splice(1, 0, { href: SITE.redes.taller, color: 't5', icono: 'briefcase', tipo: 'Taller', titulo: 'Del aula al primer trabajo', externo: true });
 ---
 
 <div class="wrap lobby lobby--abajo stagger">
@@ -18,28 +25,31 @@ const { threads, nuevos, threadDe, cursos, ultima, nThread } = d;
     <h2 id="now-t"><Icon name="terminal" /> Lo nuevo en el server</h2>
     <ul class="now-list">
       {
-        nuevos.map((p) => {
-          const t = threadDe.get(p.data.thread.id)!;
-          return (
-            <li>
-              <a class="now-item" href={url(`/posts/${p.id}/`)} style={`--tile: var(--${t.data.color})`}>
-                <span class="dot-ic">
-                  <Icon name={t.data.icono} />
-                </span>
-                <span>
-                  <span class="now-kind">{t.data.corto}</span>
-                  <span class="now-title">{p.data.titulo}</span>
-                </span>
-              </a>
-            </li>
-          );
-        })
+        items.map((it) => (
+          <li>
+            <a
+              class="now-item"
+              href={it.href}
+              style={`--tile: var(--${it.color})`}
+              {...(it.externo ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+            >
+              <span class="dot-ic">
+                <Icon name={it.icono} />
+              </span>
+              <span>
+                <span class="now-kind">{it.tipo}</span>
+                <span class="now-title">{it.titulo}</span>
+              </span>
+              {it.externo && <span class="sr-only"> (se abre en otra pestaña)</span>}
+            </a>
+          </li>
+        ))
       }
       <li>
         <a class="now-item" href={url('/cursos/')} style="--tile: var(--t2)">
           <span class="dot-ic"><Icon name="graduation-cap" /></span>
           <span>
-            <span class="now-kind">Cursos [2025]</span>
+            <span class="now-kind">Cursos [2026]</span>
             <span class="now-title">{cursos.length} cursos con links revisados el {fecha(ultima)}</span>
           </span>
         </a>
