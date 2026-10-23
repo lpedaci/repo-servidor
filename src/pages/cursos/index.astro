@@ -1,10 +1,11 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Icon from '../../components/Icon.astro';
+import PageHeadArt from '../../components/PageHeadArt.astro';
 import CursoCard from '../../components/CursoCard.astro';
 import FavButton from '../../components/FavButton.astro';
 import FilterBar, { type Grupo } from '../../components/FilterBar.astro';
-import { CERT, datos, url } from '../../lib/site';
+import { CERT, FORMATO, MODALIDAD, datos, url } from '../../lib/site';
 
 const { cursos, categorias, colorEtiqueta } = await datos();
 cursos.sort((a, b) => a.data.nombre.localeCompare(b.data.nombre, 'es'));
@@ -13,6 +14,8 @@ const contar = (vals: string[]) => [...vals.reduce((m, v) => m.set(v, (m.get(v) 
 const provs = contar(cursos.flatMap((c) => c.data.proveedores)).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'es'));
 const idiomas = contar(cursos.flatMap((c) => c.data.idiomas)).sort((a, b) => b[1] - a[1]);
 const certs = contar(cursos.map((c) => c.data.certificacion));
+const formatos = contar(cursos.map((c) => c.data.formato));
+const modalidades = contar(cursos.flatMap((c) => (c.data.modalidad ? [c.data.modalidad] : [])));
 
 const grupos: Grupo[] = [
   {
@@ -29,6 +32,23 @@ const grupos: Grupo[] = [
       .filter((k) => certs.some(([c]) => c === k))
       .map((k) => ({ valor: k, label: CERT[k].label, n: certs.find(([c]) => c === k)![1] })),
   },
+  {
+    param: 'formato',
+    attr: 'formato',
+    legend: 'Formato',
+    opciones: Object.keys(FORMATO)
+      .filter((k) => formatos.some(([f]) => f === k))
+      .map((k) => ({ valor: k, label: FORMATO[k], n: formatos.find(([f]) => f === k)![1] })),
+  },
+  {
+    param: 'modalidad',
+    attr: 'modalidad',
+    legend: 'Modalidad',
+    opciones: Object.keys(MODALIDAD)
+      .filter((k) => modalidades.some(([m]) => m === k))
+      .map((k) => ({ valor: k, label: MODALIDAD[k], n: modalidades.find(([m]) => m === k)![1] })),
+    extra: true,
+  },
   { param: 'prov', attr: 'prov', legend: 'Proveedor', opciones: provs.map(([p, n]) => ({ valor: p, label: p, n })), extra: true },
   { param: 'idioma', attr: 'idioma', legend: 'Idioma', opciones: idiomas.map(([p, n]) => ({ valor: p, label: p, n })), extra: true },
 ];
@@ -40,20 +60,21 @@ const ordenes = [
 ---
 
 <Base
-  titulo="Cursos gratuitos"
-  descripcion={`${cursos.length} cursos gratuitos o casi: programación, diseño UX/UI, datos, soft skills, marketing y seguridad. Filtrá por categoría, proveedor, idioma y certificado.`}
+  titulo="Cursos"
+  descripcion={`${cursos.length} cursos, certificaciones y diplomaturas (la mayoría gratis): inteligencia artificial, programación, diseño UX/UI, datos, soft skills, marketing y seguridad. Filtrá por categoría, formato, proveedor, idioma y certificado.`}
   actual="cursos"
   og="og/cursos.png"
 >
   <div class="wrap" data-pagefind-body>
     <header class="page-head">
       <div class="page-head-in">
+        <PageHeadArt tema="cursos" color="t2" />
         <div>
           <p class="kicker"><Icon name="graduation-cap" /> Thread 2: Cursos [2026]</p>
           <h1>Explorador de cursos</h1>
         </div>
         <p class="lead">
-          Cursos gratuitos (algunos por tiempo limitado). Combiná filtros y compartí el link: la vista queda guardada en la dirección.
+          Cursos gratuitos (algunos por tiempo limitado), certificaciones y diplomaturas. En los pagos va el precio que figuraba el día de la revisión. Combiná filtros y compartí el link: la vista queda guardada en la dirección.
         </p>
       </div>
     </header>
@@ -82,7 +103,7 @@ const ordenes = [
 
     <div class="table-wrap" data-tabla hidden data-pagefind-ignore>
       <table class="dtable">
-        <caption class="sr-only">Cursos del server, con proveedor, duración, idioma y certificación</caption>
+        <caption class="sr-only">Cursos del server, con formato, proveedor, duración, idioma, certificación y precio</caption>
         <thead>
           <tr>
             <th scope="col">Curso</th>
@@ -106,6 +127,7 @@ const ordenes = [
                       <Icon name="external" class="ic-ext" />
                       <span class="sr-only"> (se abre en otra pestaña)</span>
                     </a>
+                    {d.formato !== 'curso' && <span class="badge badge--formato t-formato">{FORMATO[d.formato]}</span>}
                     {d.estado === 'revisar' && <span class="badge badge--revisar">Link en revisión</span>}
                   </td>
                   <td data-label="Proveedor">{d.proveedores.join(', ')}</td>
@@ -113,6 +135,7 @@ const ordenes = [
                   <td data-label="Idioma">{d.idiomas.join(', ')}</td>
                   <td data-label="Certificación">
                     <span class:list={['badge', cert.clase]}>{cert.label}</span>
+                    {d.precio && <span class="t-precio">{d.precio}</span>}
                   </td>
                   <td class="t-act">
                     <FavButton tipo="curso" id={c.id} nombre={d.nombre} href={url(`/cursos/#curso-${c.id}`)} />

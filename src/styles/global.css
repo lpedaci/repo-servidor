@@ -186,6 +186,9 @@ button {
 .tile--t6 {
   --tile: var(--t6);
 }
+.tile--t7 {
+  --tile: var(--t7);
+}
 /* Trazo orgánico de fondo (el mismo del taller) */
 .tile--squiggle::before {
   content: '';
@@ -411,12 +414,15 @@ html:not(.js) .fav {
 .chip--t6 {
   background: color-mix(in srgb, var(--t6) 55%, var(--surface));
 }
-:root[data-theme='dark'] :is(.chip--t1, .chip--t2, .chip--t3, .chip--t4, .chip--t5, .chip--t6) {
+.chip--t7 {
+  background: color-mix(in srgb, var(--t7) 60%, var(--surface));
+}
+:root[data-theme='dark'] :is(.chip--t1, .chip--t2, .chip--t3, .chip--t4, .chip--t5, .chip--t6, .chip--t7) {
   color: var(--tile-ink);
   background: var(--tile-c);
 }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme='light']) :is(.chip--t1, .chip--t2, .chip--t3, .chip--t4, .chip--t5, .chip--t6) {
+  :root:not([data-theme='light']) :is(.chip--t1, .chip--t2, .chip--t3, .chip--t4, .chip--t5, .chip--t6, .chip--t7) {
     color: var(--tile-ink);
     background: var(--tile-c);
   }
@@ -438,6 +444,9 @@ html:not(.js) .fav {
 }
 .chip--t6 {
   --tile-c: var(--t6);
+}
+.chip--t7 {
+  --tile-c: var(--t7);
 }
 .tile .chip {
   background: var(--tile-chip);
@@ -470,6 +479,12 @@ html:not(.js) .fav {
   background: var(--l2-soft);
   /* --l2 sobre --l2-soft da 4.3:1 en tema claro: se oscurece para llegar a AA */
   color: color-mix(in srgb, var(--l2) 80%, var(--ink));
+}
+.badge--formato {
+  margin-right: 0.4rem;
+  border: 1px solid currentColor;
+  background: transparent;
+  color: var(--ink);
 }
 .badge--revisar {
   margin-left: 0.4rem;
@@ -838,17 +853,33 @@ html:not(.js) .fav {
   background: var(--surface);
   box-shadow: var(--shadow);
 }
-/* Trazo orgánico de fondo, en lavanda muy suave */
-.page-head-in::after {
-  content: '';
+/* Dibujo de línea arriba a la derecha (PageHeadArt): cuenta qué hay en la página.
+   Va al lado del título, nunca debajo de la bajada, así no se pisa con el texto. */
+.ph-art {
   position: absolute;
-  right: -5rem;
-  bottom: -4.5rem;
+  top: clamp(1.25rem, 3vw, 2.25rem);
+  right: clamp(1.25rem, 3vw, 2.75rem);
   z-index: -1;
-  width: min(26rem, 55%);
-  aspect-ratio: 5 / 3;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240' fill='none'%3E%3Cpath d='M-20 170c60-90 130-110 150-50s-40 90-70 50 40-130 130-120 90 110 30 120-60-70 20-110 150-20 190 30' stroke='%23b9bbf6' stroke-opacity='.35' stroke-width='22' stroke-linecap='round'/%3E%3C/svg%3E") center / contain no-repeat;
+  width: clamp(8rem, 15vw, 11.5rem);
+  stroke: var(--t1);
+  stroke-width: 9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  opacity: 0.7;
   pointer-events: none;
+}
+.ph-art .ph-acento {
+  stroke: var(--ph-c);
+}
+@media (min-width: 640px) {
+  .page-head-in > div:first-of-type {
+    padding-right: clamp(9rem, 17vw, 13rem);
+  }
+}
+@media (max-width: 639px) {
+  .ph-art {
+    display: none;
+  }
 }
 .page-head-in .kicker {
   margin-bottom: 0.9rem;
@@ -2380,6 +2411,18 @@ html:not(.js) .js-only {
   align-items: center;
   gap: 0.4rem;
 }
+/* El precio puede ser largo: ocupa su propio renglón y no se corta en mono */
+.card-facts .card-precio {
+  flex-basis: 100%;
+  align-items: flex-start;
+  font-family: var(--body);
+  font-size: 0.85rem;
+  color: var(--ink);
+}
+.card-facts .card-precio .ic {
+  margin-top: 0.2rem;
+  flex: none;
+}
 .card-foot {
   display: flex;
   flex-wrap: wrap;
@@ -2400,6 +2443,12 @@ html:not(.js) .js-only {
   background: var(--surface);
   box-shadow: var(--shadow);
   overflow: hidden;
+}
+/* En escritorio, si una fila no entra, la tabla se desplaza adentro y la página no se ensancha */
+@media (min-width: 900px) {
+  .table-wrap {
+    overflow-x: auto;
+  }
 }
 .dtable {
   width: 100%;
@@ -2431,14 +2480,24 @@ html:not(.js) .js-only {
   background: var(--surface-2);
 }
 .dtable .t-name a {
+  overflow-wrap: anywhere;
   font-family: var(--display);
   font-weight: 600;
   color: var(--ink);
 }
+.dtable .t-formato {
+  margin-left: 0.4rem;
+}
+.dtable .t-precio {
+  display: block;
+  margin-top: 0.35rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
 .dtable .t-mono {
+  min-width: 6rem;
   font-family: var(--mono);
   font-size: 0.82rem;
-  white-space: nowrap;
 }
 .dtable .t-act {
   white-space: nowrap;
@@ -3000,6 +3059,25 @@ html:not(.js) .js-only {
     min-height: 0;
     padding-top: 3rem;
   }
+}
+
+/* Capturas de la versión original en Sobre el server */
+.prose .sobre-captura {
+  margin: 1.5rem 0 2rem;
+}
+.prose .sobre-captura img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  max-height: none;
+  height: auto;
+  border-radius: var(--r);
+  box-shadow: var(--shadow);
+}
+.prose .sobre-captura figcaption {
+  margin-top: 0.7rem;
+  color: var(--muted);
+  font-size: 0.92rem;
 }
 
 /* Aviso flotante (isla): confirma lo que pasa con el inventario */

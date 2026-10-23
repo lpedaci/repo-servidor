@@ -28,6 +28,7 @@ export async function datosLobby() {
     ...d,
     nCursos: activos(cursos),
     nRecursos: activos(recursos),
+    conIA: cursos.filter((c) => c.data.categoria.includes('inteligencia-artificial')).length,
     conPython: cursos.filter((c) => c.data.temas.includes('Python') || /python/i.test(c.data.nombre)).length,
     ultima,
     /** El server existe desde diciembre de 2019. */

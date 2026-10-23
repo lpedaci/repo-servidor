@@ -1,5 +1,26 @@
 [
   {
+    "id": "inteligencia-artificial",
+    "nombre": "Inteligencia artificial",
+    "descripcion": "IA, IA generativa, prompts, agentes y automatización con IA",
+    "icono": "robot",
+    "color": "t7",
+    "temas": [
+      "Inteligencia Artificial",
+      "Machine Learning",
+      "IA generativa",
+      "Prompt Engineering",
+      "Agentes de IA",
+      "Automatización",
+      "LLM",
+      "MCP",
+      "Claude",
+      "ChatGPT",
+      "Gemini",
+      "IA en educación"
+    ]
+  },
+  {
     "id": "programacion",
     "nombre": "Programación",
     "descripcion": "Programación, Front End, Back End y Full Stack",
@@ -39,8 +60,6 @@
       "Videojuegos",
       "2D/3D Graphics",
       "IoT",
-      "Inteligencia Artificial",
-      "Machine Learning",
       "Cloud computing",
       "Google Cloud Computing",
       "Linux",

@@ -1,11 +1,5 @@
 [
   {
-    "id": "net",
-    "nombre": ".NET",
-    "color": "t1",
-    "sinonimos": []
-  },
-  {
     "id": "2d-3d-graphics",
     "nombre": "2D/3D Graphics",
     "color": "t1",
@@ -21,6 +15,12 @@
     "id": "administracion-y-finanzas",
     "nombre": "Administración y finanzas",
     "color": "t3",
+    "sinonimos": []
+  },
+  {
+    "id": "agentes-de-ia",
+    "nombre": "Agentes de IA",
+    "color": "t7",
     "sinonimos": []
   },
   {
@@ -77,6 +77,12 @@
     "sinonimos": []
   },
   {
+    "id": "automatizacion",
+    "nombre": "Automatización",
+    "color": "t7",
+    "sinonimos": []
+  },
+  {
     "id": "big-data",
     "nombre": "Big Data",
     "color": "t6",
@@ -95,15 +101,21 @@
     "sinonimos": []
   },
   {
+    "id": "c-plus",
+    "nombre": "C++",
+    "color": "t1",
+    "sinonimos": []
+  },
+  {
     "id": "c-sharp",
     "nombre": "C#",
     "color": "t1",
     "sinonimos": []
   },
   {
-    "id": "c-plus",
-    "nombre": "C++",
-    "color": "t1",
+    "id": "chatgpt",
+    "nombre": "ChatGPT",
+    "color": "t7",
     "sinonimos": []
   },
   {
@@ -124,6 +136,12 @@
     "id": "ciudadania-digital",
     "nombre": "Ciudadanía Digital",
     "color": "t4",
+    "sinonimos": []
+  },
+  {
+    "id": "claude",
+    "nombre": "Claude",
+    "color": "t7",
     "sinonimos": []
   },
   {
@@ -260,6 +278,12 @@
     "sinonimos": []
   },
   {
+    "id": "gemini",
+    "nombre": "Gemini",
+    "color": "t7",
+    "sinonimos": []
+  },
+  {
     "id": "gestion-de-proyectos",
     "nombre": "Gestión de Proyectos",
     "color": "t2",
@@ -322,6 +346,18 @@
     "sinonimos": []
   },
   {
+    "id": "ia-en-educacion",
+    "nombre": "IA en educación",
+    "color": "t7",
+    "sinonimos": []
+  },
+  {
+    "id": "ia-generativa",
+    "nombre": "IA generativa",
+    "color": "t7",
+    "sinonimos": []
+  },
+  {
     "id": "idiomas",
     "nombre": "Idiomas",
     "color": "t2",
@@ -336,7 +372,7 @@
   {
     "id": "inteligencia-artificial",
     "nombre": "Inteligencia Artificial",
-    "color": "t1",
+    "color": "t7",
     "sinonimos": [
       "IA",
       "AI"
@@ -399,15 +435,27 @@
     "sinonimos": []
   },
   {
+    "id": "llm",
+    "nombre": "LLM",
+    "color": "t7",
+    "sinonimos": []
+  },
+  {
     "id": "machine-learning",
     "nombre": "Machine Learning",
-    "color": "t1",
+    "color": "t7",
     "sinonimos": []
   },
   {
     "id": "marketing",
     "nombre": "Marketing",
     "color": "t3",
+    "sinonimos": []
+  },
+  {
+    "id": "mcp",
+    "nombre": "MCP",
+    "color": "t7",
     "sinonimos": []
   },
   {
@@ -432,6 +480,12 @@
     "id": "negociacion",
     "nombre": "Negociación",
     "color": "t2",
+    "sinonimos": []
+  },
+  {
+    "id": "net",
+    "nombre": ".NET",
+    "color": "t1",
     "sinonimos": []
   },
   {
@@ -531,6 +585,12 @@
       "Programación Web",
       "Incluye múltiples lenguajes de programación"
     ]
+  },
+  {
+    "id": "prompt-engineering",
+    "nombre": "Prompt Engineering",
+    "color": "t7",
+    "sinonimos": []
   },
   {
     "id": "python",

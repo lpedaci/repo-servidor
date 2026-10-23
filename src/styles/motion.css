@@ -222,6 +222,20 @@
     }
   }
 
+  /* Encabezados: el dibujo de la página se traza solo al entrar */
+  .ph-art path {
+    stroke-dasharray: 1;
+    animation: ph-trazo 1.1s var(--ease) calc(0.25s + var(--n) * 0.18s) backwards;
+  }
+  @keyframes ph-trazo {
+    from {
+      stroke-dashoffset: 1;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
   /* 404: el gatito duerme y respira, la cola hamaca el ovillo, salen zzz y cada tanto abre un ojo. Decorativo (aria-hidden). */
   .gato-dormido {
     transform-box: fill-box;

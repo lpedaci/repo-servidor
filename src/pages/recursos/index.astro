@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Icon from '../../components/Icon.astro';
+import PageHeadArt from '../../components/PageHeadArt.astro';
 import RecursoCard from '../../components/RecursoCard.astro';
 import FilterBar, { type Grupo } from '../../components/FilterBar.astro';
 import { ETIQUETA_TIPO } from '../../lib/icons.mjs';
@@ -54,6 +55,7 @@ const ordenes = [
   <div class="wrap" data-pagefind-body>
     <header class="page-head">
       <div class="page-head-in">
+        <PageHeadArt tema="recursos" color="t4" />
         <div>
           <p class="kicker"><Icon name="toolbox" /> Recursos</p>
           <h1>Explorador de recursos</h1>

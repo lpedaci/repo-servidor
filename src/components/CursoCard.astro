@@ -1,7 +1,7 @@
 ---
 import Icon from './Icon.astro';
 import FavButton from './FavButton.astro';
-import { CERT, isoDate, url } from '../lib/site';
+import { CERT, FORMATO, MODALIDAD, isoDate, url } from '../lib/site';
 interface Props {
   curso: {
     id: string;
@@ -15,6 +15,9 @@ interface Props {
       duracionHoras?: number;
       idiomas: string[];
       certificacion: string;
+      formato: string;
+      modalidad?: string;
+      precio?: string;
       agregado: Date;
       estado: string;
     };
@@ -38,6 +41,8 @@ const resto = d.temas.length - temas.length;
   data-prov={d.proveedores.join('|')}
   data-idioma={d.idiomas.join('|')}
   data-cert={d.certificacion}
+  data-formato={d.formato}
+  data-modalidad={d.modalidad ?? ''}
   data-horas={d.duracionHoras ?? ''}
   data-agregado={isoDate(d.agregado)}
 >
@@ -55,9 +60,12 @@ const resto = d.temas.length - temas.length;
   <ul class="card-facts">
     <li><Icon name="clock" /><span class="sr-only">Duración:</span> {d.duracion}</li>
     <li><Icon name="language" /><span class="sr-only">Idioma:</span> {d.idiomas.join(', ')}</li>
+    {d.modalidad && <li><Icon name="calendar-days" /><span class="sr-only">Modalidad:</span> {MODALIDAD[d.modalidad]}</li>}
+    {d.precio && <li class="card-precio"><Icon name="tag" /><span><span class="sr-only">Precio:</span> {d.precio}</span></li>}
   </ul>
   <div class="card-foot" data-pagefind-ignore>
     <span>
+      {d.formato !== 'curso' && <span class="badge badge--formato">{FORMATO[d.formato]}</span>}
       <span class:list={['badge', cert.clase]}>
         {d.certificacion === 'gratis-con-certificado' && <Icon name="certificate" />}
         {cert.label}
@@ -65,7 +73,7 @@ const resto = d.temas.length - temas.length;
       {d.estado === 'revisar' && <span class="badge badge--revisar">Link en revisión</span>}
     </span>
     <a class="btn btn--sm" href={d.url} target="_blank" rel="noopener noreferrer">
-      Ir al curso <Icon name="external" /><span class="sr-only"> {d.nombre} (se abre en otra pestaña)</span>
+      {d.formato === 'curso' ? 'Ir al curso' : 'Ver el programa'} <Icon name="external" /><span class="sr-only"> {d.nombre} (se abre en otra pestaña)</span>
     </a>
   </div>
 </li>

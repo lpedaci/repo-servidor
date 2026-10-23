@@ -1,0 +1,40 @@
+---
+/**
+ * Dibujo de línea del encabezado de cada página interna, en el mismo lenguaje que ThreadArt:
+ * trazo grueso, puntas redondeadas, translúcido. Cada página tiene un objeto que cuenta qué hay ahí:
+ *   cursos      birrete con borla
+ *   recursos    dos eslabones (links)
+ *   threads     dos globos de conversación
+ *   buscar      lupa con renglones
+ *   inventario  cofre con cerradura
+ *   ui          grilla de componentes
+ * Decorativo: aria-hidden. El último trazo va en el color de acento de la página.
+ */
+interface Props {
+  tema: 'cursos' | 'recursos' | 'threads' | 'buscar' | 'inventario' | 'ui';
+  color?: string;
+}
+const { tema, color = 't3' } = Astro.props;
+
+const TRAZOS: Record<Props['tema'], string[]> = {
+  cursos: ['M120 22L212 60L120 98L28 60Z', 'M66 78V112C66 132 174 132 174 112V78', 'M212 60V108', 'M212 126V128'],
+  recursos: [
+    'M98 92L74 116A26 26 0 0 1 37 79L69 47A26 26 0 0 1 106 47',
+    'M142 68L166 44A26 26 0 0 1 203 81L171 113A26 26 0 0 1 134 113',
+    'M96 104L144 56',
+  ],
+  threads: [
+    'M46 24H146A16 16 0 0 1 162 40V80A16 16 0 0 1 146 96H84L60 118V96H46A16 16 0 0 1 30 80V40A16 16 0 0 1 46 24Z',
+    'M182 64H196A16 16 0 0 1 212 80V112A16 16 0 0 1 196 128H192V146L172 128H126A16 16 0 0 1 110 112',
+    'M58 50H134M58 70H106',
+  ],
+  buscar: ['M96 22A50 50 0 1 1 95.9 22', 'M132 108L186 148', 'M74 62H120M74 84H102'],
+  inventario: ['M36 74H204V142H36Z', 'M36 74V62C36 26 204 26 204 62V74', 'M108 74V100H132V74'],
+  ui: ['M28 24H108V84H28Z', 'M128 24H212V56H128Z', 'M128 76H212V136H128Z', 'M28 104H108V136H28Z'],
+};
+const trazos = TRAZOS[tema];
+---
+
+<svg class="ph-art" viewBox="0 0 240 160" fill="none" aria-hidden="true" focusable="false" style={`--ph-c: var(--${color})`}>
+  {trazos.map((d, i) => <path d={d} pathLength="1" style={`--n:${i}`} class:list={[{ 'ph-acento': i === trazos.length - 1 }]} />)}
+</svg>

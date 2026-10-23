@@ -130,6 +130,166 @@
     "estado": "activo"
   },
   {
+    "id": "anthropic-ai-fluency-for-educators",
+    "nombre": "AI Fluency for educators",
+    "proveedores": [
+      "Anthropic"
+    ],
+    "url": "https://anthropic.skilljar.com/ai-fluency-for-educators",
+    "temas": [
+      "IA en educación",
+      "Claude",
+      "Docencia"
+    ],
+    "categoria": [
+      "inteligencia-artificial",
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "A tu ritmo",
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
+    "id": "anthropic-ai-fluency-framework-foundations",
+    "nombre": "AI Fluency: Framework & Foundations",
+    "proveedores": [
+      "Anthropic"
+    ],
+    "url": "https://anthropic.skilljar.com/ai-fluency-framework-foundations",
+    "temas": [
+      "Inteligencia Artificial",
+      "IA generativa",
+      "Claude"
+    ],
+    "categoria": [
+      "inteligencia-artificial"
+    ],
+    "duracion": "A tu ritmo",
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
+    "id": "anthropic-building-with-the-claude-api",
+    "nombre": "Building with the Claude API",
+    "proveedores": [
+      "Anthropic"
+    ],
+    "url": "https://anthropic.skilljar.com/claude-with-the-anthropic-api",
+    "temas": [
+      "Claude",
+      "LLM",
+      "API",
+      "Agentes de IA"
+    ],
+    "categoria": [
+      "inteligencia-artificial",
+      "programacion"
+    ],
+    "duracion": "A tu ritmo",
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
+    "id": "anthropic-claude-101",
+    "nombre": "Claude 101",
+    "proveedores": [
+      "Anthropic"
+    ],
+    "url": "https://anthropic.skilljar.com/claude-101",
+    "temas": [
+      "Claude",
+      "IA generativa"
+    ],
+    "categoria": [
+      "inteligencia-artificial"
+    ],
+    "duracion": "A tu ritmo",
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
+    "id": "anthropic-claude-code-in-action",
+    "nombre": "Claude Code in Action",
+    "proveedores": [
+      "Anthropic"
+    ],
+    "url": "https://anthropic.skilljar.com/claude-code-in-action",
+    "temas": [
+      "Claude",
+      "Agentes de IA",
+      "Programación"
+    ],
+    "categoria": [
+      "inteligencia-artificial",
+      "programacion"
+    ],
+    "duracion": "A tu ritmo",
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
+    "id": "anthropic-introduction-to-model-context-protocol",
+    "nombre": "Introduction to Model Context Protocol",
+    "proveedores": [
+      "Anthropic"
+    ],
+    "url": "https://anthropic.skilljar.com/introduction-to-model-context-protocol",
+    "temas": [
+      "MCP",
+      "Claude",
+      "Agentes de IA"
+    ],
+    "categoria": [
+      "inteligencia-artificial",
+      "programacion"
+    ],
+    "duracion": "A tu ritmo",
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
     "id": "aprende-javascript",
     "nombre": "Aprende JavaScript",
     "proveedores": [
@@ -271,6 +431,7 @@
       "Python"
     ],
     "categoria": [
+      "inteligencia-artificial",
       "programacion"
     ],
     "duracion": "Según tiempo de dedicación",
@@ -279,7 +440,7 @@
     ],
     "certificacion": "gratis-con-certificado",
     "agregado": "2026-10-15",
-    "revisado": "2026-10-15",
+    "revisado": "2026-10-22",
     "estado": "activo"
   },
   {
@@ -293,6 +454,7 @@
       "Inteligencia Artificial"
     ],
     "categoria": [
+      "inteligencia-artificial",
       "programacion"
     ],
     "duracion": "40 hs",
@@ -304,7 +466,65 @@
     ],
     "certificacion": "gratis-con-certificado",
     "agregado": "2026-10-15",
-    "revisado": "2026-10-15",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
+    "id": "austral-diplomatura-ia-aplicada",
+    "nombre": "Diplomatura en Inteligencia Artificial Aplicada",
+    "proveedores": [
+      "Universidad Austral"
+    ],
+    "url": "https://www.austral.edu.ar/en/diplomatura-en-inteligencia-artificial-aplicada/",
+    "temas": [
+      "Inteligencia Artificial",
+      "IA generativa",
+      "Automatización"
+    ],
+    "categoria": [
+      "inteligencia-artificial"
+    ],
+    "duracion": "85 hs",
+    "duracionHoras": 85,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "pago",
+    "formato": "diplomatura",
+    "modalidad": "sincronica",
+    "precio": "Consultar (planes en cuotas)",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
+    "id": "aws-certified-ai-practitioner",
+    "nombre": "AWS Certified AI Practitioner (AIF-C01)",
+    "proveedores": [
+      "AWS"
+    ],
+    "url": "https://aws.amazon.com/certification/certified-ai-practitioner/",
+    "temas": [
+      "Inteligencia Artificial",
+      "Machine Learning",
+      "IA generativa",
+      "Cloud computing"
+    ],
+    "categoria": [
+      "inteligencia-artificial"
+    ],
+    "duracion": "Examen de 90 min",
+    "duracionHoras": 1.5,
+    "idiomas": [
+      "Español",
+      "Inglés"
+    ],
+    "certificacion": "certificado-pago",
+    "formato": "certificacion",
+    "modalidad": "asincronica",
+    "precio": "Preparación gratis en AWS Skill Builder. Examen: USD 100",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
     "estado": "activo"
   },
   {
@@ -740,6 +960,34 @@
     "estado": "activo"
   },
   {
+    "id": "coderhouse-ai-automation",
+    "nombre": "Curso de AI Automation",
+    "proveedores": [
+      "Coderhouse"
+    ],
+    "url": "https://www.coderhouse.com/ar/cursos/ai-automation",
+    "temas": [
+      "Automatización",
+      "Agentes de IA",
+      "Claude"
+    ],
+    "categoria": [
+      "inteligencia-artificial"
+    ],
+    "duracion": "4 semanas",
+    "duracionHoras": 16,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "pago",
+    "formato": "curso",
+    "modalidad": "sincronica",
+    "precio": "$ 186.640 o 6 cuotas de $ 31.107 (precio con descuento)",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
     "id": "comercio-electronico",
     "nombre": "Comercio electrónico",
     "proveedores": [
@@ -897,6 +1145,65 @@
     "estado": "activo"
   },
   {
+    "id": "coursera-ai-for-everyone",
+    "nombre": "AI For Everyone",
+    "proveedores": [
+      "DeepLearning.AI",
+      "Coursera"
+    ],
+    "url": "https://www.coursera.org/learn/ai-for-everyone",
+    "temas": [
+      "Inteligencia Artificial",
+      "Machine Learning"
+    ],
+    "categoria": [
+      "inteligencia-artificial"
+    ],
+    "duracion": "7 hs",
+    "duracionHoras": 7,
+    "idiomas": [
+      "Español",
+      "Inglés"
+    ],
+    "certificacion": "pago",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Suscripción de Coursera (hay prueba gratis y ayuda financiera)",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
+    "id": "coursera-prompt-engineering-for-chatgpt",
+    "nombre": "Prompt Engineering for ChatGPT",
+    "proveedores": [
+      "Vanderbilt University",
+      "Coursera"
+    ],
+    "url": "https://www.coursera.org/learn/prompt-engineering",
+    "temas": [
+      "Prompt Engineering",
+      "ChatGPT",
+      "IA generativa"
+    ],
+    "categoria": [
+      "inteligencia-artificial"
+    ],
+    "duracion": "18 hs",
+    "duracionHoras": 18,
+    "idiomas": [
+      "Español",
+      "Inglés"
+    ],
+    "certificacion": "pago",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Suscripción de Coursera (hay prueba gratis y ayuda financiera)",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
     "id": "cpa-programming-essentials-in-c-plus",
     "nombre": "CPA: Programming Essentials in C++",
     "proveedores": [
@@ -943,6 +1250,34 @@
     "certificacion": "gratis-con-certificado",
     "agregado": "2026-10-15",
     "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "cs50-introduction-to-ai-with-python",
+    "nombre": "CS50's Introduction to Artificial Intelligence with Python",
+    "proveedores": [
+      "Harvard"
+    ],
+    "url": "https://cs50.harvard.edu/ai/",
+    "temas": [
+      "Inteligencia Artificial",
+      "Machine Learning",
+      "Python"
+    ],
+    "categoria": [
+      "inteligencia-artificial",
+      "programacion"
+    ],
+    "duracion": "7 semanas",
+    "duracionHoras": 70,
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
     "estado": "activo"
   },
   {
@@ -1327,6 +1662,35 @@
     "estado": "activo"
   },
   {
+    "id": "deeplearning-ai-chatgpt-prompt-engineering-for-developers",
+    "nombre": "ChatGPT Prompt Engineering for Developers",
+    "proveedores": [
+      "DeepLearning.AI",
+      "OpenAI"
+    ],
+    "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+    "temas": [
+      "Prompt Engineering",
+      "ChatGPT",
+      "Python"
+    ],
+    "categoria": [
+      "inteligencia-artificial",
+      "programacion"
+    ],
+    "duracion": "1 h 40 min",
+    "duracionHoras": 1.7,
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
     "id": "desafio-latam",
     "nombre": "Desafío latam",
     "proveedores": [
@@ -1614,6 +1978,31 @@
     "certificacion": "gratis-con-limite",
     "agregado": "2026-10-15",
     "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "elements-of-ai-introduccion-a-la-ia",
+    "nombre": "Elements of AI: Introducción a la IA",
+    "proveedores": [
+      "Universidad de Helsinki"
+    ],
+    "url": "https://course.elementsofai.com/es",
+    "temas": [
+      "Inteligencia Artificial",
+      "Machine Learning"
+    ],
+    "categoria": [
+      "inteligencia-artificial"
+    ],
+    "duracion": "A tu ritmo",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
     "estado": "activo"
   },
   {
@@ -2213,6 +2602,7 @@
       "Inteligencia Artificial"
     ],
     "categoria": [
+      "inteligencia-artificial",
       "gestion-y-soft-skills"
     ],
     "duracion": "<2 hs",
@@ -2222,7 +2612,7 @@
     ],
     "certificacion": "gratis-con-certificado",
     "agregado": "2026-10-15",
-    "revisado": "2026-10-15",
+    "revisado": "2026-10-22",
     "estado": "activo"
   },
   {
@@ -2325,6 +2715,7 @@
       "Inteligencia Artificial"
     ],
     "categoria": [
+      "inteligencia-artificial",
       "programacion"
     ],
     "duracion": "<1 hs",
@@ -2334,7 +2725,37 @@
     ],
     "certificacion": "gratis-con-certificado",
     "agregado": "2026-10-15",
-    "revisado": "2026-10-15",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
+    "id": "google-ai-essentials",
+    "nombre": "Google AI Essentials",
+    "proveedores": [
+      "Google",
+      "Coursera"
+    ],
+    "url": "https://www.coursera.org/learn/google-ai-essentials",
+    "temas": [
+      "IA generativa",
+      "Prompt Engineering",
+      "Gemini"
+    ],
+    "categoria": [
+      "inteligencia-artificial"
+    ],
+    "duracion": "10 hs",
+    "duracionHoras": 10,
+    "idiomas": [
+      "Español",
+      "Inglés"
+    ],
+    "certificacion": "pago",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Suscripción de Coursera (7 días de prueba, hay ayuda financiera)",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
     "estado": "activo"
   },
   {
@@ -2429,6 +2850,33 @@
     "certificacion": "gratis-con-limite",
     "agregado": "2026-10-15",
     "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "google-introduction-to-generative-ai",
+    "nombre": "Introduction to Generative AI",
+    "proveedores": [
+      "Google"
+    ],
+    "url": "https://www.skills.google/course_templates/536",
+    "temas": [
+      "IA generativa",
+      "Gemini",
+      "LLM"
+    ],
+    "categoria": [
+      "inteligencia-artificial"
+    ],
+    "duracion": "45 min",
+    "duracionHoras": 0.75,
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
     "estado": "activo"
   },
   {
@@ -2672,6 +3120,60 @@
     "certificacion": "pago",
     "agregado": "2026-10-15",
     "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "hugging-face-ai-agents-course",
+    "nombre": "AI Agents Course",
+    "proveedores": [
+      "Hugging Face"
+    ],
+    "url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+    "temas": [
+      "Agentes de IA",
+      "LLM",
+      "Python"
+    ],
+    "categoria": [
+      "inteligencia-artificial",
+      "programacion"
+    ],
+    "duracion": "3 a 4 hs por semana",
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
+    "id": "hugging-face-llm-course",
+    "nombre": "LLM Course",
+    "proveedores": [
+      "Hugging Face"
+    ],
+    "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+    "temas": [
+      "LLM",
+      "Machine Learning",
+      "Python"
+    ],
+    "categoria": [
+      "inteligencia-artificial",
+      "programacion"
+    ],
+    "duracion": "A tu ritmo",
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
     "estado": "activo"
   },
   {
@@ -3112,6 +3614,60 @@
     "estado": "activo"
   },
   {
+    "id": "junior-ia-en-accion",
+    "nombre": "IA en acción",
+    "proveedores": [
+      "Junior Achievement"
+    ],
+    "url": "https://junior.org.ar/ia/",
+    "temas": [
+      "Inteligencia Artificial",
+      "IA generativa"
+    ],
+    "categoria": [
+      "inteligencia-artificial"
+    ],
+    "duracion": "40 min",
+    "duracionHoras": 0.7,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
+    "id": "kaggle-intro-to-machine-learning",
+    "nombre": "Intro to Machine Learning",
+    "proveedores": [
+      "Kaggle"
+    ],
+    "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+    "temas": [
+      "Machine Learning",
+      "Python",
+      "Data Science"
+    ],
+    "categoria": [
+      "inteligencia-artificial",
+      "datos-y-ofimatica"
+    ],
+    "duracion": "3 hs",
+    "duracionHoras": 3,
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
     "id": "librerias-de-desarrollo-de-interfaz",
     "nombre": "Librerías de desarrollo de interfaz",
     "proveedores": [
@@ -3168,6 +3724,31 @@
     "estado": "activo"
   },
   {
+    "id": "make-academy",
+    "nombre": "Make Academy",
+    "proveedores": [
+      "Make"
+    ],
+    "url": "https://academy.make.com/",
+    "temas": [
+      "Automatización",
+      "API"
+    ],
+    "categoria": [
+      "inteligencia-artificial"
+    ],
+    "duracion": "A tu ritmo",
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
     "id": "marketing-digital",
     "nombre": "Marketing Digital",
     "proveedores": [
@@ -3214,6 +3795,60 @@
     "certificacion": "gratis-con-certificado",
     "agregado": "2026-10-15",
     "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "microsoft-ai-901-azure-ai-fundamentals",
+    "nombre": "Certificación Microsoft: aspectos básicos de la IA de Azure (AI-901)",
+    "proveedores": [
+      "Microsoft"
+    ],
+    "url": "https://learn.microsoft.com/es-es/credentials/certifications/azure-ai-fundamentals/",
+    "temas": [
+      "Inteligencia Artificial",
+      "Machine Learning",
+      "IA generativa",
+      "Cloud computing"
+    ],
+    "categoria": [
+      "inteligencia-artificial"
+    ],
+    "duracion": "Examen",
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "certificado-pago",
+    "formato": "certificacion",
+    "modalidad": "asincronica",
+    "precio": "Preparación gratis en Microsoft Learn. El examen se paga y el precio depende del país",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
+    "id": "n8n-courses",
+    "nombre": "Cursos de n8n: de tus primeros workflows a IA",
+    "proveedores": [
+      "n8n"
+    ],
+    "url": "https://learn.n8n.io/",
+    "temas": [
+      "Automatización",
+      "Agentes de IA",
+      "API"
+    ],
+    "categoria": [
+      "inteligencia-artificial"
+    ],
+    "duracion": "A tu ritmo",
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
     "estado": "activo"
   },
   {
@@ -3315,6 +3950,33 @@
     "certificacion": "gratis-con-certificado",
     "agregado": "2026-10-15",
     "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "openai-academy-apply-ai-at-work",
+    "nombre": "OpenAI Academy: Apply AI at Work",
+    "proveedores": [
+      "OpenAI"
+    ],
+    "url": "https://academy.openai.com/pages/ai-at-work-bcx7td",
+    "temas": [
+      "ChatGPT",
+      "IA generativa",
+      "Automatización"
+    ],
+    "categoria": [
+      "inteligencia-artificial"
+    ],
+    "duracion": "Cursos de 1 a 2 hs",
+    "duracionHoras": 2,
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
     "estado": "activo"
   },
   {
@@ -4098,6 +4760,119 @@
     "estado": "activo"
   },
   {
+    "id": "uba-economicas-diplomatura-ia-gestion-organizaciones",
+    "nombre": "Diplomatura de Posgrado en IA Aplicada a la Gestión de las Organizaciones",
+    "proveedores": [
+      "UBA"
+    ],
+    "url": "https://economicas.uba.ar/posgrado/nuevo-lanzamiento-diplomatura-de-posgrado-en-inteligencia-artificial-aplicada-a-la-gestion-de-las-organizaciones/",
+    "temas": [
+      "Inteligencia Artificial",
+      "Gestión empresarial"
+    ],
+    "categoria": [
+      "inteligencia-artificial",
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "120 hs",
+    "duracionHoras": 120,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "pago",
+    "formato": "diplomatura",
+    "modalidad": "mixta",
+    "precio": "Consultar (en 5 cuotas, con becas)",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
+    "id": "uba-exactas-diplomatura-introduccion-a-la-ia",
+    "nombre": "Diplomatura en Introducción a la Inteligencia Artificial, conceptos y aplicaciones",
+    "proveedores": [
+      "UBA"
+    ],
+    "url": "https://exactas.uba.ar/ensenanza/diplomaturas/diplomatura-en-inteligencia-artificial/",
+    "temas": [
+      "Inteligencia Artificial",
+      "Machine Learning",
+      "Python"
+    ],
+    "categoria": [
+      "inteligencia-artificial"
+    ],
+    "duracion": "8 meses (128 hs)",
+    "duracionHoras": 128,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "formato": "diplomatura",
+    "modalidad": "mixta",
+    "precio": "Gratis (arancel $ 0). Pide secundario completo",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
+    "id": "ucema-diplomatura-ia-estrategia-y-aplicacion",
+    "nombre": "Diplomatura en IA: Estrategia & Aplicación Práctica",
+    "proveedores": [
+      "UCEMA"
+    ],
+    "url": "https://ucema.edu.ar/educacion-ejecutiva/diplomatura-ia",
+    "temas": [
+      "Inteligencia Artificial",
+      "IA generativa",
+      "Gestión empresarial"
+    ],
+    "categoria": [
+      "inteligencia-artificial",
+      "gestion-y-soft-skills"
+    ],
+    "duracion": "20 clases",
+    "duracionHoras": 50,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "pago",
+    "formato": "diplomatura",
+    "modalidad": "sincronica",
+    "precio": "6 cuotas de $ 384.750",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
+    "id": "unc-diplomatura-ingenieria-soluciones-ia",
+    "nombre": "Diplomatura en Ingeniería de Soluciones basadas en Inteligencia Artificial",
+    "proveedores": [
+      "UNC"
+    ],
+    "url": "https://fcefyn.unc.edu.ar/facultad/secretarias/extension/area-de-formacion-continua/ingenieria-de-soluciones-basadas-en-inteligencia-artificial/",
+    "temas": [
+      "Inteligencia Artificial",
+      "Agentes de IA",
+      "Automatización"
+    ],
+    "categoria": [
+      "inteligencia-artificial"
+    ],
+    "duracion": "100 hs",
+    "duracionHoras": 100,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "pago",
+    "formato": "diplomatura",
+    "modalidad": "sincronica",
+    "precio": "$ 1.500.000 al contado (hay financiación)",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
     "id": "user-experience-basics",
     "nombre": "User Experience Basics",
     "proveedores": [
@@ -4120,6 +4895,90 @@
     "certificacion": "gratis-con-certificado",
     "agregado": "2026-10-15",
     "revisado": "2026-10-15",
+    "estado": "activo"
+  },
+  {
+    "id": "utn-ba-diplomatura-ciencia-de-datos-e-ia",
+    "nombre": "Diplomatura en Ciencia de Datos e Inteligencia Artificial",
+    "proveedores": [
+      "UTN BA"
+    ],
+    "url": "https://sceu.frba.utn.edu.ar/e-learning/detalle/diplomatura/36038/diplomatura-en-ciencia-de-datos-e-inteligencia-artificial",
+    "temas": [
+      "Data Science",
+      "Machine Learning",
+      "Inteligencia Artificial"
+    ],
+    "categoria": [
+      "inteligencia-artificial",
+      "datos-y-ofimatica"
+    ],
+    "duracion": "21 semanas (157 hs)",
+    "duracionHoras": 157,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "pago",
+    "formato": "diplomatura",
+    "modalidad": "mixta",
+    "precio": "$ 750.000, hasta 12 cuotas sin interés",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
+    "id": "utn-ba-diplomatura-en-ia-generativa",
+    "nombre": "Diplomatura en Inteligencia Artificial Generativa",
+    "proveedores": [
+      "UTN BA"
+    ],
+    "url": "https://sceu.frba.utn.edu.ar/e-learning/detalle/diplomatura/36009/diplomatura-en-inteligencia-artificial-generativa",
+    "temas": [
+      "IA generativa",
+      "Prompt Engineering",
+      "LLM"
+    ],
+    "categoria": [
+      "inteligencia-artificial"
+    ],
+    "duracion": "18 semanas (135 hs)",
+    "duracionHoras": 135,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "pago",
+    "formato": "diplomatura",
+    "modalidad": "mixta",
+    "precio": "$ 800.000, hasta 9 cuotas sin interés",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
+    "estado": "activo"
+  },
+  {
+    "id": "utn-ba-diplomatura-en-inteligencia-artificial",
+    "nombre": "Diplomatura en Inteligencia Artificial",
+    "proveedores": [
+      "UTN BA"
+    ],
+    "url": "https://sceu.frba.utn.edu.ar/e-learning/detalle/diplomatura/4333/diplomatura-en-inteligencia-artificial",
+    "temas": [
+      "Inteligencia Artificial",
+      "Machine Learning"
+    ],
+    "categoria": [
+      "inteligencia-artificial"
+    ],
+    "duracion": "21 semanas",
+    "duracionHoras": 105,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "pago",
+    "formato": "diplomatura",
+    "modalidad": "mixta",
+    "precio": "$ 1.180.000, hasta 12 cuotas sin interés",
+    "agregado": "2026-10-22",
+    "revisado": "2026-10-22",
     "estado": "activo"
   },
   {

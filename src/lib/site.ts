@@ -28,7 +28,20 @@ export const CERT: Record<string, { label: string; clase: string }> = {
   'gratis-con-certificado': { label: 'Gratis con certificado', clase: 'badge--cert' },
   'gratis-con-limite': { label: 'Gratis con límite', clase: 'badge--limite' },
   'gratis-sin-certificado': { label: 'Gratis sin certificado', clase: 'badge--sin' },
+  'certificado-pago': { label: 'Gratis, certificado pago', clase: 'badge--limite' },
   pago: { label: 'Pago', clase: 'badge--pago' },
+};
+
+export const FORMATO: Record<string, string> = {
+  curso: 'Curso',
+  certificacion: 'Certificación',
+  diplomatura: 'Diplomatura',
+};
+
+export const MODALIDAD: Record<string, string> = {
+  asincronica: 'A tu ritmo',
+  sincronica: 'En vivo',
+  mixta: 'En vivo y grabado',
 };
 
 export const TIPO_POST: Record<string, string> = {

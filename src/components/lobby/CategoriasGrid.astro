@@ -1,6 +1,6 @@
 ---
 /**
- * Grilla de las seis categorías de cursos del Lobby, con el tratamiento "consola": tarjetas carbón
+ * Grilla de las siete categorías de cursos del Lobby (la primera, IA, va destacada a todo el ancho), con el tratamiento "consola": tarjetas carbón
  * como la terminal del hero, ícono en el color de la categoría y la cantidad de cursos en mono.
  */
 import Icon from '../Icon.astro';
@@ -10,18 +10,24 @@ interface Props {
   cats: DatosLobby['cats'];
 }
 const { cats } = Astro.props;
+// La categoría más nueva va primera y a todo el ancho, con su descripción
+const DESTACADA = 'inteligencia-artificial';
 ---
 
 <ul class="cg">
   {
     cats.map((c) => (
-      <li>
+      <li class:list={[{ 'cg-dest': c.id === DESTACADA }]}>
         <a class="cg-cat" href={url(`/cursos/?cat=${c.id}`)} style={`--c: var(--${c.color})`}>
           <span class="cg-ic">
             <Icon name={c.icono} />
           </span>
           <span class="cg-txt">
-            <span class="cg-name">{c.nombre}</span>
+            <span class="cg-name">
+              {c.nombre}
+              {c.id === DESTACADA && <span class="cg-nuevo">Nuevo</span>}
+            </span>
+            {c.id === DESTACADA && <span class="cg-desc">{c.descripcion}</span>}
             <span class="cg-datos">
               <span class="cg-n">{c.n} cursos</span>
             </span>
@@ -43,6 +49,27 @@ const { cats } = Astro.props;
     margin: 0;
     padding: 0;
     list-style: none;
+  }
+  .cg-dest {
+    grid-column: 1 / -1;
+  }
+  .cg-nuevo {
+    display: inline-block;
+    margin-left: 0.5rem;
+    padding: 0.1rem 0.55rem;
+    border-radius: 999px;
+    background: var(--c);
+    color: var(--tile-ink);
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    font-weight: 600;
+    vertical-align: 0.15em;
+  }
+  .cg-desc {
+    display: block;
+    margin-top: 0.3rem;
+    color: var(--deep-muted);
+    font-size: 0.92rem;
   }
   .cg-cat {
     display: grid;

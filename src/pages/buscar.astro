@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
+import PageHeadArt from '../components/PageHeadArt.astro';
 import { url } from '../lib/site';
 ---
 
@@ -8,6 +9,7 @@ import { url } from '../lib/site';
   <div class="wrap">
     <header class="page-head">
       <div class="page-head-in">
+        <PageHeadArt tema="buscar" color="t6" />
         <div>
           <p class="kicker"><Icon name="search" /> Buscar</p>
           <h1>¿Qué estás buscando?</h1>

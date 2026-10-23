@@ -2,7 +2,10 @@
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import Callout from '../components/Callout.astro';
+import { Image } from 'astro:assets';
 import { SITE, url } from '../lib/site';
+import notionPortada from '../assets/sobre/notion-portada.png';
+import notionThreads from '../assets/sobre/notion-threads.png';
 ---
 
 <Base titulo="Sobre el server" og="og/sobre.png" descripcion={`Qué es El servidor de Lourdes y quién lo arma: ${SITE.autora}, ${SITE.firma}.`}>
@@ -64,10 +67,26 @@ import { SITE, url } from '../lib/site';
               Invitame un Cafecito<span class="sr-only"> (se abre en otra pestaña)</span> <Icon name="mug" />
             </a>
           </p>
-          <h2>Este sitio</h2>
+          <h2>Cómo empezó</h2>
           <p>
-            Antes vivía en Notion. Ahora es un sitio estático hecho con Astro y publicado en GitHub Pages, sin cookies ni seguimiento. Los íconos son de Font Awesome Free (CC BY 4.0). Las tipografías
-            son Outfit, Geist y Geist Mono (SIL Open Font License).
+            El server nació en diciembre de 2019 como una página de Notion. Era lo que tenía a mano para juntar en un solo link los materiales que armaba para mis estudiantes. Con
+            los años se fue llenando de charlas, cursos y recursos, y Notion empezó a quedarle chico: cada vez era más difícil de recorrer y de mantener al día.
+          </p>
+          <p>Así se veía antes de la mudanza:</p>
+          <figure class="sobre-captura">
+            <Image src={notionPortada} widths={[640, 960, 1280]} sizes="(min-width: 960px) 46rem, 100vw" alt="Portada de El servidor de Lourdes en Notion: banner con código, avatar, la frase de bienvenida y un gatito negro durmiendo al costado del texto." />
+            <figcaption>La portada en Notion. La frase de bienvenida es la misma de hoy, y el gatito negro ya dormía ahí.</figcaption>
+          </figure>
+          <figure class="sobre-captura">
+            <Image src={notionThreads} widths={[640, 960, 1280]} sizes="(min-width: 960px) 46rem, 100vw" alt="Los threads en Notion: bloques de color con títulos y listas de links a las charlas, guías y recursos." />
+            <figcaption>Los threads eran bloques de color con listas de links. Andaban, pero había que saber dónde buscar.</figcaption>
+          </figure>
+          <p>
+            En 2026 lo pasé a un sitio propio, hecho con Astro y publicado en GitHub Pages. No usa cookies ni analytics: no sé quién entra ni qué mira. Ahora se puede buscar,
+            filtrar los cursos y guardar lo que te sirve en tu inventario, que queda solo en tu navegador y nunca me llega. Lo que no cambió: sigue siendo gratis y lo sigo armando yo.
+          </p>
+          <p class="muted">
+            Los íconos son de Font Awesome Free (CC BY 4.0). Las tipografías son Outfit, Geist y Geist Mono (SIL Open Font License).
           </p>
         </div>
       </article>

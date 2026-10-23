@@ -11,15 +11,17 @@ Sitio estático (Astro 7) publicado en GitHub Pages en `https://lpedaci.github.i
 | Cursos | `src/data/cursos.json` | Un objeto por curso, orden alfabético por `id`, indentación de 2 espacios. |
 | Recursos (links) | `src/data/recursos.json` | Igual. En posts se muestran con `::recurso{#id}`. |
 | Threads | `src/data/threads.json` | 4 threads: `cursando`, `cursos`, `tecnologia`, `variaditos`. |
-| Categorías de cursos | `src/data/categorias.json` | Las 6 vistas temáticas. `temas` sirve para derivar la categoría de un curso nuevo. |
-| Etiquetas | `src/data/etiquetas.json` | Nombre canónico, color (`t1`..`t4`) y sinónimos. |
+| Categorías de cursos | `src/data/categorias.json` | Las 7 vistas temáticas (la primera, Inteligencia artificial, va destacada en el Lobby). `temas` sirve para derivar la categoría de un curso nuevo. |
+| Etiquetas | `src/data/etiquetas.json` | Nombre canónico, color (`t1`..`t7`) y sinónimos. |
 | Esquemas (validación) | `src/content.config.ts` | Si un dato no cumple, el build falla. |
 | Estilos | `src/styles/tokens.css`, `global.css`, `motion.css` | Tokens portados del taller. Toda animación va en `motion.css` dentro de `prefers-reduced-motion: no-preference`. |
 
 ## Esquemas rápidos
 
-- Curso: `id, nombre, proveedores[], url, temas[], categoria[], duracion, duracionHoras?, idiomas[], certificacion, agregado, revisado, estado`.
-  - `certificacion`: `gratis-con-certificado` | `gratis-sin-certificado` | `gratis-con-limite` | `pago`.
+- Curso: `id, nombre, proveedores[], url, temas[], categoria[], duracion, duracionHoras?, idiomas[], certificacion, formato?, modalidad?, precio?, agregado, revisado, estado`.
+  - `certificacion`: `gratis-con-certificado` | `gratis-sin-certificado` | `gratis-con-limite` (gratis por tiempo limitado) | `certificado-pago` (cursás gratis, el certificado o examen se paga) | `pago`.
+  - `formato`: `curso` (por defecto) | `certificacion` | `diplomatura`. `modalidad`: `asincronica` | `sincronica` | `mixta`.
+  - `precio`: texto libre con el precio que figuraba el día de la revisión (en pesos si es en Argentina). Actualizar junto con `revisado`.
   - `categoria`: ids de `categorias.json`.
 - Recurso: `id, nombre, url, descripcion, tipo, temas[], idioma[], gratis, thread, aparece_en?[], revisado, estado`.
   - `tipo`: `biblioteca` | `herramienta` | `guia` | `canal` | `comunidad` | `sitio`.

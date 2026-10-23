@@ -6,7 +6,7 @@ import { defineCollection, reference } from 'astro:content';
 import { file, glob } from 'astro/loaders';
 import { z } from 'astro/zod';
 
-const color = z.enum(['t1', 't2', 't3', 't4', 't5', 't6', 'deep']);
+const color = z.enum(['t1', 't2', 't3', 't4', 't5', 't6', 't7', 'deep']);
 const estado = z.enum(['activo', 'revisar', 'caido']);
 
 const threads = defineCollection({
@@ -51,7 +51,10 @@ const cursos = defineCollection({
     duracion: z.string(),
     duracionHoras: z.number().optional(),
     idiomas: z.array(z.string()),
-    certificacion: z.enum(['gratis-con-certificado', 'gratis-sin-certificado', 'gratis-con-limite', 'pago']),
+    certificacion: z.enum(['gratis-con-certificado', 'gratis-sin-certificado', 'gratis-con-limite', 'certificado-pago', 'pago']),
+    formato: z.enum(['curso', 'certificacion', 'diplomatura']).default('curso'),
+    modalidad: z.enum(['asincronica', 'sincronica', 'mixta']).optional(),
+    precio: z.string().optional(),
     agregado: z.coerce.date(),
     revisado: z.coerce.date(),
     estado,

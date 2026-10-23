@@ -67,7 +67,7 @@ scripts/                 import-notion, check-links, og
 | `/` | Lobby |
 | `/threads/` y `/threads/[id]/` | Índice y página de cada thread (`cursando`, `cursos`, `tecnologia`, `variaditos`) |
 | `/posts/[slug]/` | Charlas y guías, con índice lateral y navegación dentro del thread |
-| `/cursos/` | Explorador de cursos. Filtros en la URL: `?cat=diseno-ux-ui&prov=Google&idioma=Español&cert=gratis-con-certificado&q=python&orden=duracion&vista=tabla` |
+| `/cursos/` | Explorador de cursos. Filtros en la URL: `?cat=inteligencia-artificial&formato=diplomatura&modalidad=sincronica&prov=Google&idioma=Español&cert=gratis-con-certificado&q=python&orden=duracion&vista=tabla` |
 | `/recursos/` | Explorador de recursos (`?tipo=`, `?thread=`, `?idioma=`, `?gratis=si`) |
 | `/inventario/` | Favoritos y "ya lo vi" del user, en `localStorage` (no indexada) |
 | `/buscar/?q=` | Búsqueda con Pagefind |
@@ -78,8 +78,8 @@ scripts/                 import-notion, check-links, og
 
 Todo se valida en `src/content.config.ts`.
 
-- **Curso** (`cursos.json`): `id, nombre, proveedores[], url, temas[], categoria[], duracion, duracionHoras?, idiomas[], certificacion, agregado, revisado, estado`.
-  `certificacion`: `gratis-con-certificado` | `gratis-sin-certificado` | `gratis-con-limite` | `pago`. `duracionHoras` se usa para ordenar (un mes se estima en 40 hs).
+- **Curso** (`cursos.json`): `id, nombre, proveedores[], url, temas[], categoria[], duracion, duracionHoras?, idiomas[], certificacion, formato?, modalidad?, precio?, agregado, revisado, estado`.
+  `certificacion`: `gratis-con-certificado` | `gratis-sin-certificado` | `gratis-con-limite` | `certificado-pago` | `pago`. `formato`: `curso` | `certificacion` | `diplomatura`. `modalidad`: `asincronica` | `sincronica` | `mixta`. `precio` es texto libre (en pesos si es en Argentina). `duracionHoras` se usa para ordenar (un mes se estima en 40 hs).
 - **Recurso** (`recursos.json`): `id, nombre, url, descripcion, tipo, temas[], idioma[], gratis, thread, aparece_en?[], revisado, estado`.
   `tipo`: `biblioteca` | `herramienta` | `guia` | `canal` | `comunidad` | `sitio`.
 - **Post** (frontmatter): `titulo, bajada, thread, tipo (charla|guia|recopilacion), temas[], publicado, actualizado, tiempoLectura?, portada?, destacado?`.
@@ -128,7 +128,7 @@ Todos los valores viven en `src/styles/tokens.css` y se revisan en vivo en `/ui/
 | `--l1` / `--l2` | `#5257c9` / `#b4530f` | Links y acentos de texto |
 | `--yes` / `--no` | `#17764a` / `#b4380f` | Estados (certificado, en revisión) |
 
-**Mosaicos:** seis colores, uno por categoría de cursos, siempre con texto oscuro (`--tile-ink`) en los dos temas.
+**Mosaicos:** siete colores, uno por categoría de cursos, siempre con texto oscuro (`--tile-ink`) en los dos temas.
 
 | Token | Color | Categoría | Thread |
 |---|---|---|---|
@@ -138,6 +138,7 @@ Todos los valores viven en `src/styles/tokens.css` y se revisan en vivo en `/ui/
 | `--t4` | `#b8d8c9` verde agua | Ciudadanía digital y seguridad | Tecnología |
 | `--t5` | `#f2b8d2` rosa | Diseño, UX y UI | |
 | `--t6` | `#a9d3f0` celeste | Datos y ofimática | |
+| `--t7` | `#d3e88a` lima | Inteligencia artificial | |
 
 Las etiquetas de temas heredan el color de su categoría (`etiquetas.json`). El tema oscuro redefine los tokens bajo `prefers-color-scheme: dark` y `[data-theme="dark"]`; el usuario puede forzarlo desde la barra.
 

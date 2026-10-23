@@ -52,10 +52,10 @@ const cards = [
   {
     archivo: 'cursos',
     k: 'Explorador de cursos',
-    t: `${cursos} cursos *gratuitos*`,
-    d: 'Filtrables por tema, proveedor, idioma y certificado. Para aprender sin gastar.',
+    t: `${cursos} cursos para *seguir aprendiendo*`,
+    d: 'Cursos, certificaciones y diplomaturas, la mayoría gratis. Ahora con inteligencia artificial.',
     c: COLOR.t2,
-    s: 'Con certificado|Sin certificado|En español e inglés',
+    s: 'IA|Con certificado|Diplomaturas',
   },
   {
     archivo: 'recursos',
