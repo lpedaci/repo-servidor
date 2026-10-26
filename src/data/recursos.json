@@ -1552,25 +1552,6 @@
     "estado": "activo"
   },
   {
-    "id": "google-tech-dev-guide",
-    "nombre": "Google Tech Dev Guide",
-    "url": "https://techdevguide.withgoogle.com/",
-    "descripcion": "Es un sitio recopilatorio de materiales, tanto de Google como de otras plataformas, para aprender sobre temáticas relacionadas a Programación, Estructuras de Datos, Machine Learning, entre otros.",
-    "tipo": "guia",
-    "temas": [
-      "Ciencias de la Computación",
-      "Algoritmos y Estructuras de Datos",
-      "Programación"
-    ],
-    "idioma": [
-      "Inglés"
-    ],
-    "gratis": true,
-    "thread": "cursos",
-    "revisado": "2026-10-26",
-    "estado": "revisar"
-  },
-  {
     "id": "guia-de-carreras-universitarias",
     "nombre": "Guía de carreras universitarias (SIU)",
     "url": "https://guiadecarreras.siu.edu.ar/carreras_de_pregrado_y_grado.php",
@@ -1810,7 +1791,7 @@
   {
     "id": "landing-page-checklist",
     "nombre": "Landing Page Checklist",
-    "url": "https://www.landingpage.fyi/landing-page-checklist",
+    "url": "https://web.archive.org/web/20260303133634/https://www.landingpage.fyi/landing-page-checklist",
     "descripcion": "Landing Page es una biblioteca completa de recursos para crear landing pages de alta calidad.",
     "tipo": "herramienta",
     "temas": [
@@ -1826,7 +1807,7 @@
       "herramientas-para-desarrollo-web"
     ],
     "revisado": "2026-10-26",
-    "estado": "revisar"
+    "estado": "activo"
   },
   {
     "id": "lexus-rex",
@@ -2176,7 +2157,7 @@
   {
     "id": "portal-de-capacitacion-inap",
     "nombre": "Portal de Capacitación INAP",
-    "url": "https://capacitacion.inap.gob.ar/cursos/",
+    "url": "https://www.argentina.gob.ar/inap",
     "descripcion": "",
     "tipo": "sitio",
     "temas": [
@@ -2193,7 +2174,7 @@
     "gratis": true,
     "thread": "cursos",
     "revisado": "2026-10-26",
-    "estado": "revisar"
+    "estado": "activo"
   },
   {
     "id": "practical-typography",
@@ -2721,7 +2702,7 @@
   {
     "id": "test-inteligencias-uaeh",
     "nombre": "Test de inteligencias múltiples (UAEH)",
-    "url": "http://ceca.uaeh.edu.mx/multimedia/inteligencias/",
+    "url": "https://web.archive.org/web/20261011023603/http://ceca.uaeh.edu.mx/multimedia/inteligencias/",
     "descripcion": "Ejemplo de test de inteligencias múltiples de Gardner.",
     "tipo": "herramienta",
     "temas": [
@@ -2735,7 +2716,7 @@
       "charla-carreras-info-y-afines"
     ],
     "revisado": "2026-10-26",
-    "estado": "revisar"
+    "estado": "activo"
   },
   {
     "id": "test-inteligencias-webuniversitaria",

@@ -106,9 +106,9 @@ Si estás interesado y deseas profundizar en el tema, puedes [acceder al sitio o
 
 En conjunto con las imágenes, la página también ofrece gráficos vectoriales, ilustraciones y videos. Igualmente, la mayor parte del material ofrecido es de alta calidad. En algunos casos, hasta es posible elegir la resolución de acuerdo a la necesidad.
 
-## Freepik
+## Freepik (ahora Magnific)
 
-Siendo una empresa tecnológica española, [**Freepik**](https://www.freepik.es/) Company se dedica a la **producción y posterior distribución de todo tipo de recurso gráfico, tanto gratuito como pago**. Asimismo, está complementado por Flaticon y Slidesgo, divisiones dedicadas también al mismo rubro, pero orientadas a íconos y *templates* para presentaciones multimedia. Además, ofrece varios idiomas para poder utilizar la plataforma sin restricciones.
+Desde abril de 2026, Freepik se llama [**Magnific**](https://www.magnific.com/es) y sumó herramientas de IA, pero la biblioteca de recursos sigue estando. Siendo una empresa tecnológica española, Freepik Company se dedica a la **producción y posterior distribución de todo tipo de recurso gráfico, tanto gratuito como pago**. Asimismo, está complementado por Flaticon y Slidesgo, divisiones dedicadas también al mismo rubro, pero orientadas a íconos y *templates* para presentaciones multimedia. Además, ofrece varios idiomas para poder utilizar la plataforma sin restricciones.
 
 ![Página principal del sitio web Freepik](https://maletintec.files.wordpress.com/2021/01/9da39-28afb-freepik.jpg)
 
@@ -122,11 +122,11 @@ El único **punto de dificultad**, que es preciso destacar, está dado en la nec
 
 ## Flaticon
 
-Tal como Freepik, [**Flaticon**](https://www.flaticon.es/) es una plataforma perteneciente a la misma compañía, compuesta por una **extensa librería de íconos de todo tipo de géneros y características**. Asimismo, su interfase gráfica hace fácil y rápido su uso, lo que ahorra tiempo al buscar el ícono y estilo adecuado para el proyecto que se esté desarrollando.
+Tal como Freepik (hoy Magnific), [**Flaticon**](https://www.flaticon.es/) es una plataforma perteneciente a la misma compañía, compuesta por una **extensa librería de íconos de todo tipo de géneros y características**. Asimismo, su interfase gráfica hace fácil y rápido su uso, lo que ahorra tiempo al buscar el ícono y estilo adecuado para el proyecto que se esté desarrollando.
 
-![Página principal del sitio web Freepik](https://maletintec.files.wordpress.com/2021/01/c34f9-de461-flaticon.jpg)
+![Página principal del sitio web Flaticon](https://maletintec.files.wordpress.com/2021/01/c34f9-de461-flaticon.jpg)
 
-*Página principal del sitio web Freepik*
+*Página principal del sitio web Flaticon*
 
 El sitio web cuenta con una versión gratuita sin una cuenta, donde la descarga máxima está limitada a 10 descargas. En caso de crearse un usuario gratuito, el tope máximo aumenta a 50 objetos. Aunque toda restricción desaparece al acceder a una subscripción, tal como el caso anterior.
 

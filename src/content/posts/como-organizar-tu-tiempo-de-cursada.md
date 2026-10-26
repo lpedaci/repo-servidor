@@ -80,7 +80,7 @@ Particularmente sobre esta cuestión, **pasar muchas horas sentado y en la misma
 
 Otro punto importante es establecer, en la medida de lo posible, un **horario de trabajo**. Es decir que, las personas con las que se conviva en el hogar, sepan en qué horarios sería beneficioso no distraer.
 
-[1] Asociación Española de Ergonomía. (s.f.). *¿Qué es la ergonomía?*. [Acceder aquí](http://www.ergonomos.es/ergonomia.php).
+[1] Asociación Española de Ergonomía. (s.f.). *¿Qué es la ergonomía?*. [Acceder aquí](https://web.archive.org/web/20261006100045/http://www.ergonomos.es/ergonomia.php).
 
 ## Anticiparse al cronograma
 

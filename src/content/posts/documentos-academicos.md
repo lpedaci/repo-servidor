@@ -34,7 +34,7 @@ Comúnmente conocido como **Word**, es un programa para el desarrollo de textos,
 Sin dudas, uno de los más conocidos es **Docs**, aplicación perteneciente a la suite de Google para la creación y edición de documentos. El mismo permite trabajo colaborativo entre usuarios con cuenta Gmail. Si estás interesado, puedes [acceder aquí](https://www.google.com/intl/es_AR/docs/about/).
 :::
 
-Asimismo, si existen dudas sobre las herramientas que presenta esta plataforma o precisas más información, el Gobierno de la Ciudad de Buenos Aires ha publicado un [documento a modo de tutorial](https://biblioteca-digital.bue.edu.ar/descargar/90df29-tutorial-google-docs-documentos.pdf), dentro del Plan Integral de Educación Digital, Colección de aplicaciones gratuitas para contextos educativos.
+Asimismo, si existen dudas sobre las herramientas que presenta esta plataforma o precisas más información, el Gobierno de la Ciudad de Buenos Aires ha publicado un [documento a modo de tutorial](https://web.archive.org/web/20250808212206/https://biblioteca-digital.bue.edu.ar/descargar/90df29-tutorial-google-docs-documentos.pdf), dentro del Plan Integral de Educación Digital, Colección de aplicaciones gratuitas para contextos educativos.
 
 ### LibreOffice: Writer
 

@@ -938,6 +938,32 @@
     "estado": "activo"
   },
   {
+    "id": "coderhouse-curso-de-power-bi",
+    "nombre": "Curso de Power BI",
+    "proveedores": [
+      "Coderhouse"
+    ],
+    "url": "https://www.coderhouse.com/ar/cursos/power-bi",
+    "temas": [
+      "Power BI"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "5 semanas",
+    "duracionHoras": 10,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "pago",
+    "formato": "curso",
+    "modalidad": "sincronica",
+    "precio": "$ 135.840 o 6 cuotas de $ 22.640 (precio con descuento)",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
     "id": "comercio-electronico",
     "nombre": "Comercio electrónico",
     "proveedores": [
@@ -1120,6 +1146,34 @@
     "modalidad": "asincronica",
     "precio": "Suscripción de Coursera (hay prueba gratis y ayuda financiera)",
     "agregado": "2026-10-22",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "coursera-microsoft-power-bi-data-analyst",
+    "nombre": "Microsoft Power BI Data Analyst Professional Certificate",
+    "proveedores": [
+      "Microsoft",
+      "Coursera"
+    ],
+    "url": "https://www.coursera.org/professional-certificates/microsoft-power-bi-data-analyst",
+    "temas": [
+      "Power BI",
+      "Data Science"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "5 meses (10 hs por semana)",
+    "duracionHoras": 188,
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "pago",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Suscripción de Coursera (hay prueba gratis). Incluye 50% de descuento en el examen PL-300",
+    "agregado": "2026-10-26",
     "revisado": "2026-10-26",
     "estado": "activo"
   },
@@ -1587,6 +1641,32 @@
     "estado": "activo"
   },
   {
+    "id": "datacamp-introduction-to-power-bi",
+    "nombre": "Introduction to Power BI",
+    "proveedores": [
+      "DataCamp"
+    ],
+    "url": "https://www.datacamp.com/courses/introduction-to-power-bi",
+    "temas": [
+      "Power BI"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "3 hs",
+    "duracionHoras": 3,
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-limite",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Arrancás gratis. Para terminarlo y tener el certificado hay que suscribirse",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
     "id": "deeplearning-ai-chatgpt-prompt-engineering-for-developers",
     "nombre": "ChatGPT Prompt Engineering for Developers",
     "proveedores": [
@@ -1617,11 +1697,11 @@
   },
   {
     "id": "desafio-latam",
-    "nombre": "Desafío latam",
+    "nombre": "SQL Interactivo",
     "proveedores": [
       "{desafío} latam_"
     ],
-    "url": "https://sqlinteractivo.desafiolatam.com/",
+    "url": "https://tutorialesinteractivos.com/",
     "temas": [
       "Algoritmos y Estructuras de Datos",
       "JavaScript",
@@ -1638,7 +1718,7 @@
     "certificacion": "gratis-con-certificado",
     "agregado": "2026-10-15",
     "revisado": "2026-10-26",
-    "estado": "revisar"
+    "estado": "activo"
   },
   {
     "id": "desarrollo-back-end-y-apis",
@@ -1857,6 +1937,32 @@
     "estado": "activo"
   },
   {
+    "id": "edutin-curso-de-power-bi",
+    "nombre": "Curso de Power BI",
+    "proveedores": [
+      "Edutin Academy"
+    ],
+    "url": "https://edutin.com/curso-de-power-bi",
+    "temas": [
+      "Power BI"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "4 semanas",
+    "duracionHoras": 8,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "certificado-pago",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Curso gratis. El certificado se paga (precio según el país)",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
     "id": "elements-of-ai-introduccion-a-la-ia",
     "nombre": "Elements of AI: Introducción a la IA",
     "proveedores": [
@@ -2007,28 +2113,6 @@
     "agregado": "2026-10-15",
     "revisado": "2026-10-26",
     "estado": "activo"
-  },
-  {
-    "id": "foundations-of-programming",
-    "nombre": "Foundations of Programming",
-    "proveedores": [
-      "Google"
-    ],
-    "url": "https://techdevguide.withgoogle.com/paths/foundational/",
-    "temas": [
-      "Programación"
-    ],
-    "categoria": [
-      "programacion"
-    ],
-    "duracion": "Según curso integrado, Según tiempo de dedicación",
-    "idiomas": [
-      "Inglés"
-    ],
-    "certificacion": "gratis-con-certificado",
-    "agregado": "2026-10-15",
-    "revisado": "2026-10-26",
-    "estado": "revisar"
   },
   {
     "id": "full-stack-open-inmersion-profunda-en-el-desarrollo-web-moderno",
@@ -2679,6 +2763,32 @@
     ],
     "certificacion": "gratis-con-certificado",
     "agregado": "2026-10-15",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "great-learning-data-visualization-power-bi",
+    "nombre": "Data Visualization With Power BI",
+    "proveedores": [
+      "Great Learning"
+    ],
+    "url": "https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-power-bi",
+    "temas": [
+      "Power BI"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "3 hs",
+    "duracionHoras": 3,
+    "idiomas": [
+      "Español",
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-26",
     "revisado": "2026-10-26",
     "estado": "activo"
   },
@@ -3428,6 +3538,60 @@
     "estado": "activo"
   },
   {
+    "id": "microsoft-certificacion-pl-300-analista-de-datos-power-bi",
+    "nombre": "Certificación Microsoft: Analista de Datos de Power BI (PL-300)",
+    "proveedores": [
+      "Microsoft"
+    ],
+    "url": "https://learn.microsoft.com/es-es/credentials/certifications/data-analyst-associate/",
+    "temas": [
+      "Power BI",
+      "Data Science"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "Examen",
+    "idiomas": [
+      "Español",
+      "Inglés"
+    ],
+    "certificacion": "certificado-pago",
+    "formato": "certificacion",
+    "modalidad": "asincronica",
+    "precio": "Preparación gratis en Microsoft Learn. El examen se paga y el precio depende del país",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "microsoft-learn-pl-300t00-power-bi",
+    "nombre": "Diseño y administración de soluciones de análisis mediante Power BI (PL-300T00)",
+    "proveedores": [
+      "Microsoft"
+    ],
+    "url": "https://learn.microsoft.com/es-es/training/courses/pl-300t00",
+    "temas": [
+      "Power BI",
+      "Data Science"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "72 hs a tu ritmo",
+    "duracionHoras": 72,
+    "idiomas": [
+      "Español",
+      "Inglés"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
     "id": "n8n-courses",
     "nombre": "Cursos de n8n: de tus primeros workflows a IA",
     "proveedores": [
@@ -3617,6 +3781,32 @@
     ],
     "certificacion": "gratis-con-certificado",
     "agregado": "2026-10-15",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "polisura-diplomado-power-bi-basico",
+    "nombre": "Curso de Power BI (Diplomado)",
+    "proveedores": [
+      "Politécnico de Suramérica"
+    ],
+    "url": "https://www.polisura.edu.co/diplomado-virtual-gratis/curso-diplomado-power-bi-basico",
+    "temas": [
+      "Power BI"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "120 hs",
+    "duracionHoras": 120,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "certificado-pago",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Curso gratis. Certificado opcional: COP 80.000 (unos USD 25)",
+    "agregado": "2026-10-26",
     "revisado": "2026-10-26",
     "estado": "activo"
   },
@@ -3952,6 +4142,31 @@
     ],
     "certificacion": "gratis-sin-certificado",
     "agregado": "2026-10-15",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "simplilearn-power-bi-data-modelling",
+    "nombre": "Power BI Data Modelling Basics",
+    "proveedores": [
+      "Simplilearn"
+    ],
+    "url": "https://www.simplilearn.com/free-power-bi-data-modelling-course-skillup",
+    "temas": [
+      "Power BI"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "3 hs",
+    "duracionHoras": 3,
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-26",
     "revisado": "2026-10-26",
     "estado": "activo"
   },

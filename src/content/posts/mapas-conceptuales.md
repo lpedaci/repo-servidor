@@ -44,7 +44,7 @@ Uno de los programas más conocidos en esta área es [CmapTools](https://cmap.ih
 
 De uso masivo, permite compartir las producciones en la comunidad, además de automáticamente crear versiones web de los mapas conceptuales diseñados, editarlos en simultaneo con otros usuarios, anexar imágenes, customizar formatos y colores, exportar en formato de imagen, PDF, web, entre otros.
 
-Si existen dudas sobre las funciones que presenta este programa o precisas más información, el Gobierno de la Ciudad de Buenos Aires ha publicado un [documento tutorial](https://biblioteca-digital.bue.edu.ar/descargar/282962-tutorial-cmaptools.pdf), dentro del Plan Integral de Educación Digital, Colección de aplicaciones gratuitas para contextos educativos.
+Si existen dudas sobre las funciones que presenta este programa o precisas más información, el Gobierno de la Ciudad de Buenos Aires ha publicado un [documento tutorial](https://web.archive.org/web/20260324235304/https://biblioteca-digital.bue.edu.ar/descargar/282962-tutorial-cmaptools.pdf), dentro del Plan Integral de Educación Digital, Colección de aplicaciones gratuitas para contextos educativos.
 
 ## Referencias
 

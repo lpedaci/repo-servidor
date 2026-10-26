@@ -116,13 +116,13 @@ A continuación se adjuntan links a materiales textuales que permitirán conocer
 
 ### Google Slides
 
-- Contenedor Digital. (s.f*.). Tutorial Google Drive, Presentacione*s. [Archivo PDF]. [Acceder aquí](https://biblioteca-digital.bue.edu.ar/descargar/577d23-tutorial-google-drive-presentaciones.pdf).
+- Contenedor Digital. (s.f*.). Tutorial Google Drive, Presentacione*s. [Archivo PDF]. [Acceder aquí](https://web.archive.org/web/20260410130614/https://biblioteca-digital.bue.edu.ar/descargar/577d23-tutorial-google-drive-presentaciones.pdf).
 
 ### Prezi
 
-- Contenedor Digital. (s.f.). *Tutorial Prezi*. [Archivo PDF]. [Acceder aquí](https://biblioteca-digital.bue.edu.ar/descargar/204246-tutorial-prezi.pdf).
+- Contenedor Digital. (s.f.). *Tutorial Prezi*. [Archivo PDF]. [Acceder aquí](https://web.archive.org/web/20250526191209/https://biblioteca-digital.bue.edu.ar/descargar/204246-tutorial-prezi.pdf).
 
 ### Padlet
 
-- Contenedor Digital. (s.f.). *Tutorial Padlet*. [Archivo PDF]. [Acceder aquí](https://biblioteca-digital.bue.edu.ar/descargar/9581fb-tutorial-padlet.pdf).
+- Contenedor Digital. (s.f.). *Tutorial Padlet*. [Archivo PDF]. [Acceder aquí](https://web.archive.org/web/20240728235803/https://biblioteca-digital.bue.edu.ar/descargar/9581fb-tutorial-padlet.pdf).
 - Universidad de Magallanes. (s.f.). *Manual de Padlet*. [Archivo PDF]. [Acceder aquí](https://kataix.umag.cl/udv-r/Doc/Archivos/Manual%20de%20Padlet%20.pdf).
