@@ -34,7 +34,6 @@ export const RECURSOS = {
   'formacion-algoritmo-salvaje': { id: 'algoritmo-salvaje', nombre: 'Algoritmo Salvaje: formación', descripcion: 'Formación y orientación para estudiantes y profesionales del sector IT.' },
   'free-online-resume-builder-flowcv': { id: 'flowcv', nombre: 'FlowCV', descripcion: 'Editor online para armar el CV con plantillas y descargarlo en PDF. Mi recomendado.' },
   'frontend-practice-become-a-better-frontend-developer': { id: 'frontend-practice', nombre: 'Frontend Practice', tipo: 'herramienta' },
-  'fundacion-telefonica-conecta-empleo': { nombre: 'Fundación Telefónica: Conecta Empleo', descripcion: 'Cursos gratuitos con certificado sobre programación, datos, marketing digital y más. Se renuevan cada tres meses, aproximadamente.' },
   'goncy': { id: 'goncy-youtube', nombre: 'Goncy en YouTube' },
   'goncypozzo-twitch': { id: 'goncy-twitch', nombre: 'Goncy en Twitch' },
   'google-ai-learning-course': { nombre: 'Google AI: aprendizaje', descripcion: 'Recursos y cursos de Google para aprender inteligencia artificial y machine learning.', tipo: 'guia' },
