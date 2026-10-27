@@ -10,12 +10,15 @@ interface Props {
 const { d } = Astro.props;
 const { threads, nuevos, threadDe, cursos, ultima, nThread } = d;
 
-// Lo nuevo: los posts (la charla de carreras primero) con el taller en segundo lugar
+// Lo nuevo: la charla de carreras 2027 y el taller van primero (son sitios aparte), después los posts
 const items = nuevos.map((p) => {
   const t = threadDe.get(p.data.thread.id)!;
   return { href: url(`/posts/${p.id}/`), color: t.data.color, icono: t.data.icono, tipo: t.data.corto, titulo: p.data.titulo, externo: false };
 });
-items.splice(1, 0, { href: SITE.redes.taller, color: 't5', icono: 'briefcase', tipo: 'Taller', titulo: 'Del aula al primer trabajo', externo: true });
+items.unshift(
+  { href: SITE.redes.charla, color: 't6', icono: 'compass', tipo: 'Charla', titulo: 'Charla de carreras 2027', externo: true },
+  { href: SITE.redes.taller, color: 't5', icono: 'briefcase', tipo: 'Taller', titulo: 'Del aula al primer trabajo', externo: true }
+);
 ---
 
 <div class="wrap lobby lobby--abajo stagger">

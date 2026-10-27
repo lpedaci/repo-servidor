@@ -2198,25 +2198,6 @@
     "estado": "activo"
   },
   {
-    "id": "presentacion-carreras-info",
-    "nombre": "Presentación de la charla: Carreras Info y afines",
-    "url": "https://drive.google.com/file/d/1E7-t_cvCFaABcoP8IT--j8gVV5np4CVO/view",
-    "descripcion": "Las diapositivas que usamos en la charla.",
-    "tipo": "guia",
-    "temas": [
-      "Orientación vocacional",
-      "Desarrollo Profesional"
-    ],
-    "idioma": [],
-    "gratis": true,
-    "thread": "cursando",
-    "aparece_en": [
-      "charla-carreras-info-y-afines"
-    ],
-    "revisado": "2026-10-26",
-    "estado": "activo"
-  },
-  {
     "id": "profe-matias-garcia-youtube",
     "nombre": "Profe Matías García en YouTube",
     "url": "https://www.youtube.com/c/profmatiasgarcia/",
@@ -2617,6 +2598,27 @@
     "aparece_en": [
       "charla-carreras-info-y-afines",
       "herramientas-para-desarrollo-web"
+    ],
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "taller-ciclosuperior",
+    "nombre": "Charla de carreras 2027",
+    "url": "https://lpedaci.github.io/taller-ciclosuperior/",
+    "descripcion": "Diez paradas para entender cómo funciona la educación superior, qué títulos existen y cómo elegir qué estudiar al terminar la secundaria. Es la evolución de la charla Carreras Info y afines.",
+    "tipo": "guia",
+    "temas": [
+      "Orientación vocacional",
+      "Desarrollo Profesional"
+    ],
+    "idioma": [
+      "Español"
+    ],
+    "gratis": true,
+    "thread": "cursando",
+    "aparece_en": [
+      "charla-carreras-info-y-afines"
     ],
     "revisado": "2026-10-26",
     "estado": "activo"

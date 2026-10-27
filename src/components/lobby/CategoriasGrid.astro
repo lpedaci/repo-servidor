@@ -1,6 +1,6 @@
 ---
 /**
- * Grilla de las siete categorías de cursos del Lobby (la primera, IA, va destacada a todo el ancho), con el tratamiento "consola": tarjetas carbón
+ * Grilla de las ocho categorías de cursos del Lobby en filas de 3, 2 y 3 (IA, Programación y Datos arriba; Diseño y Marketing al medio; el resto abajo), con el tratamiento "consola": tarjetas carbón
  * como la terminal del hero, ícono en el color de la categoría y la cantidad de cursos en mono.
  */
 import Icon from '../Icon.astro';
@@ -10,14 +10,14 @@ interface Props {
   cats: DatosLobby['cats'];
 }
 const { cats } = Astro.props;
-// La categoría más nueva va primera y a todo el ancho, con su descripción
+// La categoría más nueva lleva la etiqueta Nuevo
 const DESTACADA = 'inteligencia-artificial';
 ---
 
 <ul class="cg">
   {
     cats.map((c) => (
-      <li class:list={[{ 'cg-dest': c.id === DESTACADA }]}>
+      <li>
         <a class="cg-cat" href={url(`/cursos/?cat=${c.id}`)} style={`--c: var(--${c.color})`}>
           <span class="cg-ic">
             <Icon name={c.icono} />
@@ -27,7 +27,6 @@ const DESTACADA = 'inteligencia-artificial';
               {c.nombre}
               {c.id === DESTACADA && <span class="cg-nuevo">Nuevo</span>}
             </span>
-            {c.id === DESTACADA && <span class="cg-desc">{c.descripcion}</span>}
             <span class="cg-datos">
               <span class="cg-n">{c.n} cursos</span>
             </span>
@@ -44,14 +43,19 @@ const DESTACADA = 'inteligencia-artificial';
 <style>
   .cg {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    /* Seis columnas: las filas de tres usan dos cada una y la del medio (Diseño y Marketing) tres */
+    grid-template-columns: repeat(6, minmax(0, 1fr));
     gap: var(--gap);
     margin: 0;
     padding: 0;
     list-style: none;
   }
-  .cg-dest {
-    grid-column: 1 / -1;
+  .cg > li {
+    grid-column: span 2;
+  }
+  .cg > li:nth-child(4),
+  .cg > li:nth-child(5) {
+    grid-column: span 3;
   }
   .cg-nuevo {
     display: inline-block;
@@ -64,12 +68,6 @@ const DESTACADA = 'inteligencia-artificial';
     font-size: 0.72rem;
     font-weight: 600;
     vertical-align: 0.15em;
-  }
-  .cg-desc {
-    display: block;
-    margin-top: 0.3rem;
-    color: var(--deep-muted);
-    font-size: 0.92rem;
   }
   .cg-cat {
     display: grid;
@@ -152,6 +150,11 @@ const DESTACADA = 'inteligencia-artificial';
   @media (max-width: 1023px) {
     .cg {
       grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .cg > li,
+    .cg > li:nth-child(4),
+    .cg > li:nth-child(5) {
+      grid-column: auto;
     }
   }
   @media (max-width: 599px) {

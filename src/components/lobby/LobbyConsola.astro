@@ -42,6 +42,7 @@ const sesion: Paso[] = [
   { cmd: 'ls ~/cursos | wc -l', out: [String(d.cursos.length)] },
   { cmd: 'grep -ril "python" ~/cursos | wc -l', out: [String(d.conPython)] },
   { cmd: 'ls ~/cursos/inteligencia-artificial | wc -l', out: [String(d.conIA)] },
+  { cmd: 'ls ~/cursos/plataformas-multicurso | wc -l', out: [String(d.conMulti)] },
   { cmd: 'cat ~/README.md', out: [SITE.lema] },
   {
     cmd: 'sudo apt install ganas-de-aprender',
@@ -110,7 +111,7 @@ const sesion: Paso[] = [
   <section class="pa-cats" style="--i:5" aria-labelledby="pa-cats-t">
     <div class="pa-cats-head">
       <h2 id="pa-cats-t">Elegí por dónde arrancar</h2>
-      <p>Siete categorías, cada una con su color. Tocá una y el explorador se abre ya filtrado.</p>
+      <p>Ocho categorías, cada una con su color. Tocá una y el explorador se abre ya filtrado.</p>
     </div>
     <CategoriasGrid cats={d.cats} />
     <div class="panel pa-banda"><TemasBanda temas={d.temasTop} colorDe={d.colorDe} id="pa-temas" /></div>
@@ -367,6 +368,7 @@ const sesion: Paso[] = [
   }
   .pa-orbit {
     display: flex;
+    flex-wrap: wrap;
     gap: 0.5rem;
     margin: 0;
     padding: 0 1.25rem 1.25rem;

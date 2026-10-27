@@ -189,6 +189,9 @@ button {
 .tile--t7 {
   --tile: var(--t7);
 }
+.tile--t8 {
+  --tile: var(--t8);
+}
 /* Trazo orgánico de fondo (el mismo del taller) */
 .tile--squiggle::before {
   content: '';
@@ -417,12 +420,15 @@ html:not(.js) .fav {
 .chip--t7 {
   background: color-mix(in srgb, var(--t7) 60%, var(--surface));
 }
-:root[data-theme='dark'] :is(.chip--t1, .chip--t2, .chip--t3, .chip--t4, .chip--t5, .chip--t6, .chip--t7) {
+.chip--t8 {
+  background: color-mix(in srgb, var(--t8) 60%, var(--surface));
+}
+:root[data-theme='dark'] :is(.chip--t1, .chip--t2, .chip--t3, .chip--t4, .chip--t5, .chip--t6, .chip--t7, .chip--t8) {
   color: var(--tile-ink);
   background: var(--tile-c);
 }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme='light']) :is(.chip--t1, .chip--t2, .chip--t3, .chip--t4, .chip--t5, .chip--t6, .chip--t7) {
+  :root:not([data-theme='light']) :is(.chip--t1, .chip--t2, .chip--t3, .chip--t4, .chip--t5, .chip--t6, .chip--t7, .chip--t8) {
     color: var(--tile-ink);
     background: var(--tile-c);
   }
@@ -447,6 +453,9 @@ html:not(.js) .fav {
 }
 .chip--t7 {
   --tile-c: var(--t7);
+}
+.chip--t8 {
+  --tile-c: var(--t8);
 }
 .tile .chip {
   background: var(--tile-chip);
@@ -2583,9 +2592,9 @@ html:not(.js) .js-only {
   display: grid;
   gap: var(--gap);
 }
-/* Con dos bloques, la ficha toma lo que necesita y la card del taller el resto */
+/* En Cursando, la ficha toma lo que necesita y las cards de la charla y el taller se reparten el resto */
 .thread-side--doble {
-  grid-template-rows: auto 1fr;
+  grid-template-rows: auto 1fr 1fr;
 }
 
 /* Ficha del thread: números en fila, temas y salida al explorador */

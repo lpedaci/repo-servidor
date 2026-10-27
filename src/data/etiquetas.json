@@ -6,6 +6,12 @@
     "sinonimos": []
   },
   {
+    "id": "accesibilidad",
+    "nombre": "Accesibilidad",
+    "color": "t5",
+    "sinonimos": []
+  },
+  {
     "id": "administracion-de-sistemas",
     "nombre": "Administración de sistemas",
     "color": "t1",
@@ -248,6 +254,12 @@
     "sinonimos": []
   },
   {
+    "id": "edicion-de-video",
+    "nombre": "Edición de video",
+    "color": "t5",
+    "sinonimos": []
+  },
+  {
     "id": "educacion-financiera",
     "nombre": "Educación Financiera",
     "color": "t3",
@@ -263,6 +275,24 @@
     "id": "escritura-academica",
     "nombre": "Escritura académica",
     "color": "t1",
+    "sinonimos": []
+  },
+  {
+    "id": "figma",
+    "nombre": "Figma",
+    "color": "t5",
+    "sinonimos": []
+  },
+  {
+    "id": "finanzas",
+    "nombre": "Finanzas",
+    "color": "t3",
+    "sinonimos": []
+  },
+  {
+    "id": "finanzas-personales",
+    "nombre": "Finanzas personales",
+    "color": "t3",
     "sinonimos": []
   },
   {

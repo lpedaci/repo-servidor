@@ -49,6 +49,7 @@
   --t5: #f2b8d2;
   --t6: #a9d3f0;
   --t7: #d3e88a;
+  --t8: #ecc9a0;
   --tile-ink: #1f1f24;
   --tile-chip: rgba(255, 255, 255, 0.6);
   /* Bloques carbón */
@@ -101,6 +102,7 @@
     --t5: #e9a2c1;
     --t6: #8fc0e3;
     --t7: #bcd56b;
+    --t8: #d9ad7d;
     --deep: #2c2c34;
     --shadow: 0 0 0 1px #2c2c34;
     --shadow-lift: 0 0 0 1px #3a3a44, 0 24px 40px -30px rgba(0, 0, 0, 0.8);
@@ -131,6 +133,7 @@
   --t5: #e9a2c1;
   --t6: #8fc0e3;
   --t7: #bcd56b;
+  --t8: #d9ad7d;
   --deep: #2c2c34;
   --shadow: 0 0 0 1px #2c2c34;
   --shadow-lift: 0 0 0 1px #3a3a44, 0 24px 40px -30px rgba(0, 0, 0, 0.8);

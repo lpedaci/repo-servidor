@@ -27,6 +27,27 @@ const minutos = susPosts.reduce((n, p) => n + (p.data.tiempoLectura ?? 0), 0);
 const usoTemas = new Map<string, number>();
 [...susPosts.flatMap((p) => p.data.temas), ...delThread.flatMap((r) => r.data.temas)].forEach((tm) => usoTemas.set(tm, (usoTemas.get(tm) ?? 0) + 1));
 const temas = [...usoTemas].sort((a, b) => b[1] - a[1]).slice(0, 5).map(([tm]) => tm);
+// Las charlas que crecieron y se convirtieron en sitios propios, en la columna del thread Cursando
+const ctas = [
+  {
+    href: SITE.redes.charla,
+    color: 't6',
+    label: 'La evolución de la charla de carreras',
+    paradas: '10 paradas',
+    titulo: 'Charla de carreras 2027',
+    desc: 'Cómo funciona la educación superior, qué títulos existen y cómo elegir qué estudiar.',
+    cta: 'Ir a la charla',
+  },
+  {
+    href: SITE.redes.taller,
+    color: 't3',
+    label: 'La evolución de la charla de CV',
+    paradas: '11 paradas',
+    titulo: 'Taller: Del aula al primer trabajo',
+    desc: 'Preparate para tu pasantía, tu primer empleo o un cambio de trabajo, paso a paso.',
+    cta: 'Ir al taller',
+  },
+];
 const conCert = cursos.filter((c) => c.data.certificacion === 'gratis-con-certificado').length;
 const nProv = new Set(cursos.flatMap((c) => c.data.proveedores)).size;
 const proveedores = esCursos
@@ -113,22 +134,23 @@ const proveedores = esCursos
           )
         }
         {
-          thread.id === 'cursando' && (
-            <a class="tile tile--t3 side-cta" href={SITE.redes.taller} target="_blank" rel="noopener noreferrer">
-              <span>
-                <span class="side-cta-top">
-                  <span class="label">La evolución de la charla de CV</span>
-                  <span class="thread-n">11 paradas</span>
+          thread.id === 'cursando' &&
+            ctas.map((c) => (
+              <a class={`tile tile--${c.color} side-cta`} href={c.href} target="_blank" rel="noopener noreferrer">
+                <span>
+                  <span class="side-cta-top">
+                    <span class="label">{c.label}</span>
+                    <span class="thread-n">{c.paradas}</span>
+                  </span>
+                  <span class="side-cta-title">{c.titulo}</span>
+                  <span class="side-cta-desc">{c.desc}</span>
                 </span>
-                <span class="side-cta-title">Taller: Del aula al primer trabajo</span>
-                <span class="side-cta-desc">Preparate para tu pasantía, tu primer empleo o un cambio de trabajo, paso a paso.</span>
-              </span>
-              <span class="thread-go">
-                Ir al taller <Icon name="external" />
-                <span class="sr-only">(se abre en otra pestaña)</span>
-              </span>
-            </a>
-          )
+                <span class="thread-go">
+                  {c.cta} <Icon name="external" />
+                  <span class="sr-only">(se abre en otra pestaña)</span>
+                </span>
+              </a>
+            ))
         }
       </div>
     </section>
@@ -139,7 +161,7 @@ const proveedores = esCursos
           <div class="section-head">
             <div>
               <h2 id="cat-t">Por categoría</h2>
-              <p>Las siete vistas temáticas del listado completo.</p>
+              <p>Las ocho vistas temáticas del listado completo.</p>
             </div>
           </div>
           <ul class="cat-grid panel" style="padding:clamp(1rem,2.5vw,1.5rem)">

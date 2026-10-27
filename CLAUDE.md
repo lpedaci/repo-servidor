@@ -11,7 +11,7 @@ Sitio estático (Astro 7) publicado en GitHub Pages en `https://lpedaci.github.i
 | Cursos | `src/data/cursos.json` | Un objeto por curso, orden alfabético por `id`, indentación de 2 espacios. |
 | Recursos (links) | `src/data/recursos.json` | Igual. En posts se muestran con `::recurso{#id}`. |
 | Threads | `src/data/threads.json` | 4 threads: `cursando`, `cursos`, `tecnologia`, `variaditos`. |
-| Categorías de cursos | `src/data/categorias.json` | Las 7 vistas temáticas (la primera, Inteligencia artificial, va destacada en el Lobby). `temas` sirve para derivar la categoría de un curso nuevo. |
+| Categorías de cursos | `src/data/categorias.json` | Las 8 vistas temáticas, en el orden del Lobby (filas de 3, 2 y 3: IA, Programación y Datos; Diseño y Marketing; Gestión, Ciudadanía y Plataformas multicurso, que junta los sitios con muchos cursos de distintos temas). `temas` sirve para derivar la categoría de un curso nuevo. |
 | Etiquetas | `src/data/etiquetas.json` | Nombre canónico, color (`t1`..`t7`) y sinónimos. |
 | Esquemas (validación) | `src/content.config.ts` | Si un dato no cumple, el build falla. |
 | Estilos | `src/styles/tokens.css`, `global.css`, `motion.css` | Tokens portados del taller. Toda animación va en `motion.css` dentro de `prefers-reduced-motion: no-preference`. |

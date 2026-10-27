@@ -128,7 +128,7 @@ Todos los valores viven en `src/styles/tokens.css` y se revisan en vivo en `/ui/
 | `--l1` / `--l2` | `#5257c9` / `#b4530f` | Links y acentos de texto |
 | `--yes` / `--no` | `#17764a` / `#b4380f` | Estados (certificado, en revisión) |
 
-**Mosaicos:** siete colores, uno por categoría de cursos, siempre con texto oscuro (`--tile-ink`) en los dos temas.
+**Mosaicos:** ocho colores, uno por categoría de cursos, siempre con texto oscuro (`--tile-ink`) en los dos temas.
 
 | Token | Color | Categoría | Thread |
 |---|---|---|---|

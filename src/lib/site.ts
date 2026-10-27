@@ -17,6 +17,7 @@ export const SITE = {
     youtube: 'https://www.youtube.com/@elservidordelourdes',
     cafecito: 'https://cafecito.app/servidorlourdes',
     taller: 'https://lpedaci.github.io/taller-primerempleo/',
+    charla: 'https://lpedaci.github.io/taller-ciclosuperior/',
   },
   legal: 'Todos los links pertenecen a sitios de terceros. Solo comparto material. Si podés, comprá los libros: ayudás a sus creadores.',
 };

@@ -72,6 +72,58 @@
     ]
   },
   {
+    "id": "datos-y-ofimatica",
+    "nombre": "Datos y ofimática",
+    "descripcion": "Ofimática, Power BI, Data Science y Bases de Datos",
+    "icono": "chart-column",
+    "color": "t6",
+    "temas": [
+      "Ofimática",
+      "Power BI",
+      "Data Science",
+      "Big Data",
+      "SQL",
+      "PostgreSQL",
+      "MongoDB",
+      "Jupyter",
+      "NumPy",
+      "Microsoft 365",
+      "Google Apps"
+    ]
+  },
+  {
+    "id": "diseno-ux-ui",
+    "nombre": "Diseño, UX y UI",
+    "descripcion": "Diseño, UX, UI y Design Thinking",
+    "icono": "pen-nib",
+    "color": "t5",
+    "temas": [
+      "Diseño",
+      "UX",
+      "UI",
+      "Design Thinking",
+      "Animación"
+    ]
+  },
+  {
+    "id": "marketing-y-finanzas",
+    "nombre": "Marketing y finanzas",
+    "descripcion": "Marketing, finanzas personales, E-commerce y negocios",
+    "icono": "chart-line",
+    "color": "t3",
+    "temas": [
+      "Marketing",
+      "SEO",
+      "E-commerce",
+      "Comercio",
+      "Administración y finanzas",
+      "Educación Financiera",
+      "Análisis empresarial",
+      "Finanzas",
+      "Finanzas personales"
+    ]
+  },
+  {
     "id": "gestion-y-soft-skills",
     "nombre": "Gestión y soft skills",
     "descripcion": "Gestión de Proyectos, Comunicación, Oratoria, Networking, Soft Skills e Idiomas",
@@ -99,20 +151,6 @@
     ]
   },
   {
-    "id": "diseno-ux-ui",
-    "nombre": "Diseño, UX y UI",
-    "descripcion": "Diseño, UX, UI y Design Thinking",
-    "icono": "pen-nib",
-    "color": "t5",
-    "temas": [
-      "Diseño",
-      "UX",
-      "UI",
-      "Design Thinking",
-      "Animación"
-    ]
-  },
-  {
     "id": "ciudadania-y-seguridad",
     "nombre": "Ciudadanía digital y seguridad",
     "descripcion": "Ciudadanía Digital y Seguridad Informática",
@@ -126,39 +164,13 @@
     ]
   },
   {
-    "id": "datos-y-ofimatica",
-    "nombre": "Datos y ofimática",
-    "descripcion": "Ofimática, Power BI, Data Science y Bases de Datos",
-    "icono": "chart-column",
-    "color": "t6",
+    "id": "plataformas-multicurso",
+    "nombre": "Plataformas multicurso",
+    "descripcion": "Plataformas y programas con muchos cursos de distintos temas adentro",
+    "icono": "layers",
+    "color": "t8",
     "temas": [
-      "Ofimática",
-      "Power BI",
-      "Data Science",
-      "Big Data",
-      "SQL",
-      "PostgreSQL",
-      "MongoDB",
-      "Jupyter",
-      "NumPy",
-      "Microsoft 365",
-      "Google Apps"
-    ]
-  },
-  {
-    "id": "marketing-y-finanzas",
-    "nombre": "Marketing y finanzas",
-    "descripcion": "Marketing, Finanzas, E-commerce y negocios",
-    "icono": "chart-line",
-    "color": "t3",
-    "temas": [
-      "Marketing",
-      "SEO",
-      "E-commerce",
-      "Comercio",
-      "Administración y finanzas",
-      "Educación Financiera",
-      "Análisis empresarial"
+      "Plataformas multicurso"
     ]
   }
 ]

@@ -6,7 +6,7 @@ import { defineCollection, reference } from 'astro:content';
 import { file, glob } from 'astro/loaders';
 import { z } from 'astro/zod';
 
-const color = z.enum(['t1', 't2', 't3', 't4', 't5', 't6', 't7', 'deep']);
+const color = z.enum(['t1', 't2', 't3', 't4', 't5', 't6', 't7', 't8', 'deep']);
 const estado = z.enum(['activo', 'revisar', 'caido']);
 
 const threads = defineCollection({

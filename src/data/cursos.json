@@ -74,6 +74,37 @@
     "estado": "activo"
   },
   {
+    "id": "alison",
+    "nombre": "Alison",
+    "proveedores": [
+      "Alison"
+    ],
+    "url": "https://alison.com/es",
+    "temas": [
+      "Plataformas multicurso",
+      "Programación",
+      "Soft Skills",
+      "Ofimática",
+      "Marketing",
+      "Diseño"
+    ],
+    "categoria": [
+      "plataformas-multicurso"
+    ],
+    "duracion": "Según el curso",
+    "idiomas": [
+      "Español",
+      "Inglés"
+    ],
+    "certificacion": "certificado-pago",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Los cursos son gratis. El certificado y el diploma se pagan",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
     "id": "analisis-de-datos-con-python",
     "nombre": "Análisis de Datos con Python",
     "proveedores": [
@@ -323,6 +354,7 @@
     ],
     "url": "https://aprende.org/listado-cursos",
     "temas": [
+      "Plataformas multicurso",
       "Administración de sistemas",
       "Administración y finanzas",
       "Alfabetización digital",
@@ -352,12 +384,7 @@
       "Trabajo en equipo"
     ],
     "categoria": [
-      "programacion",
-      "gestion-y-soft-skills",
-      "diseno-ux-ui",
-      "ciudadania-y-seguridad",
-      "datos-y-ofimatica",
-      "marketing-y-finanzas"
+      "plataformas-multicurso"
     ],
     "duracion": "Según curso integrado",
     "idiomas": [
@@ -526,6 +553,87 @@
     ],
     "certificacion": "gratis-con-certificado",
     "agregado": "2026-10-15",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "blackmagic-davinci-resolve-training",
+    "nombre": "Entrenamiento oficial de DaVinci Resolve",
+    "proveedores": [
+      "Blackmagic Design"
+    ],
+    "url": "https://www.blackmagicdesign.com/products/davinciresolve/training",
+    "temas": [
+      "Edición de video",
+      "Animación"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "Guías y videos a tu ritmo",
+    "idiomas": [
+      "Inglés",
+      "Español"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Guías en PDF y videos gratis. Cada guía tiene un examen online para certificarte",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "bymaeduca-conoce-el-mercado-de-capitales",
+    "nombre": "Conocé el Mercado de Capitales",
+    "proveedores": [
+      "BYMA"
+    ],
+    "url": "https://www.bymaeduca.com.ar/bundles/conoce-el-mercado-1",
+    "temas": [
+      "Finanzas personales",
+      "Educación Financiera",
+      "Finanzas"
+    ],
+    "categoria": [
+      "marketing-y-finanzas"
+    ],
+    "duracion": "5 partes con workshops grabados",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Gratis. Para dar los primeros pasos como inversor, con el simulador de BYMA",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "bymaeduca-finanzas-basicas",
+    "nombre": "Finanzas Básicas",
+    "proveedores": [
+      "BYMA"
+    ],
+    "url": "https://www.bymaeduca.com.ar/courses/finanzas-basicas-introductorio",
+    "temas": [
+      "Finanzas personales",
+      "Educación Financiera",
+      "Finanzas"
+    ],
+    "categoria": [
+      "marketing-y-finanzas"
+    ],
+    "duracion": "Clases grabadas a tu ritmo",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Gratis. Ahorro, inversión, tasas de interés e impuestos, para arrancar desde cero",
+    "agregado": "2026-10-26",
     "revisado": "2026-10-26",
     "estado": "activo"
   },
@@ -749,15 +857,14 @@
     ],
     "url": "https://www.linkedin.com/learning/topics/microsoft-18674489",
     "temas": [
+      "Plataformas multicurso",
       "Data Science",
       "Gestión de Proyectos",
       "Microsoft 365",
       "SCRUM"
     ],
     "categoria": [
-      "programacion",
-      "gestion-y-soft-skills",
-      "datos-y-ofimatica"
+      "plataformas-multicurso"
     ],
     "duracion": "Según curso integrado, Según tiempo de dedicación",
     "idiomas": [
@@ -777,14 +884,14 @@
     ],
     "url": "https://chicos.net/",
     "temas": [
+      "Plataformas multicurso",
       "Alfabetización digital",
       "Docencia",
       "Seguridad Informática",
       "Tecno y mundo digital"
     ],
     "categoria": [
-      "gestion-y-soft-skills",
-      "ciudadania-y-seguridad"
+      "plataformas-multicurso"
     ],
     "duracion": "Según tiempo de dedicación",
     "idiomas": [
@@ -847,6 +954,35 @@
     "estado": "activo"
   },
   {
+    "id": "cisco-networking-academy",
+    "nombre": "Cisco Networking Academy",
+    "proveedores": [
+      "Cisco"
+    ],
+    "url": "https://www.netacad.com/es",
+    "temas": [
+      "Plataformas multicurso",
+      "Redes",
+      "Seguridad Informática",
+      "Programación",
+      "IoT"
+    ],
+    "categoria": [
+      "plataformas-multicurso"
+    ],
+    "duracion": "Según el curso",
+    "idiomas": [
+      "Español",
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
     "id": "cloud-computing",
     "nombre": "Cloud Computing",
     "proveedores": [
@@ -879,6 +1015,7 @@
     ],
     "url": "https://clubargentec.org/trayectos/todas/",
     "temas": [
+      "Plataformas multicurso",
       "Alfabetización digital",
       "C#",
       "Data Science",
@@ -895,10 +1032,7 @@
       "Videojuegos"
     ],
     "categoria": [
-      "programacion",
-      "diseno-ux-ui",
-      "datos-y-ofimatica",
-      "marketing-y-finanzas"
+      "plataformas-multicurso"
     ],
     "duracion": "Según curso integrado",
     "idiomas": [
@@ -938,6 +1072,34 @@
     "estado": "activo"
   },
   {
+    "id": "coderhouse-curso-de-diseno-ux-ui",
+    "nombre": "Curso de Diseño UX/UI",
+    "proveedores": [
+      "Coderhouse"
+    ],
+    "url": "https://www.coderhouse.com/ar/cursos/ux-ui-online",
+    "temas": [
+      "UX",
+      "UI",
+      "Figma"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "13 semanas",
+    "duracionHoras": 26,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "pago",
+    "formato": "curso",
+    "modalidad": "sincronica",
+    "precio": "$ 219.920 o 6 cuotas de $ 36.653 (precio con descuento)",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
     "id": "coderhouse-curso-de-power-bi",
     "nombre": "Curso de Power BI",
     "proveedores": [
@@ -959,6 +1121,34 @@
     "formato": "curso",
     "modalidad": "sincronica",
     "precio": "$ 135.840 o 6 cuotas de $ 22.640 (precio con descuento)",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "coderhouse-finanzas-e-inversiones-desde-cero",
+    "nombre": "Curso de Finanzas e Inversiones desde cero",
+    "proveedores": [
+      "Coderhouse"
+    ],
+    "url": "https://www.coderhouse.com/ar/cursos/finanzas-personales",
+    "temas": [
+      "Finanzas personales",
+      "Educación Financiera",
+      "Finanzas"
+    ],
+    "categoria": [
+      "marketing-y-finanzas"
+    ],
+    "duracion": "6 semanas",
+    "duracionHoras": 12,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "pago",
+    "formato": "curso",
+    "modalidad": "sincronica",
+    "precio": "$ 78.960 o 6 cuotas de $ 13.160 (precio con descuento)",
     "agregado": "2026-10-26",
     "revisado": "2026-10-26",
     "estado": "activo"
@@ -1121,6 +1311,37 @@
     "estado": "activo"
   },
   {
+    "id": "coursera",
+    "nombre": "Coursera",
+    "proveedores": [
+      "Coursera"
+    ],
+    "url": "https://www.coursera.org/",
+    "temas": [
+      "Plataformas multicurso",
+      "Programación",
+      "Data Science",
+      "Inteligencia Artificial",
+      "Diseño",
+      "Marketing"
+    ],
+    "categoria": [
+      "plataformas-multicurso"
+    ],
+    "duracion": "Según el curso",
+    "idiomas": [
+      "Inglés",
+      "Español"
+    ],
+    "certificacion": "certificado-pago",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Muchos cursos se pueden hacer gratis (modo oyente). El certificado y los programas profesionales se pagan con Coursera Plus o por curso",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
     "id": "coursera-ai-for-everyone",
     "nombre": "AI For Everyone",
     "proveedores": [
@@ -1146,6 +1367,90 @@
     "modalidad": "asincronica",
     "precio": "Suscripción de Coursera (hay prueba gratis y ayuda financiera)",
     "agregado": "2026-10-22",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "coursera-calarts-graphic-design",
+    "nombre": "Graphic Design Specialization",
+    "proveedores": [
+      "CalArts",
+      "Coursera"
+    ],
+    "url": "https://www.coursera.org/specializations/graphic-design",
+    "temas": [
+      "Diseño gráfico",
+      "Diseño"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "2 meses (10 hs por semana)",
+    "duracionHoras": 80,
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "pago",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Suscripción de Coursera (hay ayuda financiera)",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "coursera-calarts-ui-ux-design",
+    "nombre": "UI / UX Design Specialization",
+    "proveedores": [
+      "CalArts",
+      "Coursera"
+    ],
+    "url": "https://www.coursera.org/specializations/ui-ux-design",
+    "temas": [
+      "UX",
+      "UI",
+      "Diseño"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "2 meses (10 hs por semana)",
+    "duracionHoras": 72,
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "pago",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Suscripción de Coursera (hay ayuda financiera)",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "coursera-educba-video-editing-premiere-pro",
+    "nombre": "Apply Video Editing Fundamentals Using Adobe Premiere Pro",
+    "proveedores": [
+      "EDUCBA",
+      "Coursera"
+    ],
+    "url": "https://www.coursera.org/learn/apply-video-editing-fundamentals-using-adobe-premiere-pro",
+    "temas": [
+      "Edición de video"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "12 hs",
+    "duracionHoras": 12,
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "certificado-pago",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Te inscribís gratis. El acceso completo y el certificado se pagan (hay ayuda financiera)",
+    "agregado": "2026-10-26",
     "revisado": "2026-10-26",
     "estado": "activo"
   },
@@ -1228,6 +1533,36 @@
     ],
     "certificacion": "gratis-con-certificado",
     "agregado": "2026-10-15",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "crehana",
+    "nombre": "Crehana",
+    "proveedores": [
+      "Crehana"
+    ],
+    "url": "https://www.crehana.com/",
+    "temas": [
+      "Plataformas multicurso",
+      "Diseño",
+      "UX",
+      "Marketing",
+      "Soft Skills",
+      "Ofimática"
+    ],
+    "categoria": [
+      "plataformas-multicurso"
+    ],
+    "duracion": "Según el curso",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "pago",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Suscripción o compra por curso",
+    "agregado": "2026-10-26",
     "revisado": "2026-10-26",
     "estado": "activo"
   },
@@ -1783,6 +2118,7 @@
     ],
     "url": "http://www.digitalers.com.ar/",
     "temas": [
+      "Plataformas multicurso",
       ".NET",
       "Data Science",
       "Full Stack",
@@ -1794,10 +2130,7 @@
       "UX"
     ],
     "categoria": [
-      "programacion",
-      "diseno-ux-ui",
-      "datos-y-ofimatica",
-      "marketing-y-finanzas"
+      "plataformas-multicurso"
     ],
     "duracion": "Según curso integrado",
     "idiomas": [
@@ -1889,6 +2222,140 @@
     "estado": "activo"
   },
   {
+    "id": "domestika",
+    "nombre": "Domestika",
+    "proveedores": [
+      "Domestika"
+    ],
+    "url": "https://www.domestika.org/es",
+    "temas": [
+      "Plataformas multicurso",
+      "Diseño",
+      "Diseño gráfico",
+      "UX",
+      "Edición de video",
+      "Programación"
+    ],
+    "categoria": [
+      "plataformas-multicurso"
+    ],
+    "duracion": "Según el curso",
+    "idiomas": [
+      "Español",
+      "Inglés"
+    ],
+    "certificacion": "pago",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Cada curso se compra por separado o con la suscripción Domestika Plus",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "domestika-introduccion-a-la-programacion-en-javascript",
+    "nombre": "Introducción a la programación en JavaScript",
+    "proveedores": [
+      "Domestika"
+    ],
+    "url": "https://www.domestika.org/es/courses/390-introduccion-a-la-programacion-en-javascript",
+    "temas": [
+      "JavaScript",
+      "Programación"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "<4 hs",
+    "duracionHoras": 4,
+    "idiomas": [
+      "Español",
+      "Inglés",
+      "Portugués"
+    ],
+    "certificacion": "pago",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "domestika-introduccion-al-desarrollo-web-con-php",
+    "nombre": "Introducción al desarrollo web con PHP",
+    "proveedores": [
+      "Domestika"
+    ],
+    "url": "https://www.domestika.org/es/courses/405-introduccion-al-desarrollo-web-con-php",
+    "temas": [
+      "PHP",
+      "Programación"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "<4 hs",
+    "duracionHoras": 4,
+    "idiomas": [
+      "Español",
+      "Inglés",
+      "Portugués"
+    ],
+    "certificacion": "pago",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "domestika-introduccion-al-desarrollo-web-responsive",
+    "nombre": "Introducción al desarrollo web responsive con HTML y CSS",
+    "proveedores": [
+      "Domestika"
+    ],
+    "url": "https://www.domestika.org/es/courses/74-introduccion-al-desarrollo-web-responsive-con-html-y-css",
+    "temas": [
+      "Desarrollo Web",
+      "HTML y CSS"
+    ],
+    "categoria": [
+      "programacion"
+    ],
+    "duracion": "<3 hs",
+    "duracionHoras": 3,
+    "idiomas": [
+      "Español",
+      "Inglés",
+      "Portugués"
+    ],
+    "certificacion": "pago",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "domestika-introduccion-al-diseno-ux",
+    "nombre": "Introducción al diseño UX",
+    "proveedores": [
+      "Domestika"
+    ],
+    "url": "https://www.domestika.org/es/courses/1235-introduccion-al-diseno-ux",
+    "temas": [
+      "Diseño",
+      "UI",
+      "UX"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "<4 hs",
+    "duracionHoras": 4,
+    "idiomas": [
+      "Inglés c/subs"
+    ],
+    "certificacion": "pago",
+    "agregado": "2026-10-15",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
     "id": "domina-las-habilidades-de-vida-personales",
     "nombre": "Domina las habilidades de vida personales",
     "proveedores": [
@@ -1937,6 +2404,33 @@
     "estado": "activo"
   },
   {
+    "id": "edutin-curso-de-diseno-grafico",
+    "nombre": "Curso de diseño gráfico",
+    "proveedores": [
+      "Edutin Academy"
+    ],
+    "url": "https://edutin.com/curso-de-diseno-grafico",
+    "temas": [
+      "Diseño gráfico",
+      "Diseño"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "5 semanas",
+    "duracionHoras": 10,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "certificado-pago",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Curso gratis. El certificado se paga (precio según el país)",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
     "id": "edutin-curso-de-power-bi",
     "nombre": "Curso de Power BI",
     "proveedores": [
@@ -1958,6 +2452,36 @@
     "formato": "curso",
     "modalidad": "asincronica",
     "precio": "Curso gratis. El certificado se paga (precio según el país)",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "edx",
+    "nombre": "edX",
+    "proveedores": [
+      "edX"
+    ],
+    "url": "https://www.edx.org/",
+    "temas": [
+      "Plataformas multicurso",
+      "Programación",
+      "Data Science",
+      "Inteligencia Artificial",
+      "Ciencias de la Computación"
+    ],
+    "categoria": [
+      "plataformas-multicurso"
+    ],
+    "duracion": "Según el curso",
+    "idiomas": [
+      "Inglés",
+      "Español"
+    ],
+    "certificacion": "certificado-pago",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Cursás gratis en modo oyente. El certificado verificado se paga",
     "agregado": "2026-10-26",
     "revisado": "2026-10-26",
     "estado": "activo"
@@ -2111,6 +2635,33 @@
     ],
     "certificacion": "gratis-con-certificado",
     "agregado": "2026-10-15",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "figma-design-for-beginners",
+    "nombre": "Figma Design for beginners",
+    "proveedores": [
+      "Figma"
+    ],
+    "url": "https://help.figma.com/hc/en-us/articles/30848209492887",
+    "temas": [
+      "Figma",
+      "UI",
+      "Diseño"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "3 hs a tu ritmo",
+    "duracionHoras": 3,
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-26",
     "revisado": "2026-10-26",
     "estado": "activo"
   },
@@ -2454,6 +3005,35 @@
     "estado": "activo"
   },
   {
+    "id": "futurelearn",
+    "nombre": "FutureLearn",
+    "proveedores": [
+      "FutureLearn"
+    ],
+    "url": "https://www.futurelearn.com/",
+    "temas": [
+      "Plataformas multicurso",
+      "Programación",
+      "Data Science",
+      "Diseño",
+      "Soft Skills"
+    ],
+    "categoria": [
+      "plataformas-multicurso"
+    ],
+    "duracion": "Según el curso",
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-limite",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Acceso gratis por tiempo limitado a cada curso. El acceso completo y el certificado se pagan",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
     "id": "generative-ai-for-educators",
     "nombre": "Generative AI for Educators",
     "proveedores": [
@@ -2646,10 +3226,11 @@
     ],
     "url": "https://www.skills.google/",
     "temas": [
+      "Plataformas multicurso",
       "Google Cloud Computing"
     ],
     "categoria": [
-      "programacion"
+      "plataformas-multicurso"
     ],
     "duracion": "Según curso integrado",
     "idiomas": [
@@ -2800,6 +3381,7 @@
     ],
     "url": "https://grow.google/intl/es/courses-and-tools/",
     "temas": [
+      "Plataformas multicurso",
       "Alfabetización digital",
       "Docencia",
       "E-commerce",
@@ -2814,10 +3396,7 @@
       "UX"
     ],
     "categoria": [
-      "gestion-y-soft-skills",
-      "diseno-ux-ui",
-      "datos-y-ofimatica",
-      "marketing-y-finanzas"
+      "plataformas-multicurso"
     ],
     "duracion": "Según curso integrado",
     "idiomas": [
@@ -2825,109 +3404,6 @@
       "Inglés c/subs"
     ],
     "certificacion": "gratis-con-certificado",
-    "agregado": "2026-10-15",
-    "revisado": "2026-10-26",
-    "estado": "activo"
-  },
-  {
-    "id": "https-www-domestika-org-es-courses-1235-introduccion-al-diseno-ux",
-    "nombre": "https://www.domestika.org/es/courses/1235-introduccion-al-diseno-ux",
-    "proveedores": [
-      "Domestika"
-    ],
-    "url": "https://www.domestika.org/es/courses/1235-introduccion-al-diseno-ux",
-    "temas": [
-      "Diseño",
-      "UI",
-      "UX"
-    ],
-    "categoria": [
-      "diseno-ux-ui"
-    ],
-    "duracion": "<4 hs",
-    "duracionHoras": 4,
-    "idiomas": [
-      "Inglés c/subs"
-    ],
-    "certificacion": "pago",
-    "agregado": "2026-10-15",
-    "revisado": "2026-10-26",
-    "estado": "activo"
-  },
-  {
-    "id": "https-www-domestika-org-es-courses-390-introduccion-a-la-programacion",
-    "nombre": "https://www.domestika.org/es/courses/390-introduccion-a-la-programacion-en-javascript",
-    "proveedores": [
-      "Domestika"
-    ],
-    "url": "https://www.domestika.org/es/courses/390-introduccion-a-la-programacion-en-javascript",
-    "temas": [
-      "JavaScript",
-      "Programación"
-    ],
-    "categoria": [
-      "programacion"
-    ],
-    "duracion": "<4 hs",
-    "duracionHoras": 4,
-    "idiomas": [
-      "Español",
-      "Inglés",
-      "Portugués"
-    ],
-    "certificacion": "pago",
-    "agregado": "2026-10-15",
-    "revisado": "2026-10-26",
-    "estado": "activo"
-  },
-  {
-    "id": "https-www-domestika-org-es-courses-405-introduccion-al-desarrollo-web",
-    "nombre": "https://www.domestika.org/es/courses/405-introduccion-al-desarrollo-web-con-php",
-    "proveedores": [
-      "Domestika"
-    ],
-    "url": "https://www.domestika.org/es/courses/405-introduccion-al-desarrollo-web-con-php",
-    "temas": [
-      "PHP",
-      "Programación"
-    ],
-    "categoria": [
-      "programacion"
-    ],
-    "duracion": "<4 hs",
-    "duracionHoras": 4,
-    "idiomas": [
-      "Español",
-      "Inglés",
-      "Portugués"
-    ],
-    "certificacion": "pago",
-    "agregado": "2026-10-15",
-    "revisado": "2026-10-26",
-    "estado": "activo"
-  },
-  {
-    "id": "https-www-domestika-org-es-courses-74-introduccion-al-desarrollo-web-r",
-    "nombre": "https://www.domestika.org/es/courses/74-introduccion-al-desarrollo-web-responsive-con-html-y-css",
-    "proveedores": [
-      "Domestika"
-    ],
-    "url": "https://www.domestika.org/es/courses/74-introduccion-al-desarrollo-web-responsive-con-html-y-css",
-    "temas": [
-      "Desarrollo Web",
-      "HTML y CSS"
-    ],
-    "categoria": [
-      "programacion"
-    ],
-    "duracion": "<3 hs",
-    "duracionHoras": 3,
-    "idiomas": [
-      "Español",
-      "Inglés",
-      "Portugués"
-    ],
-    "certificacion": "pago",
     "agregado": "2026-10-15",
     "revisado": "2026-10-26",
     "estado": "activo"
@@ -3216,6 +3692,33 @@
     "estado": "activo"
   },
   {
+    "id": "ixdf-accessibility-in-practice",
+    "nombre": "Accessibility in Practice: Build Digital Experiences Everyone Can Use",
+    "proveedores": [
+      "Interaction Design Foundation"
+    ],
+    "url": "https://ixdf.org/courses/accessibility-how-to-design-for-all",
+    "temas": [
+      "Accesibilidad",
+      "UX"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "39 hs a tu ritmo",
+    "duracionHoras": 39,
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "pago",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Incluido en la membresía de IxDF (el curso suelto figura a USD 289)",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
     "id": "javascript-essentials-1",
     "nombre": "JavaScript Essentials 1",
     "proveedores": [
@@ -3328,6 +3831,7 @@
     ],
     "url": "https://www.jovenesprogramadores.cl/",
     "temas": [
+      "Plataformas multicurso",
       "Desarrollo de Software",
       "Inteligencia Artificial",
       "IoT",
@@ -3338,8 +3842,7 @@
       "Videojuegos"
     ],
     "categoria": [
-      "programacion",
-      "ciudadania-y-seguridad"
+      "plataformas-multicurso"
     ],
     "duracion": "Según curso integrado",
     "idiomas": [
@@ -3405,6 +3908,34 @@
     "estado": "activo"
   },
   {
+    "id": "khan-academy",
+    "nombre": "Khan Academy",
+    "proveedores": [
+      "Khan Academy"
+    ],
+    "url": "https://es.khanacademy.org/",
+    "temas": [
+      "Plataformas multicurso",
+      "Programación",
+      "Ciencias de la Computación",
+      "Finanzas"
+    ],
+    "categoria": [
+      "plataformas-multicurso"
+    ],
+    "duracion": "Según el curso",
+    "idiomas": [
+      "Español",
+      "Inglés"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
     "id": "librerias-de-desarrollo-de-interfaz",
     "nombre": "Librerías de desarrollo de interfaz",
     "proveedores": [
@@ -3433,6 +3964,37 @@
     ],
     "certificacion": "gratis-con-certificado",
     "agregado": "2026-10-15",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "linkedin-learning",
+    "nombre": "LinkedIn Learning",
+    "proveedores": [
+      "LinkedIn"
+    ],
+    "url": "https://www.linkedin.com/learning/",
+    "temas": [
+      "Plataformas multicurso",
+      "Soft Skills",
+      "Programación",
+      "Diseño",
+      "Marketing",
+      "Ofimática"
+    ],
+    "categoria": [
+      "plataformas-multicurso"
+    ],
+    "duracion": "Según el curso",
+    "idiomas": [
+      "Español",
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-limite",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Primer mes gratis. Después, suscripción mensual o anual (incluida en LinkedIn Premium)",
+    "agregado": "2026-10-26",
     "revisado": "2026-10-26",
     "estado": "activo"
   },
@@ -3565,6 +4127,37 @@
     "estado": "activo"
   },
   {
+    "id": "microsoft-learn",
+    "nombre": "Microsoft Learn",
+    "proveedores": [
+      "Microsoft"
+    ],
+    "url": "https://learn.microsoft.com/es-es/training/",
+    "temas": [
+      "Plataformas multicurso",
+      "Programación",
+      "Cloud computing",
+      "Inteligencia Artificial",
+      "Power BI",
+      "Ofimática"
+    ],
+    "categoria": [
+      "plataformas-multicurso"
+    ],
+    "duracion": "Según el curso",
+    "idiomas": [
+      "Español",
+      "Inglés"
+    ],
+    "certificacion": "gratis-sin-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Módulos y rutas gratis. Las certificaciones oficiales se rinden con un examen pago",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
     "id": "microsoft-learn-pl-300t00-power-bi",
     "nombre": "Diseño y administración de soluciones de análisis mediante Power BI (PL-300T00)",
     "proveedores": [
@@ -3614,6 +4207,35 @@
     "formato": "curso",
     "modalidad": "asincronica",
     "agregado": "2026-10-22",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "naranja-x-uba-hablemos-de-plata",
+    "nombre": "Hablemos de Plata: curso de educación financiera",
+    "proveedores": [
+      "Naranja X",
+      "UBA"
+    ],
+    "url": "https://www.naranjax.com/curso",
+    "temas": [
+      "Finanzas personales",
+      "Educación Financiera",
+      "Finanzas"
+    ],
+    "categoria": [
+      "marketing-y-finanzas"
+    ],
+    "duracion": "10 hs a tu ritmo",
+    "duracionHoras": 10,
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Gratis y sin ser cliente. Presupuesto, ahorro, inversión, crédito y estafas digitales, con certificado de la UBA",
+    "agregado": "2026-10-26",
     "revisado": "2026-10-26",
     "estado": "activo"
   },
@@ -3723,6 +4345,34 @@
     "estado": "activo"
   },
   {
+    "id": "particular-de-excel",
+    "nombre": "Particular de Excel",
+    "proveedores": [
+      "Particular de Excel"
+    ],
+    "url": "https://particulardeexcel.com/",
+    "temas": [
+      "Excel",
+      "Power BI",
+      "SQL",
+      "Ofimática"
+    ],
+    "categoria": [
+      "datos-y-ofimatica"
+    ],
+    "duracion": "Según el curso",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "pago",
+    "formato": "curso",
+    "modalidad": "mixta",
+    "precio": "Cursos en vivo, a tu ritmo y mentorías pagos (precio según el país). Tiene masterclasses abiertas y un simulador para practicar",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
     "id": "pcap-programming-essentials-in-python",
     "nombre": "PCAP: Programming Essentials in Python",
     "proveedores": [
@@ -3757,6 +4407,7 @@
     ],
     "url": "https://www.argentina.gob.ar/jefatura/innovacion-ciencia-y-tecnologia/tecnologias-de-la-informacion/plataforma-de-aprendizaje",
     "temas": [
+      "Plataformas multicurso",
       "Alfabetización digital",
       "Data Science",
       "Diseño",
@@ -3768,12 +4419,7 @@
       "Tecno y mundo digital"
     ],
     "categoria": [
-      "programacion",
-      "gestion-y-soft-skills",
-      "diseno-ux-ui",
-      "ciudadania-y-seguridad",
-      "datos-y-ofimatica",
-      "marketing-y-finanzas"
+      "plataformas-multicurso"
     ],
     "duracion": "Según curso integrado",
     "idiomas": [
@@ -3781,6 +4427,37 @@
     ],
     "certificacion": "gratis-con-certificado",
     "agregado": "2026-10-15",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "platzi",
+    "nombre": "Platzi",
+    "proveedores": [
+      "Platzi"
+    ],
+    "url": "https://platzi.com/",
+    "temas": [
+      "Plataformas multicurso",
+      "Programación",
+      "Inteligencia Artificial",
+      "Data Science",
+      "Diseño",
+      "Marketing",
+      "Idiomas"
+    ],
+    "categoria": [
+      "plataformas-multicurso"
+    ],
+    "duracion": "Según el curso",
+    "idiomas": [
+      "Español"
+    ],
+    "certificacion": "pago",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Suscripción mensual o anual. Algunos cursos introductorios son gratis",
+    "agregado": "2026-10-26",
     "revisado": "2026-10-26",
     "estado": "activo"
   },
@@ -3818,6 +4495,7 @@
     ],
     "url": "https://www.potrerodigital.org/",
     "temas": [
+      "Plataformas multicurso",
       "Animación",
       "Cloud computing",
       "Desarrollo Web",
@@ -3827,9 +4505,7 @@
       "Videojuegos"
     ],
     "categoria": [
-      "programacion",
-      "diseno-ux-ui",
-      "marketing-y-finanzas"
+      "plataformas-multicurso"
     ],
     "duracion": "4 meses",
     "duracionHoras": 160,
@@ -4097,6 +4773,35 @@
     "estado": "activo"
   },
   {
+    "id": "santander-open-academy",
+    "nombre": "Santander Open Academy",
+    "proveedores": [
+      "Santander Open Academy"
+    ],
+    "url": "https://www.santanderopenacademy.com/es/",
+    "temas": [
+      "Plataformas multicurso",
+      "Soft Skills",
+      "Data Science",
+      "Marketing",
+      "Idiomas"
+    ],
+    "categoria": [
+      "plataformas-multicurso"
+    ],
+    "duracion": "Según el curso",
+    "idiomas": [
+      "Español",
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
     "id": "seguridad-de-la-informacion",
     "nombre": "Seguridad de la Información",
     "proveedores": [
@@ -4160,6 +4865,32 @@
     ],
     "duracion": "3 hs",
     "duracionHoras": 3,
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "gratis-con-certificado",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "simplilearn-ui-ux-basics",
+    "nombre": "UI-UX Basics",
+    "proveedores": [
+      "Simplilearn"
+    ],
+    "url": "https://www.simplilearn.com/free-graphic-design-beginner-course-skillup",
+    "temas": [
+      "UX",
+      "UI"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "4,5 hs",
+    "duracionHoras": 5,
     "idiomas": [
       "Inglés"
     ],
@@ -4410,6 +5141,36 @@
     "estado": "activo"
   },
   {
+    "id": "udemy",
+    "nombre": "Udemy",
+    "proveedores": [
+      "Udemy"
+    ],
+    "url": "https://www.udemy.com/",
+    "temas": [
+      "Plataformas multicurso",
+      "Programación",
+      "Diseño",
+      "Marketing",
+      "Ofimática"
+    ],
+    "categoria": [
+      "plataformas-multicurso"
+    ],
+    "duracion": "Según el curso",
+    "idiomas": [
+      "Español",
+      "Inglés"
+    ],
+    "certificacion": "pago",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Cada curso se compra por separado (hay ofertas seguido). Algunos son gratis, sin certificado",
+    "agregado": "2026-10-26",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
     "id": "unc-diplomatura-ingenieria-soluciones-ia",
     "nombre": "Diplomatura en Ingeniería de Soluciones basadas en Inteligencia Artificial",
     "proveedores": [
@@ -4571,6 +5332,34 @@
     ],
     "certificacion": "gratis-con-certificado",
     "agregado": "2026-10-15",
+    "revisado": "2026-10-26",
+    "estado": "activo"
+  },
+  {
+    "id": "w3cx-introduction-to-web-accessibility",
+    "nombre": "Introduction to Web Accessibility",
+    "proveedores": [
+      "W3C",
+      "edX"
+    ],
+    "url": "https://www.edx.org/learn/web-accessibility/the-world-wide-web-consortium-w3c-introduction-to-web-accessibility",
+    "temas": [
+      "Accesibilidad",
+      "UX",
+      "Diseño"
+    ],
+    "categoria": [
+      "diseno-ux-ui"
+    ],
+    "duracion": "4 semanas",
+    "idiomas": [
+      "Inglés"
+    ],
+    "certificacion": "certificado-pago",
+    "formato": "curso",
+    "modalidad": "asincronica",
+    "precio": "Cursás gratis (modo oyente). El certificado verificado cuesta USD 99",
+    "agregado": "2026-10-26",
     "revisado": "2026-10-26",
     "estado": "activo"
   },

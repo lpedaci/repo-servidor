@@ -5,7 +5,7 @@ thread: cursando
 tipo: charla
 temas: ["Orientación vocacional","Desarrollo Profesional"]
 publicado: 2021-11-25
-actualizado: 2026-10-15
+actualizado: 2026-10-26
 tiempoLectura: 13
 destacado: true
 ---
@@ -19,15 +19,9 @@ El **propósito de este posteo** (*y por ende de todo el server*) es **ayudar a 
 
 Entonces, sin más que decir, empecemos!
 
-:::callout{tipo="idea"}
+Esta charla también creció: ahora es la **Charla de carreras 2027**, diez paradas para entender cómo funciona la educación superior, qué títulos existen, cuándo te tenés que anotar y cómo elegir qué estudiar. Está pensada para 6to año de técnica, modalidad Informática, pero le sirve a cualquiera que esté por terminar la secundaria.
 
-**Les comparto el link a la presentación sobre las Carreras y cuestiones relacionadas**
-
-> **Aclaración**: se plantearon temáticas de aspecto general a considerar al momento de investigar sobre las instituciones y las carreras de Nivel Superior. Las mismas no se encuentran en el PPT por ser explicadas de forma oral y en el pizarrón.
-
-:::
-
-::recurso{#presentacion-carreras-info}
+::vista{#taller-ciclosuperior img="previews/taller-ciclosuperior.webp" cta="Ver la charla"}
 
 ## ¿Cómo puedo saber qué me gustaría estudiar?
 
